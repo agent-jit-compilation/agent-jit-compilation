@@ -1,0 +1,1317 @@
+[
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.681,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.444,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.347,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.874,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.853,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.749,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.506,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.535,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.3,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.038,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.62,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.577,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.349,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.721,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.488,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.008,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.581,
+    "estimated_cost": 41.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.972,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.689,
+    "estimated_cost": 2160.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.292,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.697,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.344,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.048,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.997,
+    "estimated_cost": 1200.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.359,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.132,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.533,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.394,
+    "estimated_cost": 41.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.084,
+    "estimated_cost": 224.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.386,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.945,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.068,
+    "estimated_cost": 41.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.048,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.18,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": ""
+        },
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.521,
+    "estimated_cost": 124.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.326,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.537,
+    "estimated_cost": 30.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.572,
+    "estimated_cost": 123.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.106,
+    "estimated_cost": 124.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.376,
+    "estimated_cost": 1246.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.622,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.714,
+    "estimated_cost": 30.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.835,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.299,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.202,
+    "estimated_cost": 10.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.91,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.561,
+    "estimated_cost": 20.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.059,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.583,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.254,
+    "estimated_cost": 30.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.663,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.47,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.686,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.298,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.875,
+    "estimated_cost": 134.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.335,
+    "estimated_cost": 20.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.993,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.635,
+    "estimated_cost": 20.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": ""
+        },
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.632,
+    "estimated_cost": 233.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.295,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.728,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.201,
+    "estimated_cost": 1246.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.571,
+    "estimated_cost": 40.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": ""
+        }
+      ],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.29,
+    "estimated_cost": 40.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

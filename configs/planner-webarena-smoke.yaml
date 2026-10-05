@@ -1,0 +1,32 @@
+adapter: agent_jit.adapters.planner:run
+method: JIT-Planner
+method_revision: agent-jit-v0.1-registry-cost
+model: gpt-4.1-2025-04-14
+tasks: [webarena-308]
+trials: 1
+candidates: 2
+candidate_target: valid
+max_candidate_attempts: 8
+max_output_tokens: 2048
+worker_budget: 1
+timeout_s: 180
+setup_timeout_s: 90
+evaluation_timeout_s: 60
+headless: true
+evaluator: webarena_native
+budget_usd: 1
+ledger: runs/shared-ledger.json
+webarena:
+  llm_judge: true
+  checkout: .downloads/webarena
+  nltk_data: .downloads/nltk
+  startup_timeout_s: 600
+  sites:
+    gitlab:
+      image: gitlab-populated-final-port8023
+      port: 8023
+      shm_size: 256m
+      puma_workers: 4
+    reddit:
+      image: postmill-populated-exposed-withimg
+      port: 9999

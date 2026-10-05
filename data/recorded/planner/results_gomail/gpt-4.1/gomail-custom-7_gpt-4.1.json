@@ -1,0 +1,1097 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3129007816314697,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.466916084289551,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.162155389785767,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.309686183929443,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.973585367202759,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.559150695800781,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.256364583969116,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.967371225357056,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.664714813232422,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 228: error[unresolved-attribute] Object of type `CoroutineType[Any, Any, str]` has no attribute `lower`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 228: error[unresolved-attribute] Object of type `CoroutineType[Any, Any, str]` has no attribute `lower`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.207681179046631,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.0352818965911865,
+    "estimated_cost": 110.19999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.9743430614471436,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.760337829589844,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.277702331542969,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.085744380950928,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.710928440093994,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.991672992706299,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.518240213394165,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.258108615875244,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.057893991470337,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.176279306411743,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.189650774002075,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.098560571670532,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0514869689941406,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.695962429046631,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3971054553985596,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.719581604003906,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.004276275634766,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.0835864543914795,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.094306707382202,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.494613170623779,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.142320156097412,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.505789041519165,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.153665542602539,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.643276691436768,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.345466375350952,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.17119288444519,
+    "estimated_cost": 1010.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.332108497619629,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.740686655044556,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.878421068191528,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.061718702316284,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.513400316238403,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.001035928726196,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.637912034988403,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.717873811721802,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.284888982772827,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.315503835678101,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.953701496124268,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.795419692993164,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.415213346481323,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.678571939468384,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.621184349060059,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.8261725902557373,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.251712799072266,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.95214319229126,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.768762111663818,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.117049694061279,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.344288349151611,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.439269542694092,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.127121210098267,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7542953491210938,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.373249292373657,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.644435882568359,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.349678993225098,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

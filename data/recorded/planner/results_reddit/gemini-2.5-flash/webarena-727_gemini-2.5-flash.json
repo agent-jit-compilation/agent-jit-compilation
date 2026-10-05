@@ -1,0 +1,1097 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4021296501159668,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5109248161315918,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0539782047271729,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2022340297698975,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6465542316436768,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0465962886810303,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4853644371032715,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: change_submission_order requires page_type=forum, but state has page_type=user_profile. Call sequence: goto_user -> change_submission_order"
+        }
+      ],
+      "error_message": "Tool ordering error: change_submission_order requires page_type=forum, but state has page_type=user_profile. Call sequence: goto_user -> change_submission_order"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3320484161376953,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5351903438568115,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.225358486175537,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2431440353393555,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4096243381500244,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4395432472229004,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.525744915008545,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6511867046356201,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3494248390197754,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0984299182891846,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4802396297454834,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3370263576507568,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9288597106933594,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0894253253936768,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1360020637512207,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.390172004699707,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0393452644348145,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3902642726898193,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1961536407470703,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0518479347229004,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0906174182891846,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2892942428588867,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.196894884109497,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1870944499969482,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0994985103607178,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1785180568695068,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3019053936004639,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9994223117828369,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4406380653381348,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.490222454071045,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5071210861206055,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0322837829589844,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1820013523101807,
+    "estimated_cost": 2.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6352183818817139,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7878730297088623,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4709067344665527,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0209722518920898,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.915830135345459,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3446917533874512,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4695250988006592,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0252397060394287,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6487646102905273,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3622901439666748,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0444111824035645,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4716050624847412,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5898845195770264,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5746862888336182,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4211339950561523,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9798436164855957,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6370868682861328,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0587272644042969,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3374650478363037,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4579758644104004,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5317764282226562,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.24605131149292,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5050835609436035,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3549060821533203,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

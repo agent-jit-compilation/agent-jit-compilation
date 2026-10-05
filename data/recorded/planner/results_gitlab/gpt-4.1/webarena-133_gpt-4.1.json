@@ -1,0 +1,1179 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.397554636001587,
+    "estimated_cost": 30.599999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_project_contributors requires page_type=project, but state has page_type=commits. Call sequence: search -> ai_eval(...) [unknown] -> goto_project -> goto_project_commits -> get_commits -> goto_project_contributors"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_project_contributors requires page_type=project, but state has page_type=commits. Call sequence: search -> ai_eval(...) [unknown] -> goto_project -> goto_project_commits -> get_commits -> goto_project_contributors"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.451842546463013,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.23938250541687,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.483126878738403,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.878628253936768,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.1716203689575195,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.583860158920288,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.304466962814331,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.780146598815918,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.811213254928589,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.660934686660767,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.4326441287994385,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.660785913467407,
+    "estimated_cost": 30.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 470: error[invalid-argument-type] Argument to function `goto_project` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Line 470: error[invalid-argument-type] Argument to function `goto_project` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.971867322921753,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.262494325637817,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.988038539886475,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.922006368637085,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.293412923812866,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.890312671661377,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.925328493118286,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.81166696548462,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.451513290405273,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.216977834701538,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.224975824356079,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.843776226043701,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.354954242706299,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.029525518417358,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.946749925613403,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.309465408325195,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally modifies STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally modifies STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.08675742149353,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.183256149291992,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.619297981262207,
+    "estimated_cost": 20.300000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.694139003753662,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.465115785598755,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.433008193969727,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.469467639923096,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.2640016078948975,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.904100179672241,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.967719078063965,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.034431457519531,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.0125343799591064,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.271316528320312,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.394194841384888,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.70401668548584,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.2259461879730225,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.286057710647583,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.697369337081909,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.204496383666992,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.354773998260498,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.693913698196411,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.823689222335815,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.604742527008057,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.914422750473022,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.7156147956848145,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.467656850814819,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.27546739578247,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.293201923370361,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.86756181716919,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.950859785079956,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.389391660690308,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.73877501487732,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.50838851928711,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.136035203933716,
+    "estimated_cost": 30.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.12365198135376,
+    "estimated_cost": 30.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,1377 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.734618186950684,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.037703514099121,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.130475282669067,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.874027490615845,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.346563339233398,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.114420652389526,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.298220872879028,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9844729900360107,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.714653015136719,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.403332233428955,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.019569396972656,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.261570453643799,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.556338548660278,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9997196197509766,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.640158176422119,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.220878601074219,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.165183067321777,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9075584411621094,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.6855742931365967,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 443: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 443: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.426224946975708,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.746976137161255,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.597678184509277,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.674235105514526,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0209906101226807,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.081691026687622,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.268665313720703,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 442: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 442: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.2050716876983643,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.600166320800781,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.972651243209839,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.366076946258545,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9151546955108643,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5910654067993164,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.8134219646453857,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9566235542297363,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.6365602016448975,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.893601179122925,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.147975206375122,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9049994945526123,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.599783182144165,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3007917404174805,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.304876327514648,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.521929979324341,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.6657814979553223,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9500811100006104,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1556293964385986,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3697023391723633,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.849137306213379,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.816885471343994,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.370884656906128,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.395604848861694,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.754974126815796,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.011011362075806,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.090517520904541,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.503075122833252,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5309534072875977,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 273: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.53188157081604,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.357236623764038,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8947694301605225,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.151924133300781,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.6427695751190186,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.640828609466553,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.41229248046875,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9353506565093994,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5280864238739014,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 274: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

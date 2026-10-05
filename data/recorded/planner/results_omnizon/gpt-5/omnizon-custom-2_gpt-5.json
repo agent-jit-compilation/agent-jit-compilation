@@ -1,0 +1,1270 @@
+[
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.14171004295349,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.156952381134033,
+    "estimated_cost": 50.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.992372512817383,
+    "estimated_cost": 50.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.09275937080383,
+    "estimated_cost": 204.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> append(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> append(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.789749145507812,
+    "estimated_cost": 2050.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.393717288970947,
+    "estimated_cost": 2040.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.29102087020874,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.19837474822998,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.726970672607422,
+    "estimated_cost": 40.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.918086767196655,
+    "estimated_cost": 2050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.56893491744995,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.71510148048401,
+    "estimated_cost": 40.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 436: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 436: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 442: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 442: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 446: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 446: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 450: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 450: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 463: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 463: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 469: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 469: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 473: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 473: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 436: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 436: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 442: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 442: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 446: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 446: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 450: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 450: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 463: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 463: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 469: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 469: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 473: error[invalid-assignment] Cannot assign to a subscript on an object of type `int`\nLine 473: error[invalid-assignment] Cannot assign to a subscript on an object of type `str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.017274618148804,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.852705478668213,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.21297740936279,
+    "estimated_cost": 3050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.4480938911438,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 41.04619002342224,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.447731494903564,
+    "estimated_cost": 60.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.96263098716736,
+    "estimated_cost": 50.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 39.876752614974976,
+    "estimated_cost": 1050.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> append(...) [unknown] -> getattr(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> append(...) [unknown] -> getattr(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.01124596595764,
+    "estimated_cost": 2060.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.990821838378906,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.610360860824585,
+    "estimated_cost": 3060.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> findall(...) [unknown] -> int(...) [unknown] -> findall(...) [unknown] -> len(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> getattr(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> findall(...) [unknown] -> int(...) [unknown] -> findall(...) [unknown] -> len(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.46545648574829,
+    "estimated_cost": 50.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.27207660675049,
+    "estimated_cost": 1050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.929516315460205,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.50671625137329,
+    "estimated_cost": 2060.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.275691270828247,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.489505290985107,
+    "estimated_cost": 51.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> getattr(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> getattr(...) [unknown] -> goto_orders_tab -> getattr(...) [unknown] -> goto_orders_tab -> getattr(...) [unknown] -> goto_write_review -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> getattr(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> getattr(...) [unknown] -> goto_orders_tab -> getattr(...) [unknown] -> goto_orders_tab -> getattr(...) [unknown] -> goto_write_review -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.830054759979248,
+    "estimated_cost": 2050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.044920444488525,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.08406376838684,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.896057605743408,
+    "estimated_cost": 6.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.981831789016724,
+    "estimated_cost": 2080.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.89610767364502,
+    "estimated_cost": 216.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.29362607002258,
+    "estimated_cost": 60.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.757973909378052,
+    "estimated_cost": 2060.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.45951271057129,
+    "estimated_cost": 2080.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.42509627342224,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.167885541915894,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.37433385848999,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.463467836380005,
+    "estimated_cost": 2090.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.116766452789307,
+    "estimated_cost": 116.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.307303428649902,
+    "estimated_cost": 50.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.22356295585632,
+    "estimated_cost": 60.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.845147371292114,
+    "estimated_cost": 70.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.32129979133606,
+    "estimated_cost": 2060.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.037091732025146,
+    "estimated_cost": 2060.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.70630407333374,
+    "estimated_cost": 60.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.819730043411255,
+    "estimated_cost": 60.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.13165593147278,
+    "estimated_cost": 2080.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> getattr(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> getattr(...) [unknown] -> append(...) [unknown] -> getattr(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> GotoWriteReviewOutput(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> getattr(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> getattr(...) [unknown] -> append(...) [unknown] -> getattr(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> GotoWriteReviewOutput(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.764064073562622,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.550463438034058,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.91305923461914,
+    "estimated_cost": 2060.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.433736085891724,
+    "estimated_cost": 60.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.631435871124268,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 43.45965528488159,
+    "estimated_cost": 70.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.769346714019775,
+    "estimated_cost": 2060.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.20269298553467,
+    "estimated_cost": 2060.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> append(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.057738065719604,
+    "estimated_cost": 2080.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.16208529472351,
+    "estimated_cost": 2070.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.45347571372986,
+    "estimated_cost": 60.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.492887020111084,
+    "estimated_cost": 2080.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 313: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `Literal[\" | Submit failed\"]`\nLine 316: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `Literal[\" | Rating failed\"]`\nLine 318: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `Literal[\" | Filling review failed\"]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Line 313: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `Literal[\" | Submit failed\"]`\nLine 316: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `Literal[\" | Rating failed\"]`\nLine 318: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `Literal[\" | Filling review failed\"]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.974542379379272,
+    "estimated_cost": 1070.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

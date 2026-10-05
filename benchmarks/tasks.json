@@ -1,0 +1,1269 @@
+{
+  "schema_version": "1.0",
+  "title": "Agent JIT Compilation: evaluation tasks",
+  "task_count": 37,
+  "field_definitions": {
+    "id": "Task identifier printed in the paper. REAL prefixes v1/ and v2/ identify benchmark versions.",
+    "implementation_id": "Identifier in the saved experiment code; custom in this identifier does not imply a task was added by the authors.",
+    "task_details": "Full task instruction from the experiment task definition.",
+    "paper_task_details": "Description printed in the paper, which may abbreviate the full instruction.",
+    "is_added": "True only for the 18 manually curated tasks added for this paper; false for the 19 selected benchmark tasks.",
+    "verifier": "Evaluation type, entry point, configuration, and source paths.",
+    "baseline_steps": "Task length under baseline Browser-Use, as reported in the paper.",
+    "oracle_schedule": "Paper-reported latency-optimal schedule; null for WebArena, where scheduling was not evaluated.",
+    "definition_path": "Task YAML file loaded by the runner."
+  },
+  "usage_notes": [
+    "Run tasks with agent-jit evaluate; see docs/TASKS.md for task selection and docs/LIVE_EVALUATION.md for evaluator settings.",
+    "REAL tasks use hosted application clones. WebArena tasks require the local environment described in docs/WEBARENA.md.",
+    "Paper descriptions and full task instructions are retained separately."
+  ],
+  "tasks": [
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "dashdish-custom-1",
+      "implementation_id": "dashdish-custom-1",
+      "task_details": "How much is a matcha croissant and a regular iced matcha latte from stonemill matcha? What about a ceremonial matcha latte and a mochi set?",
+      "paper_task_details": "How much is a matcha croissant and a regular iced matcha latte from Stonemill Matcha? What about a ceremonial matcha latte and a mochi set?",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 4,
+      "baseline_steps": 2,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_1.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "dashdish-custom-2",
+      "implementation_id": "dashdish-custom-2",
+      "task_details": "For each vendor under the 'Costume party ready' category, visit the store page and get the first three reviews.",
+      "paper_task_details": "For each vendor under the \"Costume party ready\" category, visit the store page and get the first three reviews.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 9,
+      "baseline_steps": 8,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_2.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "dashdish-custom-3",
+      "implementation_id": "dashdish-custom-3",
+      "task_details": "Buy a taco from any store and make sure you place the order.",
+      "paper_task_details": "Buy a taco from any store and make sure you place the order.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 6,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/dashdish_custom_3.py",
+        "shared_files": [
+          "experiments/tasks/script_eval/eval_utils.py"
+        ],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "v2/dashdish-10",
+      "implementation_id": "dashdish-custom-4",
+      "task_details": "Place an order for any type of sub-sandwich, keep the total under $30",
+      "paper_task_details": "Place an order for any type of sub-sandwich, keep the total under $30.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 6,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/dashdish_custom_4.py",
+        "shared_files": [
+          "experiments/tasks/script_eval/eval_utils.py"
+        ],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "v1/dashdish-1",
+      "implementation_id": "dashdish-custom-5",
+      "task_details": "What are the first three restaurants listed on the homepage?",
+      "paper_task_details": "What are the first three restaurants listed on the homepage?",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 3,
+      "baseline_steps": 1,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_5.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "dashdish-custom-6",
+      "implementation_id": "dashdish-custom-6",
+      "task_details": "Visit the first five restaurants in \"Best near you\" and report how many of them have under 20 reviews?",
+      "paper_task_details": "Visit the first five restaurants in \"Best near you\" and report how many of them have under 20 reviews.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 5,
+      "baseline_steps": 8,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_6.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "dashdish-custom-7",
+      "implementation_id": "dashdish-custom-7",
+      "task_details": "What's the most expensive item from Petco?",
+      "paper_task_details": "What's the most expensive item from Petco?",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_7.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "v1/dashdish-3",
+      "implementation_id": "dashdish-custom-8",
+      "task_details": "How many restaurants in the \"Light & fresh\" category offer delivery?",
+      "paper_task_details": "How many restaurants in the \"Light & fresh\" category offer delivery?",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 10,
+      "baseline_steps": 2,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_8.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "dashdish",
+      "id": "dashdish-custom-9",
+      "implementation_id": "dashdish-custom-9",
+      "task_details": "Tell me which of Wingstop, Man vs. Fries, McDonald's, Popeyes, and Ike's has the cheapest fries item and its price.",
+      "paper_task_details": "Tell me which of Winstop, Man vs. Fries, McDonald's, Popeyes, and Ike's has the cheapest fries item and its price.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 5,
+      "baseline_steps": 8,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/dashdish_custom_9.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/dashdish.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "v1/gomail-1",
+      "implementation_id": "gomail-custom-1",
+      "task_details": "How many unread emails are in the Inbox?",
+      "paper_task_details": "How many unread emails are in the Inbox?",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 1,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/gomail_custom_1.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "gomail-custom-2",
+      "implementation_id": "gomail-custom-2",
+      "task_details": "Forward the first two emails in my inbox to me@example.com, each with a short note \"Forwarded from my inbox\", and then delete the two original emails.",
+      "paper_task_details": "Forward the first two emails in my inbox to me@example.com, each with a short note \"Forwarded from my inbox\", and then delete the two original emails.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 2,
+      "baseline_steps": 12,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_2.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "v1/gomail-3",
+      "implementation_id": "gomail-custom-3",
+      "task_details": "Compose a new email to jonathan.smith@example.com with the subject \"Meeting Notes\" and body \"Please find the meeting notes attached.\"",
+      "paper_task_details": "Compose a new email to jonathan.smith@example.com with the subject \"Meeting Notes\" and body \"Please find the meeting notes attached.\"",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_3.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "v2/gomail-14",
+      "implementation_id": "gomail-custom-4",
+      "task_details": "Clear all my emails that are visible please!",
+      "paper_task_details": "Clear all my emails that are visible please!",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 50,
+      "baseline_steps": 3,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_4.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "gomail-custom-5",
+      "implementation_id": "gomail-custom-5",
+      "task_details": "Write an email to each of 'alice', 'bob', 'charlie', 'david'@example.com with personalized greetings and a simple Merry Christmas message.",
+      "paper_task_details": "Write an email to each of alice, bob, charlie, david@example.com with personalized greetings and a simple Merry Christmas message.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 4,
+      "baseline_steps": 20,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_5.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "gomail-custom-6",
+      "implementation_id": "gomail-custom-6",
+      "task_details": "Reply to each of the first four emails in my inbox with \"unsubscribe\"",
+      "paper_task_details": "Reply to each of the first four emails in my inbox with \"unsubscribe\".",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 4,
+      "baseline_steps": 20,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_6.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "gomail-custom-7",
+      "implementation_id": "gomail-custom-7",
+      "task_details": "Delete all emails from 'Alerts', 'Newsletter', or 'Notifications'.",
+      "paper_task_details": "Delete all emails from \"Alerts\", \"Newsletter\", or \"Notifications\".",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 13,
+      "baseline_steps": 14,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_7.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "gomail-custom-8",
+      "implementation_id": "gomail-custom-8",
+      "task_details": "Create three new labels: 'Work', 'Personal', 'Urgent'.",
+      "paper_task_details": "Create three new labels: \"Work\", \"Personal\", \"Urgent\".",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 3,
+      "baseline_steps": 9,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_8.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "gomail",
+      "id": "gomail-custom-9",
+      "implementation_id": "gomail-custom-9",
+      "task_details": "Draft a new email and send it to any four different people.",
+      "paper_task_details": "Draft a new email and send it to any four different people.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/gomail_custom_9.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/gomail.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "omnizon-custom-1",
+      "implementation_id": "omnizon-custom-1",
+      "task_details": "Find the most expensive order on Returns & Orders page and cancel it.",
+      "paper_task_details": "Find the most expensive order on Returns & Orders page and cancel it.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/omnizon_custom_1.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "omnizon-custom-2",
+      "implementation_id": "omnizon-custom-2",
+      "task_details": "Go to Returns & Orders page and write a product review for each item in the first three orders.",
+      "paper_task_details": "Go to Returns & Orders page and write a product review for each item in the first three orders.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 5,
+      "baseline_steps": 26,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/omnizon_custom_2.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "omnizon-custom-3",
+      "implementation_id": "omnizon-custom-3",
+      "task_details": "Cancel the three orders placed in July on the Returns & Orders page.",
+      "paper_task_details": "Cancel the three orders placed in July on the Returns & Orders page.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 3,
+      "baseline_steps": 10,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/omnizon_custom_3.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "omnizon-custom-4",
+      "implementation_id": "omnizon-custom-4",
+      "task_details": "How many orders have not yet shipped? How many cancelled?",
+      "paper_task_details": "How many orders have not yet shipped? How many cancelled?",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 2,
+      "baseline_steps": 3,
+      "oracle_schedule": "serial",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/omnizon_custom_4.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "v1/omnizon-10",
+      "implementation_id": "omnizon-custom-5",
+      "task_details": "Click on \"buy now\" on any product, increase its quantity to the maximum allowed, update the delivery date to the last available, and place the order.",
+      "paper_task_details": "Click on \"buy now\" on any product, increase its quantity to the maximum allowed, update the delivery date to the last available, and place the order.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 6,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/omnizon_custom_5.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "omnizon-custom-6",
+      "implementation_id": "omnizon-custom-6",
+      "task_details": "Which of the following coffee makers has touchscreen: Gevi 10, Gevi 12, Simply Good Coffee, and BELLA Single Serve? Make sure you visit the product pages of each of them.",
+      "paper_task_details": "Which of the following coffee makers has touchscreen: Gevi 10, Gevi 12, Simply Good Coffee, and BELLA Single Serve? Visit the product pages of each.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 4,
+      "baseline_steps": 12,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/omnizon_custom_6.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "omnizon-custom-7",
+      "implementation_id": "omnizon-custom-7",
+      "task_details": "Visit \"Gift\", \"Toy\", \"Gaming\", and \"Cosmetic\" categories on the menu bar. For each, click on the first item and report the product color.",
+      "paper_task_details": "Visit \"Gift\", \"Toy\", \"Gaming\", and \"Cosmetic\" categories on the menu bar. For each, click on the first item and report the product color.",
+      "is_added": true,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 4,
+      "baseline_steps": 8,
+      "oracle_schedule": "parallel",
+      "verifier": {
+        "type": "structured_output_check",
+        "script": "experiments/tasks/llm_eval/omnizon_custom_7.py",
+        "shared_files": [
+          "experiments/tasks/base.py"
+        ],
+        "entry_point": "validator.validate(output, return_pct=True)",
+        "configuration": null,
+        "notes": "LLM parsing into a Pydantic schema, followed by deterministic correctness checks."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "v1/omnizon-8",
+      "implementation_id": "omnizon-custom-8",
+      "task_details": "Search for \"Automatic Espresso Machine,\" click on the cheapest one, change the quantity to 5, use \"buy now\" to purchase them and complete the checkout.",
+      "paper_task_details": "Search for \"Automatic Espresso Machine\", click on the cheapest one, change the quantity to 5, use \"buy now\" to purchase them and complete the checkout.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 7,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/omnizon_custom_8.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "REAL",
+      "application": "omnizon",
+      "id": "v2/omnizon-9",
+      "implementation_id": "omnizon-custom-9",
+      "task_details": "I want to create a gaming collection - buy any gaming device under $100.",
+      "paper_task_details": "I want to create a gaming collection—buy any gaming device under $100.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner",
+        "scheduler"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 6,
+      "oracle_schedule": "hedge",
+      "verifier": {
+        "type": "state_check",
+        "script": "experiments/tasks/script_eval/omnizon_custom_9.py",
+        "shared_files": [],
+        "entry_point": "evaluate(final_state, final_result)",
+        "configuration": null,
+        "notes": "Checks application state, state differences, and/or action history using the saved experiment evaluator."
+      },
+      "definition_path": "experiments/tasks/omnizon.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "gitlab",
+      "id": "webarena-747",
+      "implementation_id": "webarena-747",
+      "task_details": "Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members",
+      "paper_task_details": "Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 3,
+      "baseline_steps": 19,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 747,
+          "sites": [
+            "gitlab"
+          ],
+          "start_url": "__GITLAB__",
+          "intent": "Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__GITLAB__/byteblaze/awesome_web_agents",
+                "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                "required_contents": {
+                  "must_include": [
+                    "Private"
+                  ]
+                }
+              },
+              {
+                "url": "__GITLAB__/byteblaze/awesome_web_agents/-/commits",
+                "locator": "",
+                "required_contents": {
+                  "must_include": [
+                    "Initial commit"
+                  ]
+                }
+              },
+              {
+                "url": "__GITLAB__/byteblaze/awesome_web_agents/-/project_members",
+                "locator": "",
+                "required_contents": {
+                  "must_include": [
+                    "@abisubramanya27",
+                    "@vinta"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-gitlab.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "gitlab",
+      "id": "webarena-308",
+      "implementation_id": "webarena-308",
+      "task_details": "Tell me who has made the most contributions, in terms of number of commits, to the primer/design project",
+      "paper_task_details": "Tell me who has made the most contributions, in terms of number of commits, to the primer/design project.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 3,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 308,
+          "sites": [
+            "gitlab"
+          ],
+          "start_url": "__GITLAB__",
+          "intent": "Tell me who has made the most contributions, in terms of number of commits, to the primer/design project",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "string_match"
+            ],
+            "reference_answers": {
+              "exact_match": "Shawn Allen"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Shawn Allen"
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-gitlab.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "gitlab",
+      "id": "webarena-414",
+      "implementation_id": "webarena-414",
+      "task_details": "Make the LICENSE of byteblaze/dotfiles to MIT license",
+      "paper_task_details": "Make the LICENSE of byteblaze/dotfiles to MIT license.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 414,
+          "sites": [
+            "gitlab"
+          ],
+          "start_url": "__GITLAB__",
+          "intent": "Make the LICENSE of byteblaze/dotfiles to MIT license.",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__GITLAB__/byteblaze/dotfiles/-/blob/main/LICENSE",
+                "locator": "",
+                "required_contents": {
+                  "must_include": [
+                    "MIT License",
+                    "The above copyright notice and this permission notice shall be included in all"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-gitlab.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "gitlab",
+      "id": "webarena-133",
+      "implementation_id": "webarena-133",
+      "task_details": "How many commits did Eric make to a11yproject on 3/2?",
+      "paper_task_details": "How many commits did Eric make to a11yproject on 3/2?",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 3,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 133,
+          "sites": [
+            "gitlab"
+          ],
+          "start_url": "__GITLAB__",
+          "intent": "How many commits did Eric make to a11yproject on 3/2?",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "string_match"
+            ],
+            "reference_answers": {
+              "must_include": [
+                "2"
+              ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "2"
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-gitlab.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "gitlab",
+      "id": "webarena-419",
+      "implementation_id": "webarena-419",
+      "task_details": "Set my gitlab status as Enjoying life",
+      "paper_task_details": "Set my GitLab status as \"Enjoying life\".",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 4,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 419,
+          "sites": [
+            "gitlab"
+          ],
+          "start_url": "__GITLAB__",
+          "intent": "Set my gitlab status as Enjoying life.",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__GITLAB__/byteblaze",
+                "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                "required_contents": {
+                  "exact_match": "Enjoying life"
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-gitlab.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "reddit",
+      "id": "webarena-29",
+      "implementation_id": "webarena-29",
+      "task_details": "Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum",
+      "paper_task_details": "Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 7,
+      "baseline_steps": 6,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 29,
+          "sites": [
+            "reddit"
+          ],
+          "start_url": "__REDDIT__",
+          "intent": "Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum.",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "string_match"
+            ],
+            "reference_answers": {
+              "must_include": [
+                "1"
+              ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "1"
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-reddit.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "reddit",
+      "id": "webarena-727",
+      "implementation_id": "webarena-727",
+      "task_details": "Dislike all submissions created by PatientBuilder499 in subreddit videos",
+      "paper_task_details": "Dislike all submissions created by PatientBuilder499 in subreddit videos.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 7,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 727,
+          "sites": [
+            "reddit"
+          ],
+          "start_url": "__REDDIT__",
+          "intent": "DisLike all submissions created by PatientBuilder499 in subreddit videos",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/videos/115139/hundreds-of-civilian-turkish-volunteers-waiting-to-be-sent",
+                "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+                "required_contents": {
+                  "must_include": [
+                    "vote vote--user-downvoted"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-reddit.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "reddit",
+      "id": "webarena-580",
+      "implementation_id": "webarena-580",
+      "task_details": "Create a new forum named sci_fi, with a description of 'A wild place for sci-fi enthusiasts', and include ['New', 'Classic', 'Movies', 'Post my novel', 'Random'] in the sidebar",
+      "paper_task_details": "Create a new forum named sci_fi, with a description and include specific sidebar categories.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 7,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 580,
+          "sites": [
+            "reddit"
+          ],
+          "start_url": "__REDDIT__",
+          "intent": "Create a new forum named sci_fi, with a description of A wild place for sci-fi enthusiasts, and include ['New', 'Classic', 'Movies', 'Post my novel', 'Random'] in the sidebar?",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/sci_fi/edit",
+                "locator": "document.querySelector(\"#forum_description\").value",
+                "required_contents": {
+                  "must_include": [
+                    "A wild place for sci-fi enthusiasts"
+                  ]
+                }
+              },
+              {
+                "url": "__REDDIT__/f/sci_fi/edit",
+                "locator": "document.querySelector(\"#forum_sidebar\").value",
+                "required_contents": {
+                  "must_include": [
+                    "New",
+                    "Classic",
+                    "Movies",
+                    "Post my novel",
+                    "Random"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-reddit.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "reddit",
+      "id": "webarena-399",
+      "implementation_id": "webarena-399",
+      "task_details": "Change my reddit bio to \"I am a robot\"",
+      "paper_task_details": "Change my Reddit bio to \"I am a robot\".",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 399,
+          "sites": [
+            "reddit"
+          ],
+          "start_url": "__REDDIT__",
+          "intent": "Change my reddit bio to \"I am a robot\"",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/user/MarvelsGrantMan136",
+                "locator": "document.querySelector(\".user-bio__biography\").outerText",
+                "required_contents": {
+                  "exact_match": "I am a robot"
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-reddit.yaml"
+    },
+    {
+      "benchmark": "WebArena",
+      "application": "reddit",
+      "id": "webarena-404",
+      "implementation_id": "webarena-404",
+      "task_details": "Upvote the newest post in books subreddit",
+      "paper_task_details": "Upvote the newest post in books subreddit.",
+      "is_added": false,
+      "evaluated_components": [
+        "planner"
+      ],
+      "cardinality": 1,
+      "baseline_steps": 5,
+      "oracle_schedule": null,
+      "verifier": {
+        "type": "webarena_harness",
+        "script": "webarena/evaluation_harness/evaluators.py",
+        "shared_files": [
+          "webarena/evaluation_harness/helper_functions.py"
+        ],
+        "entry_point": "evaluation_harness.evaluators.evaluator_router(config_file)",
+        "configuration": {
+          "task_id": 404,
+          "sites": [
+            "reddit"
+          ],
+          "start_url": "__REDDIT__",
+          "intent": "Upvote the newest post in books subreddit",
+          "require_login": true,
+          "require_reset": false,
+          "eval": {
+            "eval_types": [
+              "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+              {
+                "url": "__REDDIT__/f/books/124260/adults-reading-to-each-other-out-loud",
+                "locator": "document.querySelector('div.submission__vote').querySelector('form').getAttribute('class')",
+                "required_contents": {
+                  "must_include": [
+                    "vote vote--user-upvoted"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "notes": "Write configuration to a JSON file and invoke the WebArena harness in its benchmark environment. Endpoint placeholders require substitution; authenticated benchmark sessions and browser state are not included."
+      },
+      "definition_path": "experiments/tasks/webarena-reddit.yaml"
+    }
+  ]
+}

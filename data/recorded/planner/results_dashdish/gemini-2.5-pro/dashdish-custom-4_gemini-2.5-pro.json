@@ -1,0 +1,1195 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.04385495185852,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.105857133865356,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.104662656784058,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.98155975341797,
+    "estimated_cost": 14.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.987489700317383,
+    "estimated_cost": 104.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.608234405517578,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 301: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 301: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.71191716194153,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.360307931900024,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.18544840812683,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.75791597366333,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.178860902786255,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.790733575820923,
+    "estimated_cost": 14.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.09371852874756,
+    "estimated_cost": 114.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.730423212051392,
+    "estimated_cost": 30.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.001224994659424,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.484781503677368,
+    "estimated_cost": 4.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.055358171463013,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 303: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 303: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.62104105949402,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.122593879699707,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.20675826072693,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.629279136657715,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.552585124969482,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.931281805038452,
+    "estimated_cost": 1152.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.57051134109497,
+    "estimated_cost": 104.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.643201112747192,
+    "estimated_cost": 124.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.406408309936523,
+    "estimated_cost": 114.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.301785469055176,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.375996351242065,
+    "estimated_cost": 114.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.32410717010498,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.41242814064026,
+    "estimated_cost": 1046.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 318: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 318: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.73660922050476,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 325: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 325: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.555338382720947,
+    "estimated_cost": 214.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.02987551689148,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.00366234779358,
+    "estimated_cost": 20.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.862653732299805,
+    "estimated_cost": 3.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.99879503250122,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.7373685836792,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.646054744720459,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.207207679748535,
+    "estimated_cost": 20.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.340072870254517,
+    "estimated_cost": 2144.2999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> goto_checkout"
+        }
+      ],
+      "error_message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> goto_checkout"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.612616300582886,
+    "estimated_cost": 1043.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.5490403175354,
+    "estimated_cost": 20.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.036858558654785,
+    "estimated_cost": 205.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.480409860610962,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.58833932876587,
+    "estimated_cost": 20.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.84078311920166,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.85780191421509,
+    "estimated_cost": 20.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.842016220092773,
+    "estimated_cost": 113.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.444121360778809,
+    "estimated_cost": 1032.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.242394924163818,
+    "estimated_cost": 113.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.204199075698853,
+    "estimated_cost": 1032.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.97893786430359,
+    "estimated_cost": 1032.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.31189513206482,
+    "estimated_cost": 213.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.525116205215454,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.95483708381653,
+    "estimated_cost": 2142.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.706600189208984,
+    "estimated_cost": 2142.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.299274921417236,
+    "estimated_cost": 205.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.145506620407104,
+    "estimated_cost": 223.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.064575672149658,
+    "estimated_cost": 213.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.577001571655273,
+    "estimated_cost": 1033.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.4250168800354,
+    "estimated_cost": 103.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.720293045043945,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.632360219955444,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.310665130615234,
+    "estimated_cost": 103.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Dashdish Checkout Page Schema",
+  "type": "object",
+  "description": "Schema describing interactive elements on the Dashdish checkout page",
+  "$defs": {
+    "backToStoreButton": {
+      "type": "object",
+      "description": "Top-left text button to return from checkout to the store page",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Back to Store"
+        },
+        "opensPage": {
+          "const": "store"
+        }
+      },
+      "required": [
+        "label",
+        "opensPage"
+      ]
+    },
+    "shippingModeToggleButton": {
+      "type": "object",
+      "description": "Toggle buttons in Shipping details to switch between Delivery and Pickup modes",
+      "x-visibleCount": 2,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Delivery",
+            "Pickup"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "deliverySpeedOptionButton": {
+      "type": "object",
+      "description": "Buttons to choose Express, Standard, or Schedule for later delivery options",
+      "x-visibleCount": 3,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Express",
+            "Standard",
+            "Schedule for later"
+          ]
+        },
+        "timeEstimate": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "priceDelta": {
+          "type": "string"
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "addressEditButton": {
+      "type": "object",
+      "description": "Chevron button to edit the delivery address row",
+      "x-visibleCount": 1,
+      "properties": {
+        "addressLine": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "addressLine"
+      ]
+    },
+    "deliveryInstructionsEditButton": {
+      "type": "object",
+      "description": "Chevron button to edit delivery instructions text",
+      "x-visibleCount": 1,
+      "properties": {
+        "instructionTitle": {
+          "type": "string",
+          "const": "Leave it at my door"
+        },
+        "instructionText": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "instructionTitle",
+        "instructionText"
+      ]
+    },
+    "phoneEditButton": {
+      "type": "object",
+      "description": "Chevron button to edit the contact phone number row",
+      "x-visibleCount": 1,
+      "properties": {
+        "phoneNumber": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "phoneNumber"
+      ]
+    },
+    "paymentMethodEditButton": {
+      "type": "object",
+      "description": "Edit button in Payment details section for the selected card",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Edit"
+        },
+        "cardBrand": {
+          "type": "string"
+        },
+        "cardLastFour": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "cardBrand",
+        "cardLastFour"
+      ]
+    },
+    "checkoutPlaceOrderButton": {
+      "type": "object",
+      "description": "Primary Place Order button at the bottom of the main checkout column",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Place Order"
+        },
+        "totalAmount": {
+          "type": "string"
+        },
+        "opensPage": {
+          "const": "order_confirmation"
+        }
+      },
+      "required": [
+        "label",
+        "totalAmount",
+        "opensPage"
+      ]
+    },
+    "orderSummaryPlaceOrderButton": {
+      "type": "object",
+      "description": "Place Order button in the right-hand order summary panel",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Place Order"
+        },
+        "totalAmount": {
+          "type": "string"
+        },
+        "opensPage": {
+          "const": "order_confirmation"
+        }
+      },
+      "required": [
+        "label",
+        "totalAmount",
+        "opensPage"
+      ]
+    },
+    "tipAmountButton": {
+      "type": "object",
+      "description": "Selectable buttons for choosing predefined Dasher tip amounts in the order summary",
+      "x-visibleCount": 4,
+      "properties": {
+        "amount": {
+          "type": "string",
+          "enum": [
+            "$1.00",
+            "$2.00",
+            "$3.00",
+            "$4.00"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "amount"
+      ]
+    },
+    "summaryCartItemQuantityStepper": {
+      "type": "object",
+      "description": "Quantity stepper for a cart item in the right-hand summary panel",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        },
+        "sizeOrVariant": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "unitPrice": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName",
+        "quantity",
+        "unitPrice"
+      ]
+    },
+    "summaryCartItemDeleteButton": {
+      "type": "object",
+      "description": "Trash/delete button for removing a cart item from the right-hand summary panel",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName"
+      ]
+    }
+  }
+}

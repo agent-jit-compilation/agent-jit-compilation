@@ -1,0 +1,1503 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.060107231140137,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.317211151123047,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.5778398513793945,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.26724648475647,
+    "estimated_cost": 100.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `names` used when not defined\nLine 223: error[unresolved-reference] Name `emails` used when not defined\nLine 231: error[unresolved-reference] Name `messages` used when not defined\nLine 232: error[unresolved-reference] Name `messages` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `names` used when not defined\nLine 223: error[unresolved-reference] Name `emails` used when not defined\nLine 231: error[unresolved-reference] Name `messages` used when not defined\nLine 232: error[unresolved-reference] Name `messages` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.94612193107605,
+    "estimated_cost": 100.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 236: error[unresolved-reference] Name `emails` used when not defined\nLine 237: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 236: error[unresolved-reference] Name `emails` used when not defined\nLine 237: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.26875329017639,
+    "estimated_cost": 211.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.05004119873047,
+    "estimated_cost": 301.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 224: error[unresolved-reference] Name `domain` used when not defined\nLine 238: error[unresolved-reference] Name `sent_results` used when not defined\nLine 239: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 224: error[unresolved-reference] Name `domain` used when not defined\nLine 238: error[unresolved-reference] Name `sent_results` used when not defined\nLine 239: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.961634397506714,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 232: error[unresolved-reference] Name `sent_results` used when not defined\nLine 233: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 232: error[unresolved-reference] Name `sent_results` used when not defined\nLine 233: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.985451459884644,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.542215824127197,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.795583724975586,
+    "estimated_cost": 200.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 232: error[unresolved-reference] Name `messages` used when not defined\nLine 233: error[unresolved-reference] Name `messages` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 232: error[unresolved-reference] Name `messages` used when not defined\nLine 233: error[unresolved-reference] Name `messages` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.056604146957397,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 228: error[unresolved-reference] Name `sent_results` used when not defined\nLine 229: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 228: error[unresolved-reference] Name `sent_results` used when not defined\nLine 229: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.033442258834839,
+    "estimated_cost": 200.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 233: error[unresolved-reference] Name `sends` used when not defined\nLine 235: error[unresolved-reference] Name `sends` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 233: error[unresolved-reference] Name `sends` used when not defined\nLine 235: error[unresolved-reference] Name `sends` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.13192868232727,
+    "estimated_cost": 100.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 230: error[unresolved-reference] Name `emails` used when not defined\nLine 230: error[unresolved-reference] Name `emails` used when not defined\nLine 230: error[unresolved-reference] Name `subject` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 230: error[unresolved-reference] Name `emails` used when not defined\nLine 230: error[unresolved-reference] Name `emails` used when not defined\nLine 230: error[unresolved-reference] Name `subject` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.713047981262207,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.02727222442627,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.469870805740356,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.698257446289062,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.53748083114624,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 239: error[unresolved-reference] Name `sent_results` used when not defined\nLine 240: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 239: error[unresolved-reference] Name `sent_results` used when not defined\nLine 240: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.226680278778076,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.033049821853638,
+    "estimated_cost": 1268.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.663413286209106,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.560284614562988,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 239: error[unresolved-reference] Name `sent_results` used when not defined\nLine 240: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 239: error[unresolved-reference] Name `sent_results` used when not defined\nLine 240: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.262046575546265,
+    "estimated_cost": 1319.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.25840139389038,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 240: warning[deprecated] The function `dict` is deprecated: The `dict` method is deprecated; use `model_dump` instead.\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 240: warning[deprecated] The function `dict` is deprecated: The `dict` method is deprecated; use `model_dump` instead.\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.335810899734497,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.255563020706177,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.730371236801147,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.250287294387817,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.669222593307495,
+    "estimated_cost": 100.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 243: error[unresolved-reference] Name `emails` used when not defined\nLine 244: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 243: error[unresolved-reference] Name `emails` used when not defined\nLine 244: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.817925214767456,
+    "estimated_cost": 100.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `names` used when not defined\nLine 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 227: error[unresolved-reference] Name `options` used when not defined\nLine 232: error[unresolved-reference] Name `options` used when not defined\nLine 240: error[unresolved-reference] Name `emails` used when not defined\nLine 245: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `names` used when not defined\nLine 223: error[unresolved-reference] Name `recipients` used when not defined\nLine 227: error[unresolved-reference] Name `options` used when not defined\nLine 232: error[unresolved-reference] Name `options` used when not defined\nLine 240: error[unresolved-reference] Name `emails` used when not defined\nLine 245: error[unresolved-reference] Name `emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.559550523757935,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.4160315990448,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.9109947681427,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.0532443523407,
+    "estimated_cost": 211.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.316931247711182,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.726568222045898,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 153: error[unresolved-reference] Name `sent_results` used when not defined\nLine 154: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 153: error[unresolved-reference] Name `sent_results` used when not defined\nLine 154: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.740752220153809,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 155: error[unresolved-reference] Name `sent_results` used when not defined\nLine 156: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 155: error[unresolved-reference] Name `sent_results` used when not defined\nLine 156: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.761662006378174,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 153: error[unresolved-reference] Name `sent_results` used when not defined\nLine 160: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 153: error[unresolved-reference] Name `sent_results` used when not defined\nLine 160: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.155858993530273,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.866750717163086,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.906559944152832,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.397688150405884,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.076709270477295,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 145: error[unresolved-reference] Name `domain` used when not defined\nLine 159: error[unresolved-reference] Name `sent_results` used when not defined\nLine 162: warning[deprecated] The function `dict` is deprecated: The `dict` method is deprecated; use `model_dump` instead.\nLine 164: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 145: error[unresolved-reference] Name `domain` used when not defined\nLine 159: error[unresolved-reference] Name `sent_results` used when not defined\nLine 162: warning[deprecated] The function `dict` is deprecated: The `dict` method is deprecated; use `model_dump` instead.\nLine 164: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.804014682769775,
+    "estimated_cost": 301.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 157: error[unresolved-reference] Name `domain` used when not defined\nLine 160: error[unresolved-reference] Name `sent` used when not defined\nLine 161: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 157: error[unresolved-reference] Name `domain` used when not defined\nLine 160: error[unresolved-reference] Name `sent` used when not defined\nLine 161: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.916977643966675,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 155: error[unresolved-reference] Name `sent` used when not defined\nLine 156: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 155: error[unresolved-reference] Name `sent` used when not defined\nLine 156: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.987735986709595,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.11970090866089,
+    "estimated_cost": 301.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.717878580093384,
+    "estimated_cost": 1517.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.969996213912964,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 162: error[unresolved-reference] Name `sent_results` used when not defined\nLine 163: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 162: error[unresolved-reference] Name `sent_results` used when not defined\nLine 163: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.784023761749268,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names_and_emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names_and_emails` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.478624105453491,
+    "estimated_cost": 1416.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.942388534545898,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.384875059127808,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 159: error[unresolved-reference] Name `subject` used when not defined\nLine 160: error[unresolved-reference] Name `sent_results` used when not defined\nLine 161: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 159: error[unresolved-reference] Name `subject` used when not defined\nLine 160: error[unresolved-reference] Name `sent_results` used when not defined\nLine 161: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.57280945777893,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 156: error[unresolved-reference] Name `sent` used when not defined\nLine 157: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 156: error[unresolved-reference] Name `sent` used when not defined\nLine 157: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.327353715896606,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.237796545028687,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.714459180831909,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.302111864089966,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.37228798866272,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 160: error[unresolved-reference] Name `sent` used when not defined\nLine 172: error[unresolved-reference] Name `sent` used when not defined\nLine 173: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 160: error[unresolved-reference] Name `sent` used when not defined\nLine 172: error[unresolved-reference] Name `sent` used when not defined\nLine 173: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.054490804672241,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.730032205581665,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.742515802383423,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.693594455718994,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 175: error[unresolved-reference] Name `sent_results` used when not defined\nLine 176: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 175: error[unresolved-reference] Name `sent_results` used when not defined\nLine 176: error[unresolved-reference] Name `sent_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,1536 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.209792137145996,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6836707592010498,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3459155559539795,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 433: error[unresolved-reference] Name `colors` used when not defined\nLine 434: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 433: error[unresolved-reference] Name `colors` used when not defined\nLine 434: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4751648902893066,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.057363986968994,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6034326553344727,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8830604553222656,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2610156536102295,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8584411144256592,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5500245094299316,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2243695259094238,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.662684679031372,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6264703273773193,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4902057647705078,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 433: error[unresolved-reference] Name `colors` used when not defined\nLine 434: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 433: error[unresolved-reference] Name `colors` used when not defined\nLine 434: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3261582851409912,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 433: error[unresolved-reference] Name `colors` used when not defined\nLine 434: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 433: error[unresolved-reference] Name `colors` used when not defined\nLine 434: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6338098049163818,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.875432014465332,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 432: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 432: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8547470569610596,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6954472064971924,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2218518257141113,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.056187868118286,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2692935466766357,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4330813884735107,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0829675197601318,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.089627504348755,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6089468002319336,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4351122379302979,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.095055341720581,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8801629543304443,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5750854015350342,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2696213722229004,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 432: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5449237823486328,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `product_colors` used when not defined\nLine 433: error[unresolved-reference] Name `product_colors` used when not defined\nLine 434: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1046721935272217,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.248422384262085,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5156705379486084,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3589932918548584,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7479336261749268,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 277: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 278: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 277: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 278: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6151325702667236,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 275: error[unresolved-reference] Name `product_colors` used when not defined\nLine 277: error[unresolved-reference] Name `product_colors` used when not defined\nLine 278: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 275: error[unresolved-reference] Name `product_colors` used when not defined\nLine 277: error[unresolved-reference] Name `product_colors` used when not defined\nLine 278: error[unresolved-reference] Name `product_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1323564052581787,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4188339710235596,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8370776176452637,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.382385492324829,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6835613250732422,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0589125156402588,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.913445234298706,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8986997604370117,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4317173957824707,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7228903770446777,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9336774349212646,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.34796142578125,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.623020887374878,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.159804344177246,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8469264507293701,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2365474700927734,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5216236114501953,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.680492639541626,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4833500385284424,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 276: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 276: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3401951789855957,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4795660972595215,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4826653003692627,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8578417301177979,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8430614471435547,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `category_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2572181224822998,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2404680252075195,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

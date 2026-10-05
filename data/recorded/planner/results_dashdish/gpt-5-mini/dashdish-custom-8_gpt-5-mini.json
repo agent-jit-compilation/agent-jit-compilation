@@ -1,0 +1,1111 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.809064149856567,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.066625833511353,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.615245580673218,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.103451251983643,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.912956953048706,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.5001962184906,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.775329113006592,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.904948472976685,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.831921815872192,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.268421649932861,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.612058877944946,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.4782395362854,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.217830657958984,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `category_input` used when not defined\nLine 300: error[unresolved-reference] Name `category_input` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `category_input` used when not defined\nLine 300: error[unresolved-reference] Name `category_input` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.741685628890991,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.484508037567139,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.472977638244629,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.211755752563477,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.067745447158813,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.084416627883911,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.531562089920044,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.82434105873108,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.24532961845398,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.608667850494385,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.561705112457275,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.378196954727173,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.948590278625488,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.416343927383423,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.475891351699829,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.571374654769897,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.995909214019775,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.832659006118774,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.315202713012695,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.285116910934448,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.364607810974121,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.073707580566406,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.420430421829224,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.77910590171814,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.406581163406372,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.56523323059082,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.057671070098877,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.72250509262085,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 200: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 214: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 200: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 214: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.104984045028687,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.47012996673584,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.34581995010376,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.931574821472168,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.247270822525024,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.635534048080444,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.458340406417847,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.949455976486206,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.654206275939941,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.644585847854614,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.124538660049438,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.339015007019043,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 199: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 206: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 215: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 199: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 206: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 215: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.654056310653687,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.280120134353638,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.745748043060303,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.470938682556152,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.259021282196045,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.398128509521484,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.323803663253784,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.490975856781006,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.492793083190918,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.41566252708435,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.2007417678833,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

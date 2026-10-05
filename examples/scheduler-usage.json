@@ -1,0 +1,13 @@
+{
+  "description": "Illustrative input: visit three independent restaurant pages. Counts are hand-specified; latency distributions are the recorded GPT-4.1 profiles. This is not a recovered model prediction.",
+  "sequential": {
+    "explanation": "Visit three restaurant pages to read their reviews.",
+    "elements": [{"element_name": "restaurantCard", "required": true, "count": 3, "destination_page": "store"}]
+  },
+  "parallel": {
+    "parallel_elements": [{"element_name": "restaurantCard", "count": 1}],
+    "num_workers": 3,
+    "requires_rediscovery": false,
+    "rediscovery_elements": []
+  }
+}

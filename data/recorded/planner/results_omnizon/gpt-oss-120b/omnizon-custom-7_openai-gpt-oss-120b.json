@@ -1,0 +1,1404 @@
+[
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2520899772644043,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.446164846420288,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.073704481124878,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.560225248336792,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.693169593811035,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.642261028289795,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.643957614898682,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1802127361297607,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.120234727859497,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5054843425750732,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.784634828567505,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.4840502738952637,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.078985929489136,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.065556526184082,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.389503717422485,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.472994804382324,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.971115827560425,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.259681701660156,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.472009897232056,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.621136426925659,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `colors` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 437: error[unresolved-reference] Name `colors` used when not defined\nLine 441: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `colors` used when not defined\nLine 431: error[unresolved-reference] Name `colors` used when not defined\nLine 437: error[unresolved-reference] Name `colors` used when not defined\nLine 441: error[unresolved-reference] Name `colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.5337958335876465,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.832319498062134,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8747751712799072,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.438780784606934,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.7110114097595215,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.8244662284851074,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.7596352100372314,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1445553302764893,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8537683486938477,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.400002479553223,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0704548358917236,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5141124725341797,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8296942710876465,
+    "estimated_cost": 1012.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[unresolved-reference] Name `ai_exec` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[unresolved-reference] Name `ai_exec` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1681180000305176,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3171749114990234,
+    "estimated_cost": 1012.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 279: error[unresolved-reference] Name `ai_exec` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Line 279: error[unresolved-reference] Name `ai_exec` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9877526760101318,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.576554298400879,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.064378261566162,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0706324577331543,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.896559238433838,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0756752490997314,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.303866386413574,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.313889503479004,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9684953689575195,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8202879428863525,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2923774719238281,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.423961639404297,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.207932472229004,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.934382438659668,
+    "estimated_cost": 2.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7888479232788086,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.7264404296875,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.348424911499023,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.503969192504883,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7318966388702393,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.323378086090088,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.646858215332031,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.105626106262207,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9180686473846436,
+    "estimated_cost": 12.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_product_details requires page_type=product, but state has page_type=results. Call sequence: goto_category -> get_product_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_product_details requires page_type=product, but state has page_type=results. Call sequence: goto_category -> get_product_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.290690660476685,
+    "estimated_cost": 12.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.951860189437866,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0524837970733643,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 277: error[unresolved-reference] Name `collected` used when not defined\nLine 278: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Line 277: error[unresolved-reference] Name `collected` used when not defined\nLine 278: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.102297067642212,
+    "estimated_cost": 1012.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[unresolved-reference] Name `ai_exec` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Line 275: error[unresolved-reference] Name `ai_exec` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.011963129043579,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=product. Call sequence: goto_category -> list_results -> goto_product -> get_product_details -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.257002592086792,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

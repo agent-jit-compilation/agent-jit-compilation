@@ -1,0 +1,1279 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.674899816513062,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.59183359146118,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.842700242996216,
+    "estimated_cost": 50.900000000000006,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.332133769989014,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.540464878082275,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 452: error[invalid-argument-type] Argument to function `parse_price` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 452: error[invalid-argument-type] Argument to function `parse_price` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.503429889678955,
+    "estimated_cost": 10.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.895535707473755,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.407223463058472,
+    "estimated_cost": 1811.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.75884747505188,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.78038763999939,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.300928831100464,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.50096035003662,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.858559131622314,
+    "estimated_cost": 20.800000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 441: error[invalid-argument-type] Argument to function `parse_price` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 441: error[invalid-argument-type] Argument to function `parse_price` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.198993921279907,
+    "estimated_cost": 132.79999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.655452489852905,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.299471855163574,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.84861993789673,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `_price_to_float` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `_price_to_float` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.567490816116333,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `q` used when not defined\nLine 429: error[unresolved-reference] Name `q` used when not defined\nLine 434: error[unresolved-reference] Name `q` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `q` used when not defined\nLine 429: error[unresolved-reference] Name `q` used when not defined\nLine 434: error[unresolved-reference] Name `q` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.791852474212646,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.949030637741089,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.784958362579346,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.864200592041016,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.942511320114136,
+    "estimated_cost": 12.799999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.664541721343994,
+    "estimated_cost": 10.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.283201217651367,
+    "estimated_cost": 126.79999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.376150608062744,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.81037425994873,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.767444372177124,
+    "estimated_cost": 10.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.324264526367188,
+    "estimated_cost": 10.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.984201908111572,
+    "estimated_cost": 40.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.833232879638672,
+    "estimated_cost": 0.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.98175883293152,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.86141061782837,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 279: error[unresolved-reference] Name `query` used when not defined\nLine 342: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 279: error[unresolved-reference] Name `query` used when not defined\nLine 342: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.77485728263855,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.928074598312378,
+    "estimated_cost": 127.89999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 271: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 290: error[unresolved-reference] Name `query` used when not defined\nLine 372: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 271: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 290: error[unresolved-reference] Name `query` used when not defined\nLine 372: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.902485609054565,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.957782745361328,
+    "estimated_cost": 127.89999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 272: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 309: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 272: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 309: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.8914577960968,
+    "estimated_cost": 20.899999999999995,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 286: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 286: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.155481576919556,
+    "estimated_cost": 20.899999999999995,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: add_to_cart requires page_type=product, but state has page_type=checkout. Call sequence: search_products -> list_results -> min(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> set_quantity -> buy_now -> add_to_cart"
+        }
+      ],
+      "error_message": "Tool ordering error: add_to_cart requires page_type=product, but state has page_type=checkout. Call sequence: search_products -> list_results -> min(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> set_quantity -> buy_now -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.079925298690796,
+    "estimated_cost": 132.79999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 270: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 270: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.899347066879272,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 271: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 271: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.551235437393188,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 273: error[unresolved-reference] Name `query` used when not defined\nLine 308: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 273: error[unresolved-reference] Name `query` used when not defined\nLine 308: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.652446269989014,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 287: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 287: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.635268688201904,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.383100986480713,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.580265283584595,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.23530650138855,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> compile(...) [unknown] -> min(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> compile(...) [unknown] -> min(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.000218391418457,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.019225597381592,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 272: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 272: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.771603345870972,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.47370457649231,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.42825961112976,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 287: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 280: error[unresolved-reference] Name `query` used when not defined\nLine 287: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.51701807975769,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 276: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 276: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.656593084335327,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.134770631790161,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.476104021072388,
+    "estimated_cost": 20.899999999999995,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.187756061553955,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.49960494041443,
+    "estimated_cost": 126.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.073297023773193,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.642215251922607,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 293: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 293: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.403854846954346,
+    "estimated_cost": 20.899999999999995,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.292548894882202,
+    "estimated_cost": 148.79999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.42471981048584,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.21997594833374,
+    "estimated_cost": 807.9000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,1412 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.049507141113281,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.678422927856445,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.10277795791626,
+    "estimated_cost": 2.5000000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.400379180908203,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.302204847335815,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.749363422393799,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.82941699028015,
+    "estimated_cost": 3.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.110631942749023,
+    "estimated_cost": 3.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.741670370101929,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.374975204467773,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.43876576423645,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.488879442214966,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.54250454902649,
+    "estimated_cost": 15.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 447: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 447: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.268444538116455,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.917672157287598,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.940724849700928,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.916019678115845,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 40.7393684387207,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.92418622970581,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[unsupported-operator] Operator `not in` is not supported between objects of type `Literal[\"Cancelled\"]` and `str | None | Unknown`\nLine 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[unsupported-operator] Operator `not in` is not supported between objects of type `Literal[\"Cancelled\"]` and `str | None | Unknown`\nLine 439: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.228750705718994,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 437: error[unsupported-operator] Operator `not in` is not supported between objects of type `Literal[\"Cancelled\"]` and `str | None | Unknown`\nLine 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 437: error[unsupported-operator] Operator `not in` is not supported between objects of type `Literal[\"Cancelled\"]` and `str | None | Unknown`\nLine 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.28274631500244,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 441: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.02280879020691,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.864847898483276,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.28782033920288,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.393854856491089,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.585964918136597,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.649967908859253,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.750194787979126,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 442: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 442: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.782160758972168,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.833222150802612,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 438: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.842750549316406,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 437: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.530150890350342,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 440: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.592830181121826,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.00824499130249,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.485912322998047,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.700417280197144,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.628499746322632,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.138407230377197,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.307343482971191,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.089547395706177,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.125532627105713,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.611952781677246,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.936262845993042,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.709805965423584,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.010411262512207,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.83510684967041,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.600598096847534,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.055622100830078,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.111610651016235,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.904173135757446,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.165013551712036,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.458313465118408,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.230329275131226,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.529964923858643,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.829109907150269,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.185883045196533,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.290740251541138,
+    "estimated_cost": 2.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.848621606826782,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.821866512298584,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.941953182220459,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.562300443649292,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 276: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.810393571853638,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.457078695297241,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.355379343032837,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 278: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

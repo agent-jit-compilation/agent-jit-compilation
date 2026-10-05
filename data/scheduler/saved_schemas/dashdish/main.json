@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DashDish Main Page Schema",
+  "type": "object",
+  "properties": {},
+  "$defs": {
+    "deliveryModeToggleButton": {
+      "type": "object",
+      "description": "Top-right toggle buttons to switch between Delivery and Pickup modes",
+      "x-visibleCount": 2,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Delivery",
+            "Pickup"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "sidebarNavItem": {
+      "type": "object",
+      "description": "Left sidebar navigation items for browsing types of stores",
+      "x-visibleCount": 7,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Home",
+            "Grocery",
+            "Retail",
+            "Convenience",
+            "Dash Mart",
+            "Alcohol",
+            "Health"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "cuisineCategoryChip": {
+      "type": "object",
+      "description": "Horizontal row of cuisine/category chips below the search bar",
+      "x-visibleCount": 20,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Ramen",
+            "Breakfast",
+            "Fast Food",
+            "Coffee",
+            "Pizza",
+            "Chinese",
+            "Bakery",
+            "Indian",
+            "Mexican",
+            "Smoothie",
+            "Chicken",
+            "Vegan",
+            "Asian",
+            "Thai",
+            "Burgers",
+            "Healthy",
+            "Soup",
+            "Sushi",
+            "Desserts",
+            "Poke",
+            "Halal"
+          ]
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "filterChipButton": {
+      "type": "object",
+      "description": "Row of filter buttons above the restaurant sections",
+      "x-visibleCount": 3,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Over 4.5",
+            "Under 30 min",
+            "Price"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "sectionTitle": {
+      "type": "string",
+      "enum": [
+        "Best near you",
+        "Best of lunch",
+        "The Infatuation's picks",
+        "Light & fresh",
+        "National favorites",
+        "Most loved",
+        "Costume party ready"
+      ]
+    },
+    "sectionSeeAllButton": {
+      "type": "object",
+      "description": "Right-aligned 'See all' buttons for each horizontal restaurant section",
+      "x-visibleCount": 6,
+      "x-visibleCounts": {
+        "Best near you": 1,
+        "Best of lunch": 1,
+        "The Infatuation's picks": 1,
+        "Light & fresh": 1,
+        "National favorites": 1,
+        "Most loved": 1
+      },
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "See all"
+        },
+        "sectionTitle": {
+          "$ref": "#/$defs/sectionTitle"
+        },
+        "opensPage": {
+          "const": "store"
+        }
+      },
+      "required": [
+        "label",
+        "sectionTitle"
+      ]
+    },
+    "sectionCarouselArrowButton": {
+      "type": "object",
+      "description": "Circular left/right arrow buttons to scroll each restaurant carousel section",
+      "x-visibleCount": 6,
+      "x-visibleCounts": {
+        "Best near you": 1,
+        "Best of lunch": 1,
+        "The Infatuation's picks": 1,
+        "Light & fresh": 1,
+        "National favorites": 1,
+        "Most loved": 1
+      },
+      "properties": {
+        "direction": {
+          "type": "string",
+          "enum": [
+            "left",
+            "right"
+          ]
+        },
+        "sectionTitle": {
+          "$ref": "#/$defs/sectionTitle"
+        }
+      },
+      "required": [
+        "direction",
+        "sectionTitle"
+      ]
+    },
+    "restaurantCard": {
+      "type": "object",
+      "description": "Clickable card for a restaurant in any section carousel",
+      "x-visibleCount": 30,
+      "x-visibleCounts": {
+        "Best near you": 6,
+        "Best of lunch": 6,
+        "The Infatuation's picks": 6,
+        "Light & fresh": 6,
+        "National favorites": 6,
+        "Most loved": 6,
+        "Costume party ready": 3
+      },
+      "properties": {
+        "sectionTitle": {
+          "$ref": "#/$defs/sectionTitle"
+        },
+        "imageAlt": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "number"
+        },
+        "distance": {
+          "type": "string"
+        },
+        "deliveryTime": {
+          "type": "string"
+        },
+        "deliveryFee": {
+          "type": "string"
+        },
+        "promoBadgeText": {
+          "type": "string"
+        },
+        "opensPage": {
+          "const": "store"
+        }
+      },
+      "required": [
+        "sectionTitle",
+        "imageAlt",
+        "name",
+        "deliveryFee"
+      ]
+    },
+    "cartIconButton": {
+      "type": "object",
+      "description": "Top-right red cart button showing item count and opening the cart sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemCount": {
+          "type": "integer"
+        },
+        "opensModal": {
+          "const": "cartSidebarModal"
+        }
+      },
+      "required": [
+        "itemCount",
+        "opensModal"
+      ]
+    },
+    "cartSidebarModal.checkoutButton": {
+      "type": "object",
+      "description": "Checkout button at the top of the cart sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Checkout"
+        },
+        "cartTotal": {
+          "type": "string",
+          "examples": [
+            "$12.59"
+          ]
+        },
+        "opensPage": {
+          "const": "checkout"
+        }
+      },
+      "required": [
+        "label",
+        "cartTotal",
+        "opensPage"
+      ]
+    },
+    "cartSidebarModal.closeButton": {
+      "type": "object",
+      "description": "Close icon button in the cart sidebar modal header",
+      "x-visibleCount": 1,
+      "properties": {},
+      "required": []
+    },
+    "cartSidebarModal.cartItemQuantityStepper": {
+      "type": "object",
+      "description": "Quantity control for a line item in the cart sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "unitPrice": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName",
+        "quantity",
+        "unitPrice"
+      ]
+    },
+    "cartSidebarModal.cartItemDeleteButton": {
+      "type": "object",
+      "description": "Trash/delete button for removing a line item from the cart in the sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1195 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8453025817871094,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0041420459747314,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1262109279632568,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2523486614227295,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.733241319656372,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.952880859375,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0885353088378906,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7686855792999268,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2437655925750732,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1138086318969727,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0977911949157715,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8438520431518555,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.224735975265503,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9976730346679688,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8241157531738281,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1039786338806152,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1428875923156738,
+    "estimated_cost": 162.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7080929279327393,
+    "estimated_cost": 162.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.859196662902832,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0297813415527344,
+    "estimated_cost": 391.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.832456111907959,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8451039791107178,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9894042015075684,
+    "estimated_cost": 10.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9549453258514404,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3904454708099365,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0441844463348389,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9510540962219238,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.031726360321045,
+    "estimated_cost": 456.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9496181011199951,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8022058010101318,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8495993614196777,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7337052822113037,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.130357265472412,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9670059680938721,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7997298240661621,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2619836330413818,
+    "estimated_cost": 10.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4311730861663818,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1305336952209473,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2554316520690918,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.242859125137329,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.813939094543457,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2417995929718018,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3783862590789795,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8296494483947754,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.805647611618042,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3775339126586914,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.900921106338501,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7935328483581543,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8810691833496094,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9884142875671387,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9735879898071289,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9366765022277832,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9240775108337402,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7119956016540527,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3963830471038818,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.97296142578125,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8099226951599121,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.245442628860474,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3239610195159912,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.150521993637085,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7438478469848633,
+    "estimated_cost": 258.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.7955224514007568,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.945227861404419,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9681854248046875,
+    "estimated_cost": 0.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

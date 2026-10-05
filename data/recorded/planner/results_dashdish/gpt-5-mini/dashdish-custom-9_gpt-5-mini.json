@@ -1,0 +1,1534 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.638811111450195,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 295: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 308: error[unresolved-reference] Name `collected` used when not defined\nLine 311: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 295: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 308: error[unresolved-reference] Name `collected` used when not defined\nLine 311: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.70292067527771,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.81087040901184,
+    "estimated_cost": 224.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 295: error[unresolved-reference] Name `stores` used when not defined\nLine 303: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 324: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 349: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 350: error[unresolved-reference] Name `stores` used when not defined\nLine 363: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 295: error[unresolved-reference] Name `stores` used when not defined\nLine 303: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 324: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 349: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 350: error[unresolved-reference] Name `stores` used when not defined\nLine 363: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.50050377845764,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.637240409851074,
+    "estimated_cost": 12433.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 40.53431057929993,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 338: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 338: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.87735104560852,
+    "estimated_cost": 334.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 333: error[unresolved-reference] Name `prices` used when not defined\nLine 335: error[unresolved-reference] Name `prices` used when not defined\nLine 344: error[unresolved-reference] Name `prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 333: error[unresolved-reference] Name `prices` used when not defined\nLine 335: error[unresolved-reference] Name `prices` used when not defined\nLine 344: error[unresolved-reference] Name `prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.229993104934692,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.797849893569946,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 309: error[unresolved-reference] Name `best` used when not defined\nLine 309: error[unresolved-reference] Name `best` used when not defined\nLine 310: error[unresolved-reference] Name `best` used when not defined\nLine 317: error[unresolved-reference] Name `best` used when not defined\nLine 324: error[unresolved-reference] Name `best` used when not defined\nLine 325: error[unresolved-reference] Name `best` used when not defined\nLine 326: error[unresolved-reference] Name `best` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 309: error[unresolved-reference] Name `best` used when not defined\nLine 309: error[unresolved-reference] Name `best` used when not defined\nLine 310: error[unresolved-reference] Name `best` used when not defined\nLine 317: error[unresolved-reference] Name `best` used when not defined\nLine 324: error[unresolved-reference] Name `best` used when not defined\nLine 325: error[unresolved-reference] Name `best` used when not defined\nLine 326: error[unresolved-reference] Name `best` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.302507400512695,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.037113904953003,
+    "estimated_cost": 212.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 303: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 317: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 337: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 352: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 303: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 317: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 337: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 352: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.798089027404785,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.023344039916992,
+    "estimated_cost": 313.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 298: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 298: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.22516965866089,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.033735513687134,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 303: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 317: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 334: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 350: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 303: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 317: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 334: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 350: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.857728719711304,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 311: error[unresolved-reference] Name `cheapest` used when not defined\nLine 312: error[unresolved-reference] Name `cheapest` used when not defined\nLine 313: error[unresolved-reference] Name `checked` used when not defined\nLine 315: error[unresolved-reference] Name `cheapest` used when not defined\nLine 318: error[unresolved-reference] Name `checked` used when not defined\nLine 323: error[unresolved-reference] Name `cheapest` used when not defined\nLine 324: error[unresolved-reference] Name `cheapest` used when not defined\nLine 325: error[unresolved-reference] Name `cheapest` used when not defined\nLine 326: error[unresolved-reference] Name `cheapest` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 311: error[unresolved-reference] Name `cheapest` used when not defined\nLine 312: error[unresolved-reference] Name `cheapest` used when not defined\nLine 313: error[unresolved-reference] Name `checked` used when not defined\nLine 315: error[unresolved-reference] Name `cheapest` used when not defined\nLine 318: error[unresolved-reference] Name `checked` used when not defined\nLine 323: error[unresolved-reference] Name `cheapest` used when not defined\nLine 324: error[unresolved-reference] Name `cheapest` used when not defined\nLine 325: error[unresolved-reference] Name `cheapest` used when not defined\nLine 326: error[unresolved-reference] Name `cheapest` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.863131761550903,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.717564582824707,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.844088077545166,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 327: error[unresolved-reference] Name `found` used when not defined\nLine 329: error[unresolved-reference] Name `found` used when not defined\nLine 335: error[unresolved-reference] Name `found` used when not defined\nLine 341: error[unresolved-reference] Name `found` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 327: error[unresolved-reference] Name `found` used when not defined\nLine 329: error[unresolved-reference] Name `found` used when not defined\nLine 335: error[unresolved-reference] Name `found` used when not defined\nLine 341: error[unresolved-reference] Name `found` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.236315727233887,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 332: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 332: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.93220043182373,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 334: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 361: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 334: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 361: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.628084421157837,
+    "estimated_cost": 223.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.533642292022705,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.38612723350525,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.98348832130432,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `target_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `target_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.252728700637817,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 304: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 304: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.806196928024292,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 298: error[unresolved-reference] Name `prices_found` used when not defined\nLine 316: error[unresolved-reference] Name `prices_found` used when not defined\nLine 322: error[unresolved-reference] Name `prices_found` used when not defined\nLine 325: error[unresolved-reference] Name `prices_found` used when not defined\nLine 329: error[unresolved-reference] Name `prices_found` used when not defined\nLine 337: error[unresolved-reference] Name `prices_found` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 298: error[unresolved-reference] Name `prices_found` used when not defined\nLine 316: error[unresolved-reference] Name `prices_found` used when not defined\nLine 322: error[unresolved-reference] Name `prices_found` used when not defined\nLine 325: error[unresolved-reference] Name `prices_found` used when not defined\nLine 329: error[unresolved-reference] Name `prices_found` used when not defined\nLine 337: error[unresolved-reference] Name `prices_found` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.593544721603394,
+    "estimated_cost": 334.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 330: error[unresolved-reference] Name `found_prices` used when not defined\nLine 332: error[unresolved-reference] Name `found_prices` used when not defined\nLine 344: error[unresolved-reference] Name `found_prices` used when not defined\nLine 346: error[unresolved-reference] Name `found_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 330: error[unresolved-reference] Name `found_prices` used when not defined\nLine 332: error[unresolved-reference] Name `found_prices` used when not defined\nLine 344: error[unresolved-reference] Name `found_prices` used when not defined\nLine 346: error[unresolved-reference] Name `found_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.47002410888672,
+    "estimated_cost": 2818.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 52: unexpected character after line continuation character"
+        }
+      ],
+      "error_message": "Syntax error at line 52: unexpected character after line continuation character"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.094483613967896,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.564424514770508,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `target_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `target_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.71357774734497,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.946906566619873,
+    "estimated_cost": 213.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 229: error[unresolved-reference] Name `collected` used when not defined\nLine 230: error[unresolved-reference] Name `collected` used when not defined\nLine 236: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 229: error[unresolved-reference] Name `collected` used when not defined\nLine 230: error[unresolved-reference] Name `collected` used when not defined\nLine 236: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.73643445968628,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.94980764389038,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.19725751876831,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 233: error[unresolved-reference] Name `store_fries_prices` used when not defined\nLine 248: error[unresolved-reference] Name `store_fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 233: error[unresolved-reference] Name `store_fries_prices` used when not defined\nLine 248: error[unresolved-reference] Name `store_fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.712373733520508,
+    "estimated_cost": 212.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.31319832801819,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest` used when not defined\nLine 222: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest` used when not defined\nLine 222: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.60381507873535,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 223: error[unresolved-reference] Name `cheapest` used when not defined\nLine 223: error[unresolved-reference] Name `cheapest` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 223: error[unresolved-reference] Name `cheapest` used when not defined\nLine 223: error[unresolved-reference] Name `cheapest` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.08317232131958,
+    "estimated_cost": 212.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.365800380706787,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 242: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 242: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.302183866500854,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 228: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 228: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.64938235282898,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 197: error[unresolved-reference] Name `target_stores` used when not defined\nLine 205: error[unresolved-reference] Name `stores_data` used when not defined\nLine 224: error[unresolved-reference] Name `stores_data` used when not defined\nLine 226: error[unresolved-reference] Name `stores_data` used when not defined\nLine 229: error[unresolved-reference] Name `stores_data` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 197: error[unresolved-reference] Name `target_stores` used when not defined\nLine 205: error[unresolved-reference] Name `stores_data` used when not defined\nLine 224: error[unresolved-reference] Name `stores_data` used when not defined\nLine 226: error[unresolved-reference] Name `stores_data` used when not defined\nLine 229: error[unresolved-reference] Name `stores_data` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.497102737426758,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 220: error[unresolved-reference] Name `cheapest` used when not defined\nLine 220: error[unresolved-reference] Name `cheapest` used when not defined\nLine 221: error[unresolved-reference] Name `cheapest` used when not defined\nLine 227: error[unresolved-reference] Name `cheapest` used when not defined\nLine 230: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 235: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 236: error[unresolved-reference] Name `cheapest` used when not defined\nLine 237: error[unresolved-reference] Name `cheapest` used when not defined\nLine 238: error[unresolved-reference] Name `cheapest` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 220: error[unresolved-reference] Name `cheapest` used when not defined\nLine 220: error[unresolved-reference] Name `cheapest` used when not defined\nLine 221: error[unresolved-reference] Name `cheapest` used when not defined\nLine 227: error[unresolved-reference] Name `cheapest` used when not defined\nLine 230: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 235: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 236: error[unresolved-reference] Name `cheapest` used when not defined\nLine 237: error[unresolved-reference] Name `cheapest` used when not defined\nLine 238: error[unresolved-reference] Name `cheapest` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.497262716293335,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 217: error[unresolved-reference] Name `collected` used when not defined\nLine 221: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 217: error[unresolved-reference] Name `collected` used when not defined\nLine 221: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.338207960128784,
+    "estimated_cost": 112.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 215: error[unresolved-reference] Name `found_prices` used when not defined\nLine 216: error[unresolved-reference] Name `found_prices` used when not defined\nLine 221: error[unresolved-reference] Name `found_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 215: error[unresolved-reference] Name `found_prices` used when not defined\nLine 216: error[unresolved-reference] Name `found_prices` used when not defined\nLine 221: error[unresolved-reference] Name `found_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 45.42421245574951,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 210: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 234: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 242: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 210: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 234: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 242: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 50.942147731781006,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `targets` used when not defined\nLine 241: error[unresolved-reference] Name `targets` used when not defined\nLine 247: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `targets` used when not defined\nLine 241: error[unresolved-reference] Name `targets` used when not defined\nLine 247: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.190744876861572,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.01380467414856,
+    "estimated_cost": 212.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.05458116531372,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.628472805023193,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> compile(...) [unknown] -> items(...) [unknown] -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> compile(...) [unknown] -> items(...) [unknown] -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.14956569671631,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> min(...) [unknown] -> append(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 62.57614016532898,
+    "estimated_cost": 112.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 197: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 200: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 202: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 231: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 240: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> list_menu_items -> lower(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 197: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 200: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 202: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 231: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 240: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.409383296966553,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.795787572860718,
+    "estimated_cost": 112.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 197: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 200: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 209: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: set(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 197: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 200: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 209: error[unresolved-reference] Name `store_candidates` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.90336799621582,
+    "estimated_cost": 212.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 204: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 221: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 254: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 263: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 204: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 221: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 254: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 263: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.41398596763611,
+    "estimated_cost": 1612.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 3: unindent does not match any outer indentation level"
+        }
+      ],
+      "error_message": "Syntax error at line 3: unindent does not match any outer indentation level"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.82401967048645,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.271409511566162,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `desired_stores` used when not defined\nLine 228: error[unresolved-reference] Name `desired_stores` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> compile(...) [unknown] -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `desired_stores` used when not defined\nLine 228: error[unresolved-reference] Name `desired_stores` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.042461156845093,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 198: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> goto_store -> list_menu_items -> lower(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 198: error[unresolved-reference] Name `targets` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.72301697731018,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 219: error[unresolved-reference] Name `cheapest` used when not defined\nLine 219: error[unresolved-reference] Name `cheapest` used when not defined\nLine 229: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 219: error[unresolved-reference] Name `cheapest` used when not defined\nLine 219: error[unresolved-reference] Name `cheapest` used when not defined\nLine 229: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.563435792922974,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> compile(...) [unknown] -> goto_store -> list_menu_items -> min(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> compile(...) [unknown] -> goto_store -> list_menu_items -> min(...) [unknown] -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.08841037750244,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 214: error[unresolved-reference] Name `cheapest_price` used when not defined\nLine 214: error[unresolved-reference] Name `cheapest_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 214: error[unresolved-reference] Name `cheapest_price` used when not defined\nLine 214: error[unresolved-reference] Name `cheapest_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

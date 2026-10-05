@@ -1,0 +1,1270 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4394478797912598,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.090320348739624,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.063312530517578,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 315: error[unresolved-reference] Name `z` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 315: error[unresolved-reference] Name `z` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4950578212738037,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.098233222961426,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 325: error[unresolved-attribute] Object of type `tuple[str, Any]` has no attribute `name`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 325: error[unresolved-attribute] Object of type `tuple[str, Any]` has no attribute `name`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.289689302444458,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 316: error[unresolved-attribute] Object of type `CoroutineType[Any, Any, ListAllStoresOutput]` has no attribute `items`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 316: error[unresolved-attribute] Object of type `CoroutineType[Any, Any, ListAllStoresOutput]` has no attribute `items`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.022787570953369,
+    "estimated_cost": 30.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0370237827301025,
+    "estimated_cost": 41.00000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3819329738616943,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8672237396240234,
+    "estimated_cost": 919.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.852762222290039,
+    "estimated_cost": 929.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0394294261932373,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1241090297698975,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.954042911529541,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 296: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 300: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 324: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Line 296: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 300: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 324: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0686614513397217,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0165317058563232,
+    "estimated_cost": 926.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.034482002258301,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 315: error[unresolved-attribute] Object of type `list[Unknown]` has no attribute `items`\nLine 315: error[unresolved-attribute] Object of type `tuple[str, Any]` has no attribute `name`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 315: error[unresolved-attribute] Object of type `list[Unknown]` has no attribute `items`\nLine 315: error[unresolved-attribute] Object of type `tuple[str, Any]` has no attribute `name`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3931803703308105,
+    "estimated_cost": 10.700000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4176321029663086,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.301290273666382,
+    "estimated_cost": 20.900000000000002,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 311: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 311: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0185494422912598,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6234405040740967,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4875452518463135,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1487221717834473,
+    "estimated_cost": 31.000000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7230165004730225,
+    "estimated_cost": 1141.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.450380802154541,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.460538625717163,
+    "estimated_cost": 20.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.667769193649292,
+    "estimated_cost": 41.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> get_item_details -> float(...) [unknown] -> replace(...) [unknown] -> goto_checkout"
+        }
+      ],
+      "error_message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> get_item_details -> float(...) [unknown] -> replace(...) [unknown] -> goto_checkout"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4194133281707764,
+    "estimated_cost": 1203.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1568784713745117,
+    "estimated_cost": 0.7000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.268107652664185,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.4051382541656494,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.727196931838989,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.488497495651245,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.092453956604004,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.776533603668213,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.288659572601318,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.215759515762329,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.513787746429443,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.270021438598633,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.996840000152588,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.106806516647339,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> ai_eval(...) [unknown] -> filter_stores -> goto_store -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> ai_eval(...) [unknown] -> filter_stores -> goto_store -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.215941667556763,
+    "estimated_cost": 30.999999999999993,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.4142396450042725,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.866500377655029,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.887089729309082,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.0529444217681885,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.672539472579956,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.352176666259766,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.215437889099121,
+    "estimated_cost": 40.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.145989179611206,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.408507823944092,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.393474340438843,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.355633497238159,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.766233682632446,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.2145891189575195,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.8665242195129395,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.359671115875244,
+    "estimated_cost": 1757.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.164060354232788,
+    "estimated_cost": 1648.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.9515302181243896,
+    "estimated_cost": 2141.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.557913064956665,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.4905009269714355,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_categories -> ai_eval(...) [unknown] -> filter_by_category -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.746805429458618,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.957961320877075,
+    "estimated_cost": 20.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

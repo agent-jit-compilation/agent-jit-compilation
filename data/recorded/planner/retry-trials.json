@@ -1,0 +1,2326 @@
+{
+  "sources": [
+    {
+      "path": "experiments/results_retry/webarena-747_gpt-5.json",
+      "sha256": "17b2d0f4824af2e8040ffa138cc2023bc0e993c7728174ed3a6ad837d239d1ed"
+    },
+    {
+      "path": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "sha256": "46ede42b405c1924d967e8ca2513504577ee978e7fdcbc8b37123e405872b92e"
+    },
+    {
+      "path": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "sha256": "74a4d3657873d989a6af919a2834ea66bd30d46786e80b1cfdd8b612e8366bf0"
+    },
+    {
+      "path": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "sha256": "c8487b33db5750f67daa5951138f77a4b87edbd93d956cd9246f3b9cf60a0dbe"
+    }
+  ],
+  "trials": [
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.369728326797485,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 0
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 12.69367003440857,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 1
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.59192156791687,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 2
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.89863920211792,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 3
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 12.07163953781128,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 4
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.895326614379883,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 5
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.37900686264038,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 6
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.311606168746948,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 7
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.87517499923706,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 8
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.421387672424316,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 9
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 10.486420392990112,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 10
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 24.214488744735718,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 11
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.689193725585938,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 12
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 12.705462217330933,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 13
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 10.867472410202026,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 14
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 16.18370246887207,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 15
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.685842990875244,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 16
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 12.326643466949463,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 17
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.239459991455078,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 18
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.259883165359497,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 19
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 19.22636604309082,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 20
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 22.925926446914673,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 21
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.485702991485596,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 22
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 16.114036798477173,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 23
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 12.490828514099121,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 24
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 11.992295026779175,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 25
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.395886421203613,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 26
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.517083644866943,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 27
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 19.11830425262451,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 28
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.077052354812622,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 29
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.192637205123901,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 30
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.174554586410522,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 31
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 22.95379114151001,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 32
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 50.75362777709961,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 33
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.769841194152832,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 34
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 17.802810668945312,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 35
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 36.85877275466919,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 36
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 52.77004671096802,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 37
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 29.823440074920654,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 38
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 20.5462589263916,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 39
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.78604507446289,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 40
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 51.24372148513794,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 41
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 34.93618607521057,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 42
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 42.137701988220215,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 43
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 47.56733989715576,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 44
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 37.359638929367065,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 45
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 30.91111135482788,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 46
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 27.329214811325073,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 47
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 54.69865918159485,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 48
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 42.46926546096802,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 49
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 29.41193461418152,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 50
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 24.78807759284973,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 51
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 15.782104969024658,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 52
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 22.78474450111389,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 53
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 31.860535383224487,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 54
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 26.69532608985901,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 55
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 39.13414287567139,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 56
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 44.24480748176575,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 57
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 25.919515371322632,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 58
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 22.24449396133423,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 59
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 33.13374471664429,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 60
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 22.338480234146118,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 61
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 31.3079891204834,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 62
+    },
+    {
+      "condition": "retry",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 22.2234947681427,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gpt-5.json",
+      "source_index": 63
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.7648193836212158,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 0
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.5835309028625488,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 1
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.9203007221221924,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 2
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.244567632675171,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 3
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.351835012435913,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 4
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.371450424194336,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 5
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.5144004821777344,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 6
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.016554355621338,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 7
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 3.5675384998321533,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 8
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 3.386003017425537,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 9
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.5122292041778564,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 10
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.8703370094299316,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 11
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.5151259899139404,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 12
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.3225915431976318,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 13
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.9516487121582031,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 14
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.779700517654419,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 15
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.374465227127075,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 16
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.9094727039337158,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 17
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.9480769634246826,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 18
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.198428153991699,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 19
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.7565505504608154,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 20
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.5227272510528564,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 21
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.8320856094360352,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 22
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.9801380634307861,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 23
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 3.0987329483032227,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 24
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.1046974658966064,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 25
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.7650110721588135,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 26
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.5761158466339111,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 27
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.5353381633758545,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 28
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.3617160320281982,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 29
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.3387458324432373,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 30
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.5198047161102295,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 31
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.132077693939209,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 32
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.2731587886810303,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 33
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.5839507579803467,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 34
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.4141833782196045,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 35
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.867241621017456,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 36
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.7445530891418457,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 37
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.2104771137237549,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 38
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.869584321975708,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 39
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.265284061431885,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 40
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 5.237354755401611,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 41
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.755795478820801,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 42
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.2683565616607666,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 43
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.6852617263793945,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 44
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.7398533821105957,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 45
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.8313519954681396,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 46
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.215316534042358,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 47
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.6301963329315186,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 48
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.770815372467041,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 49
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 5.021387815475464,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 50
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.8510870933532715,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 51
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.8772683143615723,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 52
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.5061352252960205,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 53
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.4663870334625244,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 54
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.954982042312622,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 55
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.6785895824432373,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 56
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.1284947395324707,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 57
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.03321647644043,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 58
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.214400291442871,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 59
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.5087974071502686,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 60
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.283088207244873,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 61
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.1401796340942383,
+      "valid": true,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 62
+    },
+    {
+      "condition": "retry",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 4.458374738693237,
+      "valid": false,
+      "source": "experiments/results_retry/webarena-747_gemini-2.5-flash.json",
+      "source_index": 63
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.715400457382202,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 0
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.20863676071167,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 1
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.440603256225586,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 2
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.06224799156189,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 3
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 17.659078121185303,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 4
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.8017258644104,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 5
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 20.846115350723267,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 6
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.001047849655151,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 7
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 12.404433250427246,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 8
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 13.098765850067139,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 9
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.180694818496704,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 10
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 18.12752056121826,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 11
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 18.169455528259277,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 12
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 17.325950622558594,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 13
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 20.58255386352539,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 14
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 21.55750036239624,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 15
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 18.7856125831604,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 16
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 16.15262746810913,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 17
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.71678376197815,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 18
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 21.68905782699585,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 19
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 18.587645769119263,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 20
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 21.34460949897766,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 21
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.330020666122437,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 22
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 19.52728509902954,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 23
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 15.999407291412354,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 24
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 17.635783910751343,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 25
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 17.651198387145996,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 26
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 17.958361864089966,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 27
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 21.635168075561523,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 28
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 21.321946382522583,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 29
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 14.068997621536255,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 30
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": true,
+      "latency_s": 20.482475519180298,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 31
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 16.282509088516235,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 32
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.55188250541687,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 33
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 16.962071418762207,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 34
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 23.963762998580933,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 35
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.958587408065796,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 36
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.781118392944336,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 37
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 16.511043548583984,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 38
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 17.107207536697388,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 39
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.433166980743408,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 40
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.803017616271973,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 41
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.103751420974731,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 42
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 20.621554374694824,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 43
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.680919885635376,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 44
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.3838210105896,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 45
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 10.843161821365356,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 46
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 40.455416440963745,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 47
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 23.414916038513184,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 48
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.423408508300781,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 49
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 20.300358772277832,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 50
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 24.312228679656982,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 51
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 22.880268335342407,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 52
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 15.183084487915039,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 53
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 17.781703233718872,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 54
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.663336992263794,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 55
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 20.59400463104248,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 56
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 18.57102608680725,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 57
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 10.317580699920654,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 58
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 14.893934965133667,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 59
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 16.837079763412476,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 60
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 19.5536048412323,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 61
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 17.996928691864014,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 62
+    },
+    {
+      "condition": "retry_single",
+      "model": "gpt-5",
+      "protocol": false,
+      "latency_s": 23.691574573516846,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gpt-5.json",
+      "source_index": 63
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.6010727882385254,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 0
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.6935510635375977,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 1
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.3280773162841797,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 2
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.2143986225128174,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 3
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.4790666103363037,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 4
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.7882664203643799,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 5
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.332426071166992,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 6
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.8224551677703857,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 7
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.7962918281555176,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 8
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.287482261657715,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 9
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.8486948013305664,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 10
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.9947657585144043,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 11
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.405893325805664,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 12
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.4010636806488037,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 13
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.2028663158416748,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 14
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.0240163803100586,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 15
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 3.2904300689697266,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 16
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.9527781009674072,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 17
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.268771171569824,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 18
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.5680146217346191,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 19
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.0693435668945312,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 20
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.72495698928833,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 21
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.206082582473755,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 22
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.4581072330474854,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 23
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.411778450012207,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 24
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.8938255310058594,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 25
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.7142126560211182,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 26
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.186393976211548,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 27
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.497528076171875,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 28
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.9905247688293457,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 29
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 1.4825572967529297,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 30
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": true,
+      "latency_s": 2.1163439750671387,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 31
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.78501558303833,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 32
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.129828453063965,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 33
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.442809820175171,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 34
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.9428369998931885,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 35
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.0411875247955322,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 36
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.220181941986084,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 37
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.5369219779968262,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 38
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.1929419040679932,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 39
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.7132647037506104,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 40
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.1570637226104736,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 41
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.441730499267578,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 42
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.9537103176116943,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 43
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.7631547451019287,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 44
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.7710723876953125,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 45
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.496778726577759,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 46
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.580359935760498,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 47
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.7246379852294922,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 48
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.3137552738189697,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 49
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.3683700561523438,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 50
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.1438162326812744,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 51
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.8060505390167236,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 52
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.9527413845062256,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 53
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.450493335723877,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 54
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.1144402027130127,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 55
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.0931754112243652,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 56
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 3.1177709102630615,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 57
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.468590259552002,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 58
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.978241205215454,
+      "valid": true,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 59
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.801553726196289,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 60
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.4741053581237793,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 61
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 2.0893967151641846,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 62
+    },
+    {
+      "condition": "retry_single",
+      "model": "gemini-2.5-flash",
+      "protocol": false,
+      "latency_s": 1.6011242866516113,
+      "valid": false,
+      "source": "experiments/results_retry_single/webarena-747_gemini-2.5-flash.json",
+      "source_index": 63
+    }
+  ]
+}

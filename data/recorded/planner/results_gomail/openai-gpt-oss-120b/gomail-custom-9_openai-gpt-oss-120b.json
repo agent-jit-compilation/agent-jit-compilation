@@ -1,0 +1,1174 @@
+[
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.041390895843506,
+    "estimated_cost": 201.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8819584846496582,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2428314685821533,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7086224555969238,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4838979244232178,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.152827024459839,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8066380023956299,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.975318431854248,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7815771102905273,
+    "estimated_cost": 10.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `sent` used when not defined\nLine 226: error[unresolved-reference] Name `sent` used when not defined\nLine 228: error[unresolved-reference] Name `sent` used when not defined\nLine 230: error[unresolved-reference] Name `sent` used when not defined\nLine 231: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `sent` used when not defined\nLine 226: error[unresolved-reference] Name `sent` used when not defined\nLine 228: error[unresolved-reference] Name `sent` used when not defined\nLine 230: error[unresolved-reference] Name `sent` used when not defined\nLine 231: error[unresolved-reference] Name `sent` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.109992504119873,
+    "estimated_cost": 10.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8417210578918457,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3475697040557861,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.199742078781128,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 225: error[unresolved-reference] Name `subject` used when not defined\nLine 225: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 225: error[unresolved-reference] Name `subject` used when not defined\nLine 225: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6454308032989502,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3325951099395752,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1922905445098877,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9623923301696777,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.432267427444458,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7893328666687012,
+    "estimated_cost": 211.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0474810600280762,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0511114597320557,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0537991523742676,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3596923351287842,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4559094905853271,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2002854347229004,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5264840126037598,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5175998210906982,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 225: error[unresolved-reference] Name `subject` used when not defined\nLine 225: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `recipients` used when not defined\nLine 225: error[unresolved-reference] Name `subject` used when not defined\nLine 225: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0193045139312744,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2360777854919434,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5157523155212402,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1878063678741455,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4151480197906494,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1582424640655518,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4793295860290527,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3209526538848877,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `responses` used when not defined\nLine 147: error[unresolved-reference] Name `responses` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `responses` used when not defined\nLine 147: error[unresolved-reference] Name `responses` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8705224990844727,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2707977294921875,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `subject` used when not defined\nLine 146: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `subject` used when not defined\nLine 146: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2663662433624268,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.224116325378418,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0656218528747559,
+    "estimated_cost": 10.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3797175884246826,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5129060745239258,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.021092414855957,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6620948314666748,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1478638648986816,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 155: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 155: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7001543045043945,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `send_results` used when not defined\nLine 147: error[unresolved-reference] Name `send_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `send_results` used when not defined\nLine 147: error[unresolved-reference] Name `send_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9952802658081055,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1868572235107422,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.626495361328125,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.421154260635376,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2675402164459229,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0568175315856934,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `subject` used when not defined\nLine 146: error[unresolved-reference] Name `body` used when not defined\nLine 148: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `subject` used when not defined\nLine 146: error[unresolved-reference] Name `body` used when not defined\nLine 148: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0890073776245117,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.502852201461792,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 155: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 155: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4232292175292969,
+    "estimated_cost": 1269.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 20: f-string: f-string: unmatched '['"
+        }
+      ],
+      "error_message": "Syntax error at line 20: f-string: f-string: unmatched '['"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1392860412597656,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0481228828430176,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1848649978637695,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `subject` used when not defined\nLine 146: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 146: error[unresolved-reference] Name `subject` used when not defined\nLine 146: error[unresolved-reference] Name `body` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.269402027130127,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.412367820739746,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3435523509979248,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `subject` used when not defined\nLine 144: error[unresolved-reference] Name `body` used when not defined\nLine 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `subject` used when not defined\nLine 144: error[unresolved-reference] Name `body` used when not defined\nLine 144: error[unresolved-reference] Name `recipients` used when not defined\nLine 145: error[unresolved-reference] Name `recipients` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3276896476745605,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2689268589019775,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "openai/gpt-oss-120b",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4593563079833984,
+    "estimated_cost": 21.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "task": "gomail-custom-1",
+    "selected_strategy": "baseline",
+    "overhead": 4.931
+  },
+  {
+    "task": "gomail-custom-2",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 14.6879
+  },
+  {
+    "task": "gomail-custom-3",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 8.0614
+  },
+  {
+    "task": "gomail-custom-4",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 12.5782
+  },
+  {
+    "task": "gomail-custom-5",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 8.1037
+  },
+  {
+    "task": "gomail-custom-6",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 8.9162
+  },
+  {
+    "task": "gomail-custom-7",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 10.2145
+  },
+  {
+    "task": "gomail-custom-8",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 7.2565
+  },
+  {
+    "task": "gomail-custom-9",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 7.0086
+  }
+]

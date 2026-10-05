@@ -1,0 +1,564 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omnizon Returns & Orders Page Schema",
+  "type": "object",
+  "properties": {},
+  "$defs": {
+    "siteSectionTitle": {
+      "type": "string",
+      "description": "Titles of the visible content sections on the main page",
+      "enum": [
+        "Top categories in Kitchen appliances",
+        "Gift for People!",
+        "Shop for your home essentials",
+        "Home d\u00e9cor under $50",
+        "Refresh your space",
+        "Shop deals in Fashion",
+        "Get your game on",
+        "Beauty steals under $25",
+        "Top sellers in Kitchen",
+        "Level up your beauty routine",
+        "Wireless Tech",
+        "Fantastic Finds for Home",
+        "Explore more in Sports",
+        "Top sellers in Technology"
+      ]
+    },
+    "topNavCategoryName": {
+      "type": "string",
+      "enum": [
+        "Gift",
+        "Toy",
+        "Home",
+        "Gaming",
+        "Cosmetic",
+        "Headphones",
+        "Coffee",
+        "Kitchen"
+      ]
+    },
+    "homeLogoLink": {
+      "type": "object",
+      "description": "Clickable Omnizon logo that navigates to the main page",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "const": "Home"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "opensPage"
+      ]
+    },
+    "deliveryLocationButton": {
+      "type": "object",
+      "description": "Clickable delivery location area showing recipient and city",
+      "x-visibleCount": 4,
+      "properties": {
+        "labelLine1": {
+          "type": "string",
+          "const": "Deliver to"
+        },
+        "recipientName": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string",
+          "examples": [
+            "DALY CITY"
+          ]
+        }
+      },
+      "required": [
+        "labelLine1",
+        "recipientName",
+        "city"
+      ]
+    },
+    "searchTextInput": {
+      "type": "object",
+      "description": "Main search text input field in the header",
+      "x-visibleCount": 4,
+      "properties": {
+        "type": {
+          "const": "text"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "required": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "searchSubmitButton": {
+      "type": "object",
+      "description": "Search icon button that submits the header search",
+      "x-visibleCount": 4,
+      "properties": {
+        "ariaLabel": {
+          "const": "Search"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "search_results"
+        }
+      },
+      "required": [
+        "ariaLabel"
+      ]
+    },
+    "returnsAndOrdersLink": {
+      "type": "object",
+      "description": "Header link for Returns & Orders",
+      "x-visibleCount": 4,
+      "properties": {
+        "line1": {
+          "const": "Returns"
+        },
+        "line2": {
+          "const": "& Orders"
+        },
+        "opensPage": {
+          "const": "returns_and_orders"
+        }
+      },
+      "required": [
+        "line1",
+        "line2"
+      ]
+    },
+    "shoppingCartLink": {
+      "type": "object",
+      "description": "Header shopping cart control that opens the cart page",
+      "x-visibleCount": 4,
+      "properties": {
+        "ariaLabel": {
+          "const": "Shopping Cart"
+        },
+        "itemCountLabel": {
+          "type": "string"
+        },
+        "label": {
+          "const": "Cart"
+        },
+        "opensPage": {
+          "const": "cart"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "label"
+      ]
+    },
+    "topNavCategoryLink": {
+      "type": "object",
+      "description": "Top navigation bar category labels (Gift, Toy, Home, etc.) that are visually separate clickable areas",
+      "x-visibleCount": 8,
+      "x-visibleCounts": {
+        "Gift": 1,
+        "Toy": 1,
+        "Home": 1,
+        "Gaming": 1,
+        "Cosmetic": 1,
+        "Headphones": 1,
+        "Coffee": 1,
+        "Kitchen": 1
+      },
+      "properties": {
+        "categoryName": {
+          "$ref": "#/$defs/topNavCategoryName"
+        },
+        "opensPage": {
+          "const": "search_results"
+        }
+      },
+      "required": [
+        "categoryName"
+      ]
+    },
+    "footerBackToTopLink": {
+      "type": "object",
+      "description": "Centered 'Back to top' text that scrolls the page to the top",
+      "x-visibleCount": 3,
+      "properties": {
+        "text": {
+          "const": "Back to top"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "footerNavLink": {
+      "type": "object",
+      "description": "Footer navigation text links under different footer headings",
+      "x-visibleCount": 10,
+      "x-visibleCounts": {
+        "About Omnizon": 3,
+        "Shopping": 2,
+        "Account": 2,
+        "Customer Service": 3
+      },
+      "properties": {
+        "groupTitle": {
+          "type": "string",
+          "enum": [
+            "About Omnizon",
+            "Shopping",
+            "Account",
+            "Customer Service"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "enum": [
+            "About Us",
+            "Privacy Policy",
+            "Terms of Service",
+            "Browse Products",
+            "Shopping Cart",
+            "Your Orders",
+            "Returns & Exchanges",
+            "Help & Support",
+            "Shipping Information",
+            "Return Policy"
+          ]
+        }
+      },
+      "required": [
+        "groupTitle",
+        "text"
+      ]
+    },
+    "ordersTabName": {
+      "type": "string",
+      "description": "Tab labels within the 'Your Orders' section",
+      "enum": [
+        "Orders",
+        "Buy Again",
+        "Not Yet Shipped",
+        "Cancelled Orders"
+      ]
+    },
+    "ordersTabButton": {
+      "type": "object",
+      "description": "Tab buttons at the top of the 'Your Orders' page for switching between order views",
+      "x-visibleCount": 4,
+      "x-visibleCounts": {
+        "Orders": 1,
+        "Buy Again": 1,
+        "Not Yet Shipped": 1,
+        "Cancelled Orders": 1
+      },
+      "properties": {
+        "role": {
+          "const": "tab"
+        },
+        "text": {
+          "$ref": "#/$defs/ordersTabName"
+        },
+        "selected": {
+          "type": "boolean"
+        },
+        "invalid": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "role",
+        "text",
+        "selected"
+      ]
+    },
+    "ordersSummaryHeader": {
+      "type": "object",
+      "description": "Non-interactive summary line indicating how many orders are in the current view",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "ordersOrderCard": {
+      "type": "object",
+      "description": "Non-clickable summary header row for each order showing placement date, total, ship to, order number, or cancellation information",
+      "x-visibleCount": 11,
+      "properties": {
+        "statusContext": {
+          "type": "string",
+          "enum": [
+            "Orders",
+            "Not Yet Shipped",
+            "Cancelled Orders"
+          ]
+        },
+        "orderPlacedLabel": {
+          "type": "string",
+          "enum": [
+            "ORDER PLACED",
+            "CANCELLED AT"
+          ]
+        },
+        "orderPlacedDate": {
+          "type": "string"
+        },
+        "totalLabel": {
+          "type": "string",
+          "const": "TOTAL"
+        },
+        "totalValue": {
+          "type": "string"
+        },
+        "shipToLabel": {
+          "type": "string"
+        },
+        "shipToName": {
+          "type": "string"
+        },
+        "orderNumberLabel": {
+          "type": "string",
+          "enum": [
+            "ORDER #",
+            "CANCELLATION #"
+          ]
+        },
+        "orderNumberValue": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "statusContext",
+        "orderPlacedLabel",
+        "orderPlacedDate",
+        "totalLabel",
+        "totalValue",
+        "orderNumberLabel",
+        "orderNumberValue"
+      ]
+    },
+    "ordersShipmentItemCard": {
+      "type": "object",
+      "description": "Area within an order showing a single product in a shipment; clicking the product title navigates to the product details page",
+      "x-visibleCount": 22,
+      "x-visibleCounts": {
+        "order-1": 2,
+        "order-2": 1,
+        "order-3": 2,
+        "order-4": 2,
+        "order-5": 1,
+        "order-6": 3,
+        "order-7": 2,
+        "order-8": 2,
+        "order-9": 3,
+        "order-10": 1,
+        "order-11": 3
+      },
+      "properties": {
+        "statusContext": {
+          "type": "string",
+          "enum": [
+            "Orders",
+            "Not Yet Shipped",
+            "Cancelled Orders"
+          ]
+        },
+        "deliveryStatusLine": {
+          "type": "string"
+        },
+        "productTitle": {
+          "type": "string"
+        },
+        "soldByLabel": {
+          "type": "string",
+          "const": "Sold by:"
+        },
+        "sellerName": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "quantityLabel": {
+          "type": "string"
+        },
+        "opensPage": {
+          "const": "product_details"
+        }
+      },
+      "required": [
+        "statusContext",
+        "productTitle",
+        "soldByLabel",
+        "sellerName",
+        "price",
+        "opensPage"
+      ]
+    },
+    "ordersWriteReviewButton": {
+      "type": "object",
+      "description": "Buttons labeled 'Write a product review' shown for each purchased or cancelled item",
+      "x-visibleCount": 22,
+      "x-visibleCounts": {
+        "order-1": 2,
+        "order-2": 1,
+        "order-3": 2,
+        "order-4": 2,
+        "order-5": 1,
+        "order-6": 3,
+        "order-7": 2,
+        "order-8": 2,
+        "order-9": 3,
+        "order-10": 1,
+        "order-11": 3
+      },
+      "properties": {
+        "text": {
+          "const": "Write a product review"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "productTitle": {
+          "type": "string"
+        },
+        "opensPage": {
+          "const": "review"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "ordersPrintInvoiceButton": {
+      "type": "object",
+      "description": "Dark button labeled 'Print Invoice' for each order",
+      "x-visibleCount": 11,
+      "properties": {
+        "text": {
+          "const": "Print Invoice"
+        },
+        "invalid": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "ordersCancelOrderButton": {
+      "type": "object",
+      "description": "Orange button labeled 'Cancel order' for eligible orders",
+      "x-visibleCount": 8,
+      "properties": {
+        "text": {
+          "const": "Cancel order"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "cancellation"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "ordersReturnOrReplaceItemsButton": {
+      "type": "object",
+      "description": "Orange button labeled 'Return or replace items' for delivered orders",
+      "x-visibleCount": 3,
+      "properties": {
+        "text": {
+          "const": "Return or replace items"
+        },
+        "invalid": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "buyAgainSectionTitle": {
+      "type": "string",
+      "description": "Heading text for the Buy Again list",
+      "enum": [
+        "Buy Again"
+      ]
+    },
+    "buyAgainItemCard": {
+      "type": "object",
+      "description": "Non-clickable entry in the Buy Again grid showing a previously purchased product, seller, price, and purchased count",
+      "x-visibleCount": 8,
+      "properties": {
+        "sectionTitle": {
+          "$ref": "#/$defs/buyAgainSectionTitle"
+        },
+        "productTitle": {
+          "type": "string"
+        },
+        "soldByLabel": {
+          "type": "string",
+          "const": "Sold by:"
+        },
+        "sellerName": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "purchasedCountText": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sectionTitle",
+        "productTitle",
+        "soldByLabel",
+        "sellerName",
+        "price",
+        "purchasedCountText"
+      ]
+    },
+    "buyAgainAddToCartButton": {
+      "type": "object",
+      "description": "Yellow 'Add to cart' button for items in the Buy Again list",
+      "x-visibleCount": 8,
+      "properties": {
+        "text": {
+          "const": "Add to cart"
+        },
+        "ariaLabel": {
+          "type": "string"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "productTitle": {
+          "type": "string"
+        },
+        "opensPage": {
+          "const": "cart"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    }
+  }
+}

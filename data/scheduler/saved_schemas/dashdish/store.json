@@ -1,0 +1,481 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DashDish Store Page Schema - Gambinos New York Subs",
+  "type": "object",
+  "$defs": {
+    "deliveryModeToggleButton": {
+      "type": "object",
+      "description": "Top-right toggle buttons to switch between Delivery and Pickup modes",
+      "x-visibleCount": 2,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Delivery",
+            "Pickup"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "sidebarNavItem": {
+      "type": "object",
+      "description": "Left sidebar navigation items for browsing types of stores",
+      "x-visibleCount": 7,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Home",
+            "Grocery",
+            "Retail",
+            "Convenience",
+            "Dash Mart",
+            "Alcohol",
+            "Health"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "cartIconButton": {
+      "type": "object",
+      "description": "Top-right red cart button showing item count and opening the cart sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemCount": {
+          "type": "integer"
+        },
+        "opensModal": {
+          "const": "cartSidebarModal"
+        }
+      },
+      "required": [
+        "itemCount",
+        "opensModal"
+      ]
+    },
+    "storeSearchInput": {
+      "type": "object",
+      "description": "Search input field within the store header banner",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "examples": [
+            "Search Gambinos New York Subs"
+          ]
+        }
+      },
+      "required": [
+        "placeholder"
+      ]
+    },
+    "storeSearchSubmitButton": {
+      "type": "object",
+      "description": "Icon button to submit the in-store search query",
+      "x-visibleCount": 1,
+      "properties": {},
+      "required": []
+    },
+    "storeInfoSeeMoreButton": {
+      "type": "object",
+      "description": "Button under Store Info section to expand and see more store details",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "See more"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "storeServiceModeButton": {
+      "type": "object",
+      "description": "Central store header buttons to choose between Delivery and Pickup service modes and view ETA",
+      "x-visibleCount": 2,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Delivery",
+            "Pickup"
+          ]
+        },
+        "timeEstimate": {
+          "type": "string"
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label",
+        "timeEstimate"
+      ]
+    },
+    "storeStatPill": {
+      "type": "object",
+      "description": "Non-clickable pills showing distance and delivery time stats under store header mode buttons",
+      "x-visibleCount": 2,
+      "properties": {
+        "value": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string",
+          "enum": [
+            "away",
+            "delivery time",
+            "distance"
+          ]
+        }
+      },
+      "required": [
+        "value"
+      ]
+    },
+    "storeTabButton": {
+      "type": "object",
+      "description": "Tabs under Full Menu section header for switching between subviews",
+      "x-visibleCount": 3,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Most Ordered",
+            "Reviews",
+            "Full Menu"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "mostOrderedItemCard": {
+      "type": "object",
+      "description": "Large horizontal cards in the 'Most Ordered' carousel, each with an add button opening the item customization modal",
+      "x-visibleCount": 3,
+      "properties": {
+        "imageAlt": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "likePercentage": {
+          "type": "string"
+        },
+        "ratingCount": {
+          "type": "string"
+        },
+        "rankingText": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "price"
+      ]
+    },
+    "mostOrderedItemAddButton": {
+      "type": "object",
+      "description": "Circular plus button on a Most Ordered item card to add or customize the item, opening the item customization modal",
+      "x-visibleCount": 3,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        },
+        "opensModal": {
+          "const": "itemCustomizationModal"
+        }
+      },
+      "required": [
+        "itemName",
+        "opensModal"
+      ]
+    },
+    "reviewsSeeAllButton": {
+      "type": "object",
+      "description": "Button next to Reviews count to expand or view more reviews",
+      "x-visibleCount": 1,
+      "properties": {},
+      "required": []
+    },
+    "reviewSummaryCard": {
+      "type": "object",
+      "description": "Summary card showing overall rating, star visualization, and total review count",
+      "x-visibleCount": 1,
+      "properties": {
+        "averageRating": {
+          "type": "number"
+        },
+        "reviewCount": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "averageRating",
+        "reviewCount"
+      ]
+    },
+    "individualReviewCard": {
+      "type": "object",
+      "description": "Individual customer review card in the Reviews section",
+      "x-visibleCount": 4,
+      "properties": {
+        "reviewerInitials": {
+          "type": "string"
+        },
+        "reviewerName": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "integer"
+        },
+        "date": {
+          "type": "string"
+        },
+        "isDashDishOrder": {
+          "type": "boolean"
+        },
+        "reviewText": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "reviewerInitials",
+        "reviewerName",
+        "rating",
+        "reviewText"
+      ]
+    },
+    "fullMenuItemCard": {
+      "type": "object",
+      "description": "Item cards in the Full Menu list, each with name, description, price and an add button",
+      "x-visibleCount": 7,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "price"
+      ]
+    },
+    "fullMenuItemAddButton": {
+      "type": "object",
+      "description": "Circular plus button on a Full Menu item card to add or customize the item, opening the item customization modal",
+      "x-visibleCount": 7,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        },
+        "opensModal": {
+          "const": "itemCustomizationModal"
+        }
+      },
+      "required": [
+        "itemName",
+        "opensModal"
+      ]
+    },
+    "itemCustomizationModal.closeButton": {
+      "type": "object",
+      "description": "X icon button at the top-left of the item customization modal",
+      "x-visibleCount": 1,
+      "properties": {},
+      "required": []
+    },
+    "itemCustomizationModal.sizeRadioOption": {
+      "type": "object",
+      "description": "Radio button options for selecting item size in the customization modal",
+      "x-visibleCount": 4,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Small (12oz) \u00b7 150 cal",
+            "Medium (16oz) \u00b7 200 cal \u00b7 +$0.30",
+            "Large (20oz) \u00b7 250 cal \u00b7 +$0.60",
+            "Extra Large (32oz) \u00b7 400 cal \u00b7 +$1.00"
+          ]
+        },
+        "isSelected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "itemCustomizationModal.removeIngredientCheckbox": {
+      "type": "object",
+      "description": "Checkboxes under 'Remove from' section to remove specific ingredients from the item",
+      "x-visibleCount": 5,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "No Seasoning",
+            "No Butter",
+            "No Garlic",
+            "No Herbs",
+            "No Steak Sauce"
+          ]
+        },
+        "isChecked": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "itemCustomizationModal.preferencesInput": {
+      "type": "object",
+      "description": "Multiline text input for adding special instructions or preferences",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Add Special Instructions"
+        }
+      },
+      "required": [
+        "placeholder"
+      ]
+    },
+    "itemCustomizationModal.quantityStepper": {
+      "type": "object",
+      "description": "Quantity stepper control at the bottom-left of the customization modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "quantity": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "quantity"
+      ]
+    },
+    "itemCustomizationModal.addToCartButton": {
+      "type": "object",
+      "description": "Primary button at bottom-right of the customization modal to add the configured item to the cart",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string",
+          "examples": [
+            "$12.59"
+          ]
+        }
+      },
+      "required": [
+        "label",
+        "price"
+      ]
+    },
+    "cartSidebarModal.checkoutButton": {
+      "type": "object",
+      "description": "Checkout button at the top of the cart sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Checkout"
+        },
+        "cartTotal": {
+          "type": "string",
+          "examples": [
+            "$12.59"
+          ]
+        },
+        "opensPage": {
+          "const": "checkout"
+        }
+      },
+      "required": [
+        "label",
+        "cartTotal",
+        "opensPage"
+      ]
+    },
+    "cartSidebarModal.closeButton": {
+      "type": "object",
+      "description": "Close icon button in the cart sidebar modal header",
+      "x-visibleCount": 1,
+      "properties": {},
+      "required": []
+    },
+    "cartSidebarModal.cartItemQuantityStepper": {
+      "type": "object",
+      "description": "Quantity control for a line item in the cart sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "unitPrice": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName",
+        "quantity",
+        "unitPrice"
+      ]
+    },
+    "cartSidebarModal.cartItemDeleteButton": {
+      "type": "object",
+      "description": "Trash/delete button for removing a line item from the cart in the sidebar modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName"
+      ]
+    }
+  }
+}

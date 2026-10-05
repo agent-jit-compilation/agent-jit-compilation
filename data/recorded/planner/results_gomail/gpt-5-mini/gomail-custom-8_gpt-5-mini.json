@@ -1,0 +1,1496 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.40544843673706,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.87950587272644,
+    "estimated_cost": 568.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.089672088623047,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.05404496192932,
+    "estimated_cost": 5830.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.180190563201904,
+    "estimated_cost": 30.300000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.958016872406006,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 226: error[unresolved-reference] Name `labels` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 233: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 226: error[unresolved-reference] Name `labels` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 233: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.1305763721466064,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.86060380935669,
+    "estimated_cost": 30.300000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.269957065582275,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `desired` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 233: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `desired` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 233: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.608710765838623,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.787022352218628,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.470624446868896,
+    "estimated_cost": 1398.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.281157970428467,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.568400621414185,
+    "estimated_cost": 30.300000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.939648628234863,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.230502128601074,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `created` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `created` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.912743330001831,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 226: error[unresolved-reference] Name `created_results` used when not defined\nLine 227: error[unresolved-reference] Name `created_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 226: error[unresolved-reference] Name `created_results` used when not defined\nLine 227: error[unresolved-reference] Name `created_results` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.828948497772217,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `created` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `created` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.673741340637207,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 228: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 228: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.406855583190918,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `names` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 232: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `names` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 232: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.060355186462402,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.996873378753662,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `label_inputs` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `label_inputs` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.850878238677979,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 224: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.556761264801025,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `label_terms` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `label_terms` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.683154821395874,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 226: error[unresolved-reference] Name `created` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 226: error[unresolved-reference] Name `created` used when not defined\nLine 227: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.656325340270996,
+    "estimated_cost": 40.300000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.9781577587127686,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.739578247070312,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 225: error[unresolved-reference] Name `labels` used when not defined\nLine 228: error[unresolved-reference] Name `labels` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 225: error[unresolved-reference] Name `labels` used when not defined\nLine 228: error[unresolved-reference] Name `labels` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.978527784347534,
+    "estimated_cost": 621.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.278946876525879,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.883541345596313,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 232: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 226: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 231: error[unresolved-reference] Name `created` used when not defined\nLine 232: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.796913623809814,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 223: error[unresolved-reference] Name `labels` used when not defined\nLine 229: error[unresolved-reference] Name `created` used when not defined\nLine 230: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.058035850524902,
+    "estimated_cost": 856.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 4: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 4: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.422127962112427,
+    "estimated_cost": 717.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 6: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 6: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.909035921096802,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels` used when not defined\nLine 150: error[unresolved-reference] Name `created` used when not defined\nLine 153: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels` used when not defined\nLine 150: error[unresolved-reference] Name `created` used when not defined\nLine 153: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.376093864440918,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 145: error[unresolved-reference] Name `names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.226094007492065,
+    "estimated_cost": 1275.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.016687154769897,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `label_inputs` used when not defined\nLine 151: error[unresolved-reference] Name `created` used when not defined\nLine 152: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `label_inputs` used when not defined\nLine 151: error[unresolved-reference] Name `created` used when not defined\nLine 152: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.571549892425537,
+    "estimated_cost": 637.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 8: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 8: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.16372799873352,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels` used when not defined\nLine 150: error[unresolved-reference] Name `created` used when not defined\nLine 151: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels` used when not defined\nLine 150: error[unresolved-reference] Name `created` used when not defined\nLine 151: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.078258275985718,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 152: error[unresolved-reference] Name `created` used when not defined\nLine 153: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 152: error[unresolved-reference] Name `created` used when not defined\nLine 153: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.960246801376343,
+    "estimated_cost": 1019.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.441093921661377,
+    "estimated_cost": 733.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 5: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 5: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.890023708343506,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 150: error[unresolved-reference] Name `normalized_names` used when not defined\nLine 152: error[unresolved-reference] Name `normalized_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `names` used when not defined\nLine 150: error[unresolved-reference] Name `normalized_names` used when not defined\nLine 152: error[unresolved-reference] Name `normalized_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.829772233963013,
+    "estimated_cost": 522.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 7: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 7: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.235404014587402,
+    "estimated_cost": 904.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 5: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 5: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.827362060546875,
+    "estimated_cost": 708.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 6: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 6: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.183112859725952,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 147: error[unresolved-reference] Name `created` used when not defined\nLine 148: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 147: error[unresolved-reference] Name `created` used when not defined\nLine 148: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.552759408950806,
+    "estimated_cost": 1212.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 9: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 9: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.506376504898071,
+    "estimated_cost": 10.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.312839984893799,
+    "estimated_cost": 1214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 6: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 6: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.141924858093262,
+    "estimated_cost": 733.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 6: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 6: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.739598035812378,
+    "estimated_cost": 1377.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 8: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 8: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.220058917999268,
+    "estimated_cost": 1215.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 4: unindent does not match any outer indentation level"
+        }
+      ],
+      "error_message": "Syntax error at line 4: unindent does not match any outer indentation level"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.781578063964844,
+    "estimated_cost": 1039.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 5: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 5: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.114954948425293,
+    "estimated_cost": 101.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels` used when not defined\nLine 147: error[unresolved-reference] Name `created` used when not defined\nLine 148: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels` used when not defined\nLine 147: error[unresolved-reference] Name `created` used when not defined\nLine 148: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.547562837600708,
+    "estimated_cost": 1072.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.606710195541382,
+    "estimated_cost": 893.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.170801401138306,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 153: error[unresolved-reference] Name `created` used when not defined\nLine 156: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 153: error[unresolved-reference] Name `created` used when not defined\nLine 156: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.960699319839478,
+    "estimated_cost": 10.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.35211706161499,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 147: error[unresolved-reference] Name `created` used when not defined\nLine 148: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 147: error[unresolved-reference] Name `created` used when not defined\nLine 148: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.269253969192505,
+    "estimated_cost": 802.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.440953254699707,
+    "estimated_cost": 111.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 152: error[unresolved-reference] Name `created` used when not defined\nLine 155: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 144: error[unresolved-reference] Name `labels_to_create` used when not defined\nLine 152: error[unresolved-reference] Name `created` used when not defined\nLine 155: error[unresolved-reference] Name `created` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.35422682762146,
+    "estimated_cost": 938.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 7: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 7: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

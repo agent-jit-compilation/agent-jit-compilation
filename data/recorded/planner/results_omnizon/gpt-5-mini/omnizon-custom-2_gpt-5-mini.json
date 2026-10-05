@@ -1,0 +1,1209 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.587875366210938,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.127330541610718,
+    "estimated_cost": 2050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.155556440353394,
+    "estimated_cost": 60.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> set_review_rating -> append(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> set_review_rating -> append(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.85033106803894,
+    "estimated_cost": 50.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> set_review_rating -> fill_review -> append(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> set_review_rating -> fill_review -> append(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.10044527053833,
+    "estimated_cost": 1050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.507009983062744,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.22726607322693,
+    "estimated_cost": 2040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.015159845352173,
+    "estimated_cost": 3050.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.732102632522583,
+    "estimated_cost": 40.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.389578819274902,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.18211054801941,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 427: error[unsupported-operator] Operator `+=` is not supported between objects of type `list[Unknown]` and `Literal[1]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 427: error[unsupported-operator] Operator `+=` is not supported between objects of type `list[Unknown]` and `Literal[1]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.25049662590027,
+    "estimated_cost": 1060.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.668269634246826,
+    "estimated_cost": 2050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 69.17496609687805,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.271023511886597,
+    "estimated_cost": 1050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.00956130027771,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.601032972335815,
+    "estimated_cost": 1050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.52200770378113,
+    "estimated_cost": 2050.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.607837200164795,
+    "estimated_cost": 1050.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> set_review_rating -> fill_review -> append(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> set_review_rating -> fill_review -> append(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.467008590698242,
+    "estimated_cost": 2040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.492190837860107,
+    "estimated_cost": 5.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> append(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> append(...) [unknown] -> goto_orders_tab"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_orders_tab requires page_type=orders|orders_buy_again|orders_cancelled|orders_not_shipped, but state has page_type=review. Call sequence: goto_orders -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> append(...) [unknown] -> goto_write_review -> getattr(...) [unknown] -> append(...) [unknown] -> goto_orders_tab"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.476481199264526,
+    "estimated_cost": 3060.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.810720682144165,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.442075729370117,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.830192804336548,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.84534502029419,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.039247274398804,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.192615509033203,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.45089030265808,
+    "estimated_cost": 40.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.350016117095947,
+    "estimated_cost": 2050.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.033428192138672,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.811036109924316,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 62.63460397720337,
+    "estimated_cost": 50.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.278120994567871,
+    "estimated_cost": 40.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.166804313659668,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.40260338783264,
+    "estimated_cost": 70.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 298: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `str`\nLine 303: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `str`\nLine 303: error[unresolved-attribute] Object of type `SubmitReviewOutput` has no attribute `error`\nLine 305: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 298: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `str`\nLine 303: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `str`\nLine 303: error[unresolved-attribute] Object of type `SubmitReviewOutput` has no attribute `error`\nLine 305: error[unsupported-operator] Operator `+` is not supported between objects of type `(Unknown & ~AlwaysFalsy) | (str & ~AlwaysFalsy) | Literal[True, \"\"]` and `str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.98909068107605,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.37941837310791,
+    "estimated_cost": 2050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.069793224334717,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.318897247314453,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.347172737121582,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.96792697906494,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unsupported-operator] Operator `+=` is not supported between objects of type `list[Unknown]` and `Literal[1]`\nLine 301: error[unsupported-operator] Operator `+=` is not supported between objects of type `list[Unknown]` and `Literal[1]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unsupported-operator] Operator `+=` is not supported between objects of type `list[Unknown]` and `Literal[1]`\nLine 301: error[unsupported-operator] Operator `+=` is not supported between objects of type `list[Unknown]` and `Literal[1]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.416381359100342,
+    "estimated_cost": 2040.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.581666707992554,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.495015382766724,
+    "estimated_cost": 2050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.762900352478027,
+    "estimated_cost": 3040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.217344999313354,
+    "estimated_cost": 2040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.214839696884155,
+    "estimated_cost": 3060.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.929961442947388,
+    "estimated_cost": 3040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.263827323913574,
+    "estimated_cost": 40.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.393021821975708,
+    "estimated_cost": 2040.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 285: error[unresolved-attribute] Object of type `FillReviewOutput` has no attribute `error`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 285: error[unresolved-attribute] Object of type `FillReviewOutput` has no attribute `error`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.865433931350708,
+    "estimated_cost": 1040.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 296: error[unresolved-attribute] Object of type `FillReviewOutput` has no attribute `error`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 296: error[unresolved-attribute] Object of type `FillReviewOutput` has no attribute `error`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.668123483657837,
+    "estimated_cost": 40.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.508474111557007,
+    "estimated_cost": 2040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.881385803222656,
+    "estimated_cost": 1050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.32659077644348,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.916254997253418,
+    "estimated_cost": 2050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.79700756072998,
+    "estimated_cost": 2080.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> goto_orders_tab -> list_orders -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> enumerate(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> ai_eval(...) [unknown] -> goto_write_review -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.86942195892334,
+    "estimated_cost": 3050.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> ai_eval(...) [unknown] -> goto_write_review"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_write_review requires page_type=orders, but state has page_type=review. Call sequence: goto_orders -> list_orders -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> enumerate(...) [unknown] -> goto_write_review -> ai_eval(...) [unknown] -> goto_write_review"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.880365371704102,
+    "estimated_cost": 40.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.595657110214233,
+    "estimated_cost": 1050.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 281: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 312: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 281: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 312: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.081368923187256,
+    "estimated_cost": 1050.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.635096549987793,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.63757562637329,
+    "estimated_cost": 1040.3,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,1285 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9825363159179688,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7477211952209473,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0733749866485596,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4549503326416016,
+    "estimated_cost": 15.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.016169786453247,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 307: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 307: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.627831220626831,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4424450397491455,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.059898853302002,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.175093650817871,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5168559551239014,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7612056732177734,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 310: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Line 310: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3748254776000977,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9585115909576416,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.14070200920105,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.615438938140869,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3552322387695312,
+    "estimated_cost": 315.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.576341390609741,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0016441345214844,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.448629856109619,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4062325954437256,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 307: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 307: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1101152896881104,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6253345012664795,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8603179454803467,
+    "estimated_cost": 20.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4363608360290527,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4818429946899414,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 310: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Line 310: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.630941152572632,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8679184913635254,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.268420934677124,
+    "estimated_cost": 114.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 314: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 314: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.991316556930542,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5866494178771973,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0158419609069824,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.764554738998413,
+    "estimated_cost": 20.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.763150930404663,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.116184949874878,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 209: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> goto_store -> get_item_details"
+        }
+      ],
+      "error_message": "Line 209: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.042776584625244,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1862905025482178,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.233675003051758,
+    "estimated_cost": 212.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.905991315841675,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7948570251464844,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.178921699523926,
+    "estimated_cost": 213.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.375669240951538,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3128209114074707,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2700397968292236,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6694202423095703,
+    "estimated_cost": 23.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 210: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 210: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.2648870944976807,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.860365629196167,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0273993015289307,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3326687812805176,
+    "estimated_cost": 4.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1687307357788086,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.4312000274658203,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4182469844818115,
+    "estimated_cost": 23.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 210: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 210: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9567856788635254,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0733087062835693,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 211: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 211: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.239619255065918,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9743363857269287,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1727285385131836,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 210: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 210: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.411041498184204,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 211: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 211: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2126083374023438,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 211: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 211: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.082243204116821,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1154425144195557,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3552098274230957,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 207: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 207: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5167856216430664,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7669379711151123,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 218: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Line 218: error[no-matching-overload] No overload of function `min` matches arguments\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9717109203338623,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

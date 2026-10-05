@@ -1,0 +1,1214 @@
+[
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.4220666885376,
+    "estimated_cost": 216.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.66974210739136,
+    "estimated_cost": 430.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: task() [entering] -> _ensure_on_home() [user-defined] -> _collect_home_store_names() [user-defined] -> _ensure_on_home() [user-defined] -> _goto_store_by_name() [user-defined] -> _fallback_find_store() [user-defined] -> goto_store -> _ensure_on_home() [user-defined] -> _goto_store_by_name() [entering] -> _closest_option() [user-defined] -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: task() [entering] -> _ensure_on_home() [user-defined] -> _collect_home_store_names() [user-defined] -> _ensure_on_home() [user-defined] -> _goto_store_by_name() [user-defined] -> _fallback_find_store() [user-defined] -> goto_store -> _ensure_on_home() [user-defined] -> _goto_store_by_name() [entering] -> _closest_option() [user-defined] -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.550804138183594,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.80955386161804,
+    "estimated_cost": 216.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 392: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 392: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 40.60979080200195,
+    "estimated_cost": 315.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.60886597633362,
+    "estimated_cost": 314.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 40.65716242790222,
+    "estimated_cost": 103.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.85384702682495,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 43.45976257324219,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.777477502822876,
+    "estimated_cost": 204.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.34602165222168,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 46.59309506416321,
+    "estimated_cost": 307.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.81684327125549,
+    "estimated_cost": 223.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.571184158325195,
+    "estimated_cost": 217.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally modifies STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally modifies STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.3222918510437,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 36.44852876663208,
+    "estimated_cost": 203.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.27437162399292,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.358439922332764,
+    "estimated_cost": 103.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.631736278533936,
+    "estimated_cost": 215.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: filter_stores requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> goto_home -> goto_store -> filter_stores"
+        }
+      ],
+      "error_message": "Tool ordering error: filter_stores requires page_type=home, but state has page_type=store. Call sequence: list_all_stores -> items(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> goto_home -> goto_store -> filter_stores"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.22343850135803,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.36293387413025,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.838674068450928,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.07148551940918,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 41.534008264541626,
+    "estimated_cost": 315.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 50.626365661621094,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.582891941070557,
+    "estimated_cost": 314.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.407574892044067,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.069435596466064,
+    "estimated_cost": 223.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.64724111557007,
+    "estimated_cost": 216.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.12733030319214,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.635172128677368,
+    "estimated_cost": 103.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.97264099121094,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.461658716201782,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.95450472831726,
+    "estimated_cost": 203.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 41.281810998916626,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 36.78169369697571,
+    "estimated_cost": 10.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.095592737197876,
+    "estimated_cost": 203.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.764793157577515,
+    "estimated_cost": 207.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 41.23247408866882,
+    "estimated_cost": 216.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.327232837677002,
+    "estimated_cost": 103.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.60096573829651,
+    "estimated_cost": 314.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.46793508529663,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.858276844024658,
+    "estimated_cost": 114.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.624881982803345,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.33274006843567,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 306: error[invalid-argument-type] Argument to bound method `append` is incorrect: Expected `tuple[str, str, str, int | float]`, found `tuple[str, str, str | None, int | float]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 306: error[invalid-argument-type] Argument to bound method `append` is incorrect: Expected `tuple[str, str, str, int | float]`, found `tuple[str, str, str | None, int | float]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 47.43160891532898,
+    "estimated_cost": 5.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 51.11037755012512,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.506415843963623,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.45945382118225,
+    "estimated_cost": 214.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.16231918334961,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.676707983016968,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.292720556259155,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.2065908908844,
+    "estimated_cost": 315.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.259939432144165,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 369: error[invalid-argument-type] Argument to function `__new__` is incorrect: Expected `str | Buffer | SupportsFloat | SupportsIndex`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Line 369: error[invalid-argument-type] Argument to function `__new__` is incorrect: Expected `str | Buffer | SupportsFloat | SupportsIndex`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.293053150177002,
+    "estimated_cost": 303.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.42085289955139,
+    "estimated_cost": 412.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.77322292327881,
+    "estimated_cost": 5.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.770116329193115,
+    "estimated_cost": 314.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.44051170349121,
+    "estimated_cost": 213.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.995572090148926,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.12207865715027,
+    "estimated_cost": 103.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.49697518348694,
+    "estimated_cost": 4.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> list_all_stores -> ai_eval() [user-defined] -> strip(...) [unknown] -> goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> list_all_stores -> ai_eval() [user-defined] -> strip(...) [unknown] -> goto_store -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 45.502121925354004,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 42.39891862869263,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,1537 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.436142921447754,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.57386612892151,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.34669852256775,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 460: error[unresolved-reference] Name `project_name` used when not defined\nLine 463: error[unresolved-reference] Name `project_name` used when not defined\nLine 463: error[unresolved-reference] Name `visibility` used when not defined\nLine 484: error[unresolved-reference] Name `project_name` used when not defined\nLine 486: error[unresolved-reference] Name `visibility` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Line 460: error[unresolved-reference] Name `project_name` used when not defined\nLine 463: error[unresolved-reference] Name `project_name` used when not defined\nLine 463: error[unresolved-reference] Name `visibility` used when not defined\nLine 484: error[unresolved-reference] Name `project_name` used when not defined\nLine 486: error[unresolved-reference] Name `visibility` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.870047092437744,
+    "estimated_cost": 40.70000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.187753915786743,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.58284831047058,
+    "estimated_cost": 211.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.419840574264526,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.971352100372314,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.984230279922485,
+    "estimated_cost": 50.70000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.074251890182495,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.926178932189941,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.63042163848877,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.233770370483398,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> getattr(...) [unknown] -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> getattr(...) [unknown] -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.256726026535034,
+    "estimated_cost": 1558.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.538403987884521,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.09952473640442,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.800920248031616,
+    "estimated_cost": 60.70000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.403721570968628,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.756301641464233,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 457: error[unresolved-reference] Name `project_name` used when not defined\nLine 460: error[unresolved-reference] Name `project_name` used when not defined\nLine 460: error[unresolved-reference] Name `visibility` used when not defined\nLine 476: error[unresolved-reference] Name `project_name` used when not defined\nLine 478: error[unresolved-reference] Name `visibility` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Line 457: error[unresolved-reference] Name `project_name` used when not defined\nLine 460: error[unresolved-reference] Name `project_name` used when not defined\nLine 460: error[unresolved-reference] Name `visibility` used when not defined\nLine 476: error[unresolved-reference] Name `project_name` used when not defined\nLine 478: error[unresolved-reference] Name `visibility` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.122807025909424,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.244258880615234,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.190281867980957,
+    "estimated_cost": 40.70000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.875028610229492,
+    "estimated_cost": 131.60000000000002,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 458: error[unresolved-reference] Name `proj_requested` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Line 458: error[unresolved-reference] Name `proj_requested` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.218424081802368,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.017582654953003,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.721029043197632,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.238834381103516,
+    "estimated_cost": 20.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> lower(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> lower(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.916691303253174,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.906326293945312,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.76001787185669,
+    "estimated_cost": 131.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.45232129096985,
+    "estimated_cost": 221.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 459: error[unresolved-reference] Name `visibility_term` used when not defined\nLine 461: error[unresolved-reference] Name `proj_name` used when not defined\nLine 466: error[unresolved-reference] Name `members` used when not defined\nLine 480: error[unresolved-reference] Name `proj_name` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Line 459: error[unresolved-reference] Name `visibility_term` used when not defined\nLine 461: error[unresolved-reference] Name `proj_name` used when not defined\nLine 466: error[unresolved-reference] Name `members` used when not defined\nLine 480: error[unresolved-reference] Name `proj_name` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.57536792755127,
+    "estimated_cost": 121.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> append(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> append(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> append(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> append(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.679146766662598,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.840495109558105,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.70531153678894,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.45697832107544,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.400244951248169,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.411296367645264,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.106456279754639,
+    "estimated_cost": 101.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.563354969024658,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.17754602432251,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.602574348449707,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.160839796066284,
+    "estimated_cost": 231.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.977705001831055,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.872177124023438,
+    "estimated_cost": 121.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: set_create_project_details requires page_type=create_project, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> set_create_project_details"
+        }
+      ],
+      "error_message": "Tool ordering error: set_create_project_details requires page_type=create_project, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> set_create_project_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.827725410461426,
+    "estimated_cost": 50.70000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.443379878997803,
+    "estimated_cost": 101.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.374094009399414,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.865185976028442,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.103567838668823,
+    "estimated_cost": 131.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.987398386001587,
+    "estimated_cost": 131.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> get(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> eval(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> get(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> eval(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.663018226623535,
+    "estimated_cost": 101.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> strip(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> strip(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.301257848739624,
+    "estimated_cost": 40.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> ai_eval(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.151994228363037,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.480064868927002,
+    "estimated_cost": 101.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.444364547729492,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.656905174255371,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: ai_eval(...) [unknown] -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.550122022628784,
+    "estimated_cost": 20.699999999999996,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> lower(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> strip(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> lower(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> strip(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.079090356826782,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.950804710388184,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> lower(...) [unknown] -> replace(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> lower(...) [unknown] -> replace(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> lower(...) [unknown] -> replace(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> lower(...) [unknown] -> replace(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.10429883003235,
+    "estimated_cost": 221.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> loads(...) [unknown] -> ai_eval(...) [unknown] -> loads(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> loads(...) [unknown] -> ai_eval(...) [unknown] -> loads(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> loads(...) [unknown] -> ai_eval(...) [unknown] -> loads(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> loads(...) [unknown] -> ai_eval(...) [unknown] -> loads(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> loads(...) [unknown] -> ai_eval(...) [unknown] -> loads(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> loads(...) [unknown] -> ai_eval(...) [unknown] -> loads(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.004268884658813,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.911167860031128,
+    "estimated_cost": 111.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.91473150253296,
+    "estimated_cost": 121.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> ai_eval(...) [unknown] -> strip(...) [unknown] -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

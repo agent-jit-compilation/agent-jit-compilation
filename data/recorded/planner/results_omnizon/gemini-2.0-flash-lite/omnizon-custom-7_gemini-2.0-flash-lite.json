@@ -1,0 +1,1349 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.390049457550049,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.044194459915161,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1988565921783447,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.503875970840454,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.345390558242798,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7941219806671143,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.854158639907837,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1963164806365967,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0971856117248535,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.538780689239502,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.348884105682373,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4774997234344482,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2703189849853516,
+    "estimated_cost": 211.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> goto_category -> list_results -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> goto_category -> list_results -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6947734355926514,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1576857566833496,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5872974395751953,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.198805332183838,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.412554979324341,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2857184410095215,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8310863971710205,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.349564552307129,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4156479835510254,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.05908203125,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0509958267211914,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1376607418060303,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4013595581054688,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.982987880706787,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6655948162078857,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.069504976272583,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1359875202178955,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.839693546295166,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.777681589126587,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1708245277404785,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9955265522003174,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4579880237579346,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.272132158279419,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.014500141143799,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.392167091369629,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.523421049118042,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.055919647216797,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.574190139770508,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.432096004486084,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5637412071228027,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9348361492156982,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8572802543640137,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9324963092803955,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0744285583496094,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.218541383743286,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.453402519226074,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6011674404144287,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.157374382019043,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4274911880493164,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.46053147315979,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1756482124328613,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4396910667419434,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.287609577178955,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8678762912750244,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2660937309265137,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.939436912536621,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.081897258758545,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.813883066177368,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5113964080810547,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.211048126220703,
+    "estimated_cost": 4.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9050862789154053,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

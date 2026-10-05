@@ -1,0 +1,1195 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.994375944137573,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.912002086639404,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.13188910484314,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.955581426620483,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.487509489059448,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 456: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 456: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.540221214294434,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.697889804840088,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.3640031814575195,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.19373631477356,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.852478265762329,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.091014385223389,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 449: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 449: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.474594593048096,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.477638006210327,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.911229133605957,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.466326713562012,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.391674757003784,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.884352445602417,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.482760429382324,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 450: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 450: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.638096570968628,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.346444129943848,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.870146989822388,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.537465572357178,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.309977293014526,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.866882562637329,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.727683782577515,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.78671932220459,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 459: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 459: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.397598505020142,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.874430894851685,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.906042098999023,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 447: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 447: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.955523490905762,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 456: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 456: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.371992826461792,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 454: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 454: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.420789003372192,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.825512886047363,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.473503112792969,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.990847587585449,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.837439060211182,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.924498558044434,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 293: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 293: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.728402853012085,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.829238414764404,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.456899404525757,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.39501428604126,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.769111394882202,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.716532468795776,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.410602807998657,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.637534141540527,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.997932195663452,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.09365439414978,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.313185930252075,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.995649814605713,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.809124708175659,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 287: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 287: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.22226858139038,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 290: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 290: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.6144022941589355,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.075848340988159,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.471329927444458,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.482304573059082,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.429466724395752,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.71722674369812,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.5165956020355225,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 292: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 292: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.90559196472168,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.406145095825195,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 289: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 289: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.82612681388855,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.337926149368286,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[invalid-argument-type] Argument to function `goto_cancel` is incorrect: Expected `str`, found `str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.918927431106567,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.634108781814575,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,1342 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5463120937347412,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.098991870880127,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3803343772888184,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2257287502288818,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6666676998138428,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0797393321990967,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.382349967956543,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5101394653320312,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4755992889404297,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1540346145629883,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3027222156524658,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8354008197784424,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.748058795928955,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9721810817718506,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1126954555511475,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1183037757873535,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4189398288726807,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5267682075500488,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2323918342590332,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9009020328521729,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4661171436309814,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0205731391906738,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8474218845367432,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.005871057510376,
+    "estimated_cost": 0.6,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5074210166931152,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1924078464508057,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5011072158813477,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.085503101348877,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.037872314453125,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0239582061767578,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1535100936889648,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3151602745056152,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3964743614196777,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0828607082366943,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9163877964019775,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1918725967407227,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6386444568634033,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2028396129608154,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8891959190368652,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8936536312103271,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.496774435043335,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1930699348449707,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3505022525787354,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3328447341918945,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5528981685638428,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5358209609985352,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9723615646362305,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8069238662719727,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7308540344238281,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2809481620788574,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1336026191711426,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.8318336009979248,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3482146263122559,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 0.9093737602233887,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3394689559936523,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.025479793548584,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3321702480316162,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4913060665130615,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.194342851638794,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.19810152053833,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6328761577606201,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2038464546203613,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.0632545948028564,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+        }
+      ],
+      "error_message": "Tool ordering error: upvote requires page_type=submission, but state has page_type=forum. Call sequence: goto_forums_list -> goto_forum -> change_submission_order -> upvote"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3184452056884766,
+    "estimated_cost": 0.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

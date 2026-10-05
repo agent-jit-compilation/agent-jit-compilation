@@ -1,0 +1,62 @@
+# WebArena Reddit task definitions
+
+tasks:
+- id: webarena-29
+  eval_type: webarena
+  initial_url: http://localhost:9999
+  goal: 'Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum'
+  smcp_registry: data/registries/reddit.json
+  storage_state: webarena/.auth/reddit_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 29
+  sites:
+  - reddit
+
+- id: webarena-727
+  eval_type: webarena
+  initial_url: http://localhost:9999
+  goal: 'Dislike all submissions created by PatientBuilder499 in subreddit videos'
+  smcp_registry: data/registries/reddit.json
+  storage_state: webarena/.auth/reddit_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 727
+  sites:
+  - reddit
+
+- id: webarena-580
+  eval_type: webarena
+  initial_url: http://localhost:9999
+  goal: "Create a new forum named sci_fi, with a description of 'A wild place for sci-fi enthusiasts', and include ['New', 'Classic', 'Movies', 'Post my novel', 'Random'] in the sidebar"
+  smcp_registry: data/registries/reddit.json
+  storage_state: webarena/.auth/reddit_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 580
+  sites:
+  - reddit
+
+- id: webarena-399
+  eval_type: webarena
+  initial_url: http://localhost:9999
+  goal: 'Change my reddit bio to "I am a robot"'
+  smcp_registry: data/registries/reddit.json
+  storage_state: webarena/.auth/reddit_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 399
+  sites:
+  - reddit
+
+- id: webarena-404
+  eval_type: webarena
+  initial_url: http://localhost:9999
+  goal: 'Upvote the newest post in books subreddit'
+  smcp_registry: data/registries/reddit.json
+  storage_state: webarena/.auth/reddit_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 404
+  sites:
+  - reddit

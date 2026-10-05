@@ -1,0 +1,1631 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.089799880981445,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.12108826637268,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.01980495452881,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.970534563064575,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `term_list` used when not defined\nLine 428: error[unresolved-reference] Name `term_list` used when not defined\nLine 433: error[unresolved-reference] Name `term_list` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `term_list` used when not defined\nLine 428: error[unresolved-reference] Name `term_list` used when not defined\nLine 433: error[unresolved-reference] Name `term_list` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.046663761138916,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `options` used when not defined\nLine 432: error[unresolved-reference] Name `collected` used when not defined\nLine 437: error[unresolved-reference] Name `collected` used when not defined\nLine 440: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `options` used when not defined\nLine 432: error[unresolved-reference] Name `collected` used when not defined\nLine 437: error[unresolved-reference] Name `collected` used when not defined\nLine 440: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.451830625534058,
+    "estimated_cost": 106.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.427323579788208,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.775611639022827,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 432: error[unresolved-reference] Name `report` used when not defined\nLine 443: error[unresolved-reference] Name `report` used when not defined\nLine 445: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 432: error[unresolved-reference] Name `report` used when not defined\nLine 443: error[unresolved-reference] Name `report` used when not defined\nLine 445: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.085570335388184,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.681729078292847,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.0907039642334,
+    "estimated_cost": 106.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 428: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 428: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.29475164413452,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.755033016204834,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `categories` used when not defined\nLine 432: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 438: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 440: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `categories` used when not defined\nLine 432: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 438: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 440: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.901981830596924,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.5667405128479,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.831260681152344,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.13815951347351,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.26185941696167,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors_by_category` used when not defined\nLine 437: error[unresolved-reference] Name `colors_by_category` used when not defined\nLine 439: error[unresolved-reference] Name `colors_by_category` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `colors_by_category` used when not defined\nLine 437: error[unresolved-reference] Name `colors_by_category` used when not defined\nLine 439: error[unresolved-reference] Name `colors_by_category` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.165103197097778,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `targets` used when not defined\nLine 427: error[unresolved-reference] Name `options` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `targets` used when not defined\nLine 427: error[unresolved-reference] Name `options` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.521440505981445,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 428: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 428: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.777633666992188,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.12596368789673,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.050129652023315,
+    "estimated_cost": 205.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.16361951828003,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `report` used when not defined\nLine 436: error[unresolved-reference] Name `report` used when not defined\nLine 447: error[unresolved-reference] Name `report` used when not defined\nLine 449: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 426: error[unresolved-reference] Name `categories` used when not defined\nLine 431: error[unresolved-reference] Name `report` used when not defined\nLine 436: error[unresolved-reference] Name `report` used when not defined\nLine 447: error[unresolved-reference] Name `report` used when not defined\nLine 449: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.011326789855957,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 426: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 433: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 442: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 443: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 426: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 433: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 442: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 443: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.438299894332886,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.666707992553711,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 433: error[unresolved-reference] Name `report` used when not defined\nLine 443: error[unresolved-reference] Name `report` used when not defined\nLine 459: error[unresolved-reference] Name `report` used when not defined\nLine 469: error[unresolved-reference] Name `report` used when not defined\nLine 471: error[unresolved-reference] Name `report` used when not defined\nLine 477: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 423: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 433: error[unresolved-reference] Name `report` used when not defined\nLine 443: error[unresolved-reference] Name `report` used when not defined\nLine 459: error[unresolved-reference] Name `report` used when not defined\nLine 469: error[unresolved-reference] Name `report` used when not defined\nLine 471: error[unresolved-reference] Name `report` used when not defined\nLine 477: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.12364673614502,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.937648057937622,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 427: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.723336696624756,
+    "estimated_cost": 115.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.712838172912598,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.882513284683228,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 424: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.73469591140747,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `report` used when not defined\nLine 284: error[unresolved-reference] Name `report` used when not defined\nLine 285: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `report` used when not defined\nLine 284: error[unresolved-reference] Name `report` used when not defined\nLine 285: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.549012184143066,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.272162675857544,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.75581169128418,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 276: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 286: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 287: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 276: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 286: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 287: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.977822303771973,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 276: error[unresolved-reference] Name `report` used when not defined\nLine 281: error[unresolved-reference] Name `report` used when not defined\nLine 284: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 276: error[unresolved-reference] Name `report` used when not defined\nLine 281: error[unresolved-reference] Name `report` used when not defined\nLine 284: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.363828897476196,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.550420761108398,
+    "estimated_cost": 204.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.15390658378601,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 49.733118772506714,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 419: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Line 419: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.953263282775879,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.784448385238647,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.640198230743408,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.379969596862793,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> search_products -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> search_products -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.104475975036621,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> isinstance(...) [unknown] -> get(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> isinstance(...) [unknown] -> get(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.04661512374878,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 277: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 288: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 289: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 277: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 288: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 289: error[unresolved-reference] Name `collected_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.133681774139404,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 270: error[unresolved-reference] Name `available_menu_options` used when not defined\nLine 276: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 280: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 286: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 287: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories_to_visit` used when not defined\nLine 270: error[unresolved-reference] Name `available_menu_options` used when not defined\nLine 276: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 280: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 286: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 287: error[unresolved-reference] Name `visited_colors` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.167939186096191,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `collected` used when not defined\nLine 279: error[unresolved-reference] Name `collected` used when not defined\nLine 289: error[unresolved-reference] Name `collected` used when not defined\nLine 293: error[unresolved-reference] Name `collected` used when not defined\nLine 296: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `collected` used when not defined\nLine 279: error[unresolved-reference] Name `collected` used when not defined\nLine 289: error[unresolved-reference] Name `collected` used when not defined\nLine 293: error[unresolved-reference] Name `collected` used when not defined\nLine 296: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.33301568031311,
+    "estimated_cost": 104.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.526650428771973,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.528143644332886,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.281578302383423,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 277: error[unresolved-reference] Name `report` used when not defined\nLine 288: error[unresolved-reference] Name `report` used when not defined\nLine 291: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 277: error[unresolved-reference] Name `report` used when not defined\nLine 288: error[unresolved-reference] Name `report` used when not defined\nLine 291: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.368840217590332,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> search_products -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.120348691940308,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `report` used when not defined\nLine 280: error[unresolved-reference] Name `report` used when not defined\nLine 283: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `report` used when not defined\nLine 280: error[unresolved-reference] Name `report` used when not defined\nLine 283: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.029059648513794,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.197993278503418,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `collected` used when not defined\nLine 279: error[unresolved-reference] Name `collected` used when not defined\nLine 290: error[unresolved-reference] Name `collected` used when not defined\nLine 293: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 270: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `collected` used when not defined\nLine 279: error[unresolved-reference] Name `collected` used when not defined\nLine 290: error[unresolved-reference] Name `collected` used when not defined\nLine 293: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.942962646484375,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `report` used when not defined\nLine 279: error[unresolved-reference] Name `report` used when not defined\nLine 291: error[unresolved-reference] Name `report` used when not defined\nLine 294: error[unresolved-reference] Name `report` used when not defined\nLine 295: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 275: error[unresolved-reference] Name `report` used when not defined\nLine 279: error[unresolved-reference] Name `report` used when not defined\nLine 291: error[unresolved-reference] Name `report` used when not defined\nLine 294: error[unresolved-reference] Name `report` used when not defined\nLine 295: error[unresolved-reference] Name `report` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.71920657157898,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 276: error[unresolved-reference] Name `collected` used when not defined\nLine 280: error[unresolved-reference] Name `collected` used when not defined\nLine 292: error[unresolved-reference] Name `collected` used when not defined\nLine 296: error[unresolved-reference] Name `collected` used when not defined\nLine 299: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 267: error[unresolved-reference] Name `categories` used when not defined\nLine 276: error[unresolved-reference] Name `collected` used when not defined\nLine 280: error[unresolved-reference] Name `collected` used when not defined\nLine 292: error[unresolved-reference] Name `collected` used when not defined\nLine 296: error[unresolved-reference] Name `collected` used when not defined\nLine 299: error[unresolved-reference] Name `collected` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.757239818572998,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.814439058303833,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.572731256484985,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.33504605293274,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 272: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `categories` used when not defined\nLine 271: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 272: error[unresolved-reference] Name `categories` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.748385429382324,
+    "estimated_cost": 104.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

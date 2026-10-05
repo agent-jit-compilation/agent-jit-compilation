@@ -1,0 +1,47 @@
+[
+  {
+    "task": "omnizon-custom-1",
+    "selected_strategy": "baseline",
+    "overhead": 6.0903
+  },
+  {
+    "task": "omnizon-custom-2",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 13.2371
+  },
+  {
+    "task": "omnizon-custom-3",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 9.192
+  },
+  {
+    "task": "omnizon-custom-4",
+    "selected_strategy": "baseline",
+    "overhead": 6.7111
+  },
+  {
+    "task": "omnizon-custom-5",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 9.6019
+  },
+  {
+    "task": "omnizon-custom-6",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 7.8037
+  },
+  {
+    "task": "omnizon-custom-7",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 9.092
+  },
+  {
+    "task": "omnizon-custom-8",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 10.0129
+  },
+  {
+    "task": "omnizon-custom-9",
+    "selected_strategy": "baseline",
+    "overhead": 7.8651
+  }
+]

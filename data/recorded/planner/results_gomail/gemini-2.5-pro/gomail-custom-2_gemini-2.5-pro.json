@@ -1,0 +1,1307 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.141342163085938,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.33789849281311,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.468987464904785,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.59810209274292,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.7998106479644775,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.32748007774353,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.330321550369263,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.763902187347412,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.069334030151367,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.84658670425415,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.569528341293335,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.922758340835571,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.823328495025635,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.832887411117554,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.668541431427002,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.348309993743896,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.124823331832886,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.911261796951294,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.572082042694092,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.309731483459473,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.316892623901367,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.559192657470703,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.18775987625122,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.707602977752686,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.890113115310669,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.12628698348999,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.653485059738159,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.306163549423218,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.640215396881104,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.293855428695679,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.149099111557007,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.264182329177856,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.118642568588257,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.641405820846558,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.9692018032073975,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.56456732749939,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.658257484436035,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.997154951095581,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.464018821716309,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.326586723327637,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.058043718338013,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+        }
+      ],
+      "error_message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.213631868362427,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.955128908157349,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> range(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> range(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.490273952484131,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+        }
+      ],
+      "error_message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.444730520248413,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> range(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> range(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.7930269241333,
+    "estimated_cost": 12.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.534627437591553,
+    "estimated_cost": 0.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.705726861953735,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.555758237838745,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.10234808921814,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+        }
+      ],
+      "error_message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.44610333442688,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.933809280395508,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.181841850280762,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.236206293106079,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.134685277938843,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.630896329879761,
+    "estimated_cost": 0.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.330355167388916,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.178847074508667,
+    "estimated_cost": 0.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.285958528518677,
+    "estimated_cost": 0.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.397096157073975,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.223697900772095,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+        }
+      ],
+      "error_message": "Tool ordering error: delete_email_batch requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> len(...) [unknown] -> goto_email_detail -> forward_email -> goto_inbox -> goto_email_detail -> forward_email -> delete_email_batch"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.907324075698853,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.774251937866211,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-pro",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.879581451416016,
+    "estimated_cost": 2.3000000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_inbox requires page=email_detail, but state has page=inbox. Call sequence: list_emails -> len(...) [unknown] -> goto_inbox"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

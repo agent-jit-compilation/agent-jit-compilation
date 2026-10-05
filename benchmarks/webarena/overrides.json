@@ -1,0 +1,27 @@
+[
+  {
+    "path": "config_files/test.raw.json",
+    "sha256": "e1b93e11044f28a6b94c7d0d925bf582fa8b5b94d4855010dac60c5fd19938b1",
+    "source": "Modified from WebArena commit dce04686a56253aefba7b18a4fa0937cf1dc987b: corrected the answer checks for tasks 414 and 418"
+  },
+  {
+    "path": "evaluation_harness/evaluators.py",
+    "sha256": "364e2f706d6b0ad75437f81424a407b0dce853c2b1e4a7f96c4f45e4884878e9",
+    "source": "Modified from WebArena commit dce04686a56253aefba7b18a4fa0937cf1dc987b: accepts non-Playwright page objects (beartype checks removed) and prints match results"
+  },
+  {
+    "path": "llms/__init__.py",
+    "sha256": "eaf8db61035506d45bd3ed9e7b346ce7c6d81243c85bc849bb9cfdb362f2fa3b",
+    "source": "Modified from WebArena commit dce04686a56253aefba7b18a4fa0937cf1dc987b: made the Hugging Face provider import optional"
+  },
+  {
+    "path": "llms/providers/openai_utils.py",
+    "sha256": "638f1f6245a4f7704af4717eb64a29c0fbf71f8098eea50b97f889a8a65e287f",
+    "source": "Modified from WebArena commit dce04686a56253aefba7b18a4fa0937cf1dc987b: ported to the OpenAI Python SDK v1"
+  },
+  {
+    "path": "task_length_cardinality.csv",
+    "sha256": "5ff8dc307b69ff6266b720e746e55cb11b32cc9e31b4bb7217108d4323fec695",
+    "source": "Added by this artifact (task length and cardinality tiers); not part of upstream WebArena"
+  }
+]

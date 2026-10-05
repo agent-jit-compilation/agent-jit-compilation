@@ -1,0 +1,1272 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.88766622543335,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.217732667922974,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.057847023010254,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.275861501693726,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.92514419555664,
+    "estimated_cost": 212.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.169387102127075,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.272294282913208,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.6079628467559814,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.384836673736572,
+    "estimated_cost": 213.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.511005163192749,
+    "estimated_cost": 212.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.041294574737549,
+    "estimated_cost": 102.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.941159009933472,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.924489259719849,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.154325246810913,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.321289539337158,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.845836400985718,
+    "estimated_cost": 102.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.698907375335693,
+    "estimated_cost": 212.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.965149879455566,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.518007755279541,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.077665090560913,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.452312231063843,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.232195854187012,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.170549392700195,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.62256693840027,
+    "estimated_cost": 102.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.998666048049927,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.860563039779663,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.68978214263916,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.864744663238525,
+    "estimated_cost": 30.900000000000006,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.135307550430298,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.2589898109436035,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.071383476257324,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.011680364608765,
+    "estimated_cost": 112.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.199029207229614,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.314203023910522,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> invite_project_member -> append(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> invite_project_member -> append(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.907369136810303,
+    "estimated_cost": 211.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.8235955238342285,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.703514575958252,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.82287311553955,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.522035837173462,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.98331046104431,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.861034154891968,
+    "estimated_cost": 113.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.570020914077759,
+    "estimated_cost": 113.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.963171482086182,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.021217107772827,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> any(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> any(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> any(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> any(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.608910322189331,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> strip(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.144272565841675,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> lower(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.173831939697266,
+    "estimated_cost": 113.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.300307989120483,
+    "estimated_cost": 111.59999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.425016164779663,
+    "estimated_cost": 112.49999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: open_invite_modal requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> ai_eval(...) [unknown] -> open_invite_modal -> append(...) [unknown] -> ai_eval(...) [unknown] -> open_invite_modal"
+        }
+      ],
+      "error_message": "Tool ordering error: open_invite_modal requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> ai_eval(...) [unknown] -> open_invite_modal -> append(...) [unknown] -> ai_eval(...) [unknown] -> open_invite_modal"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.291183233261108,
+    "estimated_cost": 123.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.75788164138794,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> open_invite_modal -> ai_eval(...) [unknown] -> invite_project_member -> append(...) [unknown] -> ai_eval(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.229762077331543,
+    "estimated_cost": 113.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.468773365020752,
+    "estimated_cost": 113.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.598993062973022,
+    "estimated_cost": 212.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.627380847930908,
+    "estimated_cost": 112.59999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.363222122192383,
+    "estimated_cost": 111.59999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.010789155960083,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> open_invite_modal -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> invite_project_member -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.1968584060668945,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.2350435256958,
+    "estimated_cost": 30.900000000000006,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.61473298072815,
+    "estimated_cost": 113.49999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> lower(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> list_project_members -> lower(...) [unknown] -> lower(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.740320444107056,
+    "estimated_cost": 112.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.07085394859314,
+    "estimated_cost": 113.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.247378826141357,
+    "estimated_cost": 212.5,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.684822082519531,
+    "estimated_cost": 111.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+        }
+      ],
+      "error_message": "Tool ordering error: list_project_members requires page_type=project_members, but state has page_type=invite_modal. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> list_project_members"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

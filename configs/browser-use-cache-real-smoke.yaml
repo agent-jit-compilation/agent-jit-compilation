@@ -1,0 +1,17 @@
+adapter: agent_jit.adapters.browser_use:run
+method: Browser-Use +cache
+method_revision: agent-jit-v0.1-browser-use
+model: gpt-4.1-2025-04-14
+use_cached_tools: true
+tasks: [v1/dashdish-1]
+trials: 1
+worker_budget: 1
+timeout_s: 180
+setup_timeout_s: 60
+evaluation_timeout_s: 60
+max_output_tokens: 2048
+allow_vision: false
+headless: true
+evaluator: openai
+budget_usd: 1
+ledger: runs/shared-ledger.json

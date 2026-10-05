@@ -1,0 +1,1258 @@
+[
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.40069007873535,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 52.90500807762146,
+    "estimated_cost": 239.29999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_checkout requires page_type=store, but state has page_type=checkout. Call sequence: ai_eval(...) [unknown] -> filter_stores -> list_all_stores -> any(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> parse_price() [user-defined] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> get_item_details -> add_to_cart -> goto_home -> list_all_stores -> add(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> parse_price() [user-defined] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> get_item_details -> add_to_cart -> get_item_details -> add_to_cart -> goto_checkout -> goto_checkout"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_checkout requires page_type=store, but state has page_type=checkout. Call sequence: ai_eval(...) [unknown] -> filter_stores -> list_all_stores -> any(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> parse_price() [user-defined] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> get_item_details -> add_to_cart -> goto_home -> list_all_stores -> add(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> parse_price() [user-defined] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> get_item_details -> add_to_cart -> get_item_details -> add_to_cart -> goto_checkout -> goto_checkout"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 43.36940002441406,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 52.97499179840088,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.2273223400116,
+    "estimated_cost": 41.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.33207058906555,
+    "estimated_cost": 30.900000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.189343214035034,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.97073578834534,
+    "estimated_cost": 50.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.387977123260498,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 53.01843023300171,
+    "estimated_cost": 265.09999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 43.08648204803467,
+    "estimated_cost": 51.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.049739599227905,
+    "estimated_cost": 41.00000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 45.077425718307495,
+    "estimated_cost": 41.00000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.53841209411621,
+    "estimated_cost": 40.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.771788120269775,
+    "estimated_cost": 30.900000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 45.69748663902283,
+    "estimated_cost": 264.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.243741512298584,
+    "estimated_cost": 31.000000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.954509496688843,
+    "estimated_cost": 30.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.82143759727478,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.854034423828125,
+    "estimated_cost": 587.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 50.779802560806274,
+    "estimated_cost": 80.89999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 36.71014213562012,
+    "estimated_cost": 348.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.224753618240356,
+    "estimated_cost": 155.09999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.92395544052124,
+    "estimated_cost": 348.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> filter_stores -> list_all_stores -> ai_eval(...) [unknown] -> locals(...) [unknown] -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> filter_stores -> list_all_stores -> ai_eval(...) [unknown] -> locals(...) [unknown] -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 52.10465669631958,
+    "estimated_cost": 41.20000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 396: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `None | str | Unknown`\nLine 419: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 396: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `None | str | Unknown`\nLine 419: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None | Unknown`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 50.117382287979126,
+    "estimated_cost": 61.10000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.43436098098755,
+    "estimated_cost": 326.40000000000003,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.76019096374512,
+    "estimated_cost": 338.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.36686706542969,
+    "estimated_cost": 40.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 380: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `Unknown | str | None`\nLine 383: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `Unknown | str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 380: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `Unknown | str | None`\nLine 383: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `Unknown | str | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 39.25582456588745,
+    "estimated_cost": 51.099999999999994,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 45.44053339958191,
+    "estimated_cost": 40.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 39.675108194351196,
+    "estimated_cost": 50.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.86611247062683,
+    "estimated_cost": 51.00000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> list_menu_items"
+        }
+      ],
+      "error_message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> list_menu_items"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 63.06138586997986,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 60.732550859451294,
+    "estimated_cost": 1.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 40.39239025115967,
+    "estimated_cost": 31.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 307: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 310: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 313: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 323: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 307: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 310: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 313: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 323: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `None | Unknown | str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.787211656570435,
+    "estimated_cost": 13356.900000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 39.41352558135986,
+    "estimated_cost": 30.900000000000002,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=order_confirmation. Call sequence: filter_stores -> filter_stores -> ai_eval(...) [unknown] -> get(...) [unknown] -> list_all_stores -> any(...) [unknown] -> lower(...) [unknown] -> goto_store -> list_menu_items -> _price_to_float() [user-defined] -> _price_to_float() [user-defined] -> any(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> get(...) [unknown] -> add_to_cart -> goto_checkout -> place_order -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=order_confirmation. Call sequence: filter_stores -> filter_stores -> ai_eval(...) [unknown] -> get(...) [unknown] -> list_all_stores -> any(...) [unknown] -> lower(...) [unknown] -> goto_store -> list_menu_items -> _price_to_float() [user-defined] -> _price_to_float() [user-defined] -> any(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> get(...) [unknown] -> add_to_cart -> goto_checkout -> place_order -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 55.820515155792236,
+    "estimated_cost": 122.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> _find_and_order_sub_under_budget() [entering] -> filter_stores -> filter_stores -> goto_store -> list_menu_items -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> _find_and_order_sub_under_budget() [entering] -> filter_stores -> filter_stores -> goto_store -> list_menu_items -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 49.49873399734497,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 39.50949740409851,
+    "estimated_cost": 51.00000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 71.57497334480286,
+    "estimated_cost": 0.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 70.2322256565094,
+    "estimated_cost": 115.39999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: ai_eval(...) [unknown] -> filter_stores -> list_all_stores -> lower(...) [unknown] -> lower(...) [unknown] -> list_all_stores -> list_all_stores -> goto_store -> goto_store"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: ai_eval(...) [unknown] -> filter_stores -> list_all_stores -> lower(...) [unknown] -> lower(...) [unknown] -> list_all_stores -> list_all_stores -> goto_store -> goto_store"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.14824843406677,
+    "estimated_cost": 20.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 36.55519771575928,
+    "estimated_cost": 115.99999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 266: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None | @Todo`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 266: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | None | @Todo`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 67.24838352203369,
+    "estimated_cost": 40.800000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 250: error[not-iterable] Object of type `list[GetItemDetailsOutputCustomizationsItem] | None` may not be iterable\nLine 306: error[not-iterable] Object of type `list[GetItemDetailsOutputCustomizationsItem] | None` may not be iterable\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 250: error[not-iterable] Object of type `list[GetItemDetailsOutputCustomizationsItem] | None` may not be iterable\nLine 306: error[not-iterable] Object of type `list[GetItemDetailsOutputCustomizationsItem] | None` may not be iterable\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.44014549255371,
+    "estimated_cost": 1244.2999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> extend(...) [unknown] -> filter_stores -> extend(...) [unknown] -> list_all_stores -> any(...) [unknown] -> lower(...) [unknown] -> extend(...) [unknown] -> range(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> sort(...) [unknown] -> goto_checkout"
+        }
+      ],
+      "error_message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> extend(...) [unknown] -> filter_stores -> extend(...) [unknown] -> list_all_stores -> any(...) [unknown] -> lower(...) [unknown] -> extend(...) [unknown] -> range(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> sort(...) [unknown] -> goto_checkout"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.25681447982788,
+    "estimated_cost": 346.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> next(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> next(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 53.75637865066528,
+    "estimated_cost": 51.10000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=order_confirmation. Call sequence: list_categories -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> filter_by_category -> ai_eval(...) [unknown] -> strip(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_store -> list_menu_items -> sorted(...) [unknown] -> add_to_cart -> goto_checkout -> place_order -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=order_confirmation. Call sequence: list_categories -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> filter_by_category -> ai_eval(...) [unknown] -> strip(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_store -> list_menu_items -> sorted(...) [unknown] -> add_to_cart -> goto_checkout -> place_order -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 50.21012496948242,
+    "estimated_cost": 4.999999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.615798234939575,
+    "estimated_cost": 41.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 49.75509023666382,
+    "estimated_cost": 2377.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.33295488357544,
+    "estimated_cost": 126.89999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 56.67085862159729,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 349: error[invalid-argument-type] Argument to function `pick_under_30` is incorrect: Expected `list[code.<locals of function '_user_generated_code'>.ListMenuItemsOutputItemsItem]`, found `list[code.ListMenuItemsOutputItemsItem | Unknown]`\nLine 351: error[invalid-argument-type] Argument to function `pick_under_30` is incorrect: Expected `list[code.<locals of function '_user_generated_code'>.ListMenuItemsOutputItemsItem]`, found `list[code.ListMenuItemsOutputItemsItem | Unknown]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 349: error[invalid-argument-type] Argument to function `pick_under_30` is incorrect: Expected `list[code.<locals of function '_user_generated_code'>.ListMenuItemsOutputItemsItem]`, found `list[code.ListMenuItemsOutputItemsItem | Unknown]`\nLine 351: error[invalid-argument-type] Argument to function `pick_under_30` is incorrect: Expected `list[code.<locals of function '_user_generated_code'>.ListMenuItemsOutputItemsItem]`, found `list[code.ListMenuItemsOutputItemsItem | Unknown]`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.00053071975708,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 57.898478507995605,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.76370906829834,
+    "estimated_cost": 30.900000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 46.4535117149353,
+    "estimated_cost": 53.300000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 50.804178953170776,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 79.08001470565796,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 45.69640326499939,
+    "estimated_cost": 21.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 37.679970502853394,
+    "estimated_cost": 141.19999999999996,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_categories requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> filter_stores -> list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> list_categories"
+        }
+      ],
+      "error_message": "Tool ordering error: list_categories requires page_type=home, but state has page_type=store. Call sequence: filter_stores -> filter_stores -> list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> list_categories"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 48.673359632492065,
+    "estimated_cost": 51.30000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: filter_by_category requires page_type=home, but state has page_type=store. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> getattr(...) [unknown] -> filter_by_category"
+        }
+      ],
+      "error_message": "Tool ordering error: filter_by_category requires page_type=home, but state has page_type=store. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> getattr(...) [unknown] -> filter_by_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 57.92454290390015,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  }
+]

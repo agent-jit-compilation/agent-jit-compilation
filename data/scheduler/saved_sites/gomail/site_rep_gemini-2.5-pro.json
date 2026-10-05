@@ -1,0 +1,547 @@
+{
+  "site_name": "gomail",
+  "element_mappings": {
+    "logoLink": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          0
+        ],
+        "daf6e3d6-5b7f-984c-301b-f4ca87c1a7ee": [
+          0
+        ],
+        "28ee0f7d-2a2e-9df9-d34f-c916321d89ae": [
+          0
+        ],
+        "2c3cadec-be38-2ee5-7f86-1ea939ad0a7d": [
+          0
+        ],
+        "2677549c-045f-4820-2d7d-b1f1abb67836": [
+          0
+        ],
+        "5a6c9044-d902-69a0-b65a-1f0d2014c10d": [
+          0
+        ],
+        "2ac1c3be-ed7a-1de5-f1bc-0fb5a1a91751": [
+          0
+        ],
+        "d84f27ed-7b1d-6713-e10f-da83bfc8afbc": [
+          0
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          0
+        ],
+        "31363a26-e46b-88f8-d4af-1e92d6230fff": [
+          0
+        ]
+      }
+    },
+    "createNewLabelButton": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          1
+        ],
+        "b7a1bb0c-bef2-a671-7201-f16265ca7c90": [
+          1
+        ],
+        "daf6e3d6-5b7f-984c-301b-f4ca87c1a7ee": [
+          1
+        ],
+        "35795ff3-9608-5c45-057f-2227fb72f797": [
+          1
+        ],
+        "1132192b-9eda-315d-a480-93a5b9784431": [
+          1
+        ],
+        "28ee0f7d-2a2e-9df9-d34f-c916321d89ae": [
+          1,
+          2
+        ],
+        "d31b1429-530a-2c1b-b8c0-cd3f54a84fd8": [
+          1
+        ],
+        "2c3cadec-be38-2ee5-7f86-1ea939ad0a7d": [
+          1
+        ],
+        "2677549c-045f-4820-2d7d-b1f1abb67836": [
+          1,
+          2
+        ],
+        "c1cefcd0-0b37-8b2b-c3c0-ee8bcc2c1f22": [
+          1
+        ]
+      }
+    },
+    "addLabelModal.createButton": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          2
+        ],
+        "b7a1bb0c-bef2-a671-7201-f16265ca7c90": [
+          2,
+          3
+        ],
+        "daf6e3d6-5b7f-984c-301b-f4ca87c1a7ee": [
+          2,
+          3
+        ],
+        "35795ff3-9608-5c45-057f-2227fb72f797": [
+          2,
+          3
+        ],
+        "1132192b-9eda-315d-a480-93a5b9784431": [
+          2,
+          3
+        ],
+        "28ee0f7d-2a2e-9df9-d34f-c916321d89ae": [
+          3
+        ],
+        "d31b1429-530a-2c1b-b8c0-cd3f54a84fd8": [
+          2,
+          3
+        ],
+        "2c3cadec-be38-2ee5-7f86-1ea939ad0a7d": [
+          2,
+          3
+        ],
+        "2677549c-045f-4820-2d7d-b1f1abb67836": [
+          3
+        ],
+        "c1cefcd0-0b37-8b2b-c3c0-ee8bcc2c1f22": [
+          2
+        ]
+      }
+    },
+    "composeButton": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          3,
+          6,
+          9
+        ],
+        "b7a1bb0c-bef2-a671-7201-f16265ca7c90": [
+          4
+        ],
+        "daf6e3d6-5b7f-984c-301b-f4ca87c1a7ee": [
+          4
+        ],
+        "35795ff3-9608-5c45-057f-2227fb72f797": [
+          4
+        ],
+        "1132192b-9eda-315d-a480-93a5b9784431": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "28ee0f7d-2a2e-9df9-d34f-c916321d89ae": [
+          4
+        ],
+        "d31b1429-530a-2c1b-b8c0-cd3f54a84fd8": [
+          4
+        ],
+        "2c3cadec-be38-2ee5-7f86-1ea939ad0a7d": [
+          4
+        ],
+        "2677549c-045f-4820-2d7d-b1f1abb67836": [
+          4
+        ],
+        "c1cefcd0-0b37-8b2b-c3c0-ee8bcc2c1f22": [
+          3,
+          8,
+          13,
+          18
+        ]
+      }
+    },
+    "composeEmailModal.sendButton": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          4,
+          5,
+          7,
+          8,
+          10,
+          15
+        ],
+        "b7a1bb0c-bef2-a671-7201-f16265ca7c90": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "daf6e3d6-5b7f-984c-301b-f4ca87c1a7ee": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "35795ff3-9608-5c45-057f-2227fb72f797": [
+          5,
+          6,
+          8,
+          9
+        ],
+        "1132192b-9eda-315d-a480-93a5b9784431": [
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "28ee0f7d-2a2e-9df9-d34f-c916321d89ae": [
+          5,
+          6,
+          7
+        ],
+        "d31b1429-530a-2c1b-b8c0-cd3f54a84fd8": [
+          5,
+          6,
+          7
+        ],
+        "2c3cadec-be38-2ee5-7f86-1ea939ad0a7d": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "2677549c-045f-4820-2d7d-b1f1abb67836": [
+          5,
+          6,
+          7,
+          9
+        ],
+        "c1cefcd0-0b37-8b2b-c3c0-ee8bcc2c1f22": [
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          17
+        ]
+      }
+    },
+    "composeEmailModal.bodyInput": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          11
+        ],
+        "5a6c9044-d902-69a0-b65a-1f0d2014c10d": [
+          4
+        ]
+      }
+    },
+    "sidebarFolderMenuItem": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          12
+        ],
+        "b7a1bb0c-bef2-a671-7201-f16265ca7c90": [
+          9,
+          10
+        ],
+        "daf6e3d6-5b7f-984c-301b-f4ca87c1a7ee": [
+          9,
+          10
+        ],
+        "1132192b-9eda-315d-a480-93a5b9784431": [
+          13
+        ],
+        "2677549c-045f-4820-2d7d-b1f1abb67836": [
+          8
+        ],
+        "c1cefcd0-0b37-8b2b-c3c0-ee8bcc2c1f22": [
+          0
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          0
+        ]
+      }
+    },
+    "composeEmailModal.headerCloseButton": {
+      "description": "",
+      "traces": {
+        "d271bdf3-adfc-1f42-0c91-9f143b4dd374": [
+          13,
+          14
+        ],
+        "35795ff3-9608-5c45-057f-2227fb72f797": [
+          7
+        ],
+        "c1cefcd0-0b37-8b2b-c3c0-ee8bcc2c1f22": [
+          16
+        ]
+      }
+    },
+    "sectionTitle": {
+      "description": "",
+      "traces": {
+        "b7a1bb0c-bef2-a671-7201-f16265ca7c90": [
+          0
+        ],
+        "35795ff3-9608-5c45-057f-2227fb72f797": [
+          0
+        ],
+        "1132192b-9eda-315d-a480-93a5b9784431": [
+          0
+        ],
+        "d31b1429-530a-2c1b-b8c0-cd3f54a84fd8": [
+          0
+        ],
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          0
+        ],
+        "fc831006-64a5-78fc-1023-bc9bcf59ba54": [
+          0
+        ],
+        "00721044-cf91-cf65-a985-1a957600e3db": [
+          0
+        ],
+        "00a23a8b-252e-e46a-3828-b210fd6599de": [
+          0
+        ]
+      }
+    },
+    "emailRowCheckbox": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          1
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          8
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          6
+        ]
+      }
+    },
+    "viewEmailDetailsModal.moreButton": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          2,
+          4
+        ]
+      }
+    },
+    "viewEmailDetailsModal.forwardButton": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          3,
+          6,
+          8
+        ],
+        "fc831006-64a5-78fc-1023-bc9bcf59ba54": [
+          2
+        ],
+        "5a6c9044-d902-69a0-b65a-1f0d2014c10d": [
+          2
+        ],
+        "00721044-cf91-cf65-a985-1a957600e3db": [
+          2
+        ],
+        "2ac1c3be-ed7a-1de5-f1bc-0fb5a1a91751": [
+          2
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          2
+        ],
+        "00a23a8b-252e-e46a-3828-b210fd6599de": [
+          2
+        ],
+        "d84f27ed-7b1d-6713-e10f-da83bfc8afbc": [
+          2
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          2
+        ],
+        "31363a26-e46b-88f8-d4af-1e92d6230fff": [
+          2,
+          3
+        ]
+      }
+    },
+    "toolbarMoreButton": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          5
+        ]
+      }
+    },
+    "emailRow": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          7
+        ],
+        "fc831006-64a5-78fc-1023-bc9bcf59ba54": [
+          1
+        ],
+        "5a6c9044-d902-69a0-b65a-1f0d2014c10d": [
+          1,
+          7
+        ],
+        "00721044-cf91-cf65-a985-1a957600e3db": [
+          1
+        ],
+        "2ac1c3be-ed7a-1de5-f1bc-0fb5a1a91751": [
+          1
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          1
+        ],
+        "00a23a8b-252e-e46a-3828-b210fd6599de": [
+          1
+        ],
+        "d84f27ed-7b1d-6713-e10f-da83bfc8afbc": [
+          1
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          1
+        ],
+        "31363a26-e46b-88f8-d4af-1e92d6230fff": [
+          1
+        ]
+      }
+    },
+    "forwardEmailModal.toInput": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          9,
+          10
+        ]
+      }
+    },
+    "forwardEmailModal.sendButton": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          11,
+          14
+        ],
+        "fc831006-64a5-78fc-1023-bc9bcf59ba54": [
+          3,
+          4
+        ],
+        "5a6c9044-d902-69a0-b65a-1f0d2014c10d": [
+          3,
+          5
+        ],
+        "00721044-cf91-cf65-a985-1a957600e3db": [
+          3,
+          4
+        ],
+        "2ac1c3be-ed7a-1de5-f1bc-0fb5a1a91751": [
+          3,
+          4
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "00a23a8b-252e-e46a-3828-b210fd6599de": [
+          3,
+          4
+        ],
+        "d84f27ed-7b1d-6713-e10f-da83bfc8afbc": [
+          3,
+          4,
+          6
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          3,
+          4
+        ],
+        "31363a26-e46b-88f8-d4af-1e92d6230fff": [
+          4,
+          5,
+          8
+        ]
+      }
+    },
+    "viewEmailDetailsModal.backToInboxButton": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          12
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          7
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          5
+        ]
+      }
+    },
+    "optionsModal.deleteButton": {
+      "description": "",
+      "traces": {
+        "82da88e6-4a68-73c5-3874-e34df4b932b9": [
+          13
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          9
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          7
+        ]
+      }
+    },
+    "viewEmailDetailsModal.deleteButton": {
+      "description": "",
+      "traces": {
+        "fc831006-64a5-78fc-1023-bc9bcf59ba54": [
+          5,
+          6
+        ],
+        "5a6c9044-d902-69a0-b65a-1f0d2014c10d": [
+          6
+        ],
+        "00721044-cf91-cf65-a985-1a957600e3db": [
+          5,
+          6
+        ],
+        "2ac1c3be-ed7a-1de5-f1bc-0fb5a1a91751": [
+          5,
+          6
+        ],
+        "009a5b31-670f-d038-a8ea-c92aecb2874e": [
+          10
+        ],
+        "00a23a8b-252e-e46a-3828-b210fd6599de": [
+          5,
+          6
+        ],
+        "d84f27ed-7b1d-6713-e10f-da83bfc8afbc": [
+          5
+        ],
+        "9841e4a9-4ac4-20df-0b6f-b9db10d909c3": [
+          8
+        ],
+        "31363a26-e46b-88f8-d4af-1e92d6230fff": [
+          6,
+          7
+        ]
+      }
+    }
+  }
+}

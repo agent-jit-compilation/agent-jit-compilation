@@ -1,0 +1,12 @@
+adapter: agent_jit.adapters.example:run
+method: registry-read-only-example
+method_revision: artifact-example-v1
+model: null
+tasks: [v1/dashdish-1]
+trials: 1
+timeout_s: 60
+setup_timeout_s: 60
+evaluation_timeout_s: 30
+evaluator: json
+worker_budget: 1
+headless: true

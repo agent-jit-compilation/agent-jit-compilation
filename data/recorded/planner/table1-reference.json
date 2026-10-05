@@ -1,0 +1,304 @@
+{
+  "publication": "https://proceedings.mlr.press/v306/winston26b.html",
+  "table": "Table 1",
+  "extraction": "First numeric value of each table cell; latency/accuracy improvements in parentheses are not separate observations.",
+  "thresholds": {
+    "cardinality": {
+      "C-Low": [
+        1,
+        1
+      ],
+      "C-Medium": [
+        2,
+        4
+      ],
+      "C-High": [
+        5,
+        null
+      ]
+    },
+    "length": {
+      "T-Short": [
+        1,
+        5
+      ],
+      "T-Medium": [
+        6,
+        8
+      ],
+      "T-Long": [
+        9,
+        null
+      ]
+    }
+  },
+  "rows": [
+    {
+      "dimension": "model",
+      "label": "gpt-4.1",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 150.1,
+          "correctness": 0.61
+        },
+        "loop-tools-baseline": {
+          "latency_s": 105.2,
+          "correctness": 0.88
+        },
+        "best": {
+          "latency_s": 15.4,
+          "correctness": 0.9
+        }
+      },
+      "table_range_s": 93.7
+    },
+    {
+      "dimension": "model",
+      "label": "gemini-2.5-flash",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 100.3,
+          "correctness": 0.59
+        },
+        "loop-tools-baseline": {
+          "latency_s": 69.3,
+          "correctness": 0.81
+        },
+        "best": {
+          "latency_s": 7.2,
+          "correctness": 0.94
+        }
+      },
+      "table_range_s": 22.4
+    },
+    {
+      "dimension": "model",
+      "label": "gemini-2.5-pro",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 115.9,
+          "correctness": 0.77
+        },
+        "loop-tools-baseline": {
+          "latency_s": 65.8,
+          "correctness": 0.86
+        },
+        "best": {
+          "latency_s": 12.6,
+          "correctness": 0.97
+        }
+      },
+      "table_range_s": 33.8
+    },
+    {
+      "dimension": "cardinality",
+      "label": "C-Low",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 101.5,
+          "correctness": 0.64
+        },
+        "loop-tools-baseline": {
+          "latency_s": 65.2,
+          "correctness": 0.86
+        },
+        "best": {
+          "latency_s": 9.4,
+          "correctness": 0.94
+        }
+      },
+      "table_range_s": 36.3
+    },
+    {
+      "dimension": "cardinality",
+      "label": "C-Medium",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 119.0,
+          "correctness": 0.75
+        },
+        "loop-tools-baseline": {
+          "latency_s": 91.2,
+          "correctness": 0.85
+        },
+        "best": {
+          "latency_s": 13.7,
+          "correctness": 0.94
+        }
+      },
+      "table_range_s": 26.1
+    },
+    {
+      "dimension": "cardinality",
+      "label": "C-High",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 169.0,
+          "correctness": 0.58
+        },
+        "loop-tools-baseline": {
+          "latency_s": 96.2,
+          "correctness": 0.84
+        },
+        "best": {
+          "latency_s": 14.3,
+          "correctness": 0.92
+        }
+      },
+      "table_range_s": 93.1
+    },
+    {
+      "dimension": "length",
+      "label": "T-Short",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 70.2,
+          "correctness": 0.73
+        },
+        "loop-tools-baseline": {
+          "latency_s": 51.5,
+          "correctness": 0.88
+        },
+        "best": {
+          "latency_s": 7.1,
+          "correctness": 0.98
+        }
+      },
+      "table_range_s": 26.6
+    },
+    {
+      "dimension": "length",
+      "label": "T-Medium",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 134.9,
+          "correctness": 0.59
+        },
+        "loop-tools-baseline": {
+          "latency_s": 86.8,
+          "correctness": 0.93
+        },
+        "best": {
+          "latency_s": 13.0,
+          "correctness": 0.92
+        }
+      },
+      "table_range_s": 35.5
+    },
+    {
+      "dimension": "length",
+      "label": "T-Long",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 195.3,
+          "correctness": 0.62
+        },
+        "loop-tools-baseline": {
+          "latency_s": 121.2,
+          "correctness": 0.7
+        },
+        "best": {
+          "latency_s": 18.4,
+          "correctness": 0.89
+        }
+      },
+      "table_range_s": 91.6
+    },
+    {
+      "dimension": "application",
+      "label": "dashdish",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 118.8,
+          "correctness": 0.65
+        },
+        "loop-tools-baseline": {
+          "latency_s": 62.8,
+          "correctness": 1.0
+        },
+        "best": {
+          "latency_s": 14.5,
+          "correctness": 1.0
+        }
+      },
+      "table_range_s": 35.3
+    },
+    {
+      "dimension": "application",
+      "label": "gitlab",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 144.7,
+          "correctness": 0.49
+        },
+        "loop-tools-baseline": {
+          "latency_s": 69.7,
+          "correctness": 0.67
+        },
+        "best": {
+          "latency_s": 9.9,
+          "correctness": 0.87
+        }
+      },
+      "table_range_s": 20.7
+    },
+    {
+      "dimension": "application",
+      "label": "gomail",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 133.8,
+          "correctness": 0.63
+        },
+        "loop-tools-baseline": {
+          "latency_s": 94.6,
+          "correctness": 0.8
+        },
+        "best": {
+          "latency_s": 10.4,
+          "correctness": 0.96
+        }
+      },
+      "table_range_s": 24.9
+    },
+    {
+      "dimension": "application",
+      "label": "omnizon",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 113.9,
+          "correctness": 0.76
+        },
+        "loop-tools-baseline": {
+          "latency_s": 86.8,
+          "correctness": 0.84
+        },
+        "best": {
+          "latency_s": 15.5,
+          "correctness": 0.89
+        }
+      },
+      "table_range_s": 93.6
+    },
+    {
+      "dimension": "application",
+      "label": "reddit",
+      "methods": {
+        "loop-baseline": {
+          "latency_s": 81.3,
+          "correctness": 0.72
+        },
+        "loop-tools-baseline": {
+          "latency_s": 82.7,
+          "correctness": 0.89
+        },
+        "best": {
+          "latency_s": 4.3,
+          "correctness": 0.93
+        }
+      },
+      "table_range_s": 8.5
+    }
+  ],
+  "range_definition": "Maximum minus minimum best-cost task/model group latency within each row."
+}

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use Agent JIT Compilation, please cite the paper below."
+title: "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling"
+type: software
+repository-code: "https://github.com/agent-jit-compilation/agent-jit-compilation"
+license: MIT
+authors:
+  - family-names: Winston
+    given-names: Caleb
+  - family-names: Wang
+    given-names: Ron Yifeng
+  - family-names: Mirhoseini
+    given-names: Azalia
+  - family-names: Kozyrakis
+    given-names: Christos
+url: "https://agent-jit-compilation.github.io/"
+preferred-citation:
+  type: conference-paper
+  title: "Agent JIT Compilation for Latency-Optimizing Web Agent Planning and Scheduling"
+  authors:
+    - family-names: Winston
+      given-names: Caleb
+    - family-names: Wang
+      given-names: Ron Yifeng
+    - family-names: Mirhoseini
+      given-names: Azalia
+    - family-names: Kozyrakis
+      given-names: Christos
+  year: 2026
+  collection-title: "Proceedings of the 43rd International Conference on Machine Learning"
+  collection-type: proceedings
+  volume: 306
+  start: 135161
+  end: 135186
+  publisher:
+    name: PMLR
+  url: "https://proceedings.mlr.press/v306/winston26b.html"

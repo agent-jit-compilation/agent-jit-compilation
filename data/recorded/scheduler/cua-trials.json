@@ -1,0 +1,2438 @@
+{
+  "source_commit": "87a70ec98d28a35ae455ba0443676d5bcff0dc85",
+  "extraction": "Original load_cua_results file selection (*/*_results.json); metrics only, no final output, browser state, or error text.",
+  "sources": [
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-1/run1_20260125_025445_results.json",
+      "sha256": "e5d417b2daa954ae25ad7e4731ae4e5c1d79d5fc8c6c63eea3d86dacba998ecf"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-1/run2_20260125_025543_results.json",
+      "sha256": "bd052f0e419f8d8393c20e554feb576c13ebb5abf5e444de70a4ac15a54d7add"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-1/run3_20260125_025647_results.json",
+      "sha256": "f50e68cf213d25985505bff006401da3a33b0c1ea204d00212d3b47706a71d49"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-2/run1_20260125_030322_results.json",
+      "sha256": "52ed6cc7d7c3585f1ebb1d305d4829b4739c4214bdc52630961b326627f68383"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-2/run2_20260125_031019_results.json",
+      "sha256": "b95e1c88831d7a1c2ab5d3010d53f94e9e0aeab4dad32813943ceccab842c7df"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-2/run3_20260125_031612_results.json",
+      "sha256": "39684acadc00acd2230252c01ae5d0cd718a395e9058266eab360f67857106f5"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-3/run1_20260125_031851_results.json",
+      "sha256": "f53ae29abfd2439c21d73344298fde800645191c2cc9c7405212f237739df4db"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-3/run2_20260125_032139_results.json",
+      "sha256": "1b41214ff68e7223d88bfde9fc9b604bf21c90d64ca7942d36b39c73bcc436d7"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-3/run3_20260125_051403_results.json",
+      "sha256": "051b07f52f998046593e8e18ffee4ea4f9ab279327b6e89834c63152c5bc4aaa"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-4/run1_20260125_032441_results.json",
+      "sha256": "41b6a5dcdc706a8ec0429ac8d33b3b18be677abd12a1e2e5536c24870662d305"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-4/run2_20260125_032710_results.json",
+      "sha256": "a29d8127b4d4c74d7edbc020ae20b5b78ef3e212f0c28abb0530672e448b7399"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-4/run3_20260125_033159_results.json",
+      "sha256": "c4e71b88a6d3b519efd57c22b701ee5454a40dd4b62ac67d722ca3f5eaabfa3f"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-5/run1_20260125_033211_results.json",
+      "sha256": "dee70abc77a0a10761493d0786e36f55636797fcd94c1bc9293fa916b6fdd7c6"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-5/run2_20260125_033229_results.json",
+      "sha256": "3eeb127acd104a26fc20d2841bd69af094db3beb648f2502588c73f17d0bb009"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-5/run3_20260125_033244_results.json",
+      "sha256": "f89f376a4a60afa1fe4cf48961e870c047add0570343e8af099a14b6ad26bf17"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-6/run1_20260125_033939_results.json",
+      "sha256": "6ce6bd83c7502648963968052dc15d2e12d745c8fe68e0a0210a8db0edd5cdb3"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-6/run2_20260125_034255_results.json",
+      "sha256": "c5df8a4e23ba60f779cdca0100877662994987d0988907594dfc8d67a2181891"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-6/run3_20260125_053219_results.json",
+      "sha256": "cbdd284e41695406a35f6059a3f3408051ca331cda060507c8e2df8fd87a336e"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-7/run1_20260125_034452_results.json",
+      "sha256": "5267c42b7ead0c42f3ce6678302ffd3ad416a69773ee9cce5e12d5baf8272456"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-7/run2_20260125_035101_results.json",
+      "sha256": "ccd1b8a169b43c0c701e339d24f213e78530f8ce52b24c644de7784ec1ae90c0"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-7/run3_20260125_035231_results.json",
+      "sha256": "515fb8fe317c27803d3c4e18f9a0415ee81679b69c563206e9d5763846759a22"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-8/run1_20260125_035258_results.json",
+      "sha256": "6d7c02c6c1a737d65f0cbde406508cec2278a3caaf8ec624018de5e6bf2bfc64"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-8/run2_20260125_040312_results.json",
+      "sha256": "cdc6a338b0539b6948f2552dae464f726c91a401b688a738f7d224b358b2620d"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-8/run3_20260125_042251_results.json",
+      "sha256": "782bbb58b6241340262aed006c27b751df3dda3a2233631c0d8da01d3b695086"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-9/run1_20260125_044100_results.json",
+      "sha256": "3ac1267e2c8ba99aeb445e074750eeb923b292aebc42220c16f6b82acf50227d"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-9/run2_20260125_045131_results.json",
+      "sha256": "6f5c79af7c4bd9de435f55689e1fdae89d6db9cc497553e0d3f122e09d4f5455"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-9/run3_20260125_052500_results.json",
+      "sha256": "9de3a0466ce3334139db56f4277d8958d2dc5e8cf129f6eac313923e60a9b671"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-1/run1_20260125_213609_results.json",
+      "sha256": "f3ebdf0d4a5f9a612dda97a00140819a4ab46e03db541ccf34ff66fcab357dfb"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-1/run2_20260125_213723_results.json",
+      "sha256": "e5adcf8318fbae7016493728a70a612a40ea7847b04be476aa8b8802e557876a"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-1/run3_20260125_213842_results.json",
+      "sha256": "075679fcd374984ae4bf7443afeaf77473b25f33065d639e1c188df525ef50b8"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-2/run1_20260125_214406_results.json",
+      "sha256": "5b2de241d92ecc202bc043eb6a8cb3e6dac0561b4d0d91725ae3b2681512e914"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-2/run2_20260125_214857_results.json",
+      "sha256": "774f5c18e413c5e440c29bbee11dbc7bf55cf1afe542ffe1671e5d13e417478a"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-2/run3_20260125_215331_results.json",
+      "sha256": "02e1a86b14d8b0aca7949f07a7bed621e75e04ac40fbf1e144c1f205dbad2b38"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-3/run1_20260125_215524_results.json",
+      "sha256": "b448be7fe1ccdfd1c2e51b8a3f8be5dd95b3180189e9a1d7721c39d69277713e"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-3/run2_20260125_215636_results.json",
+      "sha256": "b91ca9eb7caae57e3adec39835883075bbe0528fdb0b825a44854e2e83ee70c7"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-3/run3_20260125_215753_results.json",
+      "sha256": "e7f6d33845c56d73ca481af85f6db024119039d7fdcff55c78e9b08813b917ca"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-4/run1_20260125_215948_results.json",
+      "sha256": "9bcf17cab0a10160b4e39126961edf5ffccdcf6f623054c04b9bd558d19cfe0e"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-4/run2_20260125_220124_results.json",
+      "sha256": "1ba5b1bce6b9f821854f9e14c5ee89ef20e26d749413188b08e1214393046ae8"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-4/run3_20260125_220320_results.json",
+      "sha256": "d9e057dc43929352a336c85a68bb794dc1f9884f278c58edf8fb150b46ef0e46"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-5/run1_20260125_220340_results.json",
+      "sha256": "2b7d8c76d46b14a8d4e3c053d51140a539eb9b770243d1af3cd5ee4dd65bee1f"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-5/run2_20260125_220402_results.json",
+      "sha256": "63f4c7cc2ce471f076716d452ac589f747fb027ea1b28fddbe25325cc87d7ecc"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-5/run3_20260125_220421_results.json",
+      "sha256": "89929eb459f7896e139d5643757150e1399a847348431264aae2159ed50e2891"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-6/run1_20260125_220741_results.json",
+      "sha256": "2e118510a196feac81a7d955dc42baff202506f587f5658a034f3db9a2888c1b"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-6/run2_20260125_221144_results.json",
+      "sha256": "fbbcec84c7f15459d4238b3ccbfa06cf963b534af6bdf99cbab7c6ddfd1bdd2b"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-6/run3_20260125_221449_results.json",
+      "sha256": "ac330c0b3c27b8ebe99aea57b91a7c729f1f4da47aea52695a1d869ea0db6a6e"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-7/run1_20260125_221620_results.json",
+      "sha256": "0bec625a96fbc76b2e15c0cc72999d2b58a946d5dcfead5a7f8fe5bd5a892857"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-7/run2_20260125_221842_results.json",
+      "sha256": "57bec3d1753b82d96ee95e3de55775129f9ce85d777304bcb784576d26b2ba25"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-7/run3_20260125_222123_results.json",
+      "sha256": "9bca2f8c4c297509fbef3c743231d0dc3ee27b190cde73d8a4016bcdf90125fd"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-8/run1_20260125_222317_results.json",
+      "sha256": "9e34ea660c6b4f8b557be6ecfc25cb4363131701bcf5a3cc09bb068d02d2b79b"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-8/run2_20260125_222505_results.json",
+      "sha256": "c0893ccc376b2cd3fb5e7813b94e4892342ca6fd0bd47f24073e3f5ecc8447ec"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-8/run3_20260125_222615_results.json",
+      "sha256": "0af459d5b9f606ac876a9c84084c7d434b21710cea3fcf1d83075336d1f7c566"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-9/run1_20260125_223105_results.json",
+      "sha256": "f8fa174f74937b371686810f34b2f7ac8c7bfa888a372f96ba87809f033319e6"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-9/run2_20260125_223524_results.json",
+      "sha256": "04137b8a9385884bbef99f4848db57462829bc020b5d22dbbd56cc8e55b38021"
+    },
+    {
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-9/run3_20260125_224031_results.json",
+      "sha256": "8d11fac1d7826fe09178b88ff37f7d5cb6ac417f8c1970d4e9c9900aa6050640"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-1/run1_20260125_072005_results.json",
+      "sha256": "8ffebcfd872274ed767da2b30ccba0119b484b45c918ef2f656db44db8c57880"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-1/run2_20260125_072020_results.json",
+      "sha256": "a642c25e38b14c5b276b93bcc97df12b4c2d8e4b7c331ac89a7c46acd9723c8f"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-1/run3_20260125_072035_results.json",
+      "sha256": "a691ad5bd483eb0800ecc18cfc49b82015696503a55cc27e5c385e927fde4371"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-2/run1_20260125_072351_results.json",
+      "sha256": "53965a3b9201f62be1face40e4fd1fea2b0118c4ec0a75e221a2200aaae480a1"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-2/run2_20260125_072715_results.json",
+      "sha256": "d49c3164eff8e2494707e79c8c159049090619cdf3e1dfcafa576939b02fe8f9"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-2/run3_20260125_073217_results.json",
+      "sha256": "e1f725ca34f758abda570f76388c91e32f9de6cd4952bf3ea0984bd575b68dbc"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-3/run1_20260125_073342_results.json",
+      "sha256": "aee159f5b5ede9eb40467be0aa78f1cf8df6c196d304a6b21e5c49c0421c5097"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-3/run2_20260125_073500_results.json",
+      "sha256": "2e51f6f0a3d8cd0d648f53dcebf3173aef1492d381c34189ca8e22e9e3b18bf4"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-3/run3_20260125_073617_results.json",
+      "sha256": "fc209116daea4934bb6af00ba7063c7ca61945f516a5a6163afb43cbd9ac32e5"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-4/run1_20260125_073647_results.json",
+      "sha256": "454fe6df439ed84a95e875ec82db33ad847870f981a6c679420264bb9115fb36"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-4/run2_20260125_073717_results.json",
+      "sha256": "4fef0099477f25e6cf10c1f0f515f4158ebe81bd84d1f2d31d027ec5e1ef85f8"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-4/run3_20260125_073746_results.json",
+      "sha256": "b61d73e1e35e887ba9001504dd46b3978d7e1b4d42c54fd75e7d1895bb3b816d"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-5/run1_20260125_074529_results.json",
+      "sha256": "3959629e0c5ac2801488f95d64dfd1930976b8d61f46244c4974926819abf107"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-5/run2_20260125_075442_results.json",
+      "sha256": "0e486af423474cc282dc756d3f9630040c468d00daeb5296407323fdb0a84df7"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-5/run3_20260125_080026_results.json",
+      "sha256": "d26d5dc3508ffa9493f947009affb4f2d421024d197c905ed44fe45e9a0159ec"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-6/run1_20260125_080727_results.json",
+      "sha256": "dd5baffd2b81a80b66e39c4be71f4df3d40ba0bc7317e8c6b15d4eaab566d492"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-6/run2_20260125_081329_results.json",
+      "sha256": "0efe6d67b09a052c05dbdae72f608ae67676c836228ab76a05a81a38e9bbd413"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-6/run3_20260125_081627_results.json",
+      "sha256": "2eb1a1331d0ea5a3d4439ca232a4fe79df46532ab60d4d29ef8fd22532e04ee6"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-7/run1_20260125_081859_results.json",
+      "sha256": "47f50ddfc050eeb722572ffa90ca019b84171382fcd809112ad978b6d567d1f7"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-7/run2_20260125_082157_results.json",
+      "sha256": "2f2ad7639fed0aa9ffba040cd55460e6c35c0960c745d55519ba315ce1c7fbd8"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-7/run3_20260125_082513_results.json",
+      "sha256": "8cf982c59af1c037fb2f2e443361513ce67db00fba1d96bf3c24a77c5537868d"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-8/run1_20260125_082816_results.json",
+      "sha256": "5c181a21e1bb2df0cc3d8a5be17809792799d56f95968df9050f86a4e6f35567"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-8/run2_20260125_083107_results.json",
+      "sha256": "1c5e6b86e1f891c7ebd6eaeceb06d4e962d22a7809957c322d3a4fccecdf1f75"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-8/run3_20260125_083401_results.json",
+      "sha256": "eaa18269351cfc96662d766ec4f5b516a0513c0e9f2bc79927f5ecdb59ed424d"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-9/run1_20260125_083444_results.json",
+      "sha256": "a8606f4d61d4c5dc495121feb002a4cc4c628ca710d113a25964f89b727b6318"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-9/run2_20260125_083628_results.json",
+      "sha256": "eeb291af39487ba0c31d2f7874b2e86e8eb1572ac888d8e780814a2784d6f090"
+    },
+    {
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-9/run3_20260125_100928_results.json",
+      "sha256": "d041d78d4b74e4bbb6e3b492ac51a95136d0b992a727879a06675c7d11014fea"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-1/run1_20260125_224051_results.json",
+      "sha256": "9cc3d19f34f96cd36b17af1dbc5f90ae49e95d1b948d87b21b52240a6305baa3"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-1/run2_20260125_224111_results.json",
+      "sha256": "c0a6fd039dd180e6443a91c1859af91d4d8118e45a9ce48b0243fbe200efc83d"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-1/run3_20260125_224129_results.json",
+      "sha256": "70f894fa03d65c1a04f48a78e67b1d4391f308a51ab7e484382d754ee7caf2f9"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-2/run1_20260125_224320_results.json",
+      "sha256": "2639a9df10c56a47b7d0541e604194b22a710bb146779c7dfa9ce8d7b5ec9e66"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-2/run2_20260125_224519_results.json",
+      "sha256": "8c52d79b313bd16d47e0a7c2f1ef2548a4ea33c6429bbb93be199dd2e466c2ac"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-2/run3_20260125_224700_results.json",
+      "sha256": "b67f42d334b741f5b5c0f60e8f9bb92ed0c6d62e81f0f1196734ba1fcaed51f2"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-3/run1_20260125_224824_results.json",
+      "sha256": "0324188daeebfff61e68cefb1ca0e8b4df8dc5dbd29df8a52b775f84f7944389"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-3/run2_20260125_224924_results.json",
+      "sha256": "0d149f2dd52434943760bc8ed741ebdcfa0b9c2238d947dca07593793849764b"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-3/run3_20260125_225010_results.json",
+      "sha256": "7b17cd680cbcb413c08cdae73d20a21686a1068e2acb00704ec3c2587c726dcd"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-4/run1_20260125_225034_results.json",
+      "sha256": "87df2bf7a5a434a68669ffbfd59c605a9cf2a9e811a108be8c0acecbec9f76b7"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-4/run2_20260125_225100_results.json",
+      "sha256": "94091e342dbb0295c61bcdc0ff50443c930224597d45d3b07b7b4afbf9caa610"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-4/run3_20260125_225124_results.json",
+      "sha256": "b024705f384ce0bcaa2860045be23c8a00080a91e8bf6180ee3f091d7ce7e4c6"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-5/run1_20260125_225633_results.json",
+      "sha256": "e18d71d4a921459495d5360fd0c1c9ad3cb5ad05936f3a90e4bd59ac13a15718"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-5/run2_20260125_230037_results.json",
+      "sha256": "1e9f3119d99cfd9f852c6fcbef30954995fafffe146c946c50b419bc68f1c316"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-5/run3_20260125_230441_results.json",
+      "sha256": "32bf64c763ecbae153ad3bcb8e5a91148ca387655a2337ed4a8a0731cdb4dc28"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-6/run1_20260125_230641_results.json",
+      "sha256": "37b39886d069a4f43e0a6d295f5bb68a7136779fe48a24a58e594e6fe06a99c9"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-6/run2_20260125_230842_results.json",
+      "sha256": "a8735d77eac8f7b4d49c9651cf5b9419b62faeef87736c9a6e18ace930bffa53"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-6/run3_20260125_231038_results.json",
+      "sha256": "3226c1734c23a29991894d4a02766cb32dfb2f28e4ea027331691dafb785ea08"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-7/run1_20260125_231258_results.json",
+      "sha256": "43cce66de76f5fe6c5c332d4a7d1afe680b9876d68b2d349699c83911f970b91"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-7/run2_20260125_231525_results.json",
+      "sha256": "1d8241793d77cb9b1a6cbf14c14270af320fed27331628aab5f38e6b37cd949a"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-7/run3_20260125_231807_results.json",
+      "sha256": "2fd29433578696145df198dd05708fbb5478339502988f4991775103498c2031"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-8/run1_20260125_231941_results.json",
+      "sha256": "9beb14ff045180bcf0a2c41c133baf915b63b87ebdb4bfae2ed4aa2cb726141e"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-8/run2_20260125_232104_results.json",
+      "sha256": "bd627018c7e2378070f6fbce80f39d8980ca33e7dda4b57308b766fc1498d401"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-8/run3_20260125_232233_results.json",
+      "sha256": "6bbed1794c330f62cf06f7527fae0595f80056e88fabaa48cd936ac4ad66540e"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-9/run1_20260125_232358_results.json",
+      "sha256": "b96fe9a84a3c51cc45e6f75d17a4a9c47cd7c5175364c5954b4f8ce21e7fab23"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-9/run2_20260125_232527_results.json",
+      "sha256": "27e855645ed70947980a8986af32a0c6bae40aac1edfd6d419f74e42675c4882"
+    },
+    {
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-9/run3_20260125_232651_results.json",
+      "sha256": "e1e733015f29fbee377d0adaac8cf529f55f04929c3e0cb142295c28b306746b"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-1/run1_20260125_102136_results.json",
+      "sha256": "57861c51dcd15a947f1b27531a3763e822fb507f8c8b4ca2f25e231b7634e47c"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-1/run2_20260125_102733_results.json",
+      "sha256": "72752962b10762776e22c48787360706bd93c932b2645a004c880bf17aee84ea"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-1/run3_20260125_102957_results.json",
+      "sha256": "61aae6be564e3eb3b013e4b59046dd7742aa901f67b7e8a6557be7cbc155edb5"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-2/run1_20260125_103812_results.json",
+      "sha256": "a75fad775891c3f318167fab0b12f0a2e2738b262bf7cac2bac4d4eca91af0b1"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-2/run2_20260125_105055_results.json",
+      "sha256": "16ee2f390f7d225d241738ebb8bb6fb2a681c75c0f7e641f27b100c375f74990"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-2/run3_20260125_110327_results.json",
+      "sha256": "fe52c89b9c6988d450abc3dd580f5d1fdbc695609e84efc37ad7fe16e3843869"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-3/run1_20260125_110818_results.json",
+      "sha256": "50466e2a7c8d0ec160007c971e6adc005e2345abe4475860653dd337eb7f9dfa"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-3/run2_20260125_111415_results.json",
+      "sha256": "95fc46cda493647633b2086a1c7e232df53e5d7bf05b809509d91ce7380acd14"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-3/run3_20260125_111853_results.json",
+      "sha256": "cb9de91dc69d83b5082fc58630ce2f2f50aaceebcc2b2578abf35a7ca8f1365c"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-4/run1_20260125_112016_results.json",
+      "sha256": "d295f3115fd12ded50040b798ac5adb6640c2b992f3a3ee432a9d17669b575cb"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-4/run2_20260125_112133_results.json",
+      "sha256": "2c5508dac5c47fdfdba638ec0d08399e2243afbdcc99e2a7ed57deb544f60ab8"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-4/run3_20260125_112301_results.json",
+      "sha256": "b3b5e26bb8e9466ced892bf913b35aa2e6052ac0259c67cecb6cd912e584bb69"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-5/run1_20260125_112618_results.json",
+      "sha256": "761b38bf9947c389dd9863e470d2667abbdca970ad092de70572c864ac806839"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-5/run2_20260125_112916_results.json",
+      "sha256": "93acf710607c073a8c05aad3811a5e54e241967ded0943f15b3bc8946b647dcd"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-5/run3_20260125_113213_results.json",
+      "sha256": "6262807920a710280e6b8b4fa5e515ab7dbb7dbf21815e528e0f8ca70eaa9078"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-6/run1_20260125_113823_results.json",
+      "sha256": "7ce2d68cb0f6ad3fdcdd55cada45daa412ca254d0ef92200a530bb9cd6bd651e"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-6/run2_20260125_115003_results.json",
+      "sha256": "d1394e967e178c5afa83a507722cee08c38bf4029c997c1f2178369e4fee6a2c"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-6/run3_20260125_115631_results.json",
+      "sha256": "ac3e36eff979d820548924f24600d3653aa43d738145e31ddc60febe2880afcd"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-7/run1_20260125_120048_results.json",
+      "sha256": "3184053ed12a712dda04aebebc91669cfd6259507231411e014a9f8e7ffc10b5"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-7/run2_20260125_120505_results.json",
+      "sha256": "c0274ea0b630853417af8d672ca081f5d24191f9ba1821d7bd4f7b5260d14b3e"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-7/run3_20260125_121151_results.json",
+      "sha256": "9b60a934454499d78e187686122f246f12db1ce1aad99fa22bd8bff0c4e34783"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-8/run1_20260125_121541_results.json",
+      "sha256": "de146154edbc513c65b7a7fd8c8f9984eb4d58fef62a979ba1ab1c6eef5cb656"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-8/run2_20260125_122006_results.json",
+      "sha256": "46434423ce3b884a7ac9d821caa88986447805896175e625dad3c1fbf1a72944"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-8/run3_20260125_213456_results.json",
+      "sha256": "2e2fbc4d7cce90b4e36fb53765c94197229a137bfb3c6537d984e869b317f817"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-9/run1_20260125_122920_results.json",
+      "sha256": "973439006a1527ee71a1095da36f42b4c2ce073f0940b78b2bef2c3601e51a01"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-9/run2_20260125_123842_results.json",
+      "sha256": "d5eb883b74b64e790f9a00d75f45ebec925c244ceeef7ff4f67c05ce9cac916b"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-9/run3_20260125_124400_results.json",
+      "sha256": "3a8e4cd1836646c6f58e98c42cbc4dc350d3b86001bcd96d535a39b0fbad2f6d"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-1/run1_20260125_233023_results.json",
+      "sha256": "663fd8eca5850950ee4ea16549c38de1ecd08bad1b44230d72b47548a60991a1"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-1/run2_20260125_233310_results.json",
+      "sha256": "bdbd6b1bd12178d271b83c8d93f8bb111054f13e99e2dd77136e0f9dca8859ac"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-1/run3_20260125_234635_results.json",
+      "sha256": "1e0d22071faf949ac00a1ef6abc4ff63a7cadfd9edc629fdc0f2ded1ec445fd0"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-2/run1_20260125_235525_results.json",
+      "sha256": "e851c50eab058f5f6d099d7ad3e00e7f2062dd7168b393627ffaae77f0e35fb5"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-2/run2_20260126_000127_results.json",
+      "sha256": "cd9d8ace2e4adbda54c674b631789a9dcb38fb0c571e26480ab64c90b772f904"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-2/run3_20260126_001013_results.json",
+      "sha256": "e5cd5813df272b0b138b6f3b9aa3f8a6a57afc165d4e16fc8a4f959dab934ba6"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-3/run1_20260126_001258_results.json",
+      "sha256": "3e88dcfd4e3b44a470066a9de6d71f2ac16dbfe78cffac6d498d128918c2d27c"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-3/run2_20260126_001629_results.json",
+      "sha256": "5bf770c481a95be45b2bf5794126901213cc84efc7c7fdb040052d5b3e769460"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-3/run3_20260126_001919_results.json",
+      "sha256": "0d4d591123575a42c1b3a15ce923e1fbb010c43d92f6d90eb217f8ca2b75df5e"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-4/run1_20260126_002026_results.json",
+      "sha256": "828023956c60d4ba23b8c5cb56533e3ab9d9e038fe1780fb3d4e31f46eaebb73"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-4/run2_20260126_002117_results.json",
+      "sha256": "df26ea0307f62209e92617e43d403edd7608c902f8edadfa7d4f5fd9c25823f0"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-4/run3_20260126_002201_results.json",
+      "sha256": "a8e52371f95c2f5b1d3f4936b25d660ca35e77b5a88d1c6c6e2b742a7bd11652"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-5/run1_20260126_002410_results.json",
+      "sha256": "5cb9d99f773a9555c57e72f4eb19e1dab26b48a3080053020e7d6d06614f201e"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-5/run2_20260126_002555_results.json",
+      "sha256": "332a1f324d3e015a130979b9962deae9a1f9df8ac7b910a8e44d9e4de0c7eb96"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-5/run3_20260126_002941_results.json",
+      "sha256": "8e51669243567e47a3158a0e7f73ede2004ec67cfe185a29c479bb3ad6edd2b2"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-6/run1_20260126_003351_results.json",
+      "sha256": "88bb4f51a612cea06421357f550f3c2906402458521264014b943bef86148cd4"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-6/run2_20260126_003700_results.json",
+      "sha256": "85c6e6305735e0387c3e9dd1d1b291fcd99d2e534c187d4835b315e7b0c2b46c"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-6/run3_20260126_004030_results.json",
+      "sha256": "b0a10fedccab99309a3a15efb7435118dde539fa8f71c77dcf8810782d82ed3a"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-7/run1_20260126_004225_results.json",
+      "sha256": "dad631f42a64469b76c3700fd8c0450c6fa8d88b9263a9b4c58e50af4ab483d8"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-7/run2_20260126_004422_results.json",
+      "sha256": "5f15a6e1bb2663cba6df0f9dfd8f30b8b466a1432919e78c015ab6e026456074"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-7/run3_20260126_004622_results.json",
+      "sha256": "a7b98d8950ced4e01948de82796639dea4de1f8552bb444e78b46f0859452c28"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-8/run1_20260126_005155_results.json",
+      "sha256": "7883a611442f89c265bce010b679b8b4a590538ed888b20005b3b0bb6d32a1bd"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-8/run2_20260126_005432_results.json",
+      "sha256": "38d6d007f03c4531e2f2f46029752aed61653245f34f9045f15005fc645c805c"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-8/run3_20260126_005750_results.json",
+      "sha256": "de97390ae8bf4b7eec1ff92f859fc04b7e9dae35a670e5abf722db93b1c56338"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-9/run1_20260126_010058_results.json",
+      "sha256": "6bf2892ee9d1f6c8f9c08ccf3d7436e6bc112f14dc9ccae7e7ee148721baa092"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-9/run2_20260126_010330_results.json",
+      "sha256": "0960078504c0c718f29e5e8ecaf059e1f88fed2fce4d8e92b4ddc3aee30b728d"
+    },
+    {
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-9/run3_20260126_010506_results.json",
+      "sha256": "f745f4c03d2d10e20586e7c1327e0bb484d4510f64ae528324cfe8d64c622f23"
+    }
+  ],
+  "trials": [
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-1",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-1/run1_20260125_025445_results.json",
+      "total_time": 52.07,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-1",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-1/run2_20260125_025543_results.json",
+      "total_time": 47.48,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-1",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-1/run3_20260125_025647_results.json",
+      "total_time": 54.65,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-2",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-2/run1_20260125_030322_results.json",
+      "total_time": 385.04,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-2",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-2/run2_20260125_031019_results.json",
+      "total_time": 407.3,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-2",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-2/run3_20260125_031612_results.json",
+      "total_time": 342.44,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-3",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-3/run1_20260125_031851_results.json",
+      "total_time": 149.5,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-3",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-3/run2_20260125_032139_results.json",
+      "total_time": 162.21,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-3",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-3/run3_20260125_051403_results.json",
+      "total_time": 199.99,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-4",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-4/run1_20260125_032441_results.json",
+      "total_time": 159.07,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-4",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-4/run2_20260125_032710_results.json",
+      "total_time": 143.12,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-4",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-4/run3_20260125_033159_results.json",
+      "total_time": 283.12,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-5",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-5/run1_20260125_033211_results.json",
+      "total_time": 5.67,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-5",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-5/run2_20260125_033229_results.json",
+      "total_time": 5.83,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-5",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-5/run3_20260125_033244_results.json",
+      "total_time": 6.23,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-6",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-6/run1_20260125_033939_results.json",
+      "total_time": 197.8,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-6/run2_20260125_034255_results.json",
+      "total_time": 185.07,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-6/run3_20260125_053219_results.json",
+      "total_time": 181.81,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-7",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-7/run1_20260125_034452_results.json",
+      "total_time": 108.03,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-7",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-7/run2_20260125_035101_results.json",
+      "total_time": 360.04,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-7",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-7/run3_20260125_035231_results.json",
+      "total_time": 81.75,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-8",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-8/run1_20260125_035258_results.json",
+      "total_time": 17.83,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-8",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-8/run2_20260125_040312_results.json",
+      "total_time": 605.11,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-8",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-8/run3_20260125_042251_results.json",
+      "total_time": 1170.36,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-9",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-9/run1_20260125_044100_results.json",
+      "total_time": 1080.22,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-9",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-9/run2_20260125_045131_results.json",
+      "total_time": 621.93,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "OpenAI CUA",
+      "task": "dashdish-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/openai-cua/dashdish-custom-9/run3_20260125_052500_results.json",
+      "total_time": 464.84,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-1",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-1/run1_20260125_213609_results.json",
+      "total_time": 61.38,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-1",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-1/run2_20260125_213723_results.json",
+      "total_time": 66.0,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-1",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-1/run3_20260125_213842_results.json",
+      "total_time": 70.63,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-2",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-2/run1_20260125_214406_results.json",
+      "total_time": 314.17,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-2",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-2/run2_20260125_214857_results.json",
+      "total_time": 282.28,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-2",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-2/run3_20260125_215331_results.json",
+      "total_time": 266.6,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-3",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-3/run1_20260125_215524_results.json",
+      "total_time": 106.45,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-3",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-3/run2_20260125_215636_results.json",
+      "total_time": 67.65,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-3",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-3/run3_20260125_215753_results.json",
+      "total_time": 71.65,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-4",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-4/run1_20260125_215948_results.json",
+      "total_time": 108.9,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-4",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-4/run2_20260125_220124_results.json",
+      "total_time": 90.65,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-4",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-4/run3_20260125_220320_results.json",
+      "total_time": 111.27,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-5",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-5/run1_20260125_220340_results.json",
+      "total_time": 11.02,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-5",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-5/run2_20260125_220402_results.json",
+      "total_time": 12.24,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-5",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-5/run3_20260125_220421_results.json",
+      "total_time": 11.13,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-6",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-6/run1_20260125_220741_results.json",
+      "total_time": 190.22,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-6",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-6/run2_20260125_221144_results.json",
+      "total_time": 232.99,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-6/run3_20260125_221449_results.json",
+      "total_time": 175.49,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-7",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-7/run1_20260125_221620_results.json",
+      "total_time": 81.77,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-7",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-7/run2_20260125_221842_results.json",
+      "total_time": 134.87,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-7",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-7/run3_20260125_222123_results.json",
+      "total_time": 153.76,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-8",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-8/run1_20260125_222317_results.json",
+      "total_time": 103.89,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-8",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-8/run2_20260125_222505_results.json",
+      "total_time": 98.91,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-8",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-8/run3_20260125_222615_results.json",
+      "total_time": 62.05,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-9",
+      "run_number": 1,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-9/run1_20260125_223105_results.json",
+      "total_time": 280.94,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-9",
+      "run_number": 2,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-9/run2_20260125_223524_results.json",
+      "total_time": 251.29,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "dashdish",
+      "model": "Anthropic CUA",
+      "task": "dashdish-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/dashdish/anthropic-cua/anthropic-dashdish-custom-9/run3_20260125_224031_results.json",
+      "total_time": 299.31,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-1",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-1/run1_20260125_072005_results.json",
+      "total_time": 9.22,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-1",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-1/run2_20260125_072020_results.json",
+      "total_time": 5.12,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-1",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-1/run3_20260125_072035_results.json",
+      "total_time": 4.87,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-2",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-2/run1_20260125_072351_results.json",
+      "total_time": 185.65,
+      "evaluated_success": false,
+      "correctness_pct": 0.75,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-2",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-2/run2_20260125_072715_results.json",
+      "total_time": 198.36,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-2",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-2/run3_20260125_073217_results.json",
+      "total_time": 295.94,
+      "evaluated_success": false,
+      "correctness_pct": 0.75,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-3",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-3/run1_20260125_073342_results.json",
+      "total_time": 79.41,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-3",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-3/run2_20260125_073500_results.json",
+      "total_time": 71.92,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-3",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-3/run3_20260125_073617_results.json",
+      "total_time": 71.17,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-4",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-4/run1_20260125_073647_results.json",
+      "total_time": 23.39,
+      "evaluated_success": true,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-4",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-4/run2_20260125_073717_results.json",
+      "total_time": 23.95,
+      "evaluated_success": true,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-4",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-4/run3_20260125_073746_results.json",
+      "total_time": 23.54,
+      "evaluated_success": true,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-5",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-5/run1_20260125_074529_results.json",
+      "total_time": 457.22,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-5",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-5/run2_20260125_075442_results.json",
+      "total_time": 546.81,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-5",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-5/run3_20260125_080026_results.json",
+      "total_time": 337.74,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-6",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-6/run1_20260125_080727_results.json",
+      "total_time": 414.97,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-6",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-6/run2_20260125_081329_results.json",
+      "total_time": 355.48,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-6/run3_20260125_081627_results.json",
+      "total_time": 172.13,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-7",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-7/run1_20260125_081859_results.json",
+      "total_time": 145.91,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-7",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-7/run2_20260125_082157_results.json",
+      "total_time": 171.72,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-7",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-7/run3_20260125_082513_results.json",
+      "total_time": 190.13,
+      "evaluated_success": false,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-8",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-8/run1_20260125_082816_results.json",
+      "total_time": 176.81,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-8",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-8/run2_20260125_083107_results.json",
+      "total_time": 165.15,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-8",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-8/run3_20260125_083401_results.json",
+      "total_time": 168.62,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-9",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-9/run1_20260125_083444_results.json",
+      "total_time": 21.92,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-9/run2_20260125_083628_results.json",
+      "total_time": 98.09,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "OpenAI CUA",
+      "task": "gomail-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/openai-cua/gomail-custom-9/run3_20260125_100928_results.json",
+      "total_time": 264.6,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-1",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-1/run1_20260125_224051_results.json",
+      "total_time": 11.18,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-1",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-1/run2_20260125_224111_results.json",
+      "total_time": 10.04,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-1",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-1/run3_20260125_224129_results.json",
+      "total_time": 10.34,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-2",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-2/run1_20260125_224320_results.json",
+      "total_time": 105.02,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-2",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-2/run2_20260125_224519_results.json",
+      "total_time": 114.18,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-2",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-2/run3_20260125_224700_results.json",
+      "total_time": 95.84,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-3",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-3/run1_20260125_224824_results.json",
+      "total_time": 78.45,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-3",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-3/run2_20260125_224924_results.json",
+      "total_time": 54.33,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-3",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-3/run3_20260125_225010_results.json",
+      "total_time": 40.86,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-4",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-4/run1_20260125_225034_results.json",
+      "total_time": 18.96,
+      "evaluated_success": true,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-4",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-4/run2_20260125_225100_results.json",
+      "total_time": 20.05,
+      "evaluated_success": true,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-4",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-4/run3_20260125_225124_results.json",
+      "total_time": 19.02,
+      "evaluated_success": true,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-5",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-5/run1_20260125_225633_results.json",
+      "total_time": 303.71,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-5",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-5/run2_20260125_230037_results.json",
+      "total_time": 238.42,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-5",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-5/run3_20260125_230441_results.json",
+      "total_time": 238.78,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-6",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-6/run1_20260125_230641_results.json",
+      "total_time": 114.24,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-6",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-6/run2_20260125_230842_results.json",
+      "total_time": 115.75,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-6/run3_20260125_231038_results.json",
+      "total_time": 111.24,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-7",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-7/run1_20260125_231258_results.json",
+      "total_time": 134.05,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-7",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-7/run2_20260125_231525_results.json",
+      "total_time": 141.71,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-7",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-7/run3_20260125_231807_results.json",
+      "total_time": 156.77,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-8",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-8/run1_20260125_231941_results.json",
+      "total_time": 88.21,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-8",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-8/run2_20260125_232104_results.json",
+      "total_time": 78.12,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-8",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-8/run3_20260125_232233_results.json",
+      "total_time": 83.95,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-9",
+      "run_number": 1,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-9/run1_20260125_232358_results.json",
+      "total_time": 79.47,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-9",
+      "run_number": 2,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-9/run2_20260125_232527_results.json",
+      "total_time": 82.91,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "gomail",
+      "model": "Anthropic CUA",
+      "task": "gomail-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/gomail/anthropic-cua/anthropic-gomail-custom-9/run3_20260125_232651_results.json",
+      "total_time": 79.37,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-1",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-1/run1_20260125_102136_results.json",
+      "total_time": 321.45,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-1",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-1/run2_20260125_102733_results.json",
+      "total_time": 351.15,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-1",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-1/run3_20260125_102957_results.json",
+      "total_time": 137.14,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-2",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-2/run1_20260125_103812_results.json",
+      "total_time": 488.99,
+      "evaluated_success": false,
+      "correctness_pct": 0.6,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-2",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-2/run2_20260125_105055_results.json",
+      "total_time": 756.79,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-2",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-2/run3_20260125_110327_results.json",
+      "total_time": 746.81,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-3",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-3/run1_20260125_110818_results.json",
+      "total_time": 284.63,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-3",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-3/run2_20260125_111415_results.json",
+      "total_time": 351.38,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-3",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-3/run3_20260125_111853_results.json",
+      "total_time": 271.38,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-4",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-4/run1_20260125_112016_results.json",
+      "total_time": 77.4,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-4",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-4/run2_20260125_112133_results.json",
+      "total_time": 67.47,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-4",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-4/run3_20260125_112301_results.json",
+      "total_time": 79.29,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-5",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-5/run1_20260125_112618_results.json",
+      "total_time": 187.85,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-5",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-5/run2_20260125_112916_results.json",
+      "total_time": 172.08,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-5",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-5/run3_20260125_113213_results.json",
+      "total_time": 171.63,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-6",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-6/run1_20260125_113823_results.json",
+      "total_time": 363.26,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-6",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-6/run2_20260125_115003_results.json",
+      "total_time": 691.1,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-6/run3_20260125_115631_results.json",
+      "total_time": 378.18,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-7",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-7/run1_20260125_120048_results.json",
+      "total_time": 247.63,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-7",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-7/run2_20260125_120505_results.json",
+      "total_time": 246.35,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-7",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-7/run3_20260125_121151_results.json",
+      "total_time": 391.72,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-8",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-8/run1_20260125_121541_results.json",
+      "total_time": 218.99,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-8",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-8/run2_20260125_122006_results.json",
+      "total_time": 258.69,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-8",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-8/run3_20260125_213456_results.json",
+      "total_time": 460.46,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-9",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-9/run1_20260125_122920_results.json",
+      "total_time": 207.66,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-9",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-9/run2_20260125_123842_results.json",
+      "total_time": 556.92,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "OpenAI CUA",
+      "task": "omnizon-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/openai-cua/omnizon-custom-9/run3_20260125_124400_results.json",
+      "total_time": 312.08,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-1",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-1/run1_20260125_233023_results.json",
+      "total_time": 206.44,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-1",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-1/run2_20260125_233310_results.json",
+      "total_time": 161.93,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-1",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-1/run3_20260125_234635_results.json",
+      "total_time": 217.72,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-2",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-2/run1_20260125_235525_results.json",
+      "total_time": 523.49,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-2",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-2/run2_20260126_000127_results.json",
+      "total_time": 356.67,
+      "evaluated_success": false,
+      "correctness_pct": 0.8,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-2",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-2/run3_20260126_001013_results.json",
+      "total_time": 521.05,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-3",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-3/run1_20260126_001258_results.json",
+      "total_time": 159.06,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-3",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-3/run2_20260126_001629_results.json",
+      "total_time": 206.2,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-3",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-3/run3_20260126_001919_results.json",
+      "total_time": 164.63,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-4",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-4/run1_20260126_002026_results.json",
+      "total_time": 57.94,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-4",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-4/run2_20260126_002117_results.json",
+      "total_time": 43.76,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-4",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-4/run3_20260126_002201_results.json",
+      "total_time": 35.96,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-5",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-5/run1_20260126_002410_results.json",
+      "total_time": 122.67,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-5",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-5/run2_20260126_002555_results.json",
+      "total_time": 98.77,
+      "evaluated_success": false,
+      "correctness_pct": 0.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-5",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-5/run3_20260126_002941_results.json",
+      "total_time": 221.38,
+      "evaluated_success": false,
+      "correctness_pct": 0.5,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-6",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-6/run1_20260126_003351_results.json",
+      "total_time": 240.7,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-6",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-6/run2_20260126_003700_results.json",
+      "total_time": 180.26,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-6",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-6/run3_20260126_004030_results.json",
+      "total_time": 200.33,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-7",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-7/run1_20260126_004225_results.json",
+      "total_time": 105.83,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-7",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-7/run2_20260126_004422_results.json",
+      "total_time": 108.62,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-7",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-7/run3_20260126_004622_results.json",
+      "total_time": 110.44,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-8",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-8/run1_20260126_005155_results.json",
+      "total_time": 327.49,
+      "evaluated_success": false,
+      "correctness_pct": 0.6666666666666666,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-8",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-8/run2_20260126_005432_results.json",
+      "total_time": 151.55,
+      "evaluated_success": false,
+      "correctness_pct": 0.3333333333333333,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-8",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-8/run3_20260126_005750_results.json",
+      "total_time": 192.7,
+      "evaluated_success": false,
+      "correctness_pct": 0.3333333333333333,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-9",
+      "run_number": 1,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-9/run1_20260126_010058_results.json",
+      "total_time": 182.76,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-9",
+      "run_number": 2,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-9/run2_20260126_010330_results.json",
+      "total_time": 146.79,
+      "evaluated_success": true,
+      "correctness_pct": 1.0,
+      "error_present": false
+    },
+    {
+      "application": "omnizon",
+      "model": "Anthropic CUA",
+      "task": "omnizon-custom-9",
+      "run_number": 3,
+      "source": "analysis/plot_results/omnizon/anthropic-cua/anthropic-omnizon-custom-9/run3_20260126_010506_results.json",
+      "total_time": 91.17,
+      "evaluated_success": false,
+      "correctness_pct": 0.33,
+      "error_present": false
+    }
+  ]
+}

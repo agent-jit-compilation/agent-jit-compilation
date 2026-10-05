@@ -1,0 +1,1384 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8453807830810547,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9249022006988525,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.539748430252075,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.137981653213501,
+    "estimated_cost": 50.60000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.677786350250244,
+    "estimated_cost": 50.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.384356737136841,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.55334734916687,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.571720600128174,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.5015158653259277,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0500447750091553,
+    "estimated_cost": 50.60000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.455409288406372,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.154265880584717,
+    "estimated_cost": 20.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7944931983947754,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.794051170349121,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.718796968460083,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3469579219818115,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8177192211151123,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.438058853149414,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1275477409362793,
+    "estimated_cost": 20.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.643610715866089,
+    "estimated_cost": 20.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7610507011413574,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3838067054748535,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4178576469421387,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.561521053314209,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.7132811546325684,
+    "estimated_cost": 50.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.333153486251831,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0061612129211426,
+    "estimated_cost": 20.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.4510810375213623,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.4608755111694336,
+    "estimated_cost": 60.60000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally modifies STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally modifies STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6450231075286865,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.581880807876587,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.598822832107544,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3388049602508545,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7107810974121094,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0604333877563477,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.50065541267395,
+    "estimated_cost": 1311.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.684875011444092,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6808180809020996,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.2249503135681152,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5095672607421875,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.3100831508636475,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7509658336639404,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5352978706359863,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.37457275390625,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.783781051635742,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.798543930053711,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.167656898498535,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.797039031982422,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0446791648864746,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0884599685668945,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.2296926975250244,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.723710775375366,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9497506618499756,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.27260160446167,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6971631050109863,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.6447601318359375,
+    "estimated_cost": 50.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.530487298965454,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8251307010650635,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.142803907394409,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7821123600006104,
+    "estimated_cost": 10.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.794759511947632,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.893801212310791,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.733264684677124,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> filter_stores -> list_all_stores -> ai_eval(...) [unknown] -> goto_store -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_home -> filter_stores -> list_all_stores -> ai_eval(...) [unknown] -> goto_store -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.916168689727783,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+        }
+      ],
+      "error_message": "Pre-tools validation error: get_item_details requires list_menu_items to be called first. Call sequence: goto_store -> get_store_details -> get_item_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

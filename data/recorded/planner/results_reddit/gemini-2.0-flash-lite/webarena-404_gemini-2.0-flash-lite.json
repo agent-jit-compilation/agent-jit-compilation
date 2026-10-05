@@ -1,0 +1,1314 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5636401176452637,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7117509841918945,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0114493370056152,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.840320348739624,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9774513244628906,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9605581760406494,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9740493297576904,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3487067222595215,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.377211809158325,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5824544429779053,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9192492961883545,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5993092060089111,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3655850887298584,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.552558183670044,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4168152809143066,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5620317459106445,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6311941146850586,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7786145210266113,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7671566009521484,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8093464374542236,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4603240489959717,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8705635070800781,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.552802562713623,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6727890968322754,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4334604740142822,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7412033081054688,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4189550876617432,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1016931533813477,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.241159200668335,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0869245529174805,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6424365043640137,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6285128593444824,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4842956066131592,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8212966918945312,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6108853816986084,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.947723388671875,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8329637050628662,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5226819515228271,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.208742141723633,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8939518928527832,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9324367046356201,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6212279796600342,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9329557418823242,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5360748767852783,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8455886840820312,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4965336322784424,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6582050323486328,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5682928562164307,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6765236854553223,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6974329948425293,
+    "estimated_cost": 20.699999999999996,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5568947792053223,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5647914409637451,
+    "estimated_cost": 0.6000000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7834224700927734,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7264127731323242,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0842833518981934,
+    "estimated_cost": 20.699999999999996,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.569162368774414,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0075266361236572,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+        }
+      ],
+      "error_message": "Tool ordering error: list_submissions requires page_type=home|forum|user_profile, but state has page_type=forums_list. Call sequence: goto_forums_list -> list_submissions"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4148156642913818,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6943378448486328,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4871978759765625,
+    "estimated_cost": 10.699999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4675939083099365,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.113917350769043,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0949254035949707,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6635186672210693,
+    "estimated_cost": 10.599999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

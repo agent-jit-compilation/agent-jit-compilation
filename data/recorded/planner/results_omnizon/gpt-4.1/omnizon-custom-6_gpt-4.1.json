@@ -1,0 +1,1450 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.619818687438965,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.874231576919556,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.06901478767395,
+    "estimated_cost": 152.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.591784238815308,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.297982215881348,
+    "estimated_cost": 152.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 474: error[invalid-syntax] Duplicate keyword argument \"description\"\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Line 474: error[invalid-syntax] Duplicate keyword argument \"description\"\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.528791189193726,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.992241382598877,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.2566916942596436,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.297604560852051,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.178880214691162,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.824211359024048,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.115641355514526,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.5327818393707275,
+    "estimated_cost": 202.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.8109893798828125,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.559866189956665,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.661108016967773,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.584865093231201,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.186135292053223,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.872320175170898,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product -> append(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.782774209976196,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.550376415252686,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.525925874710083,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.189603090286255,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.407674312591553,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.3116230964660645,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.650039911270142,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.4667441844940186,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.159618854522705,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.901968717575073,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.795469760894775,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.051889181137085,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.659842729568481,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> items(...) [unknown] -> goto_product -> get_product_details -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> items(...) [unknown] -> goto_product -> get_product_details -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.543520927429199,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.689599990844727,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.991143703460693,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> zip(...) [unknown] -> goto_product -> get_product_details -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> values(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> zip(...) [unknown] -> goto_product -> get_product_details -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> values(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.821539402008057,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.5600745677948,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.459462881088257,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.268801212310791,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> zip(...) [unknown] -> goto_product -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> zip(...) [unknown] -> goto_product -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.1083197593688965,
+    "estimated_cost": 215.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.662505626678467,
+    "estimated_cost": 152.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> strip(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.716195106506348,
+    "estimated_cost": 51.90000000000003,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.617777824401855,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.973164081573486,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.473490238189697,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> join(...) [unknown] -> str(...) [unknown] -> values(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> join(...) [unknown] -> str(...) [unknown] -> values(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.094751834869385,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.524308443069458,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 283: error[invalid-argument-type] Argument to function `any` is incorrect: Expected `Iterable[object]`, found `bool`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> any(...) [unknown] -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> values(...) [unknown] -> append(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Line 283: error[invalid-argument-type] Argument to function `any` is incorrect: Expected `Iterable[object]`, found `bool`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.222904205322266,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.160724639892578,
+    "estimated_cost": 152.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> items(...) [unknown] -> lower(...) [unknown] -> goto_product -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> items(...) [unknown] -> lower(...) [unknown] -> goto_product -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.812499523162842,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.484907627105713,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> append(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.602906465530396,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.079838275909424,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.912665367126465,
+    "estimated_cost": 152.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product -> strip(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_product -> strip(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.789064645767212,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.275237321853638,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.059744834899902,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.359150648117065,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.463591575622559,
+    "estimated_cost": 212.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.77202582359314,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.487548589706421,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.179991960525513,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.515732049942017,
+    "estimated_cost": 112.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> goto_product -> get_product_details -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.75975775718689,
+    "estimated_cost": 214.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

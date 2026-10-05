@@ -1,0 +1,1277 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.047489643096924,
+    "estimated_cost": 40.70000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.829549074172974,
+    "estimated_cost": 40.70000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.68792414665222,
+    "estimated_cost": 2832.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 16: unexpected character after line continuation character"
+        }
+      ],
+      "error_message": "Syntax error at line 16: unexpected character after line continuation character"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.232914447784424,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.867729425430298,
+    "estimated_cost": 50.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.05760884284973,
+    "estimated_cost": 181.29999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.037687301635742,
+    "estimated_cost": 30.70000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.858625173568726,
+    "estimated_cost": 61.10000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.85494351387024,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.47236442565918,
+    "estimated_cost": 20.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.063718557357788,
+    "estimated_cost": 30.700000000000003,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.802594661712646,
+    "estimated_cost": 30.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.820167779922485,
+    "estimated_cost": 30.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.45224118232727,
+    "estimated_cost": 1278.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.322981595993042,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.089911699295044,
+    "estimated_cost": 20.900000000000002,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 295: error[unresolved-reference] Name `query` used when not defined\nLine 305: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 295: error[unresolved-reference] Name `query` used when not defined\nLine 305: error[unresolved-reference] Name `query` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.3713800907135,
+    "estimated_cost": 35.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.66077756881714,
+    "estimated_cost": 234.70000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.710293054580688,
+    "estimated_cost": 40.80000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.185609579086304,
+    "estimated_cost": 40.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.12700343132019,
+    "estimated_cost": 1912.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 19: unexpected character after line continuation character"
+        }
+      ],
+      "error_message": "Syntax error at line 19: unexpected character after line continuation character"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.054774284362793,
+    "estimated_cost": 150.9,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.13152003288269,
+    "estimated_cost": 50.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.662219762802124,
+    "estimated_cost": 40.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.74563717842102,
+    "estimated_cost": 40.80000000000001,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.174951553344727,
+    "estimated_cost": 40.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.246523380279541,
+    "estimated_cost": 10.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.51333737373352,
+    "estimated_cost": 30.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.769246816635132,
+    "estimated_cost": 30.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.581156015396118,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.733168363571167,
+    "estimated_cost": 40.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.80900239944458,
+    "estimated_cost": 20.699999999999996,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.18835473060608,
+    "estimated_cost": 46.599999999999994,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> sort(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> sort(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.213825464248657,
+    "estimated_cost": 0.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "generation"
+      ],
+      "failure_details": [
+        {
+          "type": "generation",
+          "message": "No code generated"
+        }
+      ],
+      "error_message": "No code generated"
+    },
+    "actual_latency": null,
+    "generation_failed": true
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.641945600509644,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> lower(...) [unknown] -> sort(...) [unknown] -> ai_eval(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> lower(...) [unknown] -> lower(...) [unknown] -> sort(...) [unknown] -> ai_eval(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.247966766357422,
+    "estimated_cost": 60.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 35.4172203540802,
+    "estimated_cost": 20.700000000000003,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> sort(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> sort(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.274279832839966,
+    "estimated_cost": 30.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.49033808708191,
+    "estimated_cost": 4700.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 75: unexpected character after line continuation character"
+        }
+      ],
+      "error_message": "Syntax error at line 75: unexpected character after line continuation character"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.9717059135437,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.83842158317566,
+    "estimated_cost": 50.800000000000004,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.226536750793457,
+    "estimated_cost": 20.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> next(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> next(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.342135667800903,
+    "estimated_cost": 5861.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.019930362701416,
+    "estimated_cost": 130.79999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.10225009918213,
+    "estimated_cost": 50.89999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.951903581619263,
+    "estimated_cost": 31.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 203: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 209: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 217: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 274: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 282: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 292: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 300: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> filter_by_category -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> next(...) [unknown] -> parse_price() [user-defined] -> get_item_details -> parse_price() [user-defined] -> goto_checkout"
+        }
+      ],
+      "error_message": "Line 203: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 209: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 217: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 274: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 282: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 292: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 300: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 82.1187801361084,
+    "estimated_cost": 8567.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.721996068954468,
+    "estimated_cost": 4919.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.32407546043396,
+    "estimated_cost": 961.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 5: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 5: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.559431314468384,
+    "estimated_cost": 30.7,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.616124391555786,
+    "estimated_cost": 80.69999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> compile(...) [unknown] -> sorted(...) [unknown] -> search(...) [unknown] -> float(...) [unknown] -> group(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> compile(...) [unknown] -> sorted(...) [unknown] -> search(...) [unknown] -> float(...) [unknown] -> group(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.301453113555908,
+    "estimated_cost": 1266.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> ai_eval(...) [unknown] -> sorted(...) [unknown] -> sorted(...) [unknown] -> goto_checkout"
+        }
+      ],
+      "error_message": "Pre-tools validation error: goto_checkout requires add_to_cart to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> ai_eval(...) [unknown] -> sorted(...) [unknown] -> sorted(...) [unknown] -> goto_checkout"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.445648431777954,
+    "estimated_cost": 166.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> ai_eval(...) [unknown] -> sort(...) [unknown] -> ai_eval(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: list_all_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> ai_eval(...) [unknown] -> sort(...) [unknown] -> ai_eval(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.203292846679688,
+    "estimated_cost": 40.800000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> get_store_details -> list_menu_items -> compile(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> get_store_details -> list_menu_items -> compile(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 36.05105662345886,
+    "estimated_cost": 320.9000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 200: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 224: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 228: error[not-iterable] Object of type `~AlwaysFalsy` is not iterable\nLine 231: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 239: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 251: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 261: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 270: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 286: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 300: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 312: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 333: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 343: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 353: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 360: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 200: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 224: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 228: error[not-iterable] Object of type `~AlwaysFalsy` is not iterable\nLine 231: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 239: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 251: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 261: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 270: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 286: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 300: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 312: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 333: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 343: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 353: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 360: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.50444507598877,
+    "estimated_cost": 30.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 211: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 235: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 251: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `str | @Todo | None`\nLine 253: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | @Todo | None`\nLine 272: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 281: error[invalid-argument-type] Argument is incorrect: Expected `str | None`, found `Unknown | bool | None | str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 211: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 235: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 251: error[invalid-argument-type] Argument to function `get_item_details` is incorrect: Expected `str`, found `str | @Todo | None`\nLine 253: error[invalid-argument-type] Argument to function `add_to_cart` is incorrect: Expected `str`, found `str | @Todo | None`\nLine 272: error[parameter-already-assigned] Multiple values provided for parameter `expr` of function `ai_eval`\nLine 281: error[invalid-argument-type] Argument is incorrect: Expected `str | None`, found `Unknown | bool | None | str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.677770853042603,
+    "estimated_cost": 40.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> search(...) [unknown] -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> next(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 44.60728311538696,
+    "estimated_cost": 8134.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.168392181396484,
+    "estimated_cost": 124.8,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.365139484405518,
+    "estimated_cost": 604.8000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> ai_eval(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.896656036376953,
+    "estimated_cost": 80.69999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 204: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 216: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 226: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 250: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 259: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 270: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 280: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 289: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 204: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 216: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 226: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 250: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 259: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 270: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 280: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 289: error[too-many-positional-arguments] Too many positional arguments to function `ai_eval`: expected 1, got 2\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.048556804656982,
+    "estimated_cost": 30.899999999999995,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> filter_stores -> filter_by_category -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> filter_stores -> filter_by_category -> filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> ai_eval(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 38.203035831451416,
+    "estimated_cost": 1496.6999999999998,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 317: error[invalid-argument-type] Argument is incorrect: Expected `Literal[\"Order Confirmed\"] | None`, found `Unknown | bool | str`\nLine 319: error[invalid-argument-type] Argument is incorrect: Expected `str | None`, found `Unknown | bool | str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 317: error[invalid-argument-type] Argument is incorrect: Expected `Literal[\"Order Confirmed\"] | None`, found `Unknown | bool | str`\nLine 319: error[invalid-argument-type] Argument is incorrect: Expected `str | None`, found `Unknown | bool | str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.907777070999146,
+    "estimated_cost": 123.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "pre-tools"
+      ],
+      "failure_details": [
+        {
+          "type": "pre-tools",
+          "message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+        }
+      ],
+      "error_message": "Pre-tools validation error: add_to_cart requires get_item_details to be called first. Call sequence: filter_stores -> ai_eval(...) [unknown] -> goto_store -> list_menu_items -> any(...) [unknown] -> lower(...) [unknown] -> sorted(...) [unknown] -> add_to_cart"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

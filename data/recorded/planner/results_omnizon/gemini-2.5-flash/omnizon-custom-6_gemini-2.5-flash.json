@@ -1,0 +1,1384 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6038410663604736,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9078645706176758,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 443: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 444: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 443: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 444: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7453420162200928,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0576388835906982,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3373193740844727,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1777536869049072,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 443: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 443: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8310556411743164,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.145494222640991,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4178428649902344,
+    "estimated_cost": 14.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.937420129776001,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1261911392211914,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 431: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 431: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7798080444335938,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1371724605560303,
+    "estimated_cost": 14.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1667985916137695,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.988551378250122,
+    "estimated_cost": 14.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.136204719543457,
+    "estimated_cost": 114.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.26839017868042,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.266386032104492,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1028037071228027,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5896172523498535,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.215884208679199,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4181127548217773,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9497840404510498,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.243743419647217,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1000959873199463,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.094971179962158,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8987078666687012,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7324614524841309,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3261005878448486,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1583645343780518,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 438: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 440: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 441: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.847038984298706,
+    "estimated_cost": 15.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 442: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 444: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 447: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 430: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 442: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 444: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 447: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5324199199676514,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3490688800811768,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 273: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 273: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.787221908569336,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.479280948638916,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6107358932495117,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 273: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 273: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 275: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8815248012542725,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.038752794265747,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8615682125091553,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5821282863616943,
+    "estimated_cost": 12.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> lower(...) [unknown] -> lower(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> lower(...) [unknown] -> lower(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.619405746459961,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_makers` used when not defined\nLine 277: error[unresolved-reference] Name `touchscreen_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_makers` used when not defined\nLine 277: error[unresolved-reference] Name `touchscreen_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5976872444152832,
+    "estimated_cost": 112.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.692396879196167,
+    "estimated_cost": 102.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7104406356811523,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0331835746765137,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1060972213745117,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0006988048553467,
+    "estimated_cost": 103.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=home. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> lower(...) [unknown] -> append(...) [unknown] -> goto_home -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=home. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> lower(...) [unknown] -> append(...) [unknown] -> goto_home -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9768340587615967,
+    "estimated_cost": 113.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=home. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_home -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=home. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> ai_eval(...) [unknown] -> append(...) [unknown] -> goto_home -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.748514175415039,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9009969234466553,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3117494583129883,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7549684047698975,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.671436071395874,
+    "estimated_cost": 12.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> values(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_product requires page_type=results, but state has page_type=product. Call sequence: search_products -> list_results -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product -> get_product_details -> lower(...) [unknown] -> any(...) [unknown] -> lower(...) [unknown] -> values(...) [unknown] -> append(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_product"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.448692798614502,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8523006439208984,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7633943557739258,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9862587451934814,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6663904190063477,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 279: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 280: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 283: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 279: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 280: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 283: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2291884422302246,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7053725719451904,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8868694305419922,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 277: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 268: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 274: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 276: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 277: error[unresolved-reference] Name `touchscreen_coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5807652473449707,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `maker_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `maker_names` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8119046688079834,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8558921813964844,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 269: error[unresolved-reference] Name `coffee_makers` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

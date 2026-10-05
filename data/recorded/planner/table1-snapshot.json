@@ -1,0 +1,4514 @@
+{
+  "schema_version": "1.0",
+  "source": "blast-data/planner/_DATA (Google Drive snapshot)",
+  "aggregation": "Saved avg_timing.total_seconds and avg_correctness_pct; each file group counts once, including duplicate groups.",
+  "sources": [
+    {
+      "path": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "sha256": "3d7a184f945e71dc115e5538e6be94c5aece2b4cd8d5b93c550f48ebaa5c5f7d"
+    },
+    {
+      "path": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "sha256": "ce4c6cc5a57e5f4c356962e1dcbd253405cd8289c9469616b9688e441aa7b9c2"
+    },
+    {
+      "path": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "sha256": "b3905864ce37884d5c7c1bfa5e3a941bc59e28265a7eca8bd702831c736cc5f8"
+    },
+    {
+      "path": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "sha256": "409873dbb296dc24ff0a120857b38537e9951ea2769836063f64c89eeae271b9"
+    },
+    {
+      "path": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "sha256": "b789fafe460a71eac5d5754103593b47c2b50d93f5d05d11b2c07f316780a493"
+    },
+    {
+      "path": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "sha256": "1ed459baaad8961064f3035cc8bea716491492aaefc6104b8a1ff6dffe90c74b"
+    },
+    {
+      "path": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "sha256": "b070636182c7417b70ffbeda10513d5e31819f887f1c24e966ef7fc1c7ef704e"
+    },
+    {
+      "path": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "sha256": "10485f8b1ac9a9c119e032718312e5468a3ef6dcf5a6e3ab68a22c2ed68bdbdc"
+    },
+    {
+      "path": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "sha256": "8a2807b1148204e7d754f323fb9b642d8cd78ebf9aabc4fc16f51cf43d1d6f3a"
+    },
+    {
+      "path": "gitlab/webarena-133_e2e_detailed.json",
+      "sha256": "79f600fb0478b332ed58d1fa0d97278611351959247303349adad86908d5d651"
+    },
+    {
+      "path": "gitlab/webarena-308_e2e_detailed.json",
+      "sha256": "2c5930869f8d89b2050494b6d2cbb21a3b1ae2d5d3eb0ea107cfd47a4b5476d9"
+    },
+    {
+      "path": "gitlab/webarena-414_e2e_detailed.json",
+      "sha256": "5e3d9e0ddcbc85b27790617bea09ef54bef22a4b3e60881dd1571da165f4fc1f"
+    },
+    {
+      "path": "gitlab/webarena-419_e2e_detailed.json",
+      "sha256": "887fdfbc5d5a07a58f599a6b705b101e40732a2fc92f9207ddccc3b6b7e2414d"
+    },
+    {
+      "path": "gitlab/webarena-747_e2e_detailed.json",
+      "sha256": "54c89c4e0ce478d4e6b7259ff348cd072179919fad9fef48bdf5245f25560de0"
+    },
+    {
+      "path": "gomail/gomail-custom-1_e2e_detailed.json",
+      "sha256": "a1fcc77d4f92ab83e74a6b803b6f57fd079a08b80c752af879f5e3af5abf34fe"
+    },
+    {
+      "path": "gomail/gomail-custom-2_e2e_detailed.json",
+      "sha256": "fc2e78ec1508602276dcf4e19f2cefe1cae0a5aa64d952d111024625c4b3aebf"
+    },
+    {
+      "path": "gomail/gomail-custom-3_e2e_detailed.json",
+      "sha256": "e840b13e4ca9bd631b12d7194f2bf3bb1271571be5f868d25713720e4b44f8b4"
+    },
+    {
+      "path": "gomail/gomail-custom-4_e2e_detailed.json",
+      "sha256": "dce95050127f491d39e25ea62f9390c6f3479a666117f864956055b6c101e821"
+    },
+    {
+      "path": "gomail/gomail-custom-5_e2e_detailed.json",
+      "sha256": "e0c65101abd234761aa85ea89bbfb53939c57307652d98d683891fac2daac326"
+    },
+    {
+      "path": "gomail/gomail-custom-6_e2e_detailed.json",
+      "sha256": "11907e20402b3bbaf7946877ddba566a30fb85bf39d4793d1ef4dd342d6af2de"
+    },
+    {
+      "path": "gomail/gomail-custom-7_e2e_detailed.json",
+      "sha256": "4d92a3e2788fc5405bc9db05f7fc175473c0eb6dc278846dd893d33985526373"
+    },
+    {
+      "path": "gomail/gomail-custom-8_e2e_detailed.json",
+      "sha256": "e498cbff74d48f32a27ac9f63294aa1f353b3d8a907f55e39a390d8d538f4de8"
+    },
+    {
+      "path": "gomail/gomail-custom-9_e2e_detailed.json",
+      "sha256": "f792ebfbb2828e2f4d473623b29665b5d4ccd8a92cc233cf887c8e5343283579"
+    },
+    {
+      "path": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "sha256": "31b16dea5fc7ad599565b2bdef38bebc980164420743fd2c946ae6fdb174f36a"
+    },
+    {
+      "path": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "sha256": "b6e70fb39132c99978d603656ff34a8ef962df8ff17695f239681a122a00ce66"
+    },
+    {
+      "path": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "sha256": "afc986cb0c44b3b67fd6354218578f606efe52df7c8c2bd088c314c9005e08ce"
+    },
+    {
+      "path": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "sha256": "ab30f52911e788b4e76185b46fadca44fb643933847034d30838e40a75bcdc32"
+    },
+    {
+      "path": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "sha256": "2613bb154310486b417157d7a8be981bd03d97b270563128394fbfdda0b71773"
+    },
+    {
+      "path": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "sha256": "16ba5179b412d4caf448c87f6247057e4411a8933f102ad56692e740ff624d49"
+    },
+    {
+      "path": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "sha256": "129d4964c46c2d3dc5c4fb701296a5f4df7b60653782018fa3ed0cf74422576b"
+    },
+    {
+      "path": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "sha256": "2d8a0b6d62ef66aad0ba3b0caef7209d5cdda6563c954f576c82ceac7a2c0e97"
+    },
+    {
+      "path": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "sha256": "69daa3083e0ba94b0f3474c3579c8b5f17ebc56bf399e76e94aae6d6c7c92245"
+    },
+    {
+      "path": "reddit/webarena-29_e2e_detailed.json",
+      "sha256": "90d1e66aec0e8eafcc448424c236c3c0897815a1ceac1688ed549ceee1052959"
+    },
+    {
+      "path": "reddit/webarena-399_e2e_detailed.json",
+      "sha256": "0be6ed7e47e68bab8505954c1cfd2ed050fec515260bc06001864b303173b5ce"
+    },
+    {
+      "path": "reddit/webarena-404_e2e_detailed.json",
+      "sha256": "f454a16ee2386039464b2d84fa0dda8a64db492a4ec1ed309f5acc0b2b307b9e"
+    },
+    {
+      "path": "reddit/webarena-580_e2e_detailed.json",
+      "sha256": "b15782816270ece7f85cad5f173b11a313e0ccb16f3f5e415d373eceb2c2aa45"
+    },
+    {
+      "path": "reddit/webarena-727_e2e_detailed.json",
+      "sha256": "2677f59a2a6cae9ccd9c9d2b4643bd6551c00c5a08f3f63b6bc451d21fb5c0a1"
+    }
+  ],
+  "groups": [
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 17.52947759628296,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 67.02156416575114,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 5.329687118530273,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 8.597010691960653,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 27.635621865590412,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 25.518999338150024,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 23.839478095372517,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 19.214213927586872,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 41.43657143910726,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 13.182271560033163,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 10.456408659617106,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-1",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 25.69449766476949,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-1_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 11.17224645614624,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 26.19909103711446,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 6.169009288152059,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 10.11648678779602,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 28.691240072250366,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 24.654620091120403,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 104.17363913853963,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 81.44602513313293,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 171.64689183235168,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 102.9004537264506,
+      "correctness": 0.4444444444444444,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 54.71971376736959,
+      "correctness": 0.7777777777777778,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-2",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 400.8003938992818,
+      "correctness": 0.2222222222222222,
+      "source": "dashdish/dashdish-custom-2_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 24.20396550496419,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 30.28100840250651,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 14.183444023132324,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 16.125044504801433,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 25.175742387771606,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 29.99754548072815,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 43.430011908213295,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 37.825531800587974,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 111.0002585252126,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 198.8103563785553,
+      "correctness": 0.6666666666666666,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 127.37238033612569,
+      "correctness": 0.3333333333333333,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-3",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 156.14972988764444,
+      "correctness": 0.3333333333333333,
+      "source": "dashdish/dashdish-custom-3_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 37.27101230621338,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 39.54320549964905,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 14.336862881978353,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 16.39220690727234,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 36.91272497177124,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 26.23616687456767,
+      "correctness": 0.3333333333333333,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 57.0295139948527,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 32.07296737035116,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 114.19059610366821,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 394.13774792353314,
+      "correctness": 0.3333333333333333,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 307.6335056622823,
+      "correctness": 0.0,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-4",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 133.960564772288,
+      "correctness": 0.3333333333333333,
+      "source": "dashdish/dashdish-custom-4_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 4.432988961537679,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 9.678278605143229,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 2.1183515389760337,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 3.6071534156799316,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 6.595712820688884,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 6.5097925662994385,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 15.562677145004272,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 11.853112936019897,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 30.144140481948853,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 6.613694906234741,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 4.366476217905681,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-5",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 12.353611866633097,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-5_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 13.88022255897522,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 23.659690618515015,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 7.414176066716512,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 9.234228452046713,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 12.824964682261148,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 28.067411581675213,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 111.8319525718689,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 85.15588355064392,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 91.33831548690796,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 78.11660774548848,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 53.42694560686747,
+      "correctness": 0.0,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-6",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 111.73090187708537,
+      "correctness": 0.6666666666666666,
+      "source": "dashdish/dashdish-custom-6_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 6.9686886469523115,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 28.115043083826702,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 3.3689022858937583,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 5.791818221410115,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 11.70382308959961,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 20.666320006052654,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 29.7147540251414,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 19.379037221272785,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 27.14835325876872,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 26.712669293085735,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 38.809342543284096,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-7",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 147.0305035909017,
+      "correctness": 0.6666666666666666,
+      "source": "dashdish/dashdish-custom-7_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 4.984658559163411,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 19.522425174713135,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 1.9458603858947754,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 3.553433974583944,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 10.603016297022501,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 9.862928867340088,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 21.35822558403015,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 22.719931920369465,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 33.376118898391724,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 133.6939206123352,
+      "correctness": 0.6666666666666666,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 38.76646383603414,
+      "correctness": 0.3333333333333333,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-8",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 25.16448203722636,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-8_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 30.90953056017558,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 109.08173282941182,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 8.902676184972128,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 37.679085890452065,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 16.91178297996521,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 30.15924350420634,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 138.46515981356302,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 109.33287437756856,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 111.48248195648193,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 285.8450418313344,
+      "correctness": 0.8333333333333334,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 124.26798486709595,
+      "correctness": 1.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "dashdish",
+      "task": "dashdish-custom-9",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 195.12401310602823,
+      "correctness": 0.0,
+      "source": "dashdish/dashdish-custom-9_20260112_210045_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 5.097065210342407,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 6.465810616811116,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 9.166299104690552,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 13.292184909184774,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 7.72220245997111,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 9.143937110900879,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 29.19058132171631,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 21.745539665222168,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 76.38747255007426,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 25.88570435841878,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 17.09467315673828,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-133",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 49.7017609278361,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-133_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 7.6740171909332275,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 7.492844343185425,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 8.89665158589681,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 11.608089764912924,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 9.4475945631663,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 11.815130949020386,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 27.393574873606365,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 42.709983905156456,
+      "correctness": 0.6666666666666666,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 32.354044119517006,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 60.64512451489767,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 219.68206747372946,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-308",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 81.23765444755554,
+      "correctness": 0.3333333333333333,
+      "source": "gitlab/webarena-308_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 6.938568035761516,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 8.20577303568522,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 12.126006364822388,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 24.42438618342082,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 17.00532015164693,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 17.03189500172933,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 61.193339347839355,
+      "correctness": 0.3333333333333333,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 48.42167480786642,
+      "correctness": 0.3333333333333333,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 118.61118618647258,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 56.725541750590004,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 37.22035837173462,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-414",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 307.54855585098267,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-414_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 3.455089251200358,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 3.3821563720703125,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 7.086812575658162,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 12.379932244618734,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 162.7066822052002,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 41.176698446273804,
+      "correctness": 0.6666666666666666,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 324.1783177057902,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 4.095387538274129,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 5.771274169286092,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 38.67294359207153,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 33.20772910118103,
+      "correctness": 0.6666666666666666,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-419",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 70.82399916648865,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-419_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 15.34888505935669,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 30.435807863871258,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 10.48595380783081,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 11.425213972727457,
+      "correctness": 1.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 24.168566465377808,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 27.963231325149536,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 140.55640077590942,
+      "correctness": 0.3333333333333333,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 147.6772100130717,
+      "correctness": 0.6666666666666666,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 157.19707123438516,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 213.0953266620636,
+      "correctness": 0.3333333333333333,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 277.1527308622996,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gitlab",
+      "task": "webarena-747",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 296.39186835289,
+      "correctness": 0.0,
+      "source": "gitlab/webarena-747_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 2.5640320777893066,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 3.7184317111968994,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 1.4637254079182942,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 2.3695197105407715,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 3.671271880467733,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 7.308737675348918,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 4.720039367675781,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 14.216199318567911,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 13.989588101704916,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 3.4759846528371177,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-1",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 6.277753114700317,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-1_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 16.84967811902364,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 18.6747993628184,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 25.91805299123128,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 21.227685769399006,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 19.564271926879883,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 18.913108189900715,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 164.6107658545176,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 87.38619740804036,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 102.15106185277303,
+      "correctness": 0.8333333333333334,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 411.52386411031085,
+      "correctness": 0.16666666666666666,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-2",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 236.29802481333414,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-2_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 4.722305138905843,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 4.650927782058716,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 2.9084465503692627,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 2.8680214881896973,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 5.733436743418376,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 9.005407571792603,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 100.38088981310527,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 57.54736193021139,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 18.403350909550984,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 21.8996483484904,
+      "correctness": 0.3333333333333333,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-3",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 55.652246952056885,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-3_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 3.105095863342285,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 3.091471036275228,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 5.961707353591919,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 5.912235180536906,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 4.338176886240642,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 7.869547049204509,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 32.360233783721924,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 24.50732119878133,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 179.29834445317587,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 144.45188347498575,
+      "correctness": 0.3333333333333333,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-4",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 116.76898829142253,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-4_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 15.14796487490336,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 23.273889859517414,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 10.2877836227417,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 11.061585823694864,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 12.778433640797934,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 19.54636295636495,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 189.33160320917764,
+      "correctness": 0.8333333333333334,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 138.39235623677573,
+      "correctness": 0.9166666666666666,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 226.174374183019,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 113.90537349383037,
+      "correctness": 0.75,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-5",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 314.2730694611867,
+      "correctness": 0.16666666666666666,
+      "source": "gomail/gomail-custom-5_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 23.38587013880412,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 23.385226329167683,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 26.337539990743,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 32.77768603960673,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 23.4263592561086,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 31.577518939971924,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 84.33041048049927,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 94.26164690653484,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 103.29424667358398,
+      "correctness": 0.9166666666666666,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 131.8287661075592,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-6",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 131.07118582725525,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-6_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 4.243462642033895,
+      "correctness": 0.5,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 51.62079739570618,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 7.249303976694743,
+      "correctness": 0.5,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 15.066362619400024,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 7.936371962229411,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 4.982075850168864,
+      "correctness": 0.0,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 71.3541100025177,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 39.57752966880798,
+      "correctness": 0.5,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 211.63188966115317,
+      "correctness": 0.3333333333333333,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 222.74928919474283,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-7",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 305.15319387118024,
+      "correctness": 0.5,
+      "source": "gomail/gomail-custom-7_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 4.43141508102417,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 6.876233339309692,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 3.847801129023234,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 5.251067717870076,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 6.176285028457642,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 12.688032229741415,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 45.00262395540873,
+      "correctness": 0.3333333333333333,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 44.11994465192159,
+      "correctness": 0.7777777777777778,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 40.60414735476176,
+      "correctness": 0.7777777777777777,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 32.00590920448303,
+      "correctness": 0.0,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-8",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 63.296055475870766,
+      "correctness": 0.4444444444444444,
+      "source": "gomail/gomail-custom-8_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 14.515106678009033,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 20.464048941930134,
+      "correctness": 0.0,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 10.074305295944214,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 23.365665197372437,
+      "correctness": 0.0,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 13.439608176549276,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 37.90931034088135,
+      "correctness": 1.0,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 156.54501875241598,
+      "correctness": 0.25,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 142.59965833028158,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 168.50043908754984,
+      "correctness": 0.75,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 44.606088081995644,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "gomail",
+      "task": "gomail-custom-9",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 53.16266496976217,
+      "correctness": 0.6666666666666666,
+      "source": "gomail/gomail-custom-9_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 6.89330514272054,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 8.179764111836752,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 10.399957418441772,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 16.393637498219807,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 16.64730207125346,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 15.196858644485474,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 46.34424217542013,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 47.0568573474884,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 198.4732985496521,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 57.24110476175944,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 138.74805196126303,
+      "correctness": 0.3333333333333333,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-1",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 55.5726854801178,
+      "correctness": 0.3333333333333333,
+      "source": "omnizon/omnizon-custom-1_20260124_103429_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 20.33473865191142,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 36.23140009244283,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 23.026819705963135,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 23.238240083058674,
+      "correctness": 0.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 95.0876959959666,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 55.74291801452637,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 99.15442570050557,
+      "correctness": 0.39999999999999997,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 62.5663214524587,
+      "correctness": 0.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 261.74639479319256,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 292.1562450726827,
+      "correctness": 0.4000000000000001,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 388.252734263738,
+      "correctness": 0.7999999999999999,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-2",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 136.15160290400186,
+      "correctness": 0.8000000000000002,
+      "source": "omnizon/omnizon-custom-2_20260124_081541_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 16.337127288182575,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 2.6099236011505127,
+      "correctness": 0.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 22.910005966822307,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 30.30392360687256,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 3.5373478730519614,
+      "correctness": 0.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 3.5362980365753174,
+      "correctness": 0.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 129.68789656956992,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 103.9818783601125,
+      "correctness": 0.4444444444444444,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 152.88537335395813,
+      "correctness": 0.4444444444444444,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 135.86395009358725,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 106.41745368639629,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-3",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 168.95689415931702,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-3_20260124_100222_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 1.508556604385376,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 2.2751522858937583,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 4.914647340774536,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 8.954947233200073,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 4.681278705596924,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 4.450873057047526,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 26.981722275416057,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 38.39879957834879,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 32.07211502393087,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 58.55757522583008,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 98.53771289189656,
+      "correctness": 0.8333333333333334,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-4",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 49.25039561589559,
+      "correctness": 0.8333333333333334,
+      "source": "omnizon/omnizon-custom-4_20260124_081541_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 6.930320819218953,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 7.7035683790842695,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 11.322608709335327,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 17.267126242319744,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 12.666779120763143,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 16.726276954015095,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 58.476183811823525,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 72.92621803283691,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 72.68249686559041,
+      "correctness": 0.8333333333333334,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 94.84332013130188,
+      "correctness": 0.5,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 113.75781273841858,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-5",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 94.27748696009319,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-5_20260124_100222_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 8.22486400604248,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 8.72555406888326,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 21.462147792180378,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 63.17463906606039,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 27.155262152353924,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 23.35328547159831,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 93.48462716738383,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 151.06837964057922,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 130.66153581937155,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 111.01992026964824,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 118.90448180834453,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-6",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 89.1593021551768,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-6_20260124_101807_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 11.908920764923096,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 11.042701721191406,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 13.876960754394531,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 27.033355712890625,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 13.303855895996094,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 29.135322252909344,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 76.1182800134023,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 104.36079875628154,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 63.47123336791992,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 77.63272452354431,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 87.63234361012776,
+      "correctness": 0.9166666666666666,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-7",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 55.498209953308105,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-7_20260124_081541_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 6.824081738789876,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 8.96718955039978,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 10.346813758214315,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 15.582153717676798,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 18.8616517384847,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 16.72955258687337,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 29.584226687749226,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 39.42786979675293,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 47.67305437723795,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 82.15128215154012,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 168.49852681159973,
+      "correctness": 0.1111111111111111,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-8",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 32.091398080190025,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-8_20260124_081541_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 4.6347644329071045,
+      "correctness": 0.33,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 7.3734424114227295,
+      "correctness": 0.33,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 9.73324457804362,
+      "correctness": 0.33,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 22.54663634300232,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 13.911553939183554,
+      "correctness": 0.33,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 15.02569055557251,
+      "correctness": 0.33,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 68.36003708839417,
+      "correctness": 0.7766666666666667,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 73.03199466069539,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 63.57586534818014,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 66.63370601336162,
+      "correctness": 1.0,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 158.4858566125234,
+      "correctness": 0.6666666666666666,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "omnizon",
+      "task": "omnizon-custom-9",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 39.55551322301229,
+      "correctness": 0.33,
+      "source": "omnizon/omnizon-custom-9_20260124_101807_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 2.1099723180135093,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 3.5105815728505454,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 6.60181736946106,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 11.111162821451822,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 8.176144202550253,
+      "correctness": 0.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 26.105424563090008,
+      "correctness": 0.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 74.01572521527608,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 72.17109068234761,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 120.37859241167705,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 74.01572521527608,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 72.17109068234761,
+      "correctness": 1.0,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-29",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 120.37859241167705,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-29_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 1.0165539582570393,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 1.5280548731486003,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 3.430797894795736,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 16.358868916829426,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 1.389893611272176,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 4.915192763010661,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 26.667570114135742,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 36.59732413291931,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 52.250404834747314,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 23.172261714935303,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 30.550631841023762,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-399",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 46.153656562169395,
+      "correctness": 1.0,
+      "source": "reddit/webarena-399_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 2.1528079509735107,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 2.2191683451334634,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 4.938104470570882,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 10.153748909632364,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 6.370139201482137,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 12.70446260770162,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 94.98963896433513,
+      "correctness": 0.3333333333333333,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 42.844064712524414,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 66.47274049123128,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 36.394601821899414,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 40.88693857192993,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-404",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 95.21274328231812,
+      "correctness": 1.0,
+      "source": "reddit/webarena-404_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 1.8245046138763428,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 2.5443833669026694,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 5.497063398361206,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 22.58578372001648,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 9.557106018066406,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 19.283463795979817,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 86.6639195283254,
+      "correctness": 0.3333333333333333,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 57.73537731170654,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 104.39188615481059,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 27.254238684972126,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 39.53416212399801,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-580",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 145.2531730333964,
+      "correctness": 1.0,
+      "source": "reddit/webarena-580_e2e_detailed.json",
+      "group_index": 11
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-flash-best",
+      "trials": 3,
+      "latency_s": 1.7468895117441814,
+      "correctness": 1.0,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 0
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-flash-worst",
+      "trials": 3,
+      "latency_s": 10.920942385991415,
+      "correctness": 1.0,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 1
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-pro-best",
+      "trials": 3,
+      "latency_s": 4.7961117426554365,
+      "correctness": 1.0,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 2
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-pro-worst",
+      "trials": 3,
+      "latency_s": 18.39554437001546,
+      "correctness": 1.0,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 3
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gpt-4.1-best",
+      "trials": 3,
+      "latency_s": 4.163574298222859,
+      "correctness": 1.0,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 4
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gpt-4.1-worst",
+      "trials": 3,
+      "latency_s": 20.90309206644694,
+      "correctness": 1.0,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 5
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-flash-loop-baseline",
+      "trials": 3,
+      "latency_s": 83.5592470963796,
+      "correctness": 0.3333333333333333,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 6
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-pro-loop-baseline",
+      "trials": 3,
+      "latency_s": 139.79808370272318,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 7
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gpt-4.1-loop-baseline",
+      "trials": 3,
+      "latency_s": 183.6491586367289,
+      "correctness": 0.3333333333333333,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 8
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-flash-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 208.5062173207601,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 9
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gemini-2.5-pro-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 66.81358432769775,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 10
+    },
+    {
+      "application": "reddit",
+      "task": "webarena-727",
+      "configuration": "gpt-4.1-loop-tools-baseline",
+      "trials": 3,
+      "latency_s": 196.1027537981669,
+      "correctness": 0.6666666666666666,
+      "source": "reddit/webarena-727_e2e_detailed.json",
+      "group_index": 11
+    }
+  ],
+  "historical_generator": {
+    "repository": "https://github.com/stanford-mast/blast",
+    "commit": "5bf1aec5345df93851aa4d7e3f6c92012b87d734",
+    "path": "experiments/plot_all_results.py",
+    "sha256": "d3c9fe7b1becf55c5950363a7a2a9e59751953e7f491a58e7c2c9820d98d458c",
+    "adaptation": "Retain group averaging and min/max range calculation; use all five applications and the final paper's task tiers. The historical script's CLI and bins predate the final table."
+  }
+}

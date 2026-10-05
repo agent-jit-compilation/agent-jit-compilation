@@ -1,0 +1,774 @@
+{
+  "task_id": "webarena-414",
+  "num_trials": 3,
+  "results": [
+    {
+      "name": "gemini-2.5-flash-best",
+      "mode": "code",
+      "model": "gemini-2.5-flash",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.9857468605041504,
+            "execution_seconds": 5.591566801071167,
+            "total_seconds": 6.577313661575317,
+            "llm_total_seconds": 0,
+            "llm_prefill_seconds": 0,
+            "llm_decode_seconds": 0,
+            "num_llm_calls": 0
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.9857468605041504,
+            "execution_seconds": 6.338255882263184,
+            "total_seconds": 7.324002742767334,
+            "llm_total_seconds": 0,
+            "llm_prefill_seconds": 0,
+            "llm_decode_seconds": 0,
+            "num_llm_calls": 0
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.9857468605041504,
+            "execution_seconds": 5.928640842437744,
+            "total_seconds": 6.9143877029418945,
+            "llm_total_seconds": 0,
+            "llm_prefill_seconds": 0,
+            "llm_decode_seconds": 0,
+            "num_llm_calls": 0
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.9857468605041504,
+        "execution_seconds": 5.952821175257365,
+        "total_seconds": 6.938568035761516,
+        "llm_total_seconds": 0.0,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.14206776606118032,
+        "llm_pct": 0.0,
+        "action_pct": 0.8579322339388197
+      }
+    },
+    {
+      "name": "gemini-2.5-flash-worst",
+      "mode": "code",
+      "model": "gemini-2.5-flash",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 1.112098217010498,
+            "execution_seconds": 7.2106828689575195,
+            "total_seconds": 8.322781085968018,
+            "llm_total_seconds": 0.8359534740447998,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 1.112098217010498,
+            "execution_seconds": 7.220185041427612,
+            "total_seconds": 8.33228325843811,
+            "llm_total_seconds": 0.9257335662841797,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 1.112098217010498,
+            "execution_seconds": 6.850156545639038,
+            "total_seconds": 7.962254762649536,
+            "llm_total_seconds": 1.1591050624847412,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 1.112098217010498,
+        "execution_seconds": 7.093674818674724,
+        "total_seconds": 8.20577303568522,
+        "llm_total_seconds": 0.9735973676045736,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.13552631935762924,
+        "llm_pct": 0.1186478547932777,
+        "action_pct": 0.7458258258490932
+      }
+    },
+    {
+      "name": "gemini-2.5-pro-best",
+      "mode": "code",
+      "model": "gemini-2.5-pro",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 5.520491361618042,
+            "execution_seconds": 7.429309129714966,
+            "total_seconds": 12.949800491333008,
+            "llm_total_seconds": 0,
+            "llm_prefill_seconds": 0,
+            "llm_decode_seconds": 0,
+            "num_llm_calls": 0
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 5.520491361618042,
+            "execution_seconds": 7.159997940063477,
+            "total_seconds": 12.680489301681519,
+            "llm_total_seconds": 0,
+            "llm_prefill_seconds": 0,
+            "llm_decode_seconds": 0,
+            "num_llm_calls": 0
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 5.520491361618042,
+            "execution_seconds": 5.227237939834595,
+            "total_seconds": 10.747729301452637,
+            "llm_total_seconds": 0,
+            "llm_prefill_seconds": 0,
+            "llm_decode_seconds": 0,
+            "num_llm_calls": 0
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 5.520491361618042,
+        "execution_seconds": 6.605515003204346,
+        "total_seconds": 12.126006364822388,
+        "llm_total_seconds": 0.0,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.45526047039139106,
+        "llm_pct": 0.0,
+        "action_pct": 0.5447395296086089
+      }
+    },
+    {
+      "name": "gemini-2.5-pro-worst",
+      "mode": "code",
+      "model": "gemini-2.5-pro",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 4.629153251647949,
+            "execution_seconds": 20.00157880783081,
+            "total_seconds": 24.63073205947876,
+            "llm_total_seconds": 13.610673904418945,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 4.629153251647949,
+            "execution_seconds": 18.626161575317383,
+            "total_seconds": 23.255314826965332,
+            "llm_total_seconds": 13.009897708892822,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 4.629153251647949,
+            "execution_seconds": 20.75795841217041,
+            "total_seconds": 25.38711166381836,
+            "llm_total_seconds": 13.991056442260742,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 4.629153251647949,
+        "execution_seconds": 19.79523293177287,
+        "total_seconds": 24.42438618342082,
+        "llm_total_seconds": 13.537209351857504,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.189529972908396,
+        "llm_pct": 0.5542497260809981,
+        "action_pct": 0.2562203010106059
+      }
+    },
+    {
+      "name": "gpt-4.1-best",
+      "mode": "code",
+      "model": "gpt-4.1",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 3.944979429244995,
+            "execution_seconds": 17.679870128631592,
+            "total_seconds": 21.624849557876587,
+            "llm_total_seconds": 8.677489995956421,
+            "llm_prefill_seconds": 1.4709277153015137,
+            "llm_decode_seconds": 7.206562280654907,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 3.944979429244995,
+            "execution_seconds": 11.806116104125977,
+            "total_seconds": 15.751095533370972,
+            "llm_total_seconds": 4.299156427383423,
+            "llm_prefill_seconds": 0.6833360195159912,
+            "llm_decode_seconds": 3.6158204078674316,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 3.944979429244995,
+            "execution_seconds": 9.695035934448242,
+            "total_seconds": 13.640015363693237,
+            "llm_total_seconds": 3.0047450065612793,
+            "llm_prefill_seconds": 0.6835837364196777,
+            "llm_decode_seconds": 2.3211612701416016,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 3.944979429244995,
+        "execution_seconds": 13.060340722401937,
+        "total_seconds": 17.00532015164693,
+        "llm_total_seconds": 5.327130476633708,
+        "llm_prefill_seconds": 0.9459491570790609,
+        "llm_decode_seconds": 4.3811813195546465
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.23198501375247157,
+        "llm_pct": 0.31326258071758717,
+        "action_pct": 0.4547524055299414
+      }
+    },
+    {
+      "name": "gpt-4.1-worst",
+      "mode": "code",
+      "model": "gpt-4.1",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 7.59498405456543,
+            "execution_seconds": 9.077173709869385,
+            "total_seconds": 16.672157764434814,
+            "llm_total_seconds": 2.14235258102417,
+            "llm_prefill_seconds": 0.6136691570281982,
+            "llm_decode_seconds": 1.5286834239959717,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 7.59498405456543,
+            "execution_seconds": 10.262602806091309,
+            "total_seconds": 17.85758686065674,
+            "llm_total_seconds": 2.767296314239502,
+            "llm_prefill_seconds": 0.7976670265197754,
+            "llm_decode_seconds": 1.9696292877197266,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 7.59498405456543,
+            "execution_seconds": 8.970956325531006,
+            "total_seconds": 16.565940380096436,
+            "llm_total_seconds": 2.24519419670105,
+            "llm_prefill_seconds": 1.2849857807159424,
+            "llm_decode_seconds": 0.9602084159851074,
+            "num_llm_calls": 2
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 7.59498405456543,
+        "execution_seconds": 9.4369109471639,
+        "total_seconds": 17.03189500172933,
+        "llm_total_seconds": 2.3849476973215737,
+        "llm_prefill_seconds": 0.898773988087972,
+        "llm_decode_seconds": 1.4861737092336018
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.44592712988157074,
+        "llm_pct": 0.14002832315954383,
+        "action_pct": 0.41404454695888554
+      }
+    },
+    {
+      "name": "gemini-2.5-pro-loop-tools-baseline",
+      "mode": "loop",
+      "model": "gemini-2.5-pro",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 57.5363986492157,
+            "total_seconds": 57.5363986492157,
+            "llm_total_seconds": 34.28505325317383,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 7
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 81.01250863075256,
+            "total_seconds": 81.01250863075256,
+            "llm_total_seconds": 50.89929151535034,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 9
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 45.031110763549805,
+            "total_seconds": 45.031110763549805,
+            "llm_total_seconds": 27.14792823791504,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 6
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.0,
+        "execution_seconds": 61.193339347839355,
+        "total_seconds": 61.193339347839355,
+        "llm_total_seconds": 37.4440910021464,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 0.3333333333333333,
+      "normalized_timing": {
+        "planning_pct": 0.0,
+        "llm_pct": 0.6118981477592543,
+        "action_pct": 0.3881018522407456
+      }
+    },
+    {
+      "name": "gemini-2.5-flash-loop-tools-baseline",
+      "mode": "loop",
+      "model": "gemini-2.5-flash",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 67.53288745880127,
+            "total_seconds": 67.53288745880127,
+            "llm_total_seconds": 28.726967334747314,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 15
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 37.84672427177429,
+            "total_seconds": 37.84672427177429,
+            "llm_total_seconds": 16.686464071273804,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 7
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 39.88541269302368,
+            "total_seconds": 39.88541269302368,
+            "llm_total_seconds": 16.418262004852295,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 9
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.0,
+        "execution_seconds": 48.42167480786642,
+        "total_seconds": 48.42167480786642,
+        "llm_total_seconds": 20.610564470291138,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 0.3333333333333333,
+      "normalized_timing": {
+        "planning_pct": 0.0,
+        "llm_pct": 0.42564749261714546,
+        "action_pct": 0.5743525073828546
+      }
+    },
+    {
+      "name": "gpt-4.1-loop-tools-baseline",
+      "mode": "loop",
+      "model": "gpt-4.1",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 135.816978931427,
+            "total_seconds": 135.816978931427,
+            "llm_total_seconds": 100.29568386077881,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 12
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 95.24141955375671,
+            "total_seconds": 95.24141955375671,
+            "llm_total_seconds": 63.72955274581909,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 11
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 124.77516007423401,
+            "total_seconds": 124.77516007423401,
+            "llm_total_seconds": 87.6350929737091,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 13
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.0,
+        "execution_seconds": 118.61118618647258,
+        "total_seconds": 118.61118618647258,
+        "llm_total_seconds": 83.886776526769,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.0,
+        "llm_pct": 0.7072416963682313,
+        "action_pct": 0.29275830363176863
+      }
+    },
+    {
+      "name": "gemini-2.5-pro-loop-baseline",
+      "mode": "loop",
+      "model": "gemini-2.5-pro",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 59.87905716896057,
+            "total_seconds": 59.87905716896057,
+            "llm_total_seconds": 32.706658124923706,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 7
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 54.40735983848572,
+            "total_seconds": 54.40735983848572,
+            "llm_total_seconds": 33.13465428352356,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 7
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 55.89020824432373,
+            "total_seconds": 55.89020824432373,
+            "llm_total_seconds": 34.587745904922485,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 7
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.0,
+        "execution_seconds": 56.725541750590004,
+        "total_seconds": 56.725541750590004,
+        "llm_total_seconds": 33.47635277112325,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 0.0,
+      "normalized_timing": {
+        "planning_pct": 0.0,
+        "llm_pct": 0.5901460213163159,
+        "action_pct": 0.4098539786836842
+      }
+    },
+    {
+      "name": "gemini-2.5-flash-loop-baseline",
+      "mode": "loop",
+      "model": "gemini-2.5-flash",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 49.73066425323486,
+            "total_seconds": 49.73066425323486,
+            "llm_total_seconds": 19.459044933319092,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 9
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 29.263444900512695,
+            "total_seconds": 29.263444900512695,
+            "llm_total_seconds": 10.86024785041809,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 6
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 32.6669659614563,
+            "total_seconds": 32.6669659614563,
+            "llm_total_seconds": 12.14925241470337,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 7
+          },
+          "correctness_pct": 0.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.0,
+        "execution_seconds": 37.22035837173462,
+        "total_seconds": 37.22035837173462,
+        "llm_total_seconds": 14.156181732813517,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 0.0,
+      "normalized_timing": {
+        "planning_pct": 0.0,
+        "llm_pct": 0.3803343748448111,
+        "action_pct": 0.619665625155189
+      }
+    },
+    {
+      "name": "gpt-4.1-loop-baseline",
+      "mode": "loop",
+      "model": "gpt-4.1",
+      "num_trials": 3,
+      "results": [
+        {
+          "trial": 0,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 205.82821893692017,
+            "total_seconds": 205.82821893692017,
+            "llm_total_seconds": 151.17166328430176,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 16
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 1,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 310.54599142074585,
+            "total_seconds": 310.54599142074585,
+            "llm_total_seconds": 235.00585556030273,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 21
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        },
+        {
+          "trial": 2,
+          "timing": {
+            "planning_seconds": 0.0,
+            "execution_seconds": 406.271457195282,
+            "total_seconds": 406.271457195282,
+            "llm_total_seconds": 303.3470366001129,
+            "llm_prefill_seconds": 0.0,
+            "llm_decode_seconds": 0.0,
+            "num_llm_calls": 34
+          },
+          "correctness_pct": 1.0,
+          "error": null
+        }
+      ],
+      "avg_timing": {
+        "planning_seconds": 0.0,
+        "execution_seconds": 307.54855585098267,
+        "total_seconds": 307.54855585098267,
+        "llm_total_seconds": 229.84151848157248,
+        "llm_prefill_seconds": 0.0,
+        "llm_decode_seconds": 0.0
+      },
+      "avg_correctness_pct": 1.0,
+      "normalized_timing": {
+        "planning_pct": 0.0,
+        "llm_pct": 0.7473340846800731,
+        "action_pct": 0.2526659153199269
+      }
+    }
+  ]
+}

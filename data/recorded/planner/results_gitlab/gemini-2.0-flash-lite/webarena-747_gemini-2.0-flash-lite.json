@@ -1,0 +1,1524 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9543559551239014,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4241883754730225,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5778155326843262,
+    "estimated_cost": 10.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7215619087219238,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.207021951675415,
+    "estimated_cost": 0.8999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1848247051239014,
+    "estimated_cost": 20.699999999999996,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.723189115524292,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3908588886260986,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8063266277313232,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1396539211273193,
+    "estimated_cost": 10.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.673266887664795,
+    "estimated_cost": 20.799999999999997,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4970505237579346,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.057687759399414,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7396752834320068,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.413111686706543,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.744107723236084,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0490646362304688,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5721642971038818,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0354411602020264,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6994009017944336,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0094668865203857,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9956440925598145,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5269122123718262,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6744053363800049,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3813230991363525,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7869975566864014,
+    "estimated_cost": 0.8999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6285221576690674,
+    "estimated_cost": 0.8999999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4516441822052002,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9162952899932861,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6142706871032715,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8885109424591064,
+    "estimated_cost": 0.8999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7285072803497314,
+    "estimated_cost": 0.8999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+        }
+      ],
+      "error_message": "Code illegally accesses STATE directly. Use tools instead of manipulating STATE."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6826462745666504,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0464766025543213,
+    "estimated_cost": 1.6,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.488898515701294,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2320709228515625,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6984598636627197,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.812502145767212,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1369705200195312,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1101982593536377,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4909627437591553,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.1731212139129639,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.856581211090088,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> ai_eval(...) [unknown] -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> ai_eval(...) [unknown] -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3523921966552734,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.120368719100952,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8029046058654785,
+    "estimated_cost": 10.8,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4014837741851807,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "state-access"
+      ],
+      "failure_details": [
+        {
+          "type": "state-access",
+          "message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+        }
+      ],
+      "error_message": "Code illegally calls get_url(). Initial URL is known via assertion in prompt."
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3792498111724854,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.672598123550415,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2184221744537354,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5099260807037354,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3388125896453857,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9199004173278809,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4327600002288818,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7203328609466553,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4372243881225586,
+    "estimated_cost": 10.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8296854496002197,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3594956398010254,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0244944095611572,
+    "estimated_cost": 10.9,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> ai_eval(...) [unknown] -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> ai_eval(...) [unknown] -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4918525218963623,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_home -> goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.147256851196289,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3811051845550537,
+    "estimated_cost": 0.7,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.681746482849121,
+    "estimated_cost": 0.7999999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7903430461883545,
+    "estimated_cost": 10.700000000000001,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+        }
+      ],
+      "error_message": "Tool ordering error: invite_project_member requires page_type=invite_modal, but state has page_type=project_members. Call sequence: goto_create_blank_project -> set_create_project_details -> submit_create_project -> goto_project_members -> open_invite_modal -> invite_project_member -> invite_project_member"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

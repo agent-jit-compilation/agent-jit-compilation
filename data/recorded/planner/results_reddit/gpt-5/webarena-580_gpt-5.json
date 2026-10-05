@@ -1,0 +1,1321 @@
+[
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.455847024917603,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.930069923400879,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.363782405853271,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.010539770126343,
+    "estimated_cost": 20.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.11310625076294,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.737757205963135,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.926974534988403,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.884979724884033,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.869138479232788,
+    "estimated_cost": 20.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.127493381500244,
+    "estimated_cost": 20.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.836771965026855,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.372223138809204,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.518656969070435,
+    "estimated_cost": 10.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.592947244644165,
+    "estimated_cost": 20.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.294382333755493,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.99716806411743,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.3519127368927,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.2608962059021,
+    "estimated_cost": 10.399999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.58011746406555,
+    "estimated_cost": 20.400000000000002,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.324957847595215,
+    "estimated_cost": 30.400000000000006,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.833806991577148,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.832012176513672,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.407811403274536,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.816816806793213,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.165528059005737,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.646971464157104,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.280494213104248,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.782514095306396,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.59128165245056,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 275: error[unresolved-reference] Name `display_name` used when not defined\nLine 277: error[unresolved-reference] Name `sidebar_content` used when not defined\nLine 280: error[unresolved-reference] Name `display_name` used when not defined\nLine 280: error[unresolved-reference] Name `sidebar_items` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 275: error[unresolved-reference] Name `display_name` used when not defined\nLine 277: error[unresolved-reference] Name `sidebar_content` used when not defined\nLine 280: error[unresolved-reference] Name `display_name` used when not defined\nLine 280: error[unresolved-reference] Name `sidebar_items` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.183435440063477,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.430892705917358,
+    "estimated_cost": 0.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.297452926635742,
+    "estimated_cost": 20.4,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.514677047729492,
+    "estimated_cost": 20.299999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> ai_eval(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> ai_eval(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.621567249298096,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.1999089717865,
+    "estimated_cost": 20.300000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.648705244064331,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.73271679878235,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.58442521095276,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.022428274154663,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.569098711013794,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: title(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: title(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.83787488937378,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.0564181804657,
+    "estimated_cost": 10.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> title(...) [unknown] -> sub(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> title(...) [unknown] -> sub(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.58266830444336,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.567874431610107,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.567865133285522,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.42968988418579,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: title(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: title(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 40.64255619049072,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.626482009887695,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.998901605606079,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> capitalize(...) [unknown] -> split(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> capitalize(...) [unknown] -> split(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.41581416130066,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.53715682029724,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.425856828689575,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.501228094100952,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.25514554977417,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 21.595667839050293,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.67561912536621,
+    "estimated_cost": 20.5,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.899567365646362,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.471999406814575,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 34.5763623714447,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.758466958999634,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: title(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: title(...) [unknown] -> join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.853566646575928,
+    "estimated_cost": 0.30000000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: join(...) [unknown] -> goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.30316162109375,
+    "estimated_cost": 30.300000000000004,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.850409269332886,
+    "estimated_cost": 20.3,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.79305410385132,
+    "estimated_cost": 10.299999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_create_forum requires page_type=forums_list, but state has page_type=home. Call sequence: goto_create_forum"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

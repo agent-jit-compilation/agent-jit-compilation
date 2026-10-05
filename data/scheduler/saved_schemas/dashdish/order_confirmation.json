@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DashDish Order Confirmation Page Schema",
+  "type": "object",
+  "$defs": {
+    "orderIdButton": {
+      "type": "object",
+      "description": "Primary orange button showing the order ID in the confirmation banner; likely used to view order details or copy the ID",
+      "x-visibleCount": 1,
+      "properties": {
+        "labelPrefix": {
+          "type": "string",
+          "const": "Order #"
+        },
+        "orderId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "labelPrefix",
+        "orderId"
+      ]
+    },
+    "orderConfirmationContinueShoppingButton": {
+      "type": "object",
+      "description": "Secondary button in the confirmation banner labeled 'Continue Shopping'; returns user to the main page",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Continue Shopping"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      },
+      "required": [
+        "label",
+        "opensPage"
+      ]
+    },
+    "orderConfirmationContactSupportButton": {
+      "type": "object",
+      "description": "Secondary outline button in the confirmation banner labeled 'Contact Support'; opens support/contact flow (destination not specified)",
+      "x-visibleCount": 2,
+      "x-visibleCounts": {
+        "confirmationBanner": 1,
+        "needHelpSection": 1
+      },
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Contact Support"
+        }
+      },
+      "required": [
+        "label"
+      ]
+    },
+    "orderDetailsLineItem": {
+      "type": "object",
+      "description": "Non-clickable line item row under Order Details showing item name, quantity, and price",
+      "x-visibleCount": 1,
+      "properties": {
+        "itemName": {
+          "type": "string"
+        },
+        "quantityLabel": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "itemName",
+        "price"
+      ]
+    },
+    "orderChargeRow": {
+      "type": "object",
+      "description": "Non-clickable pricing breakdown rows under Order Details (Subtotal, Delivery fee, Service fee, Tax, Tip, Total)",
+      "x-visibleCount": 6,
+      "x-visibleCounts": {
+        "Subtotal": 1,
+        "Delivery fee": 1,
+        "Service fee": 1,
+        "Tax": 1,
+        "Tip": 1,
+        "Total": 1
+      },
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Subtotal",
+            "Delivery fee",
+            "Service fee",
+            "Tax",
+            "Tip",
+            "Total"
+          ]
+        },
+        "amount": {
+          "type": "string"
+        },
+        "isEmphasized": {
+          "type": "boolean",
+          "description": "True when the row is visually emphasized (e.g., Total in bold/red)"
+        }
+      },
+      "required": [
+        "label",
+        "amount"
+      ]
+    },
+    "deliveryInformationField": {
+      "type": "object",
+      "description": "Non-clickable text rows in the Delivery Information panel showing order meta data",
+      "x-visibleCount": 7,
+      "x-visibleCounts": {
+        "Order Time": 1,
+        "Delivery Method": 1,
+        "Delivery Address": 1,
+        "Contact Number": 1,
+        "Delivery Time": 1,
+        "Special Instructions": 1,
+        "Special Instructions Text": 1
+      },
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Order Time",
+            "Delivery Method",
+            "Delivery Address",
+            "Contact Number",
+            "Delivery Time",
+            "Special Instructions",
+            "Special Instructions Text"
+          ]
+        },
+        "value": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "label",
+        "value"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1527 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.351026773452759,
+    "estimated_cost": 1014.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 314: error[unsupported-operator] Operator `<` is not supported between objects of type `float` and `Unknown | None | int | float`\nLine 319: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 320: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 321: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 322: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 324: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 327: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 328: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 329: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 314: error[unsupported-operator] Operator `<` is not supported between objects of type `float` and `Unknown | None | int | float`\nLine 319: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 320: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 321: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 322: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 324: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 327: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 328: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 329: error[unresolved-reference] Name `cheapest_fries_overall` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.7415895462036133,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 312: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 321: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 312: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 321: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.9367778301239014,
+    "estimated_cost": 124.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 310: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 310: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2515711784362793,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 313: error[unresolved-reference] Name `cheapest_fry_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 313: error[unresolved-reference] Name `cheapest_fry_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.037236452102661,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.585983991622925,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 307: error[unresolved-reference] Name `cheapest_fries_price_overall` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 307: error[unresolved-reference] Name `cheapest_fries_price_overall` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0022826194763184,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 308: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 308: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 308: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 308: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3732240200042725,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 308: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 308: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.554574489593506,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 318: error[unsupported-operator] Operator `<` is not supported between objects of type `float` and `Unknown | int | float | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 318: error[unsupported-operator] Operator `<` is not supported between objects of type `float` and `Unknown | int | float | None`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1779661178588867,
+    "estimated_cost": 1003.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2969510555267334,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 308: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 308: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.140348196029663,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 310: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 310: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.048970937728882,
+    "estimated_cost": 123.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 318: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 319: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 323: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 318: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 319: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 323: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.2616167068481445,
+    "estimated_cost": 1826.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "syntax"
+      ],
+      "failure_details": [
+        {
+          "type": "syntax",
+          "message": "Syntax error at line 2: unexpected indent"
+        }
+      ],
+      "error_message": "Syntax error at line 2: unexpected indent"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.551096200942993,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 310: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 310: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.723203420639038,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 302: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 303: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 302: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 303: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.6150760650634766,
+    "estimated_cost": 123.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 318: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 322: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 328: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 318: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 322: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 328: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0064165592193604,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 310: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 310: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.680189609527588,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 314: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 316: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 319: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 332: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 333: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 314: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 316: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 319: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 332: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 333: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.2555367946624756,
+    "estimated_cost": 1013.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 321: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 326: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 331: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 344: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 345: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 321: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 326: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 331: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 344: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 345: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4150068759918213,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 309: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.552649736404419,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 313: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 313: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6455368995666504,
+    "estimated_cost": 208.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 311: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 311: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5960378646850586,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 311: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 311: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5962276458740234,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.357778310775757,
+    "estimated_cost": 1003.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 306: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 306: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.706404685974121,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 310: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores` used when not defined\nLine 310: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.322263240814209,
+    "estimated_cost": 1003.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 306: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 306: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5275354385375977,
+    "estimated_cost": 3.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 311: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 313: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 316: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 326: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 326: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 311: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 313: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 316: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 326: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 326: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9508442878723145,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 301: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 303: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 301: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 303: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 304: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8996825218200684,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 312: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 321: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 305: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 312: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 321: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.011960983276367,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 302: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 303: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 294: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 302: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 303: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 306: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 307: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8823673725128174,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5100090503692627,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 219: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 219: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6494786739349365,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 221: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 221: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8577258586883545,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3602936267852783,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8870058059692383,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 214: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 214: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.954289197921753,
+    "estimated_cost": 207.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0777034759521484,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 211: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 211: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.4796037673950195,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 223: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 223: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.047468423843384,
+    "estimated_cost": 123.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8557984828948975,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 218: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 219: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 223: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 218: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 219: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 223: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8249783515930176,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_store requires page_type=home, but state has page_type=store. Call sequence: goto_store -> list_menu_items -> ai_eval(...) [unknown] -> get_item_details -> float(...) [unknown] -> replace(...) [unknown] -> goto_store"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.0304675102233887,
+    "estimated_cost": 207.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6249051094055176,
+    "estimated_cost": 205.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_menu_items requires page_type=store, but state has page_type=home. Call sequence: float(...) [unknown] -> items(...) [unknown] -> search(...) [unknown] -> float(...) [unknown] -> group(...) [unknown] -> list_menu_items"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8240396976470947,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 202: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 202: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1506524085998535,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 206: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 206: error[unresolved-reference] Name `cheapest_fries_price` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.915701150894165,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.5342979431152344,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 214: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 214: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1814608573913574,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 207: error[unresolved-attribute] Object of type `str` has no attribute `get`\nLine 216: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 221: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 207: error[unresolved-attribute] Object of type `str` has no attribute `get`\nLine 216: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 221: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.414672613143921,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 212: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.8596904277801514,
+    "estimated_cost": 207.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_to_check` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.368025541305542,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.464287519454956,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 218: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 218: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.013538122177124,
+    "estimated_cost": 207.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.292088031768799,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.1186752319335938,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 215: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 220: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 233: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 234: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 215: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 217: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 220: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 233: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 234: error[unresolved-reference] Name `cheapest_fries_info` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.550769567489624,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 218: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 207: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 218: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.305699110031128,
+    "estimated_cost": 103.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 203: error[invalid-argument-type] Method `__getitem__` of type `Overload[(key: SupportsIndex | slice[Any, Any, Any], /) -> LiteralString, (key: SupportsIndex | slice[Any, Any, Any], /) -> str]` cannot be called with key of type `Literal[\"price\"]` on object of type `str`\nLine 206: error[unresolved-reference] Name `cheapest_fry_price` used when not defined\nLine 209: error[invalid-argument-type] Method `__getitem__` of type `Overload[(key: SupportsIndex | slice[Any, Any, Any], /) -> LiteralString, (key: SupportsIndex | slice[Any, Any, Any], /) -> str]` cannot be called with key of type `Literal[\"name\"]` on object of type `str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 203: error[invalid-argument-type] Method `__getitem__` of type `Overload[(key: SupportsIndex | slice[Any, Any, Any], /) -> LiteralString, (key: SupportsIndex | slice[Any, Any, Any], /) -> str]` cannot be called with key of type `Literal[\"price\"]` on object of type `str`\nLine 206: error[unresolved-reference] Name `cheapest_fry_price` used when not defined\nLine 209: error[invalid-argument-type] Method `__getitem__` of type `Overload[(key: SupportsIndex | slice[Any, Any, Any], /) -> LiteralString, (key: SupportsIndex | slice[Any, Any, Any], /) -> str]` cannot be called with key of type `Literal[\"name\"]` on object of type `str`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2687125205993652,
+    "estimated_cost": 113.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 211: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 209: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 211: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3049564361572266,
+    "estimated_cost": 123.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 202: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 202: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 208: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 213: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1693382263183594,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `store_names` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 205: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 206: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.5-flash",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.505628824234009,
+    "estimated_cost": 204.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 195: error[unresolved-reference] Name `stores_of_interest` used when not defined\nLine 203: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 204: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 210: error[unresolved-reference] Name `fries_prices` used when not defined\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

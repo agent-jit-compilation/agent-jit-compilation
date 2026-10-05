@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a problem installing, running, or reproducing Agent JIT Compilation
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Do not include API keys, `.env` contents, or other secrets.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - JIT-Planner
+        - JIT-Scheduler
+        - WebArena setup or evaluation
+        - Recorded-result analysis
+        - Installation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What you expected to happen and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The commands you ran and the relevant configuration YAML.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant terminal output, `worker.log`, or `results.jsonl` entries.
+      render: text
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Python version, repository commit, and model IDs.
+      placeholder: macOS 15, Python 3.12, commit abc1234, gpt-4.1
+    validations:
+      required: true

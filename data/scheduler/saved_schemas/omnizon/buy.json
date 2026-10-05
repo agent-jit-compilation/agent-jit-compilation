@@ -1,0 +1,415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omnizon Buy / Checkout Page Schema",
+  "type": "object",
+  "$defs": {
+    "homeLogoLink": {
+      "type": "object",
+      "description": "Clickable Omnizon logo that navigates to the main page",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "const": "Home"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "opensPage"
+      ]
+    },
+    "headerCheckoutItemLink": {
+      "type": "object",
+      "description": "Clickable '(1 item)' link in the checkout header",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "(1 item)"
+        },
+        "opensPage": {
+          "const": "cart"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "shippingAddressSection": {
+      "type": "object",
+      "description": "Non-interactive area showing the shipping address in step 1",
+      "x-visibleCount": 1,
+      "properties": {
+        "stepLabel": {
+          "type": "string",
+          "const": "1"
+        },
+        "sectionTitle": {
+          "type": "string",
+          "const": "Shipping Address"
+        },
+        "recipientName": {
+          "type": "string",
+          "const": "User"
+        },
+        "addressLine": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "stepLabel",
+        "sectionTitle",
+        "recipientName",
+        "addressLine"
+      ]
+    },
+    "paymentMethodSection": {
+      "type": "object",
+      "description": "Non-interactive area showing the selected payment method in step 2",
+      "x-visibleCount": 1,
+      "properties": {
+        "stepLabel": {
+          "type": "string",
+          "const": "2"
+        },
+        "sectionTitle": {
+          "type": "string",
+          "const": "Payment method"
+        },
+        "paymentSummary": {
+          "type": "string",
+          "examples": [
+            "Paying with Master 1234"
+          ]
+        },
+        "billingAddressNote": {
+          "type": "string",
+          "const": "Billing address: Same as shipping address"
+        }
+      },
+      "required": [
+        "stepLabel",
+        "sectionTitle",
+        "paymentSummary",
+        "billingAddressNote"
+      ]
+    },
+    "changePaymentMethodLink": {
+      "type": "object",
+      "description": "Text link 'Change' next to the payment method",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Change Payment Method"
+        },
+        "text": {
+          "type": "string",
+          "const": "Change"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "text"
+      ]
+    },
+    "reviewItemsAndShippingSection": {
+      "type": "object",
+      "description": "Non-interactive heading row for step 3",
+      "x-visibleCount": 1,
+      "properties": {
+        "stepLabel": {
+          "type": "string",
+          "const": "3"
+        },
+        "sectionTitle": {
+          "type": "string",
+          "const": "Review items and shipping"
+        }
+      },
+      "required": [
+        "stepLabel",
+        "sectionTitle"
+      ]
+    },
+    "checkoutItemCard": {
+      "type": "object",
+      "description": "Non-clickable area summarizing the item being purchased in the checkout page",
+      "x-visibleCount": 1,
+      "properties": {
+        "arrivalHeader": {
+          "type": "string",
+          "examples": [
+            "Arriving Jul 19, 2024"
+          ]
+        },
+        "shipmentNote": {
+          "type": "string",
+          "const": "Items shipped from Omnizon.com"
+        },
+        "productTitle": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "returnsNote": {
+          "type": "string",
+          "const": "& FREE Returns"
+        }
+      },
+      "required": [
+        "arrivalHeader",
+        "shipmentNote",
+        "productTitle",
+        "price"
+      ]
+    },
+    "checkoutQuantityDropdown": {
+      "type": "object",
+      "description": "Quantity selection combobox inside the checkout item card",
+      "x-visibleCount": 1,
+      "properties": {
+        "role": {
+          "const": "combobox"
+        },
+        "ariaExpanded": {
+          "type": "boolean"
+        },
+        "label": {
+          "type": "string",
+          "examples": [
+            "Qty: 1"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "role",
+        "ariaExpanded",
+        "label"
+      ]
+    },
+    "deliveryOptionRadio": {
+      "type": "object",
+      "description": "Selectable delivery option in 'Choose your delivery option' list",
+      "x-visibleCount": 3,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "enum": [
+            "Free one day delivery option",
+            "1.99 - Key delivery option",
+            "FREE Omnizon Day with Key delivery option"
+          ]
+        },
+        "dateLine": {
+          "type": "string",
+          "examples": [
+            "Tomorrow, Jul 19",
+            "Monday, Jul 21"
+          ]
+        },
+        "descriptionLine": {
+          "type": "string",
+          "examples": [
+            "Free one day delivery",
+            "1.99 - Key delivery",
+            "FREE Omnizon Day with Key Delivery"
+          ]
+        },
+        "selected": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "dateLine",
+        "descriptionLine",
+        "selected"
+      ]
+    },
+    "checkoutSidebarPlaceOrderButton": {
+      "type": "object",
+      "description": "Yellow 'Place your order' button in the right-hand order summary card",
+      "x-visibleCount": 1,
+      "properties": {
+        "type": {
+          "const": "button"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "Place your order"
+        },
+        "text": {
+          "type": "string",
+          "const": "Place your order"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "order_confirmation"
+        }
+      },
+      "required": [
+        "type",
+        "ariaLabel",
+        "text"
+      ]
+    },
+    "checkoutBottomPlaceOrderButton": {
+      "type": "object",
+      "description": "Bottom 'Place your order' button below the item card",
+      "x-visibleCount": 1,
+      "properties": {
+        "type": {
+          "const": "button"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "place order"
+        },
+        "text": {
+          "type": "string",
+          "const": "Place your order"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "orderTotalLabel": {
+          "type": "string",
+          "examples": [
+            "Order total: $35.81",
+            "Order total: $80.33"
+          ]
+        },
+        "opensPage": {
+          "const": "order_confirmation"
+        }
+      },
+      "required": [
+        "type",
+        "ariaLabel",
+        "text"
+      ]
+    },
+    "checkoutOrderSummarySection": {
+      "type": "object",
+      "description": "Non-interactive order summary box on the right side of the checkout page",
+      "x-visibleCount": 1,
+      "properties": {
+        "sectionTitle": {
+          "type": "string",
+          "const": "Order Summary"
+        },
+        "itemsLabel": {
+          "type": "string",
+          "const": "Items:"
+        },
+        "itemsValue": {
+          "type": "string"
+        },
+        "shippingLabel": {
+          "type": "string",
+          "const": "Shipping & handling:"
+        },
+        "shippingValue": {
+          "type": "string"
+        },
+        "totalBeforeTaxLabel": {
+          "type": "string",
+          "const": "Total before tax:"
+        },
+        "totalBeforeTaxValue": {
+          "type": "string"
+        },
+        "estimatedTaxLabel": {
+          "type": "string",
+          "const": "Estimated tax to be collected:"
+        },
+        "estimatedTaxValue": {
+          "type": "string"
+        },
+        "orderTotalLabel": {
+          "type": "string",
+          "const": "Order Total:"
+        },
+        "orderTotalValue": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sectionTitle",
+        "itemsLabel",
+        "itemsValue",
+        "shippingLabel",
+        "shippingValue",
+        "totalBeforeTaxLabel",
+        "totalBeforeTaxValue",
+        "estimatedTaxLabel",
+        "estimatedTaxValue",
+        "orderTotalLabel",
+        "orderTotalValue"
+      ]
+    },
+    "footerBackToTopLink": {
+      "type": "object",
+      "description": "Centered 'Back to top' text that scrolls the page to the top",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "const": "Back to top"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "footerNavLink": {
+      "type": "object",
+      "description": "Footer navigation text links under different footer headings",
+      "x-visibleCount": 9,
+      "x-visibleCounts": {
+        "About Omnizon": 3,
+        "Shopping": 2,
+        "Account": 2,
+        "Customer Service": 2
+      },
+      "properties": {
+        "groupTitle": {
+          "type": "string",
+          "enum": [
+            "About Omnizon",
+            "Shopping",
+            "Account",
+            "Customer Service"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "enum": [
+            "About Us",
+            "Privacy Policy",
+            "Terms of Service",
+            "Browse Products",
+            "Shopping Cart",
+            "Your Orders",
+            "Returns & Exchanges",
+            "Help & Support",
+            "Shipping Information",
+            "Return Policy"
+          ]
+        }
+      },
+      "required": [
+        "groupTitle",
+        "text"
+      ]
+    }
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "site_name": "dashdish",
+  "element_mappings": {
+    "restaurantCard": {
+      "description": "",
+      "traces": {
+        "3db026c5-23bb-5456-6091-49dd3fd8b176": [
+          0
+        ],
+        "998617bb-a915-caf3-d10c-28d010f4d6ae": [
+          0
+        ],
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          0
+        ],
+        "82decccc-8dcc-3a44-9ee8-14bfc1c44e4a": [
+          0
+        ],
+        "3c31583e-020a-696a-e3e3-a0a881ddccda": [
+          0
+        ],
+        "b35f29cb-06b5-1ce3-85df-66fab729a4cf": [
+          0
+        ],
+        "aaa53f92-df31-30e8-0daf-9bceab77fa52": [
+          0
+        ],
+        "8874d96c-5048-c3cf-b1dc-12c1c6873ad4": [
+          0
+        ],
+        "6b4fdd9d-8d86-3f9d-fedb-cec39e55cca3": [
+          0
+        ],
+        "26cd5757-b128-145d-6c1f-28869a2432c3": [
+          0
+        ],
+        "ca02ec4a-8c60-2dc1-9441-10825892d0a5": [
+          1
+        ],
+        "6ad95a53-2551-c32c-7a5e-dd6ff22e6d06": [
+          1
+        ],
+        "5f854ece-48c5-febc-ca29-51c56473e941": [
+          1
+        ],
+        "a9c7db00-1610-5f57-976f-8d78c8c090cf": [
+          1,
+          2
+        ],
+        "e91893a6-06f4-2cbf-f8dd-3c3514207485": [
+          1
+        ],
+        "58149619-aeb1-c4e1-d110-b98c2bdefd31": [
+          1
+        ],
+        "b7f52b92-8e3f-36f2-7c4a-32615bd237a6": [
+          1
+        ],
+        "57d84e44-9896-b02f-fd3e-47e3e709daf3": [
+          1
+        ],
+        "3e1810ff-1782-aea1-5d56-fa2ed45f7fbd": [
+          1
+        ],
+        "adb8dac4-7a50-8b4d-2736-e32884b9935a": [
+          1
+        ]
+      }
+    },
+    "fullMenuItemAddButton": {
+      "description": "",
+      "traces": {
+        "3db026c5-23bb-5456-6091-49dd3fd8b176": [
+          1
+        ],
+        "998617bb-a915-caf3-d10c-28d010f4d6ae": [
+          1,
+          6
+        ],
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          1,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          18
+        ],
+        "82decccc-8dcc-3a44-9ee8-14bfc1c44e4a": [
+          1
+        ],
+        "3c31583e-020a-696a-e3e3-a0a881ddccda": [
+          1
+        ],
+        "b35f29cb-06b5-1ce3-85df-66fab729a4cf": [
+          1
+        ],
+        "aaa53f92-df31-30e8-0daf-9bceab77fa52": [
+          1
+        ],
+        "8874d96c-5048-c3cf-b1dc-12c1c6873ad4": [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        "6b4fdd9d-8d86-3f9d-fedb-cec39e55cca3": [
+          1,
+          5,
+          7,
+          8
+        ],
+        "26cd5757-b128-145d-6c1f-28869a2432c3": [
+          1,
+          6
+        ]
+      }
+    },
+    "cartIconButton": {
+      "description": "",
+      "traces": {
+        "3db026c5-23bb-5456-6091-49dd3fd8b176": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "998617bb-a915-caf3-d10c-28d010f4d6ae": [
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          17,
+          20,
+          23
+        ],
+        "82decccc-8dcc-3a44-9ee8-14bfc1c44e4a": [
+          3,
+          5,
+          6
+        ],
+        "3c31583e-020a-696a-e3e3-a0a881ddccda": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "b35f29cb-06b5-1ce3-85df-66fab729a4cf": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "aaa53f92-df31-30e8-0daf-9bceab77fa52": [
+          2,
+          3,
+          4
+        ],
+        "8874d96c-5048-c3cf-b1dc-12c1c6873ad4": [
+          2,
+          8
+        ],
+        "6b4fdd9d-8d86-3f9d-fedb-cec39e55cca3": [
+          3,
+          4,
+          6
+        ],
+        "26cd5757-b128-145d-6c1f-28869a2432c3": [
+          2,
+          3,
+          4,
+          5,
+          8
+        ]
+      }
+    },
+    "cartSidebarModal.checkoutButton": {
+      "description": "",
+      "traces": {
+        "3db026c5-23bb-5456-6091-49dd3fd8b176": [
+          6
+        ],
+        "998617bb-a915-caf3-d10c-28d010f4d6ae": [
+          8
+        ],
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          21,
+          22,
+          24
+        ],
+        "82decccc-8dcc-3a44-9ee8-14bfc1c44e4a": [
+          7
+        ],
+        "3c31583e-020a-696a-e3e3-a0a881ddccda": [
+          6
+        ],
+        "b35f29cb-06b5-1ce3-85df-66fab729a4cf": [
+          6
+        ],
+        "aaa53f92-df31-30e8-0daf-9bceab77fa52": [
+          5
+        ],
+        "8874d96c-5048-c3cf-b1dc-12c1c6873ad4": [
+          9
+        ],
+        "26cd5757-b128-145d-6c1f-28869a2432c3": [
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    "storeSearchInput": {
+      "description": "",
+      "traces": {
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          15
+        ],
+        "8874d96c-5048-c3cf-b1dc-12c1c6873ad4": [
+          6
+        ]
+      }
+    },
+    "itemCustomizationModal.sizeRadioOption": {
+      "description": "",
+      "traces": {
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          19
+        ],
+        "82decccc-8dcc-3a44-9ee8-14bfc1c44e4a": [
+          2,
+          4
+        ],
+        "6b4fdd9d-8d86-3f9d-fedb-cec39e55cca3": [
+          2
+        ]
+      }
+    },
+    "orderSummaryPlaceOrderButton": {
+      "description": "",
+      "traces": {
+        "8131ad94-e685-8b7f-07bb-e843b4c4df3b": [
+          25
+        ]
+      }
+    },
+    "itemCustomizationModal.addToCartButton": {
+      "description": "",
+      "traces": {
+        "26cd5757-b128-145d-6c1f-28869a2432c3": [
+          7
+        ]
+      }
+    },
+    "cuisineCategoryChip": {
+      "description": "",
+      "traces": {
+        "ca02ec4a-8c60-2dc1-9441-10825892d0a5": [
+          0
+        ],
+        "6ad95a53-2551-c32c-7a5e-dd6ff22e6d06": [
+          0
+        ],
+        "5f854ece-48c5-febc-ca29-51c56473e941": [
+          0
+        ],
+        "a9c7db00-1610-5f57-976f-8d78c8c090cf": [
+          0
+        ],
+        "e91893a6-06f4-2cbf-f8dd-3c3514207485": [
+          0
+        ],
+        "58149619-aeb1-c4e1-d110-b98c2bdefd31": [
+          0
+        ],
+        "b7f52b92-8e3f-36f2-7c4a-32615bd237a6": [
+          0
+        ],
+        "57d84e44-9896-b02f-fd3e-47e3e709daf3": [
+          0
+        ],
+        "3e1810ff-1782-aea1-5d56-fa2ed45f7fbd": [
+          0
+        ],
+        "adb8dac4-7a50-8b4d-2736-e32884b9935a": [
+          0
+        ]
+      }
+    },
+    "individualReviewCard": {
+      "description": "",
+      "traces": {
+        "ca02ec4a-8c60-2dc1-9441-10825892d0a5": [
+          2,
+          3
+        ],
+        "6ad95a53-2551-c32c-7a5e-dd6ff22e6d06": [
+          2,
+          3,
+          4
+        ],
+        "5f854ece-48c5-febc-ca29-51c56473e941": [
+          2,
+          3
+        ],
+        "a9c7db00-1610-5f57-976f-8d78c8c090cf": [
+          3,
+          4
+        ],
+        "e91893a6-06f4-2cbf-f8dd-3c3514207485": [
+          2,
+          3
+        ],
+        "58149619-aeb1-c4e1-d110-b98c2bdefd31": [
+          2
+        ],
+        "57d84e44-9896-b02f-fd3e-47e3e709daf3": [
+          2
+        ],
+        "3e1810ff-1782-aea1-5d56-fa2ed45f7fbd": [
+          2,
+          3,
+          4
+        ],
+        "adb8dac4-7a50-8b4d-2736-e32884b9935a": [
+          2,
+          3
+        ]
+      }
+    },
+    "reviewSummaryCard": {
+      "description": "",
+      "traces": {
+        "ca02ec4a-8c60-2dc1-9441-10825892d0a5": [
+          4
+        ],
+        "58149619-aeb1-c4e1-d110-b98c2bdefd31": [
+          3
+        ],
+        "57d84e44-9896-b02f-fd3e-47e3e709daf3": [
+          3,
+          4
+        ]
+      }
+    },
+    "fullMenuItemCard": {
+      "description": "",
+      "traces": {
+        "b7f52b92-8e3f-36f2-7c4a-32615bd237a6": [
+          2,
+          3
+        ]
+      }
+    }
+  }
+}

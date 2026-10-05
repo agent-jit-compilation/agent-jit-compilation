@@ -1,0 +1,983 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GoMail main page UI schema",
+  "type": "object",
+  "properties": {},
+  "$defs": {
+    "sectionTitle": {
+      "type": "string",
+      "enum": [
+        "Inbox",
+        "Starred",
+        "Snoozed",
+        "Sent",
+        "Scheduled",
+        "Drafts",
+        "Archived",
+        "More",
+        "Labels"
+      ]
+    },
+    "mainInfoBanner.closeButton": {
+      "type": "object",
+      "description": "Button that closes the top info banner about the educational purpose of the site",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Close"
+        },
+        "title": {
+          "type": "string",
+          "const": "Close"
+        }
+      }
+    },
+    "logoLink": {
+      "type": "object",
+      "description": "GoMail logo link in the top-left that returns to the main page",
+      "x-visibleCount": 1,
+      "properties": {
+        "title": {
+          "type": "string",
+          "const": "GoMail"
+        },
+        "brandName": {
+          "type": "string",
+          "const": "GoMail"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      }
+    },
+    "searchMailInput": {
+      "type": "object",
+      "description": "Search input field for filtering emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Search mail"
+        }
+      }
+    },
+    "searchMailButton": {
+      "type": "object",
+      "description": "Magnifying glass button that submits the email search",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Search"
+        }
+      }
+    },
+    "supportButton": {
+      "type": "object",
+      "description": "Top bar Support button that likely opens a help menu",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Support"
+        }
+      }
+    },
+    "userProfileButton": {
+      "type": "object",
+      "description": "User profile avatar button on the top-right",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "User Profile"
+        }
+      }
+    },
+    "composeButton": {
+      "type": "object",
+      "description": "Primary Compose button in the left sidebar that opens the compose email modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "label": {
+          "type": "string",
+          "const": "Compose"
+        },
+        "opensModal": {
+          "const": "composeEmailModal"
+        }
+      }
+    },
+    "sidebarFolderMenuItem": {
+      "type": "object",
+      "description": "Clickable sidebar mail folder entry such as Inbox, Starred, etc.",
+      "x-visibleCount": 8,
+      "x-visibleCounts": {
+        "Inbox": 1,
+        "Starred": 1,
+        "Snoozed": 1,
+        "Sent": 1,
+        "Scheduled": 1,
+        "Drafts": 1,
+        "Archived": 1,
+        "More": 1
+      },
+      "properties": {
+        "sectionTitle": {
+          "$ref": "#/$defs/sectionTitle"
+        },
+        "unreadCount": {
+          "type": "integer",
+          "description": "Unread count badge when present next to the folder name"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "description": "Full aria-label describing the menu item"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      }
+    },
+    "createNewLabelButton": {
+      "type": "object",
+      "description": "Plus button under Labels that opens the New Label modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Create new label"
+        },
+        "opensModal": {
+          "const": "addLabelModal"
+        }
+      }
+    },
+    "toolbarSelectAllButton": {
+      "type": "object",
+      "description": "Top-of-list selection button that toggles selection of emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string"
+        }
+      }
+    },
+    "toolbarRefreshButton": {
+      "type": "object",
+      "description": "Refresh button above the email list",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Refresh"
+        }
+      }
+    },
+    "toolbarMoreButton": {
+      "type": "object",
+      "description": "Three-dots More button next to the refresh that opens additional options (Mark all as read, Select all visible, Deselect all, Mark all as unread)",
+      "x-visibleCount": 1,
+      "properties": {
+        "id": {
+          "type": "string",
+          "const": "more-button"
+        },
+        "opensModal": {
+          "const": "optionsModal"
+        }
+      }
+    },
+    "paginationNewerButton": {
+      "type": "object",
+      "description": "Pagination control to navigate to newer emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Newer"
+        }
+      }
+    },
+    "paginationOlderButton": {
+      "type": "object",
+      "description": "Pagination control to navigate to older emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Older"
+        }
+      }
+    },
+    "emailRowCheckbox": {
+      "type": "object",
+      "description": "Checkbox in each email row used to select that email",
+      "x-visibleCount": 54,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "description": "Accessible label describing which email is being selected",
+          "enum": [
+            "alerts",
+            "newsletter",
+            "notification"
+          ]
+        },
+        "ariaChecked": {
+          "type": "boolean"
+        }
+      }
+    },
+    "emailRowStarToggle": {
+      "type": "object",
+      "description": "Star icon toggle for marking an email as starred or unstarred",
+      "x-visibleCount": 54,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "description": "Accessible label indicating whether the action will add or remove a star and from which sender"
+        },
+        "pressed": {
+          "type": "boolean",
+          "description": "Current starred state as reflected by aria-pressed"
+        }
+      }
+    },
+    "emailRow": {
+      "type": "object",
+      "description": "Clickable email row in the inbox list that opens the email details view",
+      "x-visibleCount": 54,
+      "properties": {
+        "sender": {
+          "type": "string"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "snippet": {
+          "type": "string"
+        },
+        "timeOrDate": {
+          "type": "string"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "description": "Full aria-label summarizing sender and subject"
+        },
+        "opensModal": {
+          "const": "viewEmailDetailsModal"
+        }
+      }
+    },
+    "storageUsageBar": {
+      "type": "object",
+      "description": "Storage usage indicator at the bottom left showing used and total GB",
+      "x-visibleCount": 1,
+      "properties": {
+        "usedGB": {
+          "type": "number"
+        },
+        "totalGB": {
+          "type": "number"
+        },
+        "percentageUsedText": {
+          "type": "string"
+        }
+      }
+    },
+    "footerLink": {
+      "type": "object",
+      "description": "Footer text links such as Terms, Privacy, Programme Policies, and Details",
+      "x-visibleCount": 4,
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "Terms",
+            "Privacy",
+            "Programme Policies",
+            "Details"
+          ]
+        }
+      }
+    },
+    "optionsModal.archiveButton": {
+      "type": "object",
+      "description": "Archive icon in the options toolbar for selected emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Archive"
+        }
+      }
+    },
+    "optionsModal.reportSpamButton": {
+      "type": "object",
+      "description": "Report spam button in the selected-email toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Report spam"
+        }
+      }
+    },
+    "optionsModal.deleteButton": {
+      "type": "object",
+      "description": "Trash icon button that deletes selected emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Delete"
+        }
+      }
+    },
+    "optionsModal.markAsUnreadButton": {
+      "type": "object",
+      "description": "Button that marks selected emails as unread",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Mark as unread"
+        }
+      }
+    },
+    "optionsModal.snoozeButton": {
+      "type": "object",
+      "description": "Button to snooze selected emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "id": {
+          "type": "string",
+          "const": "snooze-button"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "Snooze"
+        }
+      }
+    },
+    "optionsModal.addToTasksButton": {
+      "type": "object",
+      "description": "Button to add selected email to tasks",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Add to tasks"
+        }
+      }
+    },
+    "optionsModal.moveToButton": {
+      "type": "object",
+      "description": "Move to button for moving selected emails to another folder",
+      "x-visibleCount": 1,
+      "properties": {
+        "id": {
+          "type": "string",
+          "const": "move-to-button"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "Move to"
+        }
+      }
+    },
+    "optionsModal.labelsButton": {
+      "type": "object",
+      "description": "Labels button for applying labels to selected emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "id": {
+          "type": "string",
+          "const": "label-button"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "Labels"
+        }
+      }
+    },
+    "optionsModal.moreButton": {
+      "type": "object",
+      "description": "More button for additional actions on selected emails",
+      "x-visibleCount": 1,
+      "properties": {
+        "id": {
+          "type": "string",
+          "const": "selected-more-button"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "More"
+        }
+      }
+    },
+    "addLabelModal.closeButton": {
+      "type": "object",
+      "description": "X icon in the New Label dialog header",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Close the create label dialog"
+        }
+      }
+    },
+    "addLabelModal.labelNameInput": {
+      "type": "object",
+      "description": "Text input for entering a new label name",
+      "x-visibleCount": 1,
+      "properties": {
+        "labelText": {
+          "type": "string",
+          "const": "Please enter a new label name:"
+        },
+        "type": {
+          "type": "string",
+          "const": "text"
+        }
+      }
+    },
+    "addLabelModal.nestLabelCheckbox": {
+      "type": "object",
+      "description": "Checkbox to enable nesting the new label under another label",
+      "x-visibleCount": 1,
+      "properties": {
+        "labelText": {
+          "type": "string",
+          "const": "Nest label under:"
+        }
+      }
+    },
+    "addLabelModal.cancelButton": {
+      "type": "object",
+      "description": "Cancel button in the New Label modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Cancel"
+        }
+      }
+    },
+    "addLabelModal.createButton": {
+      "type": "object",
+      "description": "Create button in the New Label modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Create"
+        }
+      }
+    },
+    "composeEmailModal.headerMinimizeButton": {
+      "type": "object",
+      "description": "Button to minimize the compose email window",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Minimize"
+        }
+      }
+    },
+    "composeEmailModal.headerExitFullscreenButton": {
+      "type": "object",
+      "description": "Button to exit full-screen compose view",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Exit full-screen"
+        }
+      }
+    },
+    "composeEmailModal.headerCloseButton": {
+      "type": "object",
+      "description": "Button to close the compose email modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Close"
+        }
+      }
+    },
+    "composeEmailModal.toInput": {
+      "type": "object",
+      "description": "Recipient combobox input in the compose window. Supports multiple comma-separated recipients in a single email.",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Recipients"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "Email input"
+        }
+      }
+    },
+    "composeEmailModal.ccToggle": {
+      "type": "object",
+      "description": "Cc label that expands Cc recipient field",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Cc"
+        }
+      }
+    },
+    "composeEmailModal.bccToggle": {
+      "type": "object",
+      "description": "Bcc label that expands Bcc recipient field",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Bcc"
+        }
+      }
+    },
+    "composeEmailModal.subjectInput": {
+      "type": "object",
+      "description": "Subject input field in the compose window",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Subject"
+        },
+        "type": {
+          "type": "string",
+          "const": "text"
+        }
+      }
+    },
+    "composeEmailModal.bodyToolbarButton": {
+      "type": "object",
+      "description": "Formatting toolbar buttons above the message body (font, style, list, indent, etc.)",
+      "x-visibleCount": 12,
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "Value attribute when present such as ordered, bullet, -1, +1"
+        }
+      }
+    },
+    "composeEmailModal.bodyInput": {
+      "type": "object",
+      "description": "Rich text area for writing the email body",
+      "x-visibleCount": 1,
+      "properties": {
+        "initialText": {
+          "type": "string",
+          "description": "Initial placeholder or empty content"
+        }
+      }
+    },
+    "composeEmailModal.sendButton": {
+      "type": "object",
+      "description": "Primary Send button in the compose email modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Send"
+        }
+      }
+    },
+    "composeEmailModal.moreSendOptionsButton": {
+      "type": "object",
+      "description": "Dropdown arrow next to Send for additional sending options",
+      "x-visibleCount": 1,
+      "properties": {
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "composeEmailModal.formattingOptionsButton": {
+      "type": "object",
+      "description": "Button to toggle formatting options bar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Formatting options"
+        }
+      }
+    },
+    "composeEmailModal.attachFilesButton": {
+      "type": "object",
+      "description": "Attach files (paperclip) button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Attach files"
+        }
+      }
+    },
+    "composeEmailModal.insertLinkButton": {
+      "type": "object",
+      "description": "Insert hyperlink button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Insert link"
+        }
+      }
+    },
+    "composeEmailModal.insertEmojiButton": {
+      "type": "object",
+      "description": "Insert emoji button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Insert emoji"
+        }
+      }
+    },
+    "composeEmailModal.insertDriveFilesButton": {
+      "type": "object",
+      "description": "Insert files using Drive button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Insert files using Drive"
+        }
+      }
+    },
+    "composeEmailModal.insertPhotoButton": {
+      "type": "object",
+      "description": "Insert photo button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Insert photo"
+        }
+      }
+    },
+    "composeEmailModal.toggleConfidentialModeButton": {
+      "type": "object",
+      "description": "Toggle confidential mode button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Toggle confidential mode"
+        }
+      }
+    },
+    "composeEmailModal.insertSignatureButton": {
+      "type": "object",
+      "description": "Insert signature button",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Insert signature"
+        }
+      }
+    },
+    "composeEmailModal.trashDraftButton": {
+      "type": "object",
+      "description": "Trash icon button to discard the draft",
+      "x-visibleCount": 1,
+      "properties": {}
+    },
+    "viewEmailDetailsModal.backToInboxButton": {
+      "type": "object",
+      "description": "Back arrow button that returns from email details to the inbox list",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Back to inbox"
+        }
+      }
+    },
+    "viewEmailDetailsModal.archiveButton": {
+      "type": "object",
+      "description": "Archive button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Archive"
+        }
+      }
+    },
+    "viewEmailDetailsModal.reportSpamButton": {
+      "type": "object",
+      "description": "Report spam button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Report spam"
+        }
+      }
+    },
+    "viewEmailDetailsModal.deleteButton": {
+      "type": "object",
+      "description": "Delete button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Delete"
+        }
+      }
+    },
+    "viewEmailDetailsModal.markAsUnreadButton": {
+      "type": "object",
+      "description": "Mark as unread button for the opened email",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Mark as unread"
+        }
+      }
+    },
+    "viewEmailDetailsModal.snoozeButton": {
+      "type": "object",
+      "description": "Snooze button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Snooze"
+        }
+      }
+    },
+    "viewEmailDetailsModal.addToTasksButton": {
+      "type": "object",
+      "description": "Add to tasks button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Add to tasks"
+        }
+      }
+    },
+    "viewEmailDetailsModal.moveToButton": {
+      "type": "object",
+      "description": "Move to button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Move to"
+        }
+      }
+    },
+    "viewEmailDetailsModal.labelsButton": {
+      "type": "object",
+      "description": "Labels button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Labels"
+        }
+      }
+    },
+    "viewEmailDetailsModal.moreButton": {
+      "type": "object",
+      "description": "More button in the email details toolbar",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "More"
+        }
+      }
+    },
+    "viewEmailDetailsModal.previousEmailButton": {
+      "type": "object",
+      "description": "Control to go to the previous email while in details view",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Previous email"
+        }
+      }
+    },
+    "viewEmailDetailsModal.nextEmailButton": {
+      "type": "object",
+      "description": "Control to go to the next email while in details view",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "type": "string",
+          "const": "Next email"
+        }
+      }
+    },
+    "viewEmailDetailsModal.headerInfo": {
+      "type": "object",
+      "description": "Non-interactive email header information in details view",
+      "x-visibleCount": 1,
+      "properties": {
+        "subject": {
+          "type": "string"
+        },
+        "fromLine": {
+          "type": "string"
+        },
+        "timeLine": {
+          "type": "string"
+        },
+        "bodyPreview": {
+          "type": "string",
+          "description": "Visible first lines of the email body"
+        }
+      }
+    },
+    "viewEmailDetailsModal.replyButton": {
+      "type": "object",
+      "description": "Reply button shown under the opened email content",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Reply"
+        },
+        "opensModal": {
+          "const": "replyEmailModal"
+        }
+      }
+    },
+    "viewEmailDetailsModal.forwardButton": {
+      "type": "object",
+      "description": "Forward button shown under the opened email content",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Forward"
+        },
+        "opensModal": {
+          "const": "forwardEmailModal"
+        }
+      }
+    },
+    "forwardEmailModal.toInput": {
+      "type": "object",
+      "description": "Recipients input field in the forward message area",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Recipients"
+        },
+        "ariaLabel": {
+          "type": "string",
+          "const": "Email input"
+        }
+      }
+    },
+    "forwardEmailModal.messageTextarea": {
+      "type": "object",
+      "description": "Textarea to add an optional message when forwarding",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Add your message (optional)"
+        }
+      }
+    },
+    "forwardEmailModal.forwardedContentBlock": {
+      "type": "object",
+      "description": "Read-only block showing the forwarded original message details",
+      "x-visibleCount": 1,
+      "properties": {
+        "fromLine": {
+          "type": "string"
+        },
+        "dateLine": {
+          "type": "string"
+        },
+        "subjectLine": {
+          "type": "string"
+        },
+        "toLine": {
+          "type": "string"
+        }
+      }
+    },
+    "forwardEmailModal.sendButton": {
+      "type": "object",
+      "description": "Send button for the forwarded email",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Send"
+        }
+      }
+    },
+    "forwardEmailModal.cancelButton": {
+      "type": "object",
+      "description": "Cancel button for the forward email modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Cancel"
+        }
+      }
+    },
+    "replyEmailModal.replyTextarea": {
+      "type": "object",
+      "description": "Textarea for typing the reply in the inline reply card",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Type your reply..."
+        }
+      }
+    },
+    "replyEmailModal.sendButton": {
+      "type": "object",
+      "description": "Send button for the reply email modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Send"
+        }
+      }
+    },
+    "replyEmailModal.cancelButton": {
+      "type": "object",
+      "description": "Cancel button for the reply email modal",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Cancel"
+        }
+      }
+    }
+  }
+}

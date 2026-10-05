@@ -1,0 +1,47 @@
+[
+  {
+    "task": "dashdish-custom-1",
+    "selected_strategy": "baseline",
+    "overhead": 4.8283
+  },
+  {
+    "task": "dashdish-custom-2",
+    "selected_strategy": "baseline",
+    "overhead": 5.3707
+  },
+  {
+    "task": "dashdish-custom-3",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 4.6453
+  },
+  {
+    "task": "dashdish-custom-4",
+    "selected_strategy": "first_of_n_only",
+    "overhead": 10.1681
+  },
+  {
+    "task": "dashdish-custom-5",
+    "selected_strategy": "baseline",
+    "overhead": 3.0013
+  },
+  {
+    "task": "dashdish-custom-6",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 7.4247
+  },
+  {
+    "task": "dashdish-custom-7",
+    "selected_strategy": "baseline",
+    "overhead": 4.6633
+  },
+  {
+    "task": "dashdish-custom-8",
+    "selected_strategy": "baseline",
+    "overhead": 7.0538
+  },
+  {
+    "task": "dashdish-custom-9",
+    "selected_strategy": "task_parallelism_only",
+    "overhead": 5.1157
+  }
+]

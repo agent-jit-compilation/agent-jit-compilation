@@ -1,0 +1,1403 @@
+[
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.5735673904418945,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.451447486877441,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.063183784484863,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.378578186035156,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.440374135971069,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.385202407836914,
+    "estimated_cost": 10.999999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.040510892868042,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.224611282348633,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.27963399887085,
+    "estimated_cost": 10.999999999999998,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.5489182472229,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.209616422653198,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.520698070526123,
+    "estimated_cost": 20.899999999999995,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.639159917831421,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.582157135009766,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.070240497589111,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.551969289779663,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.71571969985962,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.290339469909668,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.113616943359375,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.6094419956207275,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.97351861000061,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.541152000427246,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.70746636390686,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.077311038970947,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.649333238601685,
+    "estimated_cost": 10.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.136919260025024,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.431396961212158,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.51456880569458,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: goto_home -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.404879093170166,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.771567821502686,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.749818563461304,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.580502986907959,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.646097898483276,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.119325876235962,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.581587314605713,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.286670684814453,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.721839189529419,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.476288795471191,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.475831985473633,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.886916637420654,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.480862617492676,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.274644136428833,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.602571964263916,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.201640605926514,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 12.932239055633545,
+    "estimated_cost": 10.799999999999997,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.899445295333862,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.338367223739624,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.437902212142944,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.915002346038818,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.377137660980225,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types",
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 273: error[missing-argument] No argument provided for required parameter `productName` of function `goto_product`\nLine 273: error[unknown-argument] Argument `product_name` does not match any known parameter of function `goto_product`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        },
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Line 273: error[missing-argument] No argument provided for required parameter `productName` of function `goto_product`\nLine 273: error[unknown-argument] Argument `product_name` does not match any known parameter of function `goto_product`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.824145555496216,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.484356880187988,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.299433708190918,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.383093357086182,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.44335412979126,
+    "estimated_cost": 11.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: set_quantity requires page_type=product, but state has page_type=checkout. Call sequence: goto_home -> search_products -> list_results -> goto_product -> get_product_details -> buy_now -> set_quantity"
+        }
+      ],
+      "error_message": "Tool ordering error: set_quantity requires page_type=product, but state has page_type=checkout. Call sequence: goto_home -> search_products -> list_results -> goto_product -> get_product_details -> buy_now -> set_quantity"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 3.80269455909729,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.638074636459351,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.417176246643066,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.360982894897461,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.363087892532349,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.249186992645264,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.625756025314331,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.331179618835449,
+    "estimated_cost": 10.799999999999999,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-4.1",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.7855517864227295,
+    "estimated_cost": 10.899999999999999,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

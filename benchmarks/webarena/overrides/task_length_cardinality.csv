@@ -1,0 +1,38 @@
+task_id,task_description,task_cardinality,task_length
+dashdish-custom-1,How much is a matcha croissant and a regular iced matcha latte from stonemill matcha? What about a ceremonial matcha latte and a mochi set?,4,2
+dashdish-custom-2,"For each vendor under the 'Costume party ready' category, visit the store page and get the first three reviews.",9,8
+dashdish-custom-3,Buy a taco from any store and make sure you place the order.,1,6
+dashdish-custom-4,"Place an order for any type of sub-sandwich, keep the total under $30",1,6
+dashdish-custom-5,What are the first three restaurants listed on the homepage?,3,1
+dashdish-custom-6,"Visit the first five restaurants in ""Best near you"" and report how many of them have under 20 reviews?",5,8
+dashdish-custom-7,What's the most expensive item from Petco?,1,5
+dashdish-custom-8,"How many restaurants in the ""Light & fresh"" category offer delivery?",10,2
+dashdish-custom-9,"Tell me which of Winstop, Man vs. Fries, McDonald's, Popeyes, and Ike's has the cheapest fries item and its price.",5,8
+gomail-custom-1,How many unread emails are in the Inbox?,1,1
+gomail-custom-2,"Forward the first two emails in my inbox to me@example.com, each with a short note ""Forwarded from my inbox"", and then delete the two original emails.",2,12
+gomail-custom-3,"Compose a new email to jonathan.smith@example.com with the subject \\\""Meeting Notes\\\"" and body \\\""Please find the meeting notes attached.\\\""",1,5
+gomail-custom-4,Clear all my emails that are visible please!,50,3
+gomail-custom-5,"Write an email to each of 'alice', 'bob', 'charlie', 'david'@example.com with personalized greetings and a simple Merry Christmas message.",4,20
+gomail-custom-6,"Reply to each of the first four emails in my inbox with ""unsubscribe""",4,20
+gomail-custom-7,"Delete all emails from 'Alerts', 'Newsletter', or 'Notifications'.",13,14
+gomail-custom-8,"Create three new labels: 'Work', 'Personal', 'Urgent'.",3,9
+gomail-custom-9,Draft a new email and send it to any four different people.,1,5
+omnizon-custom-1,Find the most expensive order on Returns & Orders page and cancel it.,1,5
+omnizon-custom-2,Go to Returns & Orders page and write a product review for each item in the first three orders.,5,26
+omnizon-custom-3,Cancel the three orders placed in July on the Returns & Orders page.,3,10
+omnizon-custom-4,How many orders have not yet shipped? How many cancelled?,2,3
+omnizon-custom-5,"Click on ""buy now"" on any product, increase its quantity to the maximum allowed, update the delivery date to the last available, and place the order.",1,6
+omnizon-custom-6,"Which of the following coffee makers has touchscreen: Gevi 10, Gevi 12, Simply Good Coffee, and BELLA Single Serve? Make sure you visit the product pages of each of them.",4,12
+omnizon-custom-7,"Visit ""Gift"", ""Toy"", ""Gaming"", and ""Cosmetic"" categories on the menu bar. For each, click on the first item and report the product color.",4,8
+omnizon-custom-8,"Search for ""Automatic Espresso Machine"", click on the cheapest one, change the quantity to 5, use ""buy now"" to purchase them and complete the checkout.",1,7
+omnizon-custom-9,I want to create a gaming collection - buy any gaming device under $100.,1,6
+webarena-747,"Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members",3,19
+webarena-308,"Tell me who has made the most contributions, in terms of number of commits, to the primer/design project",1,3
+webarena-414,Make the LICENSE of byteblaze/dotfiles to MIT license,1,5
+webarena-133,How many commits did Eric make to a11yproject on 3/2?,1,3
+webarena-419,Set my gitlab status as Enjoying life,1,4
+webarena-29,Tell me the count of comments that have received more downvotes than upvotes for the user who made the latest post on the DIY forum,7,6
+webarena-727,DisLike all submissions created by PatientBuilder499 in subreddit videos,1,7
+webarena-580,"Create a new forum named sci_fi, with a description of A wild place for sci-fi enthusiasts, and include ['New', 'Classic', 'Movies', 'Post my novel', 'Random'] in the sidebar?",1,7
+webarena-399,"Change my reddit bio to \""I am a robot\""",1,5
+webarena-404,Upvote the newest post in books subreddit,1,5

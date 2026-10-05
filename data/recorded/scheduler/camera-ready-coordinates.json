@@ -1,0 +1,89 @@
+{
+  "source": "Agent JIT Compilation - ICML '26 camera-ready/figures/plot_fig6.py",
+  "source_sha256": "7d9ecf3a86876ac5e22668851a868c4385f92c47b349b3bb00f7d38e76fee900",
+  "data": {
+    "GPT-4.1": {
+      "Serial": [
+        157.3,
+        0.58
+      ],
+      "Parallel": [
+        166.2,
+        0.679
+      ],
+      "Hedge": [
+        130.3,
+        0.704
+      ],
+      "JIT-Scheduler": [
+        133.8,
+        0.778
+      ],
+      "Oracle-Scheduler": [
+        104.8,
+        0.68
+      ]
+    },
+    "Gemini-2.5-Pro": {
+      "Serial": [
+        129.6,
+        0.704
+      ],
+      "Parallel": [
+        148.5,
+        0.889
+      ],
+      "Hedge": [
+        98.4,
+        0.716
+      ],
+      "JIT-Scheduler": [
+        100.9,
+        0.864
+      ],
+      "Oracle-Scheduler": [
+        79.1,
+        0.804
+      ]
+    },
+    "Gemini-2.5-Flash": {
+      "Serial": [
+        96.6,
+        0.555
+      ],
+      "Parallel": [
+        132.4,
+        0.593
+      ],
+      "Hedge": [
+        116.3,
+        0.555
+      ],
+      "JIT-Scheduler": [
+        109.9,
+        0.605
+      ],
+      "Oracle-Scheduler": [
+        69.2,
+        0.606
+      ]
+    },
+    "Anthropic CUA": {
+      "Serial": [
+        141.7,
+        0.79
+      ]
+    },
+    "OpenAI CUA": {
+      "Serial": [
+        258.7,
+        0.778
+      ]
+    }
+  },
+  "overhead": {
+    "GPT-4.1": 8.8,
+    "Gemini-2.5-Pro": 9.0,
+    "Gemini-2.5-Flash": 8.5
+  }
+}

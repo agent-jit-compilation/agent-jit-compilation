@@ -1,0 +1,1398 @@
+[
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8914382457733154,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2224667072296143,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4956350326538086,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9417579174041748,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4681849479675293,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.807701826095581,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.806016206741333,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.755260705947876,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.2815184593200684,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2859585285186768,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4462065696716309,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5862231254577637,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4346485137939453,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 297: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 297: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 297: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 297: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0407440662384033,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.22925066947937,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.090524435043335,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.671600580215454,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3948476314544678,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8758747577667236,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8801438808441162,
+    "estimated_cost": 10.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.067711353302002,
+    "estimated_cost": 11.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.038188934326172,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0844616889953613,
+    "estimated_cost": 13.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.1800718307495117,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6641228199005127,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: list_all_stores -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.55889892578125,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9024930000305176,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.903104543685913,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7172877788543701,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9852778911590576,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 299: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9419007301330566,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.3222501277923584,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 300: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9147870540618896,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.002711296081543,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5026218891143799,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.641747236251831,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.35548734664917,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5740070343017578,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7150325775146484,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9443137645721436,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.3132553100585938,
+    "estimated_cost": 1.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5336592197418213,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.672699213027954,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8987245559692383,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.2293472290039062,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.4065043926239014,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5460107326507568,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 201: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8189780712127686,
+    "estimated_cost": 1.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.596977710723877,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8316588401794434,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9101769924163818,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6507411003112793,
+    "estimated_cost": 1.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.9107143878936768,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.5418565273284912,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6976978778839111,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6397712230682373,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.0354771614074707,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6653010845184326,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "types"
+      ],
+      "failure_details": [
+        {
+          "type": "types",
+          "message": "Line 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+        }
+      ],
+      "error_message": "Line 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 200: error[unresolved-attribute] Object of type `ListAllStoresOutputItemsItem` has no attribute `review_count`\nLine 8: warning[unknown-rule] Unknown rule `non-subscriptable`. Did you mean `not-subscriptable`?"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.904491901397705,
+    "estimated_cost": 3.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.6753337383270264,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> range(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> range(...) [unknown] -> min(...) [unknown] -> len(...) [unknown] -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.6128289699554443,
+    "estimated_cost": 11.2,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+        }
+      ],
+      "error_message": "Tool ordering error: get_store_details requires page_type=store, but state has page_type=home. Call sequence: goto_home -> list_all_stores -> get_store_details"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 2.290835380554199,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.8333728313446045,
+    "estimated_cost": 10.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gemini-2.0-flash-lite",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 1.7886550426483154,
+    "estimated_cost": 0.2,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

@@ -1,0 +1,815 @@
+{
+  "description": "",
+  "tools": [
+    {
+      "name": "goto_store",
+      "title": "Goto Store",
+      "description": "Navigates to a store page by clicking on its card. Uses fuzzy matching on store name.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "store_name": {
+            "type": "string",
+            "description": "The name of the store to find and click."
+          }
+        },
+        "required": [
+          "store_name"
+        ]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "store_name": {
+            "type": "string",
+            "description": "The exact text content of the store card that was clicked."
+          }
+        },
+        "required": [
+          "store_name"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "if (location.pathname.includes('/store/')) { return [false, 'Currently on a store page. Call back_to_home() first, then retry goto_store()']; } const normalize = s => s.toLowerCase().replace(/[^a-z0-9]/g, ''); const similarity = (a, b) => { const na = normalize(a), nb = normalize(b); if (na.includes(nb) || nb.includes(na)) return 1; let matches = 0; for (let i = 0; i < Math.min(na.length, nb.length); i++) if (na[i] === nb[i]) matches++; return matches / Math.max(na.length, nb.length); }; const findCard = () => { const allCards = Array.from(document.querySelectorAll('h6')); const exact = allCards.filter(el => el.textContent.trim().toLowerCase().includes(inputs.store_name.toLowerCase())); if (exact.length > 0) return exact[0]; const scored = allCards.map(el => ({ el, score: similarity(el.textContent.trim(), inputs.store_name) })).filter(x => x.score > 0.5).sort((a, b) => b.score - a.score); return scored.length > 0 ? scored[0].el : null; }; if (findCard()) return true; window.scrollBy(0, 500); return findCard() ? true : [false, 'Store card not found (tried scroll + fuzzy)'];",
+      "is_completed": "return (location.pathname.includes('/store/') || document.querySelector('[data-testid=\"store-page\"]')) ? true : [false, 'Still on home page'];",
+      "execute": "const normalize = s => s.toLowerCase().replace(/[^a-z0-9]/g, ''); const similarity = (a, b) => { const na = normalize(a), nb = normalize(b); if (na.includes(nb) || nb.includes(na)) return 1; let matches = 0; for (let i = 0; i < Math.min(na.length, nb.length); i++) if (na[i] === nb[i]) matches++; return matches / Math.max(na.length, nb.length); }; const allCards = Array.from(document.querySelectorAll('h6')); let cards = allCards.filter(el => el.textContent.trim().toLowerCase().includes(inputs.store_name.toLowerCase())); if (cards.length === 0) { const scored = allCards.map(el => ({ el, score: similarity(el.textContent.trim(), inputs.store_name) })).filter(x => x.score > 0.5).sort((a, b) => b.score - a.score); if (scored.length > 0) cards = [scored[0].el]; } if (cards.length === 0) throw new Error('Store not found (tried fuzzy match)'); const storeName = cards[0].textContent.trim(); cards[0].scrollIntoView({ block: 'center' }); await new Promise(r => setTimeout(r, 500)); let clickTarget = cards[0].closest('a[href*=\"/store/\"]') || cards[0].closest('a') || cards[0].closest('[role=\"button\"]'); if (!clickTarget) { let el = cards[0]; while (el && el !== document.body) { if (el.onclick || el.tagName === 'A' || el.getAttribute('role') === 'button' || el.classList.contains('cursor-pointer') || getComputedStyle(el).cursor === 'pointer') { clickTarget = el; break; } el = el.parentElement; } } clickTarget = clickTarget || cards[0].parentElement.parentElement || cards[0].parentElement; const rect = clickTarget.getBoundingClientRect(); const x = rect.left + rect.width / 2; const y = rect.top + rect.height / 2; clickTarget.dispatchEvent(new MouseEvent('mousedown', { bubbles: true, cancelable: true, clientX: x, clientY: y })); clickTarget.dispatchEvent(new MouseEvent('mouseup', { bubbles: true, cancelable: true, clientX: x, clientY: y })); clickTarget.dispatchEvent(new MouseEvent('click', { bubbles: true, cancelable: true, clientX: x, clientY: y })); for (let i = 0; i < 20; i++) { await new Promise(r => setTimeout(r, 250)); if (location.pathname.includes('/store/')) break; } return { store_name: storeName };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "home"
+      },
+      "post": {
+        "page_type": "store",
+        "selected_store": "$store_name",
+        "filtered_by": ""
+      },
+      "type": "gotoItem",
+      "pre_tools": {}
+    },
+    {
+      "name": "observe_dashdish",
+      "title": "Observe Dashdish",
+      "description": "Observes the current state of the DashDish application, including page type, active filter, selected store, and cart count.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "page_type": {
+            "type": "string",
+            "enum": [
+              "store",
+              "home",
+              "checkout",
+              "other"
+            ],
+            "description": "The current page type: 'home' (main page, possibly filtered), 'store' (viewing a store), or 'other'."
+          },
+          "selected_store": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The name of the currently viewed store, if on a store page."
+          },
+          "filtered_by": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The active category/search filter, if any."
+          },
+          "cart_count": {
+            "type": "integer",
+            "description": "The number of items currently in the shopping cart."
+          }
+        },
+        "required": [
+          "page_type",
+          "selected_store",
+          "filtered_by",
+          "cart_count"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return true;",
+      "is_completed": "return true;",
+      "execute": "const storeNameEl = document.querySelector('h3.MuiTypography-h3'); const storeName = storeNameEl ? storeNameEl.textContent.trim() : null; let pageType = 'other'; if (location.pathname.includes('/checkout')) { pageType = 'checkout'; } else if (location.pathname.includes('/store/')) { pageType = 'store'; } else if (location.pathname === '/' || location.pathname.includes('/categories')) { pageType = 'home'; } let filteredBy = null; if (location.pathname.includes('/categories')) { const categoryHeader = document.querySelector('h4.MuiTypography-h4'); filteredBy = categoryHeader ? categoryHeader.textContent.trim() : null; } else { const searchInput = document.querySelector('input[placeholder=\"Search DashDish\"]'); filteredBy = searchInput?.value || null; } const cartBtn = document.querySelector('header button.MuiButton-containedPrimary'); const cartCount = cartBtn ? parseInt(cartBtn.textContent.replace(/[^0-9]/g, '')) || 0 : 0; return { page_type: pageType, selected_store: pageType === 'store' ? storeName : null, filtered_by: filteredBy, cart_count: cartCount };",
+      "pre_path": "*vercel.app*",
+      "pre": {},
+      "post": {},
+      "type": "observe",
+      "pre_tools": {}
+    },
+    {
+      "name": "list_menu_items",
+      "title": "List Menu Items",
+      "description": "Lists all menu items and their prices from the full menu section of the page.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the menu item"
+                },
+                "price": {
+                  "type": "string",
+                  "description": "The price of the menu item"
+                }
+              },
+              "required": [
+                "name",
+                "price"
+              ]
+            }
+          }
+        },
+        "required": [
+          "items"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return document.querySelector('#full-menu-section') ? true : [false, 'Not on a store page or Full Menu section not found'];",
+      "is_completed": "return Array.isArray(output.items) && output.items.length > 0 ? true : [false, 'No menu items found'];",
+      "execute": "const items = Array.from(document.querySelectorAll('#full-menu-section .MuiCard-root')).map(el => { const name = el.querySelector('h6.MuiTypography-subtitle2')?.textContent?.trim(); const price = el.querySelector('.MuiStack-root p.MuiTypography-body2')?.textContent?.trim(); return {name, price}; }).filter(item => item.name); return {items};",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "store"
+      },
+      "post": {
+        "page_type": "store"
+      },
+      "type": "listItems",
+      "pre_tools": {}
+    },
+    {
+      "name": "get_store_details",
+      "title": "Get Store Details",
+      "description": "Extracts detailed information about a store, including its name, rating, review count, pickup time, and delivery time.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the store."
+          },
+          "rating": {
+            "type": "number",
+            "description": "The numerical rating of the store."
+          },
+          "review_count": {
+            "type": "integer",
+            "description": "The total number of reviews for the store."
+          },
+          "pickup_time": {
+            "type": "string",
+            "description": "The estimated time or status for order pickup."
+          },
+          "delivery_time": {
+            "type": "string",
+            "description": "The estimated time for delivery."
+          },
+          "has_delivery": {
+            "type": "boolean",
+            "description": "Whether delivery is available for this store."
+          }
+        },
+        "required": [
+          "name",
+          "rating",
+          "review_count",
+          "pickup_time"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return !!document.querySelector('h3.MuiTypography-h3') ? true : [false, 'Store name element not found'];",
+      "is_completed": "return (typeof output.name === 'string' && typeof output.rating === 'number') ? true : [false, 'Invalid output format'];",
+      "execute": "const storeName = document.querySelector('h3.MuiTypography-h3')?.innerText || '';\nconst ratingValue = parseFloat(document.querySelector('.css-1blxmo9')?.innerText || '0');\nconst reviewCountRaw = document.querySelector('.css-ph0okg')?.innerText || '';\nconst review_count = parseInt(reviewCountRaw.replace(/[^0-9]/g, '') || '0');\nconst containers = Array.from(document.querySelectorAll('.MuiStack-root'));\nconst pickupContainer = containers.find(el => el.innerText.includes('Pickup'));\nconst pickup_time = pickupContainer?.querySelector('span.MuiTypography-caption')?.innerText || '';\nconst deliveryContainer = containers.find(el => el.innerText.includes('Delivery'));\nconst delivery_time = deliveryContainer?.querySelector('span.MuiTypography-caption')?.innerText || '';\nconst has_delivery = !!deliveryContainer;\nreturn { name: storeName, rating: ratingValue, review_count: review_count, pickup_time: pickup_time, delivery_time: delivery_time, has_delivery: has_delivery };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "store"
+      },
+      "post": {
+        "page_type": "store"
+      },
+      "type": "getFields",
+      "pre_tools": {}
+    },
+    {
+      "name": "list_categories",
+      "title": "List Categories",
+      "description": "Lists all available categories on the home page, including carousel filters, section headers, and sidebar items.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The display name of the category."
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          }
+        },
+        "required": [
+          "items"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return (document.querySelector('.slick-slider') || document.querySelectorAll('h6.MuiTypography-h6').length > 0) ? true : [false, 'No categories found'];",
+      "is_completed": "return true;",
+      "execute": "const items = []; const slider = document.querySelector('.slick-slider'); if (slider) { Array.from(slider.querySelectorAll('.slick-slide:not(.slick-cloned)')).forEach(el => { const nameEl = el.querySelector('.MuiTypography-root'); if (nameEl) items.push({ name: nameEl.textContent.trim() }); }); } const headers = document.querySelectorAll('h6.MuiTypography-h6'); headers.forEach(h => { const name = h.textContent.trim(); if (name && !items.some(i => i.name === name)) items.push({ name }); }); const sidebarItems = document.querySelectorAll('.MuiListItemButton-root'); sidebarItems.forEach(el => { const name = el.textContent.trim(); if (name && name !== 'Home' && !items.some(i => i.name === name)) items.push({ name }); }); return { items: items.filter(i => i.name) };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "home"
+      },
+      "post": {
+        "page_type": "home"
+      },
+      "type": "listItems",
+      "pre_tools": {}
+    },
+    {
+      "name": "filter_by_category",
+      "title": "Filter By Category",
+      "description": "Filters stores by category. Uses fuzzy matching on section headers, sidebar items, or falls back to search.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "category_name": {
+            "type": "string",
+            "description": "The name of the category to filter by."
+          }
+        },
+        "required": [
+          "category_name"
+        ]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "description": "Whether the category filter was applied successfully."
+          },
+          "category_name": {
+            "type": "string",
+            "description": "The name of the category that was applied."
+          },
+          "method": {
+            "type": "string",
+            "enum": [
+              "section",
+              "sidebar",
+              "search"
+            ],
+            "description": "How the filter was applied: 'section' (clicked See all), 'sidebar' (clicked sidebar menu), or 'search' (typed into search input)."
+          }
+        },
+        "required": [
+          "success"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return true;",
+      "is_completed": "if (output.success === false) return true; return (location.pathname.includes('/categories') || document.querySelector('input[placeholder=\"Search DashDish\"]')?.value) ? true : [false, 'Filter not applied yet'];",
+      "execute": "const headers = Array.from(document.querySelectorAll('h6')); const targetHeader = headers.find(h => h.textContent.trim().toLowerCase().includes(inputs.category_name.toLowerCase())); if (targetHeader) { const sectionRow = targetHeader.closest('.MuiStack-root'); const seeAllButton = sectionRow ? Array.from(sectionRow.querySelectorAll('button')).find(b => b.textContent.includes('See all')) : null; if (seeAllButton) { const catName = targetHeader.textContent.trim(); setTimeout(() => seeAllButton.click(), 10); return { success: true, category_name: catName, method: 'section' }; } } const sidebarItems = Array.from(document.querySelectorAll('.MuiListItemButton-root')); const sidebarMatch = sidebarItems.find(el => el.textContent.trim().toLowerCase().includes(inputs.category_name.toLowerCase())); if (sidebarMatch) { const catName = sidebarMatch.textContent.trim(); setTimeout(() => sidebarMatch.click(), 10); return { success: true, category_name: catName, method: 'sidebar' }; } const searchInput = document.querySelector('input[placeholder=\"Search DashDish\"]'); if (searchInput) { const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set; nativeInputValueSetter.call(searchInput, inputs.category_name); searchInput.dispatchEvent(new Event('input', { bubbles: true })); const form = searchInput.closest('form'); if (form) { form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true })); } return { success: true, category_name: inputs.category_name, method: 'search' }; } return { success: false, category_name: inputs.category_name, error: 'Could not find category header, sidebar, or search input' };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "home"
+      },
+      "post": {
+        "page_type": "home",
+        "filtered_by": "$category_name"
+      },
+      "type": "setFilter",
+      "pre_tools": {}
+    },
+    {
+      "name": "filter_stores",
+      "title": "Filter Stores",
+      "description": "Filters stores by search query. Use when task mentions a specific store type or cuisine.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search term to filter stores (e.g., 'taco', 'pizza', 'sushi')."
+          }
+        },
+        "required": [
+          "query"
+        ]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the store"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          },
+          "query": {
+            "type": "string",
+            "description": "The search query that was applied."
+          }
+        },
+        "required": [
+          "items",
+          "query"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return document.querySelector('input[placeholder=\"Search DashDish\"]') ? true : [false, 'Search bar not visible'];",
+      "is_completed": "return Array.isArray(output.items) ? true : [false, 'Output items is not an array'];",
+      "execute": "const input = document.querySelector('input[placeholder=\"Search DashDish\"]'); if (input) { const nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set; nativeInputValueSetter.call(input, inputs.query); input.dispatchEvent(new Event('input', { bubbles: true })); const form = input.closest('form'); if (form) { form.dispatchEvent(new Event('submit', { cancelable: true, bubbles: true })); } await new Promise(r => setTimeout(r, 500)); } const stores = Array.from(document.querySelectorAll('h6.MuiTypography-subtitle1')).map(el => ({ name: el.textContent.trim() })).filter(item => item.name); return { items: stores, query: inputs.query };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "home"
+      },
+      "post": {
+        "page_type": "home"
+      },
+      "type": "setFilter",
+      "pre_tools": {}
+    },
+    {
+      "name": "list_all_stores",
+      "title": "List All Stores",
+      "description": "Lists all visible stores on the home page.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "detailed": {
+            "type": "boolean",
+            "description": "If true, includes additional fields: rating, distance, delivery_time, delivery_fee, has_dashpass, has_delivery, promo. Defaults to false."
+          }
+        },
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "The name of the store"
+                },
+                "rating": {
+                  "type": "number",
+                  "description": "The store rating (e.g., 4.1)"
+                },
+                "distance": {
+                  "type": "string",
+                  "description": "Distance to store (e.g., '1.1 mi')"
+                },
+                "delivery_time": {
+                  "type": "string",
+                  "description": "Estimated delivery time (e.g., '33 min')"
+                },
+                "delivery_fee": {
+                  "type": "string",
+                  "description": "Delivery fee (e.g., '$2.99 delivery fee')"
+                },
+                "has_dashpass": {
+                  "type": "boolean",
+                  "description": "Whether store offers DashPass"
+                },
+                "has_delivery": {
+                  "type": "boolean",
+                  "description": "Whether delivery is available for this store (true if delivery_time is present)"
+                },
+                "promo": {
+                  "type": "string",
+                  "description": "Any promotional offer (e.g., '$10 off on $50+')"
+                }
+              },
+              "required": [
+                "name"
+              ]
+            }
+          }
+        },
+        "required": [
+          "items"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return document.querySelectorAll('h6.MuiTypography-subtitle1').length > 0 ? true : [false, 'No store cards found on page'];",
+      "is_completed": "return Array.isArray(output.items) ? true : [false, 'Output items is not an array'];",
+      "execute": "const detailed = inputs.detailed === true; const stores = Array.from(document.querySelectorAll('h6.MuiTypography-subtitle1')).map(nameEl => { const name = nameEl.textContent.trim(); if (!detailed) return { name }; const card = nameEl.closest('.MuiStack-root')?.parentElement || nameEl.parentElement?.parentElement; const hasDashpass = !!card?.querySelector('.MuiSvgIcon-colorSuccess'); const ratingEl = card?.querySelector('h6.MuiTypography-subtitle2'); const rating = ratingEl ? parseFloat(ratingEl.textContent) : null; const textEls = Array.from(card?.querySelectorAll('p.MuiTypography-body2') || []); const texts = textEls.map(el => el.textContent.trim()).filter(t => t && t !== '•'); const distance = texts.find(t => t.includes('mi')) || null; const deliveryTime = texts.find(t => t.includes('min')) || null; const deliveryFee = texts.find(t => t.includes('delivery fee')) || null; const promoEl = card?.querySelector('.MuiTypography-caption'); const promo = promoEl ? promoEl.textContent.trim() : null; const hasDelivery = !!deliveryTime; return { name, rating, distance, delivery_time: deliveryTime, delivery_fee: deliveryFee, has_dashpass: hasDashpass, has_delivery: hasDelivery, promo }; }).filter(item => item.name); return { items: stores };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "home"
+      },
+      "post": {
+        "page_type": "home"
+      },
+      "type": "listItems",
+      "pre_tools": {}
+    },
+    {
+      "name": "get_store_reviews",
+      "title": "Get Store Reviews",
+      "description": "Retrieves a list of customer reviews from the store page, including reviewer names, star ratings, and review text.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "number",
+            "description": "The maximum number of reviews to retrieve (defaults to 10)."
+          }
+        },
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "reviewer": {
+                  "type": "string",
+                  "description": "The name of the person who wrote the review."
+                },
+                "rating": {
+                  "type": "number",
+                  "description": "The numerical star rating based on the number of star icons found."
+                },
+                "text": {
+                  "type": "string",
+                  "description": "The full text content of the review."
+                }
+              },
+              "required": [
+                "reviewer",
+                "rating",
+                "text"
+              ]
+            }
+          }
+        },
+        "required": [
+          "items"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return !!document.querySelector('#reviews-section') ? true : [false, 'Reviews section not found'];",
+      "is_completed": "return Array.isArray(output.items) ? true : [false, 'Output is not an array'];",
+      "execute": "const reviewCards = Array.from(document.querySelectorAll('#reviews-section .slick-slide:not(.slick-cloned) .MuiCard-root.css-1nj8tgd')); const items = reviewCards.slice(0, inputs.limit || 10).map(card => { const nameEl = card.querySelector('.MuiTypography-subtitle2'); const textEl = card.querySelector('.MuiTypography-body2'); const stars = card.querySelectorAll('svg').length; return { reviewer: nameEl ? nameEl.textContent.trim() : 'Anonymous', rating: stars, text: textEl ? textEl.textContent.trim() : '' }; }); return { items };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "store"
+      },
+      "post": {
+        "page_type": "store"
+      },
+      "type": "listItems",
+      "pre_tools": {}
+    },
+    {
+      "name": "get_item_details",
+      "title": "Get Item Details",
+      "description": "Finds a menu item by name, opens its detail modal, and extracts the name, price, description, and available customization options.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "item_name": {
+            "type": "string",
+            "description": "The exact or partial name of the menu item to look for."
+          }
+        },
+        "required": [
+          "item_name"
+        ]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of the item found in the modal."
+          },
+          "price": {
+            "type": "string",
+            "description": "The price of the item, typically extracted from the add-to-cart button."
+          },
+          "description": {
+            "type": "string",
+            "description": "The description text for the menu item."
+          },
+          "customizations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "sectionName": {
+                  "type": "string",
+                  "description": "The name of the customization group (e.g., 'Choose your size')."
+                },
+                "options": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "The list of specific choices available within this customization section."
+                }
+              },
+              "required": [
+                "sectionName",
+                "options"
+              ]
+            }
+          },
+          "available_options": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Flat list of all available customization options across all sections, deduplicated."
+          },
+          "error": {
+            "type": "string",
+            "description": "Error message if the item or modal could not be found."
+          }
+        },
+        "required": []
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "const inputWords = inputs.item_name.toLowerCase().split(/\\s+/); const minScore = inputWords.length === 1 ? 1 : 2; const elements = Array.from(document.querySelectorAll('#full-menu-section h6, #full-menu-section .MuiTypography-root')); let bestScore = 0; for (const el of elements) { const textWords = el.textContent.toLowerCase().trim().split(/\\s+/); let score = 0; for (const iw of inputWords) { if (textWords.some(tw => tw.includes(iw) || iw.includes(tw))) score++; } if (score > bestScore) bestScore = score; } return bestScore >= minScore ? true : [false, 'Item not found on menu (best score: ' + bestScore + ', need: ' + minScore + ')'];",
+      "is_completed": "return true;",
+      "execute": "const cards = Array.from(document.querySelectorAll('#full-menu-section .MuiCard-root')); const inputWords = inputs.item_name.toLowerCase().split(/\\s+/); const minScore = inputWords.length === 1 ? 1 : 2; let bestCard = null; let bestScore = 0; for (const card of cards) { const nameEl = card.querySelector('h6.MuiTypography-subtitle2, h6'); if (!nameEl) continue; const textWords = nameEl.textContent.toLowerCase().trim().split(/\\s+/); let score = 0; for (const iw of inputWords) { if (textWords.some(tw => tw.includes(iw) || iw.includes(tw))) score++; } if (score > bestScore) { bestScore = score; bestCard = card; } } const item = bestCard; if (!item || bestScore < minScore) return { error: 'Item not found (best score: ' + bestScore + ', need: ' + minScore + ')' }; item.scrollIntoView({ block: 'center' }); await new Promise(r => setTimeout(r, 300)); const btn = item.querySelector('button') || item; btn.click(); let modal = null; for (let i = 0; i < 15; i++) { await new Promise(r => setTimeout(r, 300)); modal = document.querySelector('.MuiModal-root, [role=\"dialog\"], .MuiDialog-root'); if (modal) break; } if (!modal) return { error: 'Modal not found after retry' }; const modalTitleEl = modal.querySelector('h2, h3, .MuiDialogTitle-root, [class*=\"DialogTitle\"]'); const name = modalTitleEl?.innerText || inputs.item_name; const description = modal.querySelector('.MuiTypography-body1, .MuiTypography-body2:not(:has(button)), p:not(:has(button))')?.innerText || ''; const buttonText = modal.querySelector('button[type=\"submit\"], button.MuiButton-containedPrimary')?.innerText; const buttonPrice = parseFloat(buttonText?.match(/\\$([\\d.]+)/)?.[1] || '0'); let upcharge = 0; const selectedOption = modal.querySelector('input[type=\"radio\"]:checked, .Mui-checked'); if (selectedOption) { const label = selectedOption.closest('label') || selectedOption.parentElement?.querySelector('.MuiFormControlLabel-label'); if (label) { const upchargeMatch = label.textContent.match(/\\+\\$([\\d.]+)/); if (upchargeMatch) upcharge = parseFloat(upchargeMatch[1]); } } const price = '$' + (buttonPrice - upcharge).toFixed(2); const customizations = []; const sections = modal.querySelectorAll('h6.MuiTypography-subtitle1, fieldset'); sections.forEach(section => { const sectionName = section.innerText; const options = []; let nextEl = section.nextElementSibling; while (nextEl && !nextEl.classList.contains('MuiDivider-root') && !nextEl.tagName.startsWith('H')) { const labels = nextEl.querySelectorAll('.MuiFormControlLabel-label, label'); labels.forEach(l => options.push(l.innerText.trim())); nextEl = nextEl.nextElementSibling; } const optionsSummary = options.slice(0, 5).join(', '); customizations.push({ sectionName: sectionName + (optionsSummary ? ' [' + optionsSummary + ']' : ''), options }); }); const allOptions = customizations.flatMap(c => c.options).filter((v, i, a) => a.indexOf(v) === i); const closeBtn = modal.querySelector('button[aria-label=\"Close\"], .close-modal, svg[data-testid=\"CloseIcon\"]'); if (closeBtn) { const clickable = closeBtn.closest('button') || closeBtn.parentElement || closeBtn; clickable.dispatchEvent(new MouseEvent('click', { bubbles: true })); } await new Promise(r => setTimeout(r, 300)); return { name, price, description, customizations, available_options: allOptions };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "store"
+      },
+      "post": {
+        "page_type": "store"
+      },
+      "type": "getFields",
+      "pre_tools": {
+        "item_name": [
+          "list_menu_items"
+        ]
+      }
+    },
+    {
+      "name": "goto_home",
+      "title": "Goto Home",
+      "description": "Navigates to the home page by clicking the Home link or site logo.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "method": {
+            "type": "string",
+            "enum": [
+              "link",
+              "logo"
+            ],
+            "description": "The element type used to perform the navigation."
+          }
+        },
+        "required": [
+          "method"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return (Array.from(document.querySelectorAll('.MuiListItemButton-root, [role=\"button\"]')).some(el => el.textContent.trim() === 'Home') || !!document.querySelector('img[alt=\"Dashdish\"]')) ? true : [false, 'Navigation elements not found'];",
+      "is_completed": "return location.pathname === '/' || document.querySelector('input[placeholder*=\"Search DashDish\"]') ? true : [false, 'Still not on home page'];",
+      "execute": "const navLinks = document.querySelectorAll('.MuiListItemButton-root, [role=\"button\"]'); const homeLink = Array.from(navLinks).find(el => el.textContent.trim() === 'Home'); let method = null; if (homeLink) { homeLink.click(); method = 'link'; } else { const logo = document.querySelector('img[alt=\"Dashdish\"]'); if (logo) { logo.click(); method = 'logo'; } else { throw new Error('Home navigation element not found'); } } for (let i = 0; i < 20; i++) { await new Promise(r => setTimeout(r, 250)); if (location.pathname === '/') break; } return { method };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "*"
+      },
+      "post": {
+        "page_type": "home",
+        "selected_store": "",
+        "filtered_by": ""
+      },
+      "type": "gotoItem",
+      "pre_tools": {}
+    },
+    {
+      "name": "add_to_cart",
+      "title": "Add To Cart",
+      "description": "Adds a specific item to the shopping cart with optional customizations and special instructions.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "item_name": {
+            "type": "string",
+            "description": "The name of the item to add to the cart."
+          },
+          "customizations": {
+            "type": "string",
+            "description": "A comma-separated list of customizations in 'Key: Value' format (e.g., 'Size: Large, Special Instructions: No onions')."
+          }
+        },
+        "required": [
+          "item_name"
+        ]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "description": "Indicates if the item was successfully added to the cart."
+          },
+          "item_added": {
+            "type": "string",
+            "description": "The name of the item that was added."
+          },
+          "cart_count": {
+            "type": "integer",
+            "description": "The updated number of items in the cart."
+          },
+          "error": {
+            "type": "string",
+            "description": "Error message if the operation failed."
+          }
+        },
+        "required": [
+          "success"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return document.body.textContent.includes('Full Menu') ? true : [false, 'Not on a store page'];",
+      "is_completed": "return output.success === true ? true : [false, output.error];",
+      "execute": "const { item_name, customizations } = inputs;\n\n// 1. Find and click the item card to open modal (same approach as get_item_details)\nlet modal = document.querySelector('.MuiModal-root, [role=\"dialog\"], .MuiDialog-root');\nif (!modal) {\n  const cards = Array.from(document.querySelectorAll('#full-menu-section .MuiCard-root'));\n  const inputWords = item_name.toLowerCase().split(/\\s+/); const minScore = inputWords.length === 1 ? 1 : 2; let bestCard = null; let bestScore = 0; for (const card of cards) { const nameEl = card.querySelector('h6.MuiTypography-subtitle2, h6'); if (!nameEl) continue; const textWords = nameEl.textContent.toLowerCase().trim().split(/\\s+/); let score = 0; for (const iw of inputWords) { if (textWords.some(tw => tw.includes(iw) || iw.includes(tw))) score++; } if (score > bestScore) { bestScore = score; bestCard = card; } } const itemCard = bestCard;\n  if (!itemCard || bestScore < minScore) return { success: false, error: 'Item not found: ' + item_name + ' (best score: ' + bestScore + ', need: ' + minScore + ')' };\n  \n  itemCard.scrollIntoView({ block: 'center' });\n  await new Promise(r => setTimeout(r, 300));\n  const btn = itemCard.querySelector('button') || itemCard;\n  btn.click();\n  \n  // Retry loop waiting for modal (same as get_item_details)\n  for (let i = 0; i < 15; i++) {\n    await new Promise(r => setTimeout(r, 300));\n    modal = document.querySelector('.MuiModal-root, [role=\"dialog\"], .MuiDialog-root');\n    if (modal) break;\n  }\n}\n\nif (!modal) return { success: false, error: 'Could not open modal for ' + item_name };\n\n// 2. Apply Customizations\nif (customizations) {\n  const parts = customizations.split(',').map(p => p.trim());\n  for (const part of parts) {\n    const [key, ...valParts] = part.split(':').map(s => s.trim());\n    const value = valParts.join(':');\n    if (key.toLowerCase() === 'special instructions') {\n      const textarea = modal.querySelector('textarea');\n      if (textarea) {\n        textarea.focus();\n        textarea.value = value;\n        textarea.dispatchEvent(new Event('input', { bubbles: true }));\n      }\n    } else {\n      const labels = Array.from(modal.querySelectorAll('label, .MuiFormControlLabel-label'));\n      const target = labels.find(l => l.textContent.toLowerCase().includes(value.toLowerCase()));\n      if (target) target.click();\n    }\n  }\n}\n\n// 3. Click Add to Cart button in modal\nconst addBtn = Array.from(modal.querySelectorAll('button, [role=\"button\"], .MuiButton-root')).find(b => b.textContent && b.textContent.toLowerCase().includes('add'));\nif (!addBtn) return { success: false, error: 'Add to Cart button not found in modal' };\naddBtn.click();\nawait new Promise(r => setTimeout(r, 1500));\n\nconst cartBtn = document.querySelector('header button.MuiButton-containedPrimary');\nconst cart_count = cartBtn ? parseInt(cartBtn.textContent.replace(/[^0-9]/g, '')) || 0 : 0;\n\nreturn { success: true, item_added: item_name, cart_count };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "store"
+      },
+      "post": {
+        "page_type": "store"
+      },
+      "type": "setFields",
+      "pre_tools": {
+        "item_name": [
+          "list_menu_items"
+        ],
+        "customizations": [
+          "get_item_details"
+        ]
+      }
+    },
+    {
+      "name": "goto_checkout",
+      "title": "Goto Checkout",
+      "description": "Opens the cart drawer and navigates to the checkout page.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "status": {
+            "type": "string"
+          },
+          "error": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "success"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return (!window.location.pathname.includes('/checkout') && document.querySelector('header button.MuiButton-containedPrimary')) ? true : [false, 'Not on store page or cart button missing'];",
+      "is_completed": "return output.success === true ? true : [false, output.error];",
+      "execute": "const cartBtn = document.querySelector('header button.MuiButton-containedPrimary');\nif (cartBtn) cartBtn.click();\nawait new Promise(r => setTimeout(r, 1000));\nconst checkoutBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.includes('Checkout'));\nif (checkoutBtn) {\n  checkoutBtn.click();\n  await new Promise(r => setTimeout(r, 2000));\n  return { success: true, status: 'Navigated to Checkout' };\n}\nreturn { success: false, error: 'Checkout button not found' };",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "store"
+      },
+      "post": {
+        "page_type": "checkout"
+      },
+      "type": "gotoItem",
+      "pre_tools": {
+        "_": [
+          "add_to_cart"
+        ]
+      }
+    },
+    {
+      "name": "place_order",
+      "title": "Place Order",
+      "description": "Clicks the Place Order button and confirms the order was successful.",
+      "input_schema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "description": "Indicates if the order was placed and confirmed successfully."
+          },
+          "status": {
+            "type": "string",
+            "description": "Status message if the order was confirmed.",
+            "enum": [
+              "Order Confirmed"
+            ],
+            "nullable": true
+          },
+          "error": {
+            "type": "string",
+            "description": "Error message if the order could not be placed or confirmed.",
+            "nullable": true
+          }
+        },
+        "required": [
+          "success"
+        ]
+      },
+      "tool_executor_type": "smcp",
+      "lang": "js",
+      "is_ready": "return window.location.pathname.includes('/checkout') && Array.from(document.querySelectorAll('button, [role=\"button\"], .MuiButton-root')).some(b => b.textContent && b.textContent.toLowerCase().includes('place order')) ? true : [false, 'Not on checkout page or Place Order button missing'];",
+      "is_completed": "return output.success === true ? true : [false, output.error];",
+      "execute": "const btns = Array.from(document.querySelectorAll('button, [role=\"button\"], .MuiButton-root'));\nconst targetBtn = btns.find(b => b.textContent && b.textContent.toLowerCase().includes('place order'));\nif (!targetBtn) return {success: false, error: 'Place Order button not found'};\ntargetBtn.click();\nawait new Promise(r => setTimeout(r, 5000));\nconst confirmationText = Array.from(document.querySelectorAll('h1,h2,h3,p,div')).find(el => el.textContent && /order (confirmed|placed|complete|successful)/i.test(el.textContent));\nif (confirmationText) {\n  return {success: true, status: 'Order Confirmed'};\n}\nreturn {success: false, error: 'Order confirmation not found after placing order'};",
+      "pre_path": "*vercel.app*",
+      "pre": {
+        "page_type": "checkout"
+      },
+      "post": {
+        "page_type": "order_confirmation"
+      },
+      "type": "setFields",
+      "pre_tools": {}
+    }
+  ],
+  "is_ready_timeout_ms": 30000
+}

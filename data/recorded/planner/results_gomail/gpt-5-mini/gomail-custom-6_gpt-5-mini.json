@@ -1,0 +1,1405 @@
+[
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.585709095001221,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.370342016220093,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.274687767028809,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.349887371063232,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.204093933105469,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.136819124221802,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.192279815673828,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.897422790527344,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.686915159225464,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.678955554962158,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.6937994956970215,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.031299829483032,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.850868225097656,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.14165186882019,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.93765664100647,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.46641230583191,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.677294254302979,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.648491382598877,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.5271759033203125,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.5282676219940186,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.198861837387085,
+    "estimated_cost": 103.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 11.877639770507812,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> ai_eval(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> ai_eval(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.164802312850952,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.178691387176514,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.4549572467803955,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.57288122177124,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.4545738697052,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.871810674667358,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.368969202041626,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.001510620117188,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.035950660705566,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.83429741859436,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.43021821975708,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.82049298286438,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.1235034465789795,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.261944532394409,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.294822931289673,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.765671491622925,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> sorted(...) [unknown] -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> sorted(...) [unknown] -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.5199267864227295,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.060476779937744,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.172147274017334,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> min(...) [unknown] -> len(...) [unknown] -> range(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.097918748855591,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.918646812438965,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.0261077880859375,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.8131773471832275,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 10.739400625228882,
+    "estimated_cost": 113.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.516319990158081,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.1391212940216064,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.040944337844849,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.534973621368408,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.992553234100342,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.439281702041626,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.163214683532715,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 9.581961154937744,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.411878347396851,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 4.3948023319244385,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 5.192487001419067,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.873294830322266,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 8.859740495681763,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> sorted(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> sorted(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.335023403167725,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 7.6867523193359375,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.012698650360107,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 6.404495477676392,
+    "estimated_cost": 3.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5-mini",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.190287113189697,
+    "estimated_cost": 13.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_email_detail requires page=inbox, but state has page=email_detail. Call sequence: list_emails -> enumerate(...) [unknown] -> goto_email_detail -> append(...) [unknown] -> goto_email_detail"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

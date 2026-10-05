@@ -1,0 +1,12 @@
+{
+  "https://real-dashdish.vercel.app/checkout": "checkout",
+  "https://real-dashdish.vercel.app/order-confirmation": "order_confirmation",
+  "https://real-dashdish.vercel.app/categories": "main",
+  "regex:^https://real-dashdish\\.vercel\\.app/store/": "store",
+  "https://real-dashdish.vercel.app/": "main",
+  "https://real-dashdish-1rmq4pjxg-real-sites.vercel.app/checkout": "checkout",
+  "https://real-dashdish-1rmq4pjxg-real-sites.vercel.app/order-confirmation": "order_confirmation",
+  "https://real-dashdish-1rmq4pjxg-real-sites.vercel.app/categories": "main",
+  "https://real-dashdish-1rmq4pjxg-real-sites.vercel.app/": "main",
+  "regex:^https://real-dashdish-1rmq4pjxg-real-sites\\.vercel\\.app/store/": "store"
+}

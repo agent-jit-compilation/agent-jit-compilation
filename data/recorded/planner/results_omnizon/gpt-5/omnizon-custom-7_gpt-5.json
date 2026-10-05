@@ -1,0 +1,1279 @@
+[
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 16.623478889465332,
+    "estimated_cost": 5.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.25734329223633,
+    "estimated_cost": 207.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> goto_home -> choose_category_label() [user-defined] -> goto_category -> getattr(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> goto_home -> choose_category_label() [user-defined] -> goto_category -> getattr(...) [unknown] -> lower(...) [unknown] -> lower(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.611406803131104,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.83389401435852,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.93829035758972,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.697644233703613,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 13.660178661346436,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.62504553794861,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.110645294189453,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.268926858901978,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.07169508934021,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.023881912231445,
+    "estimated_cost": 5.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.259906768798828,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 32.79331684112549,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.172398328781128,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.902029037475586,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.179933786392212,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.744027853012085,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.748698949813843,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.378109216690063,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.600972890853882,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 31.211836576461792,
+    "estimated_cost": 116.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.83403515815735,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.95888042449951,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 15.33142375946045,
+    "estimated_cost": 5.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.94382667541504,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.418022632598877,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.184980630874634,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.749147653579712,
+    "estimated_cost": 106.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.723450422286987,
+    "estimated_cost": 215.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.7226665019989,
+    "estimated_cost": 116.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": true,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.601863622665405,
+    "estimated_cost": 105.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.68686294555664,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> list_results -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.52193832397461,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 17.441304922103882,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.5256187915802,
+    "estimated_cost": 106.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 51.25449991226196,
+    "estimated_cost": 54.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> goto_home -> ai_eval() [user-defined] -> append(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> set(...) [unknown] -> add(...) [unknown] -> goto_home -> ai_eval() [user-defined] -> append(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> set(...) [unknown] -> add(...) [unknown] -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> Field(...) [unknown] -> goto_home -> ai_eval() [user-defined] -> append(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> set(...) [unknown] -> add(...) [unknown] -> goto_home -> ai_eval() [user-defined] -> append(...) [unknown] -> strip(...) [unknown] -> strip(...) [unknown] -> set(...) [unknown] -> add(...) [unknown] -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.77293562889099,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.987858057022095,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 24.880259037017822,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.55306315422058,
+    "estimated_cost": 115.1,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 14.510803461074829,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> getattr(...) [unknown] -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> getattr(...) [unknown] -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.157143115997314,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.258096933364868,
+    "estimated_cost": 153.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> isinstance(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> isinstance(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> isinstance(...) [unknown] -> append(...) [unknown] -> strip(...) [unknown] -> append(...) [unknown] -> enumerate(...) [unknown] -> strip(...) [unknown] -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.304854154586792,
+    "estimated_cost": 207.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_home -> goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_home -> goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 19.031005144119263,
+    "estimated_cost": 14.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> append(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.279834270477295,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.50491237640381,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 33.30314540863037,
+    "estimated_cost": 13.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 27.612085103988647,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.83626127243042,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 29.34838604927063,
+    "estimated_cost": 106.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 30.810755014419556,
+    "estimated_cost": 116.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.284611701965332,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.166364431381226,
+    "estimated_cost": 105.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> hasattr(...) [unknown] -> getattr(...) [unknown] -> get(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> hasattr(...) [unknown] -> getattr(...) [unknown] -> get(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.11155104637146,
+    "estimated_cost": 114.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.042529106140137,
+    "estimated_cost": 104.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 28.030574083328247,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": true,
+      "failure_types": [],
+      "failure_details": [],
+      "error_message": null
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 26.060138940811157,
+    "estimated_cost": 116.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 18.81150794029236,
+    "estimated_cost": 14.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> goto_category -> getattr(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> goto_category -> getattr(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 25.06092667579651,
+    "estimated_cost": 143.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> set(...) [unknown] -> title(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> set(...) [unknown] -> title(...) [unknown] -> strip(...) [unknown] -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> set(...) [unknown] -> title(...) [unknown] -> strip(...) [unknown] -> ai_eval(...) [unknown] -> set(...) [unknown] -> title(...) [unknown] -> strip(...) [unknown] -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 23.980421543121338,
+    "estimated_cost": 153.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> add_try() [user-defined] -> strip(...) [unknown] -> add_try() [user-defined] -> endswith(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> ai_eval(...) [unknown] -> add_try() [user-defined] -> strip(...) [unknown] -> add_try() [user-defined] -> endswith(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> list_results"
+        }
+      ],
+      "error_message": "Tool ordering error: list_results requires page_type=results, but state has page_type=home. Call sequence: ai_eval(...) [unknown] -> add_try() [user-defined] -> strip(...) [unknown] -> add_try() [user-defined] -> endswith(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> ai_eval(...) [unknown] -> add_try() [user-defined] -> strip(...) [unknown] -> add_try() [user-defined] -> endswith(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> lower(...) [unknown] -> add_try() [user-defined] -> list_results"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 22.296722888946533,
+    "estimated_cost": 115.0,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> lower(...) [unknown] -> lower(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: ai_eval(...) [unknown] -> strip(...) [unknown] -> goto_category -> lower(...) [unknown] -> lower(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  },
+  {
+    "config": {
+      "model": "gpt-5",
+      "with_protocol": false,
+      "max_iterations": 1
+    },
+    "generation_latency": 20.86552596092224,
+    "estimated_cost": 104.1,
+    "codecheck": {
+      "overall_pass": false,
+      "failure_types": [
+        "ordering"
+      ],
+      "failure_details": [
+        {
+          "type": "ordering",
+          "message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+        }
+      ],
+      "error_message": "Tool ordering error: goto_category requires page_type=home, but state has page_type=results. Call sequence: goto_home -> ai_eval(...) [unknown] -> goto_category -> getattr(...) [unknown] -> ai_eval(...) [unknown] -> goto_category"
+    },
+    "actual_latency": null,
+    "generation_failed": false
+  }
+]

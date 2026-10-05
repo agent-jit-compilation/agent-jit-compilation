@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agent-jit-compilation"
+version = "0.1.0"
+description = "Cost-aware planning and task-specific scheduling for web agents"
+requires-python = ">=3.12,<3.14"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Caleb Winston"}, {name = "Ron Yifeng Wang"}, {name = "Azalia Mirhoseini"}, {name = "Christos Kozyrakis"}]
+dependencies = [
+  "pydantic>=2.11,<3", "numpy>=2.2,<3", "scipy>=1.15,<2",
+  "matplotlib>=3.10,<4", "openai>=1.99,<3", "python-dateutil>=2.9,<3",
+  "PyYAML>=6.0,<7", "ty==0.0.1a26", "jsonschema>=4.23,<5",
+  "jmespath>=1.0,<2",
+]
+
+[project.optional-dependencies]
+browser = [
+    "browser-use==0.7.10",
+    "markdownify>=1.1,<2",
+    "patchright>=1.52,<2",
+    "pydantic-settings>=2.10,<3",
+    "python-dotenv>=1,<2",
+    "rich-click>=1.8,<2",
+]
+webarena = [
+    "aiolimiter>=1.1,<2",
+    "beartype==0.12.0",
+    "gymnasium>=0.29,<2",
+    "nltk>=3.9,<4",
+    "pillow>=10,<13",
+    "playwright>=1.52,<2",
+    "requests>=2.32,<3",
+    "tqdm>=4.66,<5",
+]
+
+[project.scripts]
+agent-jit = "agent_jit.cli:main"
+
+[project.urls]
+Homepage = "https://agent-jit-compilation.github.io/"
+Repository = "https://github.com/agent-jit-compilation/agent-jit-compilation"
+Documentation = "https://github.com/agent-jit-compilation/agent-jit-compilation/tree/main/docs"
+Issues = "https://github.com/agent-jit-compilation/agent-jit-compilation/issues"
+Paper = "https://proceedings.mlr.press/v306/winston26b.html"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3,<9",
+    "ruff==0.12.12",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["agent_jit", "blastai", "blast_scheduler"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/agent_jit", "/blastai", "/blast_scheduler", "/benchmarks", "/configs",
+    "/data", "/docs", "/examples", "/experiments", "/scripts", "/tests",
+    "/third_party", "/README.md", "/LICENSE", "/CITATION.bib", "/CITATION.cff",
+    "/pyproject.toml", "/uv.lock", "/.env.example", "/.gitignore",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+# WebArena overrides are upstream files verified by checksum; example plans are
+# planner programs with top-level await and tools injected at runtime.
+extend-exclude = ["benchmarks/webarena/overrides", "examples/plans"]

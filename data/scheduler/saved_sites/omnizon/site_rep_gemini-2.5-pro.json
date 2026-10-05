@@ -1,0 +1,922 @@
+{
+  "site_name": "omnizon",
+  "element_mappings": {
+    "homeLogoLink": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          0
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          0
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          0
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          0
+        ],
+        "9cadf711-dfb4-437e-9203-ca7ad0791043": [
+          0
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          0
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          0
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          0
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          0
+        ],
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          0
+        ],
+        "2dbb805e-d447-ba06-65a5-cb4386c6b9b9": [
+          0
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          0
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          0
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          0
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          0
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          0
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          0
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          0
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          0
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          0
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          0
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          0
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          0
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          0
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          0
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          0
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          0
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          0
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          0
+        ]
+      }
+    },
+    "returnsAndOrdersLink": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          1,
+          8
+        ],
+        "04af9057-9e20-6247-7dce-34b3ab0e1b77": [
+          1,
+          5
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          1,
+          4,
+          5
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          1,
+          4
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          1,
+          4
+        ],
+        "9cadf711-dfb4-437e-9203-ca7ad0791043": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          1,
+          4
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          1,
+          4,
+          5
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          1,
+          4,
+          5
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          1,
+          5
+        ]
+      }
+    },
+    "ordersWriteReviewButton": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          2
+        ],
+        "04af9057-9e20-6247-7dce-34b3ab0e1b77": [
+          2
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          2
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          2
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          2
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          2
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          2
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          2
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          2
+        ]
+      }
+    },
+    "reviewSubmitButton": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          3,
+          4,
+          5,
+          7
+        ],
+        "04af9057-9e20-6247-7dce-34b3ab0e1b77": [
+          3,
+          4
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          3
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          3
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          3
+        ],
+        "9cadf711-dfb4-437e-9203-ca7ad0791043": [
+          3,
+          4
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          3
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          3
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          3
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          3,
+          4
+        ]
+      }
+    },
+    "overallRatingRadio": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          6
+        ]
+      }
+    },
+    "ordersCancelOrderButton": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          9
+        ],
+        "04af9057-9e20-6247-7dce-34b3ab0e1b77": [
+          6,
+          7
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          6,
+          7
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          5
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          5,
+          6
+        ],
+        "9cadf711-dfb4-437e-9203-ca7ad0791043": [
+          7,
+          8
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          5,
+          6
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          6
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          6,
+          7
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          6,
+          7
+        ]
+      }
+    },
+    "cancellationSubmitButton": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          10,
+          11
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          8
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          6,
+          7
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          7
+        ],
+        "9cadf711-dfb4-437e-9203-ca7ad0791043": [
+          9
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          7
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          7
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          8
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          8
+        ]
+      }
+    },
+    "cancellationConfirmationPanel": {
+      "description": "",
+      "traces": {
+        "7a3ca0af-3043-4c63-f7ee-eba4db3f2e69": [
+          12
+        ],
+        "04af9057-9e20-6247-7dce-34b3ab0e1b77": [
+          8
+        ],
+        "3a5ff45d-21f2-760b-0338-b9f6a7c2c65d": [
+          9
+        ],
+        "6e012f37-b698-19e0-ac5a-5f811c45b285": [
+          8
+        ],
+        "ac3ba537-e4c3-dc0c-f9eb-0973fcc6625d": [
+          8
+        ],
+        "87de3070-9465-aa26-8d9c-dba73e8a28e3": [
+          8
+        ],
+        "4dd328c4-406f-ba72-b3ad-67bc58dfff4a": [
+          8
+        ],
+        "8b332793-cb2d-3f0c-fd6f-ae52f12c2d87": [
+          9
+        ],
+        "3fa3b322-e2c0-101f-51af-b18b6422c4ef": [
+          9
+        ]
+      }
+    },
+    "siteSectionTitle": {
+      "description": "",
+      "traces": {
+        "04af9057-9e20-6247-7dce-34b3ab0e1b77": [
+          0
+        ]
+      }
+    },
+    "searchTextInput": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          1
+        ],
+        "2dbb805e-d447-ba06-65a5-cb4386c6b9b9": [
+          1
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          1
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          1
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          1
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          1
+        ]
+      }
+    },
+    "resultsProductCard": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          2
+        ],
+        "2dbb805e-d447-ba06-65a5-cb4386c6b9b9": [
+          2
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          2
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          2
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          2
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          2
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          2
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          2
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          2
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          2
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          2
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          2
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          2
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          2
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          2,
+          3
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          2
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          2
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          2
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          2
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          2
+        ]
+      }
+    },
+    "resultsAddToCartButton": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          3
+        ],
+        "2dbb805e-d447-ba06-65a5-cb4386c6b9b9": [
+          3
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          3
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          3
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          3
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          3
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          3
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          3
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          3
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          3
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          3
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          3
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          3
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          3
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          3
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          3
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          3
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          3
+        ]
+      }
+    },
+    "shoppingCartLink": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          4
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          4
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          4
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          6
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          6
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          6
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          6
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          6
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          6
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          7,
+          8
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          6,
+          7
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          6
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          8
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          7
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          8,
+          9
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          6
+        ]
+      }
+    },
+    "cartSummaryProceedToCheckoutButton": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          5
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          5
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          5
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          7
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          7
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          7
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          7
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          7
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          7
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          9
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          8
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          7
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          9
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          10
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          7
+        ]
+      }
+    },
+    "checkoutSidebarPlaceOrderButton": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          6
+        ],
+        "2dbb805e-d447-ba06-65a5-cb4386c6b9b9": [
+          9,
+          10
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          6
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          6
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          8
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          10
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          8,
+          9
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          8,
+          9
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          8,
+          9
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          8
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          8
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          10
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          9,
+          10
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          8,
+          9
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          10
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          11
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          8,
+          9
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          8
+        ]
+      }
+    },
+    "checkoutBottomPlaceOrderButton": {
+      "description": "",
+      "traces": {
+        "7a1e83bc-0a2d-9b39-d34c-3131c2e93626": [
+          7
+        ],
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          7
+        ],
+        "4619c305-001f-7fe0-8479-eb1951fe5f5e": [
+          7
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          9
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          11
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          9
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          9
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          11
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          11
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          11
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          10
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          12
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          9
+        ]
+      }
+    },
+    "buyNowButton": {
+      "description": "",
+      "traces": {
+        "2dbb805e-d447-ba06-65a5-cb4386c6b9b9": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "729b3c1d-6222-4934-f89c-7f950073081e": [
+          4,
+          5
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          6
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          6,
+          7
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          6,
+          7,
+          8
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          5,
+          6
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          6
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          6,
+          7
+        ]
+      }
+    },
+    "searchSubmitButton": {
+      "description": "",
+      "traces": {
+        "48221a52-7b22-2f65-17d5-b8b3adde7b46": [
+          1
+        ],
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          1
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          1
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          1
+        ]
+      }
+    },
+    "productAddToCartButton": {
+      "description": "",
+      "traces": {
+        "8ad0713e-9341-f9e5-5c72-06436820ef99": [
+          4,
+          5
+        ],
+        "7d0eafa7-e51f-abf9-9a2b-ab3fb76de223": [
+          4,
+          5
+        ],
+        "5ea0577b-4a15-d61a-8095-5a686feffdd1": [
+          4,
+          5
+        ],
+        "e1d6fd3f-1b13-0191-6049-0b490fcdc177": [
+          4,
+          5
+        ],
+        "f5da2d79-9bdf-1e6a-a077-d6e4bd3580bb": [
+          4,
+          5
+        ],
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          4,
+          5
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          4,
+          5
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          4,
+          5
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          5
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          5
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          4,
+          5
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          5
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          4,
+          5
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          4,
+          5
+        ]
+      }
+    },
+    "topNavCategoryLink": {
+      "description": "",
+      "traces": {
+        "275c8b9f-05f7-4611-a1fc-8e975ded8a4d": [
+          1
+        ],
+        "555f7a65-2fc3-aa19-d67b-7befc01b7759": [
+          1
+        ],
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          1
+        ],
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          1
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          1
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          1
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          1
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          1
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          1
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          1
+        ]
+      }
+    },
+    "orderConfirmationSummarySection": {
+      "description": "",
+      "traces": {
+        "b908344f-c204-c5e3-d146-9e649b409830": [
+          11
+        ],
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          12
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          11
+        ],
+        "a90481a3-6aee-c6a3-a051-8b83ef26c380": [
+          10
+        ],
+        "d4f5aad5-843b-4dc4-2d88-cf5bc87eff84": [
+          10
+        ]
+      }
+    },
+    "quantityDropdown": {
+      "description": "",
+      "traces": {
+        "455f475f-1dcd-5496-75b6-50498da4fcac": [
+          3,
+          4
+        ],
+        "c879b501-5598-9848-d47d-9479f96b4aa5": [
+          4
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          4
+        ],
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          4
+        ]
+      }
+    },
+    "checkoutQuantityDropdown": {
+      "description": "",
+      "traces": {
+        "ff8aac78-e774-256c-0018-8e29345e076a": [
+          9,
+          10
+        ],
+        "cd318a74-9089-81eb-ac28-60df6be8c02f": [
+          8,
+          9
+        ]
+      }
+    },
+    "deliveryLocationButton": {
+      "description": "",
+      "traces": {
+        "b3288956-8faa-ff5b-7c7b-0249cdfbfe1c": [
+          7
+        ]
+      }
+    }
+  }
+}

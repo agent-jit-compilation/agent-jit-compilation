@@ -1,0 +1,451 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omnizon Create Review Page Schema",
+  "type": "object",
+  "properties": {},
+  "$defs": {
+    "siteSectionTitle": {
+      "type": "string",
+      "description": "Titles of the visible content sections on the main page",
+      "enum": [
+        "Top categories in Kitchen appliances",
+        "Gift for People!",
+        "Shop for your home essentials",
+        "Home d\u00e9cor under $50",
+        "Refresh your space",
+        "Shop deals in Fashion",
+        "Get your game on",
+        "Beauty steals under $25",
+        "Top sellers in Kitchen",
+        "Level up your beauty routine",
+        "Wireless Tech",
+        "Fantastic Finds for Home",
+        "Explore more in Sports",
+        "Top sellers in Technology"
+      ]
+    },
+    "topNavCategoryName": {
+      "type": "string",
+      "enum": [
+        "Gift",
+        "Toy",
+        "Home",
+        "Gaming",
+        "Cosmetic",
+        "Headphones",
+        "Coffee",
+        "Kitchen"
+      ]
+    },
+    "homeLogoLink": {
+      "type": "object",
+      "description": "Clickable Omnizon logo that navigates to the main page",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "const": "Home"
+        },
+        "opensPage": {
+          "const": "main"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "opensPage"
+      ]
+    },
+    "deliveryLocationButton": {
+      "type": "object",
+      "description": "Clickable delivery location area showing recipient and city",
+      "x-visibleCount": 1,
+      "properties": {
+        "labelLine1": {
+          "type": "string",
+          "const": "Deliver to"
+        },
+        "recipientName": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string",
+          "examples": [
+            "DALY CITY"
+          ]
+        }
+      },
+      "required": [
+        "labelLine1",
+        "recipientName",
+        "city"
+      ]
+    },
+    "searchTextInput": {
+      "type": "object",
+      "description": "Main search text input field in the header",
+      "x-visibleCount": 1,
+      "properties": {
+        "type": {
+          "const": "text"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "required": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "searchSubmitButton": {
+      "type": "object",
+      "description": "Search icon button that submits the header search",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "const": "Search"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "search_results"
+        }
+      },
+      "required": [
+        "ariaLabel"
+      ]
+    },
+    "returnsAndOrdersLink": {
+      "type": "object",
+      "description": "Header link for Returns & Orders",
+      "x-visibleCount": 1,
+      "properties": {
+        "line1": {
+          "const": "Returns"
+        },
+        "line2": {
+          "const": "& Orders"
+        },
+        "opensPage": {
+          "const": "returns_and_orders"
+        }
+      },
+      "required": [
+        "line1",
+        "line2"
+      ]
+    },
+    "shoppingCartLink": {
+      "type": "object",
+      "description": "Header shopping cart control that opens the cart page",
+      "x-visibleCount": 1,
+      "properties": {
+        "ariaLabel": {
+          "const": "Shopping Cart"
+        },
+        "itemCountLabel": {
+          "type": "string"
+        },
+        "label": {
+          "const": "Cart"
+        },
+        "opensPage": {
+          "const": "cart"
+        }
+      },
+      "required": [
+        "ariaLabel",
+        "label"
+      ]
+    },
+    "topNavCategoryLink": {
+      "type": "object",
+      "description": "Top navigation bar category labels (Gift, Toy, Home, etc.) that are visually separate clickable areas",
+      "x-visibleCount": 8,
+      "x-visibleCounts": {
+        "Gift": 1,
+        "Toy": 1,
+        "Home": 1,
+        "Gaming": 1,
+        "Cosmetic": 1,
+        "Headphones": 1,
+        "Coffee": 1,
+        "Kitchen": 1
+      },
+      "properties": {
+        "categoryName": {
+          "$ref": "#/$defs/topNavCategoryName"
+        },
+        "opensPage": {
+          "const": "search_results"
+        }
+      },
+      "required": [
+        "categoryName"
+      ]
+    },
+    "footerBackToTopLink": {
+      "type": "object",
+      "description": "Centered 'Back to top' text that scrolls the page to the top",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "const": "Back to top"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "footerNavLink": {
+      "type": "object",
+      "description": "Footer navigation text links under different footer headings",
+      "x-visibleCount": 18,
+      "x-visibleCounts": {
+        "About Omnizon": 6,
+        "Shopping": 4,
+        "Account": 4,
+        "Customer Service": 4
+      },
+      "properties": {
+        "groupTitle": {
+          "type": "string",
+          "enum": [
+            "About Omnizon",
+            "Shopping",
+            "Account",
+            "Customer Service"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "enum": [
+            "About Us",
+            "Privacy Policy",
+            "Terms of Service",
+            "Browse Products",
+            "Shopping Cart",
+            "Your Orders",
+            "Returns & Exchanges",
+            "Help & Support",
+            "Shipping Information",
+            "Return Policy"
+          ]
+        }
+      },
+      "required": [
+        "groupTitle",
+        "text"
+      ]
+    },
+    "reviewBackToProductButton": {
+      "type": "object",
+      "description": "Text button with left arrow labeled 'Back to Product' above the review form",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Back to Product"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "product_details"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "overallRatingRadio": {
+      "type": "object",
+      "description": "Star rating radio buttons for selecting overall rating from 1 to 5 stars",
+      "x-visibleCount": 6,
+      "x-visibleCounts": {
+        "1 Star": 1,
+        "2 Stars": 1,
+        "3 Stars": 1,
+        "4 Stars": 1,
+        "5 Stars": 1,
+        "Empty": 1
+      },
+      "properties": {
+        "groupLabel": {
+          "type": "string",
+          "const": "Overall Rating *"
+        },
+        "label": {
+          "type": "string",
+          "enum": [
+            "1 Star",
+            "2 Stars",
+            "3 Stars",
+            "4 Stars",
+            "5 Stars",
+            "Empty"
+          ]
+        },
+        "value": {
+          "type": "integer",
+          "enum": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "checked": {
+          "type": "boolean"
+        },
+        "invalid": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "label",
+        "checked"
+      ]
+    },
+    "reviewTitleInput": {
+      "type": "object",
+      "description": "Single-line text input for the review title",
+      "x-visibleCount": 1,
+      "properties": {
+        "type": {
+          "const": "text"
+        },
+        "placeholder": {
+          "type": "string",
+          "const": "Give your review a title"
+        },
+        "label": {
+          "type": "string",
+          "const": "Review Title *"
+        },
+        "maxlength": {
+          "type": "integer",
+          "const": 100
+        },
+        "charCount": {
+          "type": "integer"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "required": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "required": [
+        "type",
+        "placeholder",
+        "label",
+        "maxlength",
+        "required"
+      ]
+    },
+    "reviewBodyTextarea": {
+      "type": "object",
+      "description": "Multiline textarea input for the main review body",
+      "x-visibleCount": 1,
+      "properties": {
+        "placeholder": {
+          "type": "string",
+          "const": "Tell others about your experience with this product. What did you like or dislike? How did you use it?"
+        },
+        "label": {
+          "type": "string",
+          "const": "Your Review *"
+        },
+        "maxlength": {
+          "type": "integer",
+          "const": 1000
+        },
+        "charCount": {
+          "type": "integer"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "required": {
+          "type": "boolean",
+          "const": true
+        }
+      },
+      "required": [
+        "placeholder",
+        "label",
+        "maxlength",
+        "required"
+      ]
+    },
+    "reviewCancelButton": {
+      "type": "object",
+      "description": "Button labeled 'CANCEL' below the review form",
+      "x-visibleCount": 1,
+      "properties": {
+        "text": {
+          "type": "string",
+          "const": "Cancel"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "returns_and_orders"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "reviewSubmitButton": {
+      "type": "object",
+      "description": "Primary button labeled 'SUBMIT REVIEW' that submits the review form",
+      "x-visibleCount": 1,
+      "properties": {
+        "type": {
+          "const": "submit"
+        },
+        "text": {
+          "type": "string",
+          "const": "Submit Review"
+        },
+        "invalid": {
+          "type": "boolean"
+        },
+        "opensPage": {
+          "const": "product_details"
+        }
+      },
+      "required": [
+        "type",
+        "text"
+      ]
+    },
+    "reviewSubmittedAlert": {
+      "type": "object",
+      "description": "Non-interactive success banner shown after submitting a review",
+      "x-visibleCount": 1,
+      "properties": {
+        "title": {
+          "type": "string",
+          "const": "Review Submitted Successfully!"
+        },
+        "message": {
+          "type": "string",
+          "const": "Thank you for your review. You\u2019ll be redirected to the product page shortly."
+        }
+      },
+      "required": [
+        "title",
+        "message"
+      ]
+    }
+  }
+}

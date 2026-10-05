@@ -1,0 +1,62 @@
+# WebArena GitLab task definitions
+
+tasks:
+- id: webarena-308
+  eval_type: webarena
+  initial_url: http://localhost:8023
+  goal: 'Tell me who has made the most contributions, in terms of number of commits, to the primer/design project'
+  smcp_registry: data/registries/gitlab.json
+  storage_state: webarena/.auth/gitlab_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 308
+  sites:
+  - gitlab
+
+- id: webarena-414
+  eval_type: webarena
+  initial_url: http://localhost:8023
+  goal: 'Make the LICENSE of byteblaze/dotfiles to MIT license'
+  smcp_registry: data/registries/gitlab.json
+  storage_state: webarena/.auth/gitlab_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 414
+  sites:
+  - gitlab
+
+- id: webarena-419
+  eval_type: webarena
+  initial_url: http://localhost:8023
+  goal: 'Set my gitlab status as Enjoying life'
+  smcp_registry: data/registries/gitlab.json
+  storage_state: webarena/.auth/gitlab_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 419
+  sites:
+  - gitlab
+
+- id: webarena-747
+  eval_type: webarena
+  initial_url: http://localhost:8023
+  goal: 'Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members'
+  smcp_registry: data/registries/gitlab.json
+  storage_state: webarena/.auth/gitlab_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 747
+  sites:
+  - gitlab
+
+- id: webarena-133
+  eval_type: webarena
+  initial_url: http://localhost:8023
+  goal: 'How many commits did Eric make to a11yproject on 3/2?'
+  smcp_registry: data/registries/gitlab.json
+  storage_state: webarena/.auth/gitlab_state.json
+  initial_state:
+    page_type: home
+  webarena_task_id: 133
+  sites:
+  - gitlab
