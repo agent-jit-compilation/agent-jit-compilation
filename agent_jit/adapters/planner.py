@@ -75,6 +75,10 @@ def recorded_candidates(directory):
         for c in json.loads((directory / "candidates.json").read_text())
     ]
     planning = json.loads((directory / "response.json").read_text())["timing"]["planning_s"]
+    if planning is None:
+        # A trial that failed during execution records no planning time. Candidates are
+        # generated in parallel, so planning lasted at least as long as the slowest one.
+        planning = max(c.total_time for c in candidates if c)
     return candidates, planning
 
 
