@@ -95,6 +95,15 @@ def validate_config(config, tasks, root):
         validate_temperature(config.get("candidate_temperature", CANDIDATE_TEMPERATURE))
         if config.get("selection", "best") not in ("best", "worst"):
             raise ValueError("selection must be best or worst")
+        replay = config.get("replay_candidates", {})
+        if not isinstance(replay, dict):
+            raise ValueError("replay_candidates must map task IDs to earlier trial directories")
+        for task_id, directory in replay.items():
+            if task_id not in {task["id"] for task in tasks}:
+                raise ValueError(f"replay_candidates names a task not in tasks: {task_id}")
+            for name in ("candidates.json", "response.json"):
+                if not (Path(directory) / name).is_file():
+                    raise ValueError(f"replay_candidates: {directory} has no {name}")
         for task in tasks:
             registry = Path(
                 config.get("tool_registry")

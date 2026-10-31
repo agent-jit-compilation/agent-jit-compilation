@@ -48,6 +48,39 @@ def test_cfg_exception_is_not_success(monkeypatch):
     assert not valid and "infrastructure failure" in error
 
 
+def test_truncated_candidates_are_never_selected(tmp_path):
+    import json
+    from dataclasses import asdict
+    from blastai.agents.codegen import CodeCandidate, LLMTiming
+    from agent_jit.adapters.planner import recorded_candidates, reject_truncated, select_candidate
+
+    # A plan cut off at the token limit parses and calls fewer tools, so it ranks cheapest.
+    cut = CodeCandidate("stores = []", 2.0, True, llm_timings=[LLMTiming(8.3, total_tokens=1024)])
+    whole = CodeCandidate("result = 1", 9.0, True, llm_timings=[LLMTiming(5.1, total_tokens=600)])
+    assert select_candidate([cut, whole], "best") is cut
+    (tmp_path / "candidates.json").write_text(
+        json.dumps([asdict(cut), {"is_valid": False, "error_type": "TimeoutError"}, asdict(whole)])
+    )
+    (tmp_path / "response.json").write_text(json.dumps({"timing": {"planning_s": 12.5}}))
+    replayed, planning = recorded_candidates(tmp_path)
+    assert planning == 12.5 and replayed[1] is None
+    replayed = [reject_truncated(c, 1024) for c in replayed]
+    assert select_candidate(replayed, "best").code == "result = 1"
+    assert replayed[0].validation_error == "Output reached the 1024-token limit"
+    assert reject_truncated(whole, 2048) is whole and whole.is_valid
+
+
+def test_plans_are_told_the_user_cannot_answer():
+    from blastai.agents.codegen import CodeGenerator
+    from blastai.agents.models import Agent
+
+    from types import SimpleNamespace
+
+    generator = CodeGenerator(Agent.from_smcp_registry(str(REG)), llm=SimpleNamespace(), state_aware=True)
+    rules = generator._generate_rules(STATE)
+    assert "Do not ask for input or confirmation" in rules
+
+
 def test_best_and_worst_selection_never_choose_invalid_candidates():
     from types import SimpleNamespace
     from agent_jit.adapters.planner import select_candidate

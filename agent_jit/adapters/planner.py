@@ -36,6 +36,34 @@ def answer_text(value):
     return json.dumps(value, ensure_ascii=False, allow_nan=False, default=structured)
 
 
+def reject_truncated(candidate, limit):
+    """Invalidate a candidate whose generation used the whole output-token limit.
+
+    A plan cut off mid-program can still parse, and it looks cheapest because it
+    calls the fewest tools, so best-of-n selection would otherwise favor it.
+    """
+    if candidate and candidate.is_valid and any(
+        (timing.total_tokens or 0) >= limit for timing in candidate.llm_timings
+    ):
+        candidate.is_valid = False
+        candidate.validation_error = f"Output reached the {limit}-token limit"
+    return candidate
+
+
+def recorded_candidates(directory):
+    """Candidates and planning time recorded by an earlier trial of this adapter."""
+    from blastai.agents.codegen import CodeCandidate, LLMTiming
+
+    candidates = [
+        CodeCandidate(**{**c, "llm_timings": [LLMTiming(**t) for t in c["llm_timings"]]})
+        if c and "code" in c
+        else None
+        for c in json.loads((directory / "candidates.json").read_text())
+    ]
+    planning = json.loads((directory / "response.json").read_text())["timing"]["planning_s"]
+    return candidates, planning
+
+
 def select_candidate(candidates, selection):
     if selection not in ("best", "worst"):
         raise ValueError("selection must be best or worst")
@@ -103,17 +131,27 @@ async def run(context):
         generator = CodeGenerator(
             agent, llm=generation_llm, state_aware=True, max_iterations=1
         )
-        results, valid, target_met = await collect_candidates(
-            lambda: generator.generate_candidate(
-                task=context.task["task_details"],
-                history=[],
-                initial_state=state,
-                current_url=context.task["initial_url"],
-            ),
-            k,
-            target,
-            limit,
-        )
+
+        async def generate():
+            return reject_truncated(
+                await generator.generate_candidate(
+                    task=context.task["task_details"],
+                    history=[],
+                    initial_state=state,
+                    current_url=context.task["initial_url"],
+                ),
+                tokens,
+            )
+
+        replay = cfg.get("replay_candidates", {}).get(context.task["id"])
+        if replay:
+            # Re-execute an earlier trial's candidates without generating new ones.
+            results, recorded_planning = recorded_candidates(Path(replay))
+            results = [reject_truncated(c, tokens) for c in results]
+            valid = [c for c in results if c and c.is_valid]
+            target_met = True
+        else:
+            results, valid, target_met = await collect_candidates(generate, k, target, limit)
         (context.output_dir / "candidates.json").write_text(
             json.dumps(
                 [
@@ -152,7 +190,7 @@ async def run(context):
         (context.output_dir / "selection.json").write_text(
             json.dumps(selection_metadata, indent=2) + "\n"
         )
-        planning = time.perf_counter() - start
+        planning = recorded_planning if replay else time.perf_counter() - start
         start_execution = time.perf_counter()
         result = await executor.python_executor(best.code)
         execution = time.perf_counter() - start_execution
@@ -170,6 +208,7 @@ async def run(context):
                 "valid_candidates": len(valid),
                 "estimated_cost": best.rank,
                 "selection": selection,
+                **({"replayed_from": Path(replay).name} if replay else {}),
                 **selection_metadata,
             },
             state_provider=state_provider(browser, context.task),
