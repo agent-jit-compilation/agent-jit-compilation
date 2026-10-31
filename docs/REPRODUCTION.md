@@ -29,6 +29,17 @@ Differences from the paper:
 - [#3](https://github.com/agent-jit-compilation/agent-jit-compilation/pull/3) Accept the filler keys that Gemini adds when it calls cached tools without arguments.
 - [#4](https://github.com/agent-jit-compilation/agent-jit-compilation/pull/4) Record a verifier's success with partial credit, instead of stopping the campaign.
 
+## GPT-6.1 Terra, October 2026
+
+We ran JIT-Planner and Browser-Use +cache with GPT-6.1 Terra through Amazon Bedrock on the same 27 tasks, three runs each.
+
+| Method | Latency | Success |
+| --- | ---: | ---: |
+| JIT-Planner | 17.7 s | 95.1% |
+| Browser-Use +cache | 39.4 s | 88.9% |
+
+JIT-Planner is 2.2× faster, with higher success. Both pass only at full score. As in the paper, JIT-Planner latency is the selected plan's generation time plus its execution. Per-run records are in [`data/recorded/live/gpt-6.1-terra.jsonl`](../data/recorded/live/gpt-6.1-terra.jsonl).
+
 ## Rerun
 
 Set `GOOGLE_API_KEY` and `OPENAI_API_KEY` in `.env`, then run each configuration:
@@ -39,5 +50,7 @@ for method in planner browser-use browser-use-cache scheduler; do
     --config configs/reproduce/$method-gemini-2.5-flash.yaml --output runs/reproduce/$method
 done
 ```
+
+For GPT-6.1 Terra, also set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` and `AWS_REGION`, then add `--extra bedrock` and use the `*-gpt-6.1-terra.yaml` configurations.
 
 Each configuration keeps its own ledger and spending limit. Fresh runs call live model APIs and use the hosted REAL sites, so results vary between runs.

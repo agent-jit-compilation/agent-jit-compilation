@@ -1,0 +1,25 @@
+# JIT-Planner, GPT-6.1 Terra on Amazon Bedrock, paper protocol: 32 candidates, cheapest valid one executed.
+# Terra accepts no temperature, so candidates use its default sampling. See docs/REPRODUCTION.md.
+adapter: agent_jit.adapters.planner:run
+method: JIT-Planner
+method_revision: agent-jit-v0.1-registry-cost
+model: us.openai.gpt-6.1-terra
+trials: 3
+candidates: 32
+candidate_target: sampled
+max_output_tokens: 4096
+timeout_s: 180
+worker_budget: 1
+budget_usd: 60
+max_requests: 6000
+ledger: runs/reproduce/planner-gpt-6.1-terra-ledger.json
+tasks: [dashdish-custom-1, dashdish-custom-2, dashdish-custom-3, v1/dashdish-1, dashdish-custom-6, dashdish-custom-7,
+        v1/dashdish-3, dashdish-custom-9, v2/dashdish-10,
+        v1/gomail-1, gomail-custom-2, v1/gomail-3, v2/gomail-14, gomail-custom-5, gomail-custom-6, gomail-custom-7,
+        gomail-custom-8, gomail-custom-9,
+        omnizon-custom-1, omnizon-custom-2, omnizon-custom-3, omnizon-custom-4, v1/omnizon-10, omnizon-custom-6,
+        omnizon-custom-7, v1/omnizon-8, v2/omnizon-9]
+setup_timeout_s: 60
+evaluation_timeout_s: 60
+headless: true
+evaluator: openai
