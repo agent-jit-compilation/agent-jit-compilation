@@ -5,8 +5,11 @@ Simpler and faster than smolagents executor, with full async/await support.
 Does NOT provide sandboxing - only use with trusted code generation.
 """
 
+import builtins
+import json
 import logging
 import traceback
+import types
 from typing import Any, Dict, Callable, Optional
 from dataclasses import dataclass
 
@@ -16,6 +19,26 @@ logger = logging.getLogger(__name__)
 
 # Maximum iterations for loops to prevent infinite loops
 MAX_LOOP_ITERATIONS = 10000
+
+
+def _plan_loads(s, *args, **kwargs):
+    # ai_eval is declared to return text but returns parsed JSON, so plans that follow the
+    # declaration call json.loads on a dict or list; already-parsed values pass through.
+    if s is None or isinstance(s, (dict, list, int, float, bool)):
+        return s
+    return json.loads(s, *args, **kwargs)
+
+
+PLAN_JSON = types.ModuleType("json")
+PLAN_JSON.__dict__.update({k: v for k, v in vars(json).items() if not k.startswith("__")})
+PLAN_JSON.loads = _plan_loads
+
+
+def _plan_import(name, *args, **kwargs):
+    return PLAN_JSON if name == "json" else builtins.__import__(name, *args, **kwargs)
+
+
+PLAN_BUILTINS = {**vars(builtins), "__import__": _plan_import}
 
 
 @dataclass
@@ -113,6 +136,7 @@ class LocalPythonExecutor:
         try:
             # Create execution namespace
             exec_globals = self.state.copy()
+            exec_globals["__builtins__"] = PLAN_BUILTINS
             exec_locals = {}
             
             # Execute the wrapped function definition

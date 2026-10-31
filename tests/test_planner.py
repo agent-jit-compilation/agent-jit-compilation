@@ -95,3 +95,22 @@ def test_structured_execution_answers_are_json_not_python_repr():
     }
     assert json.loads(answer_text(["Work", "Personal"])) == ["Work", "Personal"]
     assert answer_text("Keep this prose unchanged.") == "Keep this prose unchanged."
+    assert json.loads(answer_text({"Mike", "Ana"})) == ["Ana", "Mike"]
+
+
+def test_plan_json_loads_accepts_values_ai_eval_already_parsed():
+    import asyncio
+    import json
+    from blastai.agents.local_python_executor import LocalPythonExecutor
+
+    executor = LocalPythonExecutor()
+    executor.send_variables({"parsed": {"name": "Gevi 10"}, "text": '{"name": "Gevi 12"}'})
+    code = (
+        "import json\n"
+        "from json import loads\n"
+        "result = [json.loads(parsed)['name'], loads(text)['name'], json.dumps([1])]"
+    )
+    output = asyncio.run(executor(code))
+    assert output.error is None and output.output == ["Gevi 10", "Gevi 12", "[1]"]
+    with pytest.raises(TypeError):
+        json.loads({"name": "unchanged outside plans"})
