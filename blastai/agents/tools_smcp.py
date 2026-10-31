@@ -211,8 +211,12 @@ def add_smcp_tool(
             param_model=param_model,
         )(dynamic_tool)
     else:
-        # No parameters needed
-        async def dynamic_tool():
+        # No parameters needed. Like browser-use's own no-argument actions, use NoParamsAction:
+        # it ignores filler keys that providers add to empty schemas (Gemini returns
+        # {"_placeholder": ""}), which a strict empty model rejects.
+        from browser_use.tools.views import NoParamsAction
+
+        async def dynamic_tool(params):
             """Execute SMCP tool."""
             return await tool_func({})
 
@@ -221,7 +225,9 @@ def add_smcp_tool(
 
         # Now apply decorator - it will use tool.name as the action name
         dynamic_tool = agent_executor.tools.action(
-            description=description, allowed_domains=allowed_domains
+            description=description,
+            allowed_domains=allowed_domains,
+            param_model=NoParamsAction,
         )(dynamic_tool)
 
     # Store reference

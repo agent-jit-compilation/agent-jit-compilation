@@ -3,6 +3,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 from experiments.validate_tools import (
     check_circular_pretools,
     check_pretools_exist,
@@ -39,3 +41,21 @@ def test_missing_and_cyclic_dependencies_are_rejected():
         {"name": "b", "pre_tools": {"item": ["a"]}},
     ]
     assert check_circular_pretools(tools)
+
+
+def test_no_argument_tools_accept_provider_placeholder_keys():
+    """Gemini fills empty tool schemas with {"_placeholder": ""}; the action must still parse."""
+    pytest.importorskip("browser_use")
+    from types import SimpleNamespace
+    from browser_use import Tools
+    from blastai.agents.models import Agent
+    from blastai.agents.tools_smcp import add_smcp_tool
+
+    registry = Path(__file__).resolve().parents[1] / "data/registries/dashdish.json"
+    tool = next(t for t in Agent.from_smcp_registry(str(registry)).tools if t.name == "list_menu_items")
+    assert not (tool.input_schema or {}).get("properties")
+    executor = SimpleNamespace(tools=Tools(), _dynamic_tools={}, _registered_tool_names=set())
+    add_smcp_tool(executor, tool)
+    action_model = executor.tools.registry.create_action_model()
+    action = action_model.model_validate({"list_menu_items": {"_placeholder": ""}})
+    assert action.model_dump(exclude_unset=True) == {"list_menu_items": {}}
