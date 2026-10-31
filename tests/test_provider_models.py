@@ -133,3 +133,24 @@ def test_gpt5_browser_request_uses_reasoning_cap(tmp_path, monkeypatch):
     assert "temperature" not in seen[0] and "top_p" not in seen[0]
     assert seen[0]["max_completion_tokens"] == 2048
     assert seen[0]["reasoning_effort"] == "low"
+
+
+def test_temperature_reaches_native_and_openai_clients(tmp_path, monkeypatch):
+    pytest.importorskip("browser_use")
+    from blastai.agents.llm_factory import LLMFactory
+
+    monkeypatch.setenv("GOOGLE_API_KEY", "fixture-not-a-key")
+    monkeypatch.setenv("OPENAI_API_KEY", "fixture-not-a-key")
+    temperatures = []
+
+    def factory(name, **kwargs):
+        temperatures.append(kwargs["temperature"])
+        return SimpleNamespace(get_client=lambda: SimpleNamespace())
+
+    monkeypatch.setattr(LLMFactory, "create_llm", factory)
+    ledger = Ledger(tmp_path / "ledger.json", 10, 8)
+    BudgetedModel("gemini-2.5-flash", ledger, 64)
+    BudgetedModel("gemini-2.5-flash", ledger, 64, 0.5)
+    assert temperatures == [0.0, 0.5]
+    assert BudgetedModel("gpt-4.1", ledger, 64).temperature == 0.0
+    assert BudgetedModel("gpt-4.1", ledger, 64, 0.5).temperature == 0.5

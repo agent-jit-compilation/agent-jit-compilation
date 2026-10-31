@@ -40,6 +40,7 @@ def test_paper_scale_settings_validate_without_fixed_caps(tmp_path, monkeypatch)
         ({"budget_usd": -1}, "budget_usd"),
         ({"candidates": 0}, "candidates"),
         ({"candidate_target": "typo"}, "candidate_target"),
+        ({"candidate_temperature": 3}, "candidate_temperature"),
         ({"model": "unsupported"}, "Unsupported live model"),
     ],
 )

@@ -1,9 +1,15 @@
 import asyncio
+from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
 
-from agent_jit.sampling import collect_candidates, validate_sampling
+from agent_jit.sampling import (
+    CANDIDATE_TEMPERATURE,
+    collect_candidates,
+    validate_sampling,
+    validate_temperature,
+)
 
 
 def test_valid_target_replaces_invalid_attempts_and_retains_failures():
@@ -34,3 +40,46 @@ def test_large_candidate_counts_are_accepted_but_invalid_limits_are_not():
     assert validate_sampling(64, "valid", 100) == 100
     with pytest.raises(ValueError):
         validate_sampling(64, "valid", 32)
+
+
+def test_candidates_are_sampled_at_the_paper_temperature():
+    assert CANDIDATE_TEMPERATURE == 0.5
+    assert validate_temperature(0) == 0.0
+    for bad in (-0.1, 2.5, True, "0.5", None):
+        with pytest.raises(ValueError, match="candidate_temperature"):
+            validate_temperature(bad)
+
+
+def test_generate_samples_candidates_at_the_configured_temperature(tmp_path, monkeypatch):
+    pytest.importorskip("browser_use")
+    import agent_jit.generate as generate_module
+    from blastai.agents import codegen
+
+    temperatures = []
+
+    class Model:
+        def __init__(self, model, ledger, tokens, temperature=0.0):
+            temperatures.append(temperature)
+            self.client = self
+
+        async def close(self):
+            pass
+
+    class Generator:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        async def generate_candidate(self, **kwargs):
+            return None
+
+    monkeypatch.setattr(generate_module, "BudgetedModel", Model)
+    monkeypatch.setattr(codegen, "CodeGenerator", Generator)
+    registry = Path(__file__).resolve().parents[1] / "data/registries/dashdish.json"
+    for name, kwargs in (("default", {}), ("greedy", {"candidate_temperature": 0})):
+        asyncio.run(
+            generate_module.generate(
+                "fixture task", registry, {}, "gpt-4.1", 1, tmp_path / name,
+                tmp_path / f"{name}.json", 1, 64, "sampled", None, 8, **kwargs,
+            )
+        )
+    assert temperatures == [0.5, 0.0]

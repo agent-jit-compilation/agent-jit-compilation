@@ -142,22 +142,22 @@ class BudgetedModel:
     """Small duck-typed model used by the original streaming CodeGenerator."""
 
     provider = "openai"
-    temperature = 0.0
 
-    def __new__(cls, model, ledger, max_completion_tokens=1024):
+    def __new__(cls, model, ledger, max_completion_tokens=1024, temperature=0.0):
         if provider(model) != "openai":
             from .native_model import NativeModel
 
-            return NativeModel(model, ledger, max_completion_tokens)
+            return NativeModel(model, ledger, max_completion_tokens, temperature)
         return super().__new__(cls)
 
-    def __init__(self, model, ledger, max_completion_tokens=1024):
+    def __init__(self, model, ledger, max_completion_tokens=1024, temperature=0.0):
         from openai import AsyncOpenAI
 
         require_credentials(model)
         self.model = model
         self.ledger = ledger
         self.max_completion_tokens = max_completion_tokens
+        self.temperature = temperature
         self.client = AsyncOpenAI(
             max_retries=0, timeout=60.0, base_url="https://api.openai.com/v1"
         )

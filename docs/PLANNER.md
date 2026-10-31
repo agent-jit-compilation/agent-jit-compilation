@@ -66,6 +66,7 @@ Important configuration fields:
 | `tasks` | Paper or implementation IDs from [the task list](TASKS.md) |
 | `candidates` | Target candidate count (positive integer) |
 | `candidate_target` | `valid` (default) collects the requested number of valid plans; `sampled` uses a fixed number of attempts |
+| `candidate_temperature` | Sampling temperature for candidates; defaults to 0.5, as in the paper. Inference inside the executed plan uses 0 |
 | `max_candidate_attempts` | Attempt limit for valid-plan collection; defaults to four times `candidates` |
 | `selection` | `best` by default; `worst` selects the highest-cost valid candidate for the ablation |
 | `trials` | Independent repetitions per task |
@@ -75,7 +76,9 @@ Important configuration fields:
 | `timeout_s` | Online planning/execution deadline |
 | `budget_usd`, `ledger` | Cumulative API spending limit and ledger path |
 
-The paper uses `k = 32` valid candidates, `Mmax = 1` generation iteration per attempt, and three trials per task. By default, both `generate` and `evaluate` collect the requested number of valid plans, in batches of at most 32. They stop at `max_candidate_attempts` (default `4 × candidates`) or the configured request, dollar, or time limits. If the target is not reached, no plan is selected; attempted candidates remain in the output. Use `--candidate-target sampled` (YAML: `candidate_target: sampled`) to select from a fixed number of attempts, as the original experiment code did.
+The paper samples `k = 32` candidates at temperature 0.5 with `Mmax = 1` generation iteration per attempt, executes the lowest-cost valid one, and runs three trials per task. To reproduce it, set `candidates: 32` and `candidate_target: sampled` (CLI: `--candidate-target sampled`). By default, both `generate` and `evaluate` instead collect the requested number of valid plans, in batches of at most 32. They stop at `max_candidate_attempts` (default `4 × candidates`) or the configured request, dollar, or time limits. If the target is not reached, no plan is selected; attempted candidates remain in the output.
+
+Sampling at temperature 0 makes parallel candidates nearly identical, so one systematic error can invalidate all of them. On the 27 REAL tasks with Gemini-2.5-Flash, that left three tasks with no valid plan.
 
 Live generation passes registry tool types to the cost estimator, as `planner rank` does. The original generation code omitted them and so assigned zero cost to registry tool calls. This correction affects only fresh plan selection; the recorded results are unchanged. See [reproduction coverage](PAPER_TO_COMMANDS.md) for other differences from the paper and the original code.
 

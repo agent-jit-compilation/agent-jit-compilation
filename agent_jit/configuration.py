@@ -81,13 +81,18 @@ def validate_config(config, tasks, root):
         if config.get(key) and not Path(config[key]).exists():
             raise ValueError(f"{key} does not exist: {config[key]}")
     if adapter == "agent_jit.adapters.planner:run":
-        from .sampling import validate_sampling
+        from .sampling import (
+            CANDIDATE_TEMPERATURE,
+            validate_sampling,
+            validate_temperature,
+        )
 
         validate_sampling(
             config.get("candidates", 1),
             config.get("candidate_target", "valid"),
             config.get("max_candidate_attempts"),
         )
+        validate_temperature(config.get("candidate_temperature", CANDIDATE_TEMPERATURE))
         if config.get("selection", "best") not in ("best", "worst"):
             raise ValueError("selection must be best or worst")
         for task in tasks:

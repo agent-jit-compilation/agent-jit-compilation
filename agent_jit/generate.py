@@ -5,7 +5,12 @@ import json
 import os
 import time
 from .budget import Ledger, BudgetedModel
-from .sampling import collect_candidates, validate_sampling
+from .sampling import (
+    CANDIDATE_TEMPERATURE,
+    collect_candidates,
+    validate_sampling,
+    validate_temperature,
+)
 
 
 async def generate(
@@ -21,12 +26,14 @@ async def generate(
     candidate_target="valid",
     max_candidate_attempts=None,
     max_requests=128,
+    candidate_temperature=CANDIDATE_TEMPERATURE,
 ):
     os.environ.setdefault("ANONYMIZED_TELEMETRY", "false")
     from blastai.agents.models import Agent
     from blastai.agents.codegen import CodeGenerator
 
     validate_sampling(candidates, candidate_target, max_candidate_attempts)
+    candidate_temperature = validate_temperature(candidate_temperature)
     if not isinstance(state, dict):
         raise ValueError("Initial state must be a JSON object")
     output.mkdir(parents=True, exist_ok=True)
@@ -35,7 +42,7 @@ async def generate(
             "Output already contains generation.json; choose a new run directory"
         )
     ledger = Ledger(ledger_path, budget, max_requests=max_requests)
-    llm = BudgetedModel(model, ledger, max_output_tokens)
+    llm = BudgetedModel(model, ledger, max_output_tokens, candidate_temperature)
     generator = CodeGenerator(
         Agent.from_smcp_registry(str(registry)),
         llm=llm,
@@ -87,6 +94,7 @@ async def generate(
         num_candidates=candidates,
         max_iterations=1,
         candidate_target=candidate_target,
+        candidate_temperature=candidate_temperature,
         target_met=target_met,
         attempts=len(records),
         planning_seconds=duration,
