@@ -7,6 +7,7 @@ from functools import cached_property
 from browser_use.llm.aws.chat_bedrock import ChatAWSBedrock
 from browser_use.llm.aws.serializer import AWSBedrockMessageSerializer
 from browser_use.llm.exceptions import ModelProviderError
+from browser_use.llm.schema import SchemaOptimizer
 from browser_use.llm.views import ChatInvokeCompletion, ChatInvokeUsage
 
 
@@ -18,6 +19,21 @@ class BedrockChat(ChatAWSBedrock):
     parallel candidate generation, and it lets the model answer in text when a
     structured output is required.
     """
+
+    def _format_tools_for_request(self, output_format):
+        # The base class sends only top-level field names and types, so Browser-Use's
+        # action list reaches the model with no action names or parameters.
+        return [
+            {
+                "toolSpec": {
+                    "name": f"extract_{output_format.__name__.lower()}",
+                    "description": f"Extract information in the format of {output_format.__name__}",
+                    "inputSchema": {
+                        "json": SchemaOptimizer.create_optimized_json_schema(output_format)
+                    },
+                }
+            }
+        ]
 
     def _get_usage(self, response):
         # Bedrock reports cached prompt tokens separately; count them as input at the full rate.

@@ -231,8 +231,28 @@ def test_bedrock_chat_forces_tool_call_and_counts_cached_input(monkeypatch):
     result = asyncio.run(chat.ainvoke([UserMessage(content="plan")], output_format=Answer))
     assert result.completion == Answer(code="x = 1")
     assert requests[0]["toolConfig"]["toolChoice"] == {"any": {}}
+    schema = requests[0]["toolConfig"]["tools"][0]["toolSpec"]["inputSchema"]["json"]
+    assert schema["properties"]["code"]["type"] == "string"
     assert "temperature" not in requests[0].get("inferenceConfig", {})
     assert (result.usage.prompt_tokens, result.usage.completion_tokens) == (4040, 20)
+
+
+def test_bedrock_chat_sends_nested_action_schemas():
+    pytest.importorskip("botocore")
+    from pydantic import BaseModel
+    from agent_jit.bedrock import BedrockChat
+
+    class Scroll(BaseModel):
+        down: bool
+        num_pages: float
+
+    class Output(BaseModel):
+        action: list[Scroll]
+
+    chat = BedrockChat(model="us.openai.gpt-6.1-terra", max_tokens=64)
+    schema = chat._format_tools_for_request(Output)[0]["toolSpec"]["inputSchema"]["json"]
+    # The base class reduced this to {"type": "array"}, hiding the action parameters.
+    assert schema["properties"]["action"]["items"]["required"] == ["down", "num_pages"]
 
 
 def test_bedrock_requests_record_actual_usage(tmp_path, monkeypatch):

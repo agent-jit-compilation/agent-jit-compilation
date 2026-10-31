@@ -4,6 +4,7 @@ Uses the paper's sampled-candidate selection, not AgentExecutor.run's later
 hardcoded multi-model production policy. Initial navigation is included online.
 """
 
+import ast
 from dataclasses import asdict
 import json
 from pathlib import Path
@@ -36,17 +37,30 @@ def answer_text(value):
     return json.dumps(value, ensure_ascii=False, allow_nan=False, default=structured)
 
 
-def reject_truncated(candidate, limit):
-    """Invalidate a candidate whose generation used the whole output-token limit.
+def called_names(code):
+    tree = compile(code, "<plan>", "exec", ast.PyCF_ONLY_AST | ast.PyCF_ALLOW_TOP_LEVEL_AWAIT)
+    return {
+        node.func.id
+        for node in ast.walk(tree)
+        if isinstance(node, ast.Call) and isinstance(node.func, ast.Name)
+    }
 
-    A plan cut off mid-program can still parse, and it looks cheapest because it
-    calls the fewest tools, so best-of-n selection would otherwise favor it.
+
+def reject_incomplete(candidate, limit, tools):
+    """Invalidate a parseable candidate that cannot complete the task.
+
+    Best-of-n selection runs the cheapest valid plan. A plan cut off at the output-token
+    limit, or one that never calls an application tool, does the least and so ranks
+    cheapest; selection would otherwise favor it.
     """
-    if candidate and candidate.is_valid and any(
-        (timing.total_tokens or 0) >= limit for timing in candidate.llm_timings
-    ):
+    if not candidate or not candidate.is_valid:
+        return candidate
+    if any((timing.total_tokens or 0) >= limit for timing in candidate.llm_timings):
         candidate.is_valid = False
         candidate.validation_error = f"Output reached the {limit}-token limit"
+    elif not tools & called_names(candidate.code):
+        candidate.is_valid = False
+        candidate.validation_error = "Plan calls no application tool"
     return candidate
 
 
@@ -93,6 +107,7 @@ async def run(context):
         cfg.get("candidate_temperature", CANDIDATE_TEMPERATURE)
     )
     agent = load_agent(context)
+    tools = {tool.name for tool in agent.tools}
     ledger = Ledger(
         Path(cfg["ledger"]), cfg["budget_usd"], cfg.get("max_requests", 128)
     )
@@ -133,7 +148,7 @@ async def run(context):
         )
 
         async def generate():
-            return reject_truncated(
+            return reject_incomplete(
                 await generator.generate_candidate(
                     task=context.task["task_details"],
                     history=[],
@@ -141,13 +156,14 @@ async def run(context):
                     current_url=context.task["initial_url"],
                 ),
                 tokens,
+                tools,
             )
 
         replay = cfg.get("replay_candidates", {}).get(context.task["id"])
         if replay:
             # Re-execute an earlier trial's candidates without generating new ones.
             results, recorded_planning = recorded_candidates(Path(replay))
-            results = [reject_truncated(c, tokens) for c in results]
+            results = [reject_incomplete(c, tokens, tools) for c in results]
             valid = [c for c in results if c and c.is_valid]
             target_met = True
         else:
