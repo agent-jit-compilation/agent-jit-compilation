@@ -202,6 +202,8 @@ async def run(context):
             ],
             "estimated_cost": best.rank,
             "tie_break": "first candidate in generation order",
+            # The paper's planning time: the selected plan's own generation, not the wait for all candidates.
+            "selected_generation_s": best.total_time,
         }
         (context.output_dir / "selection.json").write_text(
             json.dumps(selection_metadata, indent=2) + "\n"
