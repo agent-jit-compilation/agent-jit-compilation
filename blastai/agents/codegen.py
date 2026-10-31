@@ -724,6 +724,14 @@ class CodeGenerator:
             Formatted RULES string
         """
         rules = [RULES_BASE]
+        if not any(
+            getattr(t, "name", None) in ("ask_human", "ask_human_cli")
+            for t in self.agent.tools
+        ):
+            # Plans run unattended; one that stops to ask the user cannot finish the task.
+            rules.append(
+                "# - The user cannot answer questions. Do not ask for input or confirmation; when the task needs content you were not given, such as review text or a rating, write reasonable content yourself."
+            )
 
         # Check if we have state-aware tools and a current state
         if self.state_aware and initial_state:

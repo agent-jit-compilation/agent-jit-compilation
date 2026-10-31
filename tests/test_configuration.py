@@ -42,6 +42,9 @@ def test_paper_scale_settings_validate_without_fixed_caps(tmp_path, monkeypatch)
         ({"candidate_target": "typo"}, "candidate_target"),
         ({"candidate_temperature": 3}, "candidate_temperature"),
         ({"model": "unsupported"}, "Unsupported live model"),
+        ({"replay_candidates": ["runs/x"]}, "replay_candidates must map"),
+        ({"replay_candidates": {"v1/gomail-1": "runs/x"}}, "task not in tasks"),
+        ({"replay_candidates": {"v1/dashdish-1": "runs/missing"}}, "has no candidates.json"),
     ],
 )
 def test_bad_configuration_fails_before_any_trial(tmp_path, monkeypatch, change, match):
