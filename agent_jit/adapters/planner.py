@@ -27,6 +27,8 @@ def answer_text(value):
     def structured(item):
         if isinstance(item, BaseModel):
             return item.model_dump(mode="json")
+        if isinstance(item, (set, frozenset)):
+            return sorted(item, key=str)
         raise TypeError(f"Cannot serialize planner result: {type(item).__name__}")
 
     if isinstance(value, str):
