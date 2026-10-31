@@ -22,6 +22,7 @@ Agent JIT Compilation provides two workflows: compiling tool use into checked pr
 
 - [Paper results and commands](PAPER_TO_COMMANDS.md)
 - [Recorded measurements and aggregation](RECORDED_RESULTS.md)
+- [Fresh reproduction, October 2026](REPRODUCTION.md)
 
 ## Development
 

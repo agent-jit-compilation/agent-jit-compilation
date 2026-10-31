@@ -21,6 +21,8 @@ Figures are written as PNG, PDF, and JSON. The JSON contains measurements, sampl
 
 ## Execute the components yourself
 
+A fresh Gemini-2.5-Flash run of all four end-to-end methods, with its configurations and results, is in [REPRODUCTION.md](REPRODUCTION.md).
+
 Use `configs/planner-real-smoke.yaml`, `configs/planner-webarena-smoke.yaml`, or `configs/scheduler-real-smoke.yaml` after [environment setup](../README.md#environment-setup). Examples run one task and one trial. The paper uses three trials, 32 planner candidates, four scheduler workers, and 1,000 Monte Carlo samples.
 
 The planner defaults to collecting a target number of valid candidates. For the paper's protocol, set `candidates: 32` and `candidate_target: sampled`: the planner samples 32 candidates at temperature 0.5 and executes the lowest-cost valid one, as the original experiment code did. Fresh generation and static ranking both pass registry tool types to the cost model; the original generation code omitted them. Recorded measurements are unchanged.

@@ -1,0 +1,25 @@
+# Browser-Use +cache, Gemini-2.5-Flash.
+# All 27 REAL tasks, three runs each. See docs/REPRODUCTION.md.
+adapter: agent_jit.adapters.browser_use:run
+method: Browser-Use +cache
+method_revision: agent-jit-v0.1-browser-use
+model: gemini-2.5-flash
+use_cached_tools: true
+trials: 3
+worker_budget: 1
+timeout_s: 900
+max_output_tokens: 2048
+allow_vision: false
+budget_usd: 40
+max_requests: 8000
+ledger: runs/reproduce/browser-use-cache-ledger.json
+tasks: [dashdish-custom-1, dashdish-custom-2, dashdish-custom-3, v1/dashdish-1, dashdish-custom-6, dashdish-custom-7,
+        v1/dashdish-3, dashdish-custom-9, v2/dashdish-10,
+        v1/gomail-1, gomail-custom-2, v1/gomail-3, v2/gomail-14, gomail-custom-5, gomail-custom-6, gomail-custom-7,
+        gomail-custom-8, gomail-custom-9,
+        omnizon-custom-1, omnizon-custom-2, omnizon-custom-3, omnizon-custom-4, v1/omnizon-10, omnizon-custom-6,
+        omnizon-custom-7, v1/omnizon-8, v2/omnizon-9]
+setup_timeout_s: 60
+evaluation_timeout_s: 60
+headless: true
+evaluator: openai
