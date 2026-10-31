@@ -49,6 +49,7 @@ def test_cfg_exception_is_not_success(monkeypatch):
 
 
 def test_truncated_and_no_tool_candidates_are_never_selected(tmp_path):
+    pytest.importorskip("browser_use")
     import json
     from dataclasses import asdict
     from blastai.agents.codegen import CodeCandidate, LLMTiming
@@ -76,6 +77,7 @@ def test_truncated_and_no_tool_candidates_are_never_selected(tmp_path):
 
 
 def test_plans_are_told_the_user_cannot_answer():
+    pytest.importorskip("browser_use")
     from blastai.agents.codegen import CodeGenerator
     from blastai.agents.models import Agent
 
