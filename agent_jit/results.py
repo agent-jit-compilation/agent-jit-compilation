@@ -58,8 +58,9 @@ class TrialResult(BaseModel):
     def consistent(self):
         if self.success != (self.status == "success"):
             raise ValueError("Success and status disagree")
-        if self.success and self.score != 1:
-            raise ValueError("Success requires full credit")
+        # Task verifiers define success and credit separately; gomail-custom-4 passes with 0.5.
+        if self.success and not self.score:
+            raise ValueError("Success requires a positive score")
         if (
             self.status in ("timeout", "setup_error", "agent_error", "evaluation_error")
             and self.score != 0
