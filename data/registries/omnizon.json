@@ -666,13 +666,13 @@
     {
       "name": "search_products",
       "title": "Search Products",
-      "description": "Searches for products by entering the given query into the visible search bar and clicking the search button.",
+      "description": "Searches for products by entering the given query into the visible search bar and clicking the search button. Results include only products that match every word of the query, so use one or two distinctive keywords, such as a brand or product type, rather than a full description.",
       "input_schema": {
         "type": "object",
         "properties": {
           "query": {
             "type": "string",
-            "description": "The non-empty search term to use for finding products."
+            "description": "The non-empty search term: one or two keywords, such as 'gaming' or 'Gevi'."
           }
         },
         "required": [
@@ -713,7 +713,7 @@
     {
       "name": "list_results",
       "title": "List Results",
-      "description": "Lists product items on the search results page, extracting their name, price, and brand. Returns empty list if no products found.",
+      "description": "Lists product items on the first page of search results (up to 20), extracting their name, price, and brand. Returns empty list if no products found.",
       "input_schema": {
         "type": "object",
         "properties": {},
