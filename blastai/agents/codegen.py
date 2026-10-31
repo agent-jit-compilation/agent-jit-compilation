@@ -730,8 +730,14 @@ class CodeGenerator:
         ):
             # Plans run unattended; one that stops to ask the user cannot finish the task.
             rules.append(
-                "# - The user cannot answer questions. Do not ask for input or confirmation; when the task needs content you were not given, such as review text or a rating, write reasonable content yourself."
+                "# - The user cannot answer questions. Do not ask for input or confirmation; when the task needs content you were not given, such as review text or a rating, write reasonable content yourself. When the task leaves a choice open, such as 'any four people', make a reasonable choice instead of stopping."
             )
+        rules.append(
+            "# - The application's data may be from a different year than today. Unless the task names a year, match dates only by what the task states, such as the month."
+        )
+        rules.append(
+            "# - When the task names an option the application does not list, such as a 'regular' size, use the item's default option and its listed price."
+        )
 
         # Check if we have state-aware tools and a current state
         if self.state_aware and initial_state:
