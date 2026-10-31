@@ -71,6 +71,8 @@ def test_truncated_and_no_tool_candidates_are_never_selected(tmp_path):
     assert replayed[0].validation_error == "Output reached the 1024-token limit"
     assert replayed[2].validation_error == "Plan calls no application tool"
     assert reject_incomplete(whole, 2048, tools) is whole and whole.is_valid
+    (tmp_path / "response.json").write_text(json.dumps({"timing": {"planning_s": None}}))
+    assert recorded_candidates(tmp_path)[1] == max(cut.total_time, text.total_time, whole.total_time)
 
 
 def test_plans_are_told_the_user_cannot_answer():
