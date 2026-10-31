@@ -12,7 +12,12 @@ from pydantic import BaseModel
 from . import AgentOutput
 from .registry import load_agent
 from ..budget import Ledger, BudgetedModel
-from ..sampling import collect_candidates, validate_sampling
+from ..sampling import (
+    CANDIDATE_TEMPERATURE,
+    collect_candidates,
+    validate_sampling,
+    validate_temperature,
+)
 from ..browser_state import state_provider
 
 
@@ -54,12 +59,17 @@ async def run(context):
     target = cfg.get("candidate_target", "valid")
     limit = cfg.get("max_candidate_attempts")
     validate_sampling(k, target, limit)
-    agent = load_agent(context)
-    llm = BudgetedModel(
-        cfg["model"],
-        Ledger(Path(cfg["ledger"]), cfg["budget_usd"], cfg.get("max_requests", 128)),
-        cfg.get("max_output_tokens", 1024),
+    temperature = validate_temperature(
+        cfg.get("candidate_temperature", CANDIDATE_TEMPERATURE)
     )
+    agent = load_agent(context)
+    ledger = Ledger(
+        Path(cfg["ledger"]), cfg["budget_usd"], cfg.get("max_requests", 128)
+    )
+    tokens = cfg.get("max_output_tokens", 1024)
+    # Candidates are sampled as in the paper; inference inside the executed plan stays at 0.
+    llm = BudgetedModel(cfg["model"], ledger, tokens)
+    generation_llm = BudgetedModel(cfg["model"], ledger, tokens, temperature)
     browser = Browser(cdp_url=context.cdp_url, keep_alive=True)
     executor = AgentExecutor(
         agent=agent,
@@ -75,7 +85,10 @@ async def run(context):
         try:
             await executor.cleanup()
         finally:
-            await llm.client.close()
+            try:
+                await llm.client.close()
+            finally:
+                await generation_llm.client.close()
 
     start = time.perf_counter()
     try:
@@ -85,7 +98,9 @@ async def run(context):
         state = executor.python_executor.state.get("STATE", {})
         if not state:
             raise RuntimeError("Initial abstract state was not observed")
-        generator = CodeGenerator(agent, llm=llm, state_aware=True, max_iterations=1)
+        generator = CodeGenerator(
+            agent, llm=generation_llm, state_aware=True, max_iterations=1
+        )
         results, valid, target_met = await collect_candidates(
             lambda: generator.generate_candidate(
                 task=context.task["task_details"],
@@ -148,6 +163,7 @@ async def run(context):
             {
                 "candidate_count": len(results),
                 "candidate_target": target,
+                "candidate_temperature": temperature,
                 "requested_candidates": k,
                 "valid_candidates": len(valid),
                 "estimated_cost": best.rank,

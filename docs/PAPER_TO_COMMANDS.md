@@ -23,7 +23,7 @@ Figures are written as PNG, PDF, and JSON. The JSON contains measurements, sampl
 
 Use `configs/planner-real-smoke.yaml`, `configs/planner-webarena-smoke.yaml`, or `configs/scheduler-real-smoke.yaml` after [environment setup](../README.md#environment-setup). Examples run one task and one trial. The paper uses three trials, 32 planner candidates, four scheduler workers, and 1,000 Monte Carlo samples.
 
-The planner defaults to collecting a target number of valid candidates. `candidate_target: sampled` selects from a fixed number of attempts, as the original experiment code did. Fresh generation and static ranking both pass registry tool types to the cost model; the original generation code omitted them. Recorded measurements are unchanged.
+The planner defaults to collecting a target number of valid candidates. For the paper's protocol, set `candidates: 32` and `candidate_target: sampled`: the planner samples 32 candidates at temperature 0.5 and executes the lowest-cost valid one, as the original experiment code did. Fresh generation and static ranking both pass registry tool types to the cost model; the original generation code omitted them. Recorded measurements are unchanged.
 
 Use `evaluator: historical` for the original REAL answer parser; optionally set `webarena.llm_judge: true` for the original WebArena string-match fallback. [Live configuration](LIVE_EVALUATION.md) explains provider keys, models, evaluators, and output files. Fresh runs call live model APIs, so their results will vary from the recorded samples.
 

@@ -5,6 +5,7 @@ import json
 import sys
 from pathlib import Path
 from .budget import RATES
+from .sampling import CANDIDATE_TEMPERATURE
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -96,6 +97,12 @@ def main(argv=None):
         choices=["valid", "sampled"],
         default="valid",
         help="Collect valid plans or a fixed number of attempts",
+    )
+    gen.add_argument(
+        "--candidate-temperature",
+        type=float,
+        default=CANDIDATE_TEMPERATURE,
+        help="Sampling temperature for candidates; the paper used 0.5",
     )
     gen.add_argument(
         "--max-candidate-attempts",
@@ -422,6 +429,7 @@ def main(argv=None):
                     args.candidate_target,
                     args.max_candidate_attempts,
                     args.max_requests,
+                    args.candidate_temperature,
                 )
             )
         elif args.command == "scheduler":
