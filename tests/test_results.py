@@ -71,6 +71,16 @@ def test_no_successful_timeout_or_mock_benchmark_mislabel():
         TrialResult.model_validate(d)
 
 
+def test_verifier_success_with_partial_credit_is_recorded():
+    # gomail-custom-4's verifier passes 1-49 trashed emails with 0.5 credit.
+    d = record()
+    d["score"] = 0.5
+    assert TrialResult.model_validate(d).success
+    d["score"] = 0.0
+    with pytest.raises(ValidationError, match="positive score"):
+        TrialResult.model_validate(d)
+
+
 def test_duplicate_results_rejected(tmp_path):
     p = tmp_path / "r.jsonl"
     p.write_text((json.dumps(record()) + "\n") * 2)
