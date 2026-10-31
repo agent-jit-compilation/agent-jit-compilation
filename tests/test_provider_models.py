@@ -206,3 +206,58 @@ def test_screenshot_reservation_uses_image_tokens_not_base64_bytes(tmp_path, mon
     asyncio.run(llm.ainvoke([message]))
     bound = json.loads(path.read_text())["requests"][0]["input_token_bound"]
     assert 2 * 258 * 4 < bound < 10_000 < len(image)
+
+
+def test_bedrock_chat_forces_tool_call_and_counts_cached_input(monkeypatch):
+    pytest.importorskip("botocore")
+    from pydantic import BaseModel
+    from browser_use.llm.messages import UserMessage
+    from agent_jit.bedrock import BedrockChat
+
+    class Answer(BaseModel):
+        code: str
+
+    requests = []
+
+    def converse(**request):
+        requests.append(request)
+        return {
+            "output": {"message": {"content": [{"toolUse": {"input": {"code": "x = 1"}}}]}},
+            "usage": {"inputTokens": 40, "cacheReadInputTokens": 4000, "outputTokens": 20, "totalTokens": 60},
+        }
+
+    chat = BedrockChat(model="us.openai.gpt-6.1-terra", max_tokens=64)
+    chat.__dict__["client"] = SimpleNamespace(converse=converse)
+    result = asyncio.run(chat.ainvoke([UserMessage(content="plan")], output_format=Answer))
+    assert result.completion == Answer(code="x = 1")
+    assert requests[0]["toolConfig"]["toolChoice"] == {"any": {}}
+    assert "temperature" not in requests[0].get("inferenceConfig", {})
+    assert (result.usage.prompt_tokens, result.usage.completion_tokens) == (4040, 20)
+
+
+def test_bedrock_requests_record_actual_usage(tmp_path, monkeypatch):
+    pytest.importorskip("botocore")
+    from browser_use.llm.messages import UserMessage
+    from browser_use.llm.views import ChatInvokeCompletion, ChatInvokeUsage
+    from agent_jit import bedrock
+    from agent_jit.native_model import NativeModel
+
+    monkeypatch.setenv("AWS_ACCESS_KEY_ID", "fixture-not-a-key")
+    monkeypatch.delenv("AWS_SECRET_ACCESS_KEY", raising=False)
+    with pytest.raises(ValueError, match="AWS_SECRET_ACCESS_KEY"):
+        require_credentials("us.openai.gpt-6.1-terra")
+    monkeypatch.setenv("AWS_SECRET_ACCESS_KEY", "fixture-not-a-key")
+
+    async def invoke(self, messages, output_format=None):
+        usage = ChatInvokeUsage(prompt_tokens=1000, prompt_cached_tokens=None, prompt_cache_creation_tokens=None,
+                                prompt_image_tokens=None, completion_tokens=100, total_tokens=1100)
+        return ChatInvokeCompletion(completion="ok", usage=usage)
+
+    monkeypatch.setattr(bedrock.BedrockChat, "ainvoke", invoke)
+    path = tmp_path / "ledger.json"
+    llm = BudgetedModel("us.openai.gpt-6.1-terra", Ledger(path, 10, 4), 64, 0.5)
+    assert isinstance(llm, NativeModel)
+    asyncio.run(llm.ainvoke([UserMessage(content="hello")]))
+    request = json.loads(path.read_text())["requests"][0]
+    assert request["usage"] == {"prompt_tokens": 1000, "completion_tokens": 100}
+    assert request["estimated_cost_usd"] == pytest.approx((1000 * 2.0 + 100 * 10.0) / 1e6)

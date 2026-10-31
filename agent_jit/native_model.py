@@ -65,6 +65,15 @@ class NativeModel:
         self.provider = provider(model)
         self.ledger = ledger
         self.max_output_tokens = max_output_tokens
+        self.client = self  # Existing planner cleanup calls llm.client.close().
+        self.chat = self
+        if self.provider == "bedrock":
+            from .bedrock import BedrockChat
+
+            # Bedrock's OpenAI reasoning models reject a temperature, so none is sent.
+            self._chat = BedrockChat(model=model, max_tokens=max_output_tokens)
+            self._client = None
+            return
         options = {}
         if self.provider == "google":
             options.update(
@@ -95,8 +104,6 @@ class NativeModel:
             self._chat.get_client = lambda: proxy
         else:
             self._chat.get_client = lambda: self._client
-        self.client = self  # Existing planner cleanup calls llm.client.close().
-        self.chat = self
 
     async def ainvoke(self, messages, output_format=None):
         # Inline images are bounded by their pixel size, not their base64 text; remote media is rejected.
@@ -142,10 +149,22 @@ class NativeModel:
         except BaseException:
             self.ledger.finish(rid, status="request_failed_charge_unknown")
             raise
-        self.ledger.finish(rid, status="complete_conservative_reservation")
+        usage = getattr(response, "usage", None)
+        if self.provider == "bedrock" and usage is not None:
+            # Bedrock reports billed input and output tokens, so record actual usage.
+            self.ledger.finish(
+                rid,
+                {"prompt_tokens": usage.prompt_tokens, "completion_tokens": usage.completion_tokens},
+            )
+        else:
+            self.ledger.finish(rid, status="complete_conservative_reservation")
         return response
 
     async def close(self):
+        if self.provider == "bedrock":
+            if "client" in self._chat.__dict__:
+                self._chat.client.close()
+            return
         if self.provider == "google":
             await self._client.aio.aclose()
         result = self._client.close()
