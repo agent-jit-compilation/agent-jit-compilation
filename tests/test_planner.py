@@ -48,26 +48,29 @@ def test_cfg_exception_is_not_success(monkeypatch):
     assert not valid and "infrastructure failure" in error
 
 
-def test_truncated_candidates_are_never_selected(tmp_path):
+def test_truncated_and_no_tool_candidates_are_never_selected(tmp_path):
     import json
     from dataclasses import asdict
     from blastai.agents.codegen import CodeCandidate, LLMTiming
-    from agent_jit.adapters.planner import recorded_candidates, reject_truncated, select_candidate
+    from agent_jit.adapters.planner import recorded_candidates, reject_incomplete, select_candidate
 
-    # A plan cut off at the token limit parses and calls fewer tools, so it ranks cheapest.
-    cut = CodeCandidate("stores = []", 2.0, True, llm_timings=[LLMTiming(8.3, total_tokens=1024)])
-    whole = CodeCandidate("result = 1", 9.0, True, llm_timings=[LLMTiming(5.1, total_tokens=600)])
-    assert select_candidate([cut, whole], "best") is cut
-    (tmp_path / "candidates.json").write_text(
-        json.dumps([asdict(cut), {"is_valid": False, "error_type": "TimeoutError"}, asdict(whole)])
-    )
+    # Plans that stop early or never touch the app do the least, so they rank cheapest.
+    cut = CodeCandidate("stores = await list_stores()", 2.0, True, llm_timings=[LLMTiming(8.3, total_tokens=1024)])
+    text = CodeCandidate("result = 'To: a@example.com'", 0.0, True, llm_timings=[LLMTiming(2.0, total_tokens=40)])
+    whole = CodeCandidate("await send_email(to='a@example.com')\nresult = 'sent'", 9.0, True,
+                          llm_timings=[LLMTiming(5.1, total_tokens=600)])
+    assert select_candidate([cut, text, whole], "best") is text
+    (tmp_path / "candidates.json").write_text(json.dumps(
+        [asdict(cut), {"is_valid": False, "error_type": "TimeoutError"}, asdict(text), asdict(whole)]))
     (tmp_path / "response.json").write_text(json.dumps({"timing": {"planning_s": 12.5}}))
     replayed, planning = recorded_candidates(tmp_path)
     assert planning == 12.5 and replayed[1] is None
-    replayed = [reject_truncated(c, 1024) for c in replayed]
-    assert select_candidate(replayed, "best").code == "result = 1"
+    tools = {"list_stores", "send_email"}
+    replayed = [reject_incomplete(c, 1024, tools) for c in replayed]
+    assert select_candidate(replayed, "best").code == whole.code
     assert replayed[0].validation_error == "Output reached the 1024-token limit"
-    assert reject_truncated(whole, 2048) is whole and whole.is_valid
+    assert replayed[2].validation_error == "Plan calls no application tool"
+    assert reject_incomplete(whole, 2048, tools) is whole and whole.is_valid
 
 
 def test_plans_are_told_the_user_cannot_answer():
