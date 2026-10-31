@@ -448,7 +448,7 @@
       "lang": "js",
       "is_ready": "return document.querySelectorAll('h6.MuiTypography-subtitle1').length > 0 ? true : [false, 'No store cards found on page'];",
       "is_completed": "return Array.isArray(output.items) ? true : [false, 'Output items is not an array'];",
-      "execute": "const detailed = inputs.detailed === true; const stores = Array.from(document.querySelectorAll('h6.MuiTypography-subtitle1')).map(nameEl => { const name = nameEl.textContent.trim(); if (!detailed) return { name }; const card = nameEl.closest('.MuiStack-root')?.parentElement || nameEl.parentElement?.parentElement; const hasDashpass = !!card?.querySelector('.MuiSvgIcon-colorSuccess'); const ratingEl = card?.querySelector('h6.MuiTypography-subtitle2'); const rating = ratingEl ? parseFloat(ratingEl.textContent) : null; const textEls = Array.from(card?.querySelectorAll('p.MuiTypography-body2') || []); const texts = textEls.map(el => el.textContent.trim()).filter(t => t && t !== '•'); const distance = texts.find(t => t.includes('mi')) || null; const deliveryTime = texts.find(t => t.includes('min')) || null; const deliveryFee = texts.find(t => t.includes('delivery fee')) || null; const promoEl = card?.querySelector('.MuiTypography-caption'); const promo = promoEl ? promoEl.textContent.trim() : null; const hasDelivery = !!deliveryTime; return { name, rating, distance, delivery_time: deliveryTime, delivery_fee: deliveryFee, has_dashpass: hasDashpass, has_delivery: hasDelivery, promo }; }).filter(item => item.name); return { items: stores };",
+      "execute": "const detailed = inputs.detailed === true; const stores = Array.from(document.querySelectorAll('h6.MuiTypography-subtitle1')).map(nameEl => { const name = nameEl.textContent.trim(); if (!detailed) return { name }; const card = nameEl.closest('.MuiStack-root')?.parentElement || nameEl.parentElement?.parentElement; const hasDashpass = !!card?.querySelector('.MuiSvgIcon-colorSuccess'); const ratingEl = card?.querySelector('h6.MuiTypography-subtitle2'); const rating = ratingEl ? parseFloat(ratingEl.textContent) : null; const textEls = Array.from(card?.querySelectorAll('p.MuiTypography-body2') || []); const texts = textEls.map(el => el.textContent.trim()).filter(t => t && t !== '\u2022'); const distance = texts.find(t => t.includes('mi')) || null; const deliveryTime = texts.find(t => t.includes('min')) || null; const deliveryFee = texts.find(t => t.includes('delivery fee')) || null; const promoEl = card?.querySelector('.MuiTypography-caption'); const promo = promoEl ? promoEl.textContent.trim() : null; const hasDelivery = !!deliveryTime; return { name, rating, distance, delivery_time: deliveryTime, delivery_fee: deliveryFee, has_dashpass: hasDashpass, has_delivery: hasDelivery, promo }; }).filter(item => item.name); return { items: stores };",
       "pre_path": "*vercel.app*",
       "pre": {
         "page_type": "home"
@@ -736,6 +736,13 @@
           },
           "error": {
             "type": "string"
+          },
+          "total": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "Order total in dollars shown at checkout, including fees, tax and the default tip."
           }
         },
         "required": [
@@ -746,7 +753,7 @@
       "lang": "js",
       "is_ready": "return (!window.location.pathname.includes('/checkout') && document.querySelector('header button.MuiButton-containedPrimary')) ? true : [false, 'Not on store page or cart button missing'];",
       "is_completed": "return output.success === true ? true : [false, output.error];",
-      "execute": "const cartBtn = document.querySelector('header button.MuiButton-containedPrimary');\nif (cartBtn) cartBtn.click();\nawait new Promise(r => setTimeout(r, 1000));\nconst checkoutBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.includes('Checkout'));\nif (checkoutBtn) {\n  checkoutBtn.click();\n  await new Promise(r => setTimeout(r, 2000));\n  return { success: true, status: 'Navigated to Checkout' };\n}\nreturn { success: false, error: 'Checkout button not found' };",
+      "execute": "const cartBtn = document.querySelector('header button.MuiButton-containedPrimary');\nif (cartBtn) cartBtn.click();\nawait new Promise(r => setTimeout(r, 1000));\nconst checkoutBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.includes('Checkout'));\nif (checkoutBtn) {\n  checkoutBtn.click();\n  await new Promise(r => setTimeout(r, 2000));\n  // The order total, with fees, tax and the default tip, is shown on the Place Order button.\n  const placeOrder = Array.from(document.querySelectorAll('div, span, p')).find(e => e.children.length === 0 && e.textContent.trim() === 'Place Order');\n  const totalMatch = placeOrder?.parentElement?.textContent.match(/\\$([\\d,]+\\.\\d{2})/);\n  return { success: true, status: 'Navigated to Checkout', total: totalMatch ? parseFloat(totalMatch[1].replace(/,/g, '')) : null };\n}\nreturn { success: false, error: 'Checkout button not found' };",
       "pre_path": "*vercel.app*",
       "pre": {
         "page_type": "store"
