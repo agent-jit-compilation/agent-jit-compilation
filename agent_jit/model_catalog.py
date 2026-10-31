@@ -6,6 +6,7 @@ OPENAI_SOURCE = "https://developers.openai.com/api/docs/models/"
 GOOGLE_SOURCE = "https://ai.google.dev/gemini-api/docs/pricing"
 ANTHROPIC_SOURCE = "https://platform.claude.com/docs/en/about-claude/pricing"
 GROQ_SOURCE = "https://console.groq.com/docs/model/openai/gpt-oss-120b"
+BEDROCK_SOURCE = "https://aws.amazon.com/bedrock/pricing/"
 
 # USD / million tokens. Pro uses the higher long-context tier for reservations.
 MODELS = {
@@ -18,6 +19,8 @@ MODELS = {
     "gemini-2.0-flash-lite": ("google", 0.075, 0.3, GOOGLE_SOURCE),
     "claude-sonnet-4-20250514": ("anthropic", 3.0, 15.0, ANTHROPIC_SOURCE),
     "openai/gpt-oss-120b": ("groq", 0.15, 0.6, GROQ_SOURCE),
+    # Bedrock does not list a price for this model; reservations use twice OpenAI's $1/$5 list price.
+    "us.openai.gpt-6.1-terra": ("bedrock", 2.0, 10.0, BEDROCK_SOURCE),
 }
 MODEL_ALIASES = {
     "gpt-4.1-2025-04-14": "gpt-4.1",
@@ -43,9 +46,12 @@ def require_credentials(model):
         "google": ("GOOGLE_API_KEY", "GEMINI_API_KEY"),
         "anthropic": ("ANTHROPIC_API_KEY",),
         "groq": ("GROQ_API_KEY",),
+        "bedrock": ("AWS_ACCESS_KEY_ID",),
     }[provider(model)]
     if not any(os.environ.get(name) for name in names):
         raise ValueError(f"{' or '.join(names)} is missing for {model}; load your .env")
+    if provider(model) == "bedrock" and not os.environ.get("AWS_SECRET_ACCESS_KEY"):
+        raise ValueError(f"AWS_SECRET_ACCESS_KEY is missing for {model}; load your .env")
 
 
 def cross_model_profile(config):
