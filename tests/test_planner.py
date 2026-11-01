@@ -166,3 +166,15 @@ def test_replayed_early_selection_uses_recorded_arrival_order():
     first, wait = first_to_arrive([slow_cheap, fast, medium], 2)
     assert first == [fast, medium] and wait == 4.0
     assert select_candidate(first, "best") is medium
+
+
+def test_unfenced_code_keeps_its_first_lines():
+    pytest.importorskip("browser_use")
+    from types import SimpleNamespace
+    from blastai.agents.codegen import CodeGenerator
+    from blastai.agents.models import Agent
+
+    generator = CodeGenerator(Agent.from_smcp_registry(str(REG)), llm=SimpleNamespace())
+    bare = 'outcomes = []\nfor name in ["Work"]:\n    outcomes.append(await create_label(label_name=name))\nresult = outcomes'
+    assert generator._extract_code_from_response(bare) == bare
+    assert generator._extract_code_from_response("```python\nresult = 1\n```") == "result = 1"

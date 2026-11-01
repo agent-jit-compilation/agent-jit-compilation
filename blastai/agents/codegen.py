@@ -4,6 +4,7 @@ Code generation module for agent code execution mode.
 Handles code generation with validation and definition code inclusion.
 """
 
+import ast
 import asyncio
 import json
 import logging
@@ -673,6 +674,15 @@ class CodeGenerator:
                 # Guard against model echoing examples without user code marker
                 if extracted:
                     return extracted
+        # Unfenced but complete code: keep every line. The heuristics below would drop
+        # leading lines that do not look like code starters, such as `outcomes = []`.
+        code = response.strip()
+        try:
+            compile(code, "<response>", "exec", ast.PyCF_ONLY_AST | ast.PyCF_ALLOW_TOP_LEVEL_AWAIT)
+            if code:
+                return code
+        except SyntaxError:
+            pass
         # Fallback heuristics: attempt to salvage code when no fences present
         # 1. If response contains lines with 'await ' or assignment to result
         lines = [line.rstrip() for line in response.splitlines()]
