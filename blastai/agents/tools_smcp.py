@@ -11,6 +11,10 @@ from .models import SMCPTool
 
 logger = logging.getLogger(__name__)
 
+# Tool readiness and completion are checked this often, within the same total timeouts,
+# so a page that is ready in 60 ms is not held for a whole 500-1000 ms polling step.
+POLL_MS = 50
+
 
 def navigation_interrupted(error: Exception) -> bool:
     return any(
@@ -308,24 +312,23 @@ async def execute_smcp_tool(
         logger.info(f"Running is_ready phase for {tool.name}")
         inputs_json = json.dumps(inputs)
 
-        # Adjust timeout and attempts based on execution mode or fast timeout flag
-        # Loop mode OR first tool after fallback: fast failure (1s timeout, 3 attempts)
-        # Code mode: full timeout (30s or configured, 30 attempts)
+        # Adjust timeout based on execution mode or fast timeout flag
+        # Loop mode OR first tool after fallback: fast failure (1s timeout)
+        # Code mode: full timeout (30s or configured)
         if use_fast_timeout or (
             hasattr(agent_executor, "current_mode")
             and agent_executor.current_mode == "loop"
         ):
-            max_attempts = 3
             total_timeout_ms = 1000  # 1 second for fast failure
             if use_fast_timeout:
                 logger.info(
                     f"Using fast timeout (1s) for is_ready on {tool.name} (first tool after fallback)"
                 )
         else:
-            max_attempts = 30
             total_timeout_ms = agent_executor.agent.is_ready_timeout_ms
 
-        delay_ms = total_timeout_ms // max_attempts
+        delay_ms = POLL_MS
+        max_attempts = max(1, total_timeout_ms // POLL_MS)
 
         is_ready_code = f"""
 (async function() {{
@@ -467,18 +470,18 @@ async def execute_smcp_tool(
         output_json = json.dumps(output)
         inputs_json = json.dumps(inputs)
 
-        # Adjust timeout and attempts based on execution mode
-        # Loop mode: fast failure (1.5s total, 3 attempts)
-        # Code mode: full timeout (15s total, 30 attempts)
+        # Adjust timeout based on execution mode
+        # Loop mode: fast failure (1.5s total)
+        # Code mode: full timeout (15s total)
         if (
             hasattr(agent_executor, "current_mode")
             and agent_executor.current_mode == "loop"
         ):
-            max_attempts = 3
-            delay_ms = 500  # 3 * 500ms = 1.5s total
+            total_timeout_ms = 1500
         else:
-            max_attempts = 30
-            delay_ms = 500  # 30 * 500ms = 15s total
+            total_timeout_ms = 15000
+        delay_ms = POLL_MS
+        max_attempts = total_timeout_ms // POLL_MS
 
         is_completed_code = f"""
 (async function() {{
