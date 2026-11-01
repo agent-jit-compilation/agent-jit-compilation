@@ -1,0 +1,23 @@
+# Claude Code with Claude Sonnet 5.5 and the agent-browser skill.
+# All 27 REAL tasks, three runs each. See docs/REPRODUCTION.md.
+adapter: agent_jit.adapters.claude_code:run
+method: Claude Code
+method_revision: claude-code-2.1.316-agent-browser
+model: claude-sonnet-5-5
+run_budget_usd: 2
+trials: 3
+worker_budget: 1
+timeout_s: 900
+budget_usd: 5
+max_requests: 200
+ledger: runs/reproduce/claude-code-sonnet-5.5-ledger.json
+tasks: [dashdish-custom-1, dashdish-custom-2, dashdish-custom-3, v1/dashdish-1, dashdish-custom-6, dashdish-custom-7,
+        v1/dashdish-3, dashdish-custom-9, v2/dashdish-10,
+        v1/gomail-1, gomail-custom-2, v1/gomail-3, v2/gomail-14, gomail-custom-5, gomail-custom-6, gomail-custom-7,
+        gomail-custom-8, gomail-custom-9,
+        omnizon-custom-1, omnizon-custom-2, omnizon-custom-3, omnizon-custom-4, v1/omnizon-10, omnizon-custom-6,
+        omnizon-custom-7, v1/omnizon-8, v2/omnizon-9]
+setup_timeout_s: 60
+evaluation_timeout_s: 60
+headless: true
+evaluator: openai
