@@ -69,6 +69,7 @@ Important configuration fields:
 | `candidate_temperature` | Sampling temperature for candidates; defaults to 0.5, as in the paper. Inference inside the executed plan uses 0 |
 | `max_candidate_attempts` | Attempt limit for valid-plan collection; defaults to four times `candidates` |
 | `selection` | `best` by default; `worst` selects the highest-cost valid candidate for the ablation |
+| `select_after_valid` | Early selection: choose once this many valid plans have arrived, and cancel the rest (see below) |
 | `trials` | Independent repetitions per task |
 | `tool_registry` | Optional replacement tool library |
 | `model` | Model for plan generation and runtime inference |
@@ -77,6 +78,8 @@ Important configuration fields:
 | `budget_usd`, `ledger` | Cumulative API spending limit and ledger path |
 
 The paper samples `k = 32` candidates at temperature 0.5 with `Mmax = 1` generation iteration per attempt, executes the lowest-cost valid one, and runs three trials per task. To reproduce it, set `candidates: 32` and `candidate_target: sampled` (CLI: `--candidate-target sampled`). By default, both `generate` and `evaluate` instead collect the requested number of valid plans, in batches of at most 32. They stop at `max_candidate_attempts` (default `4 × candidates`) or the configured request, dollar, or time limits. If the target is not reached, no plan is selected; attempted candidates remain in the output.
+
+By default the planner waits for every candidate, so the slowest one sets the planning time. With `select_after_valid: N`, all candidates still launch in parallel, but the planner selects as soon as N valid plans have arrived and cancels the rest. To keep a best-of-32 choice while cutting the wait, over-provision: `candidates: 64` with `select_after_valid: 32` runs the cheapest of the first 32 valid plans. Each trial records `selection_wait_s`, the actual wait from launching candidates to choosing one. Cancelled requests stop costing money only with clients that can abort a request; the Bedrock client's calls finish in the background.
 
 Sampling at temperature 0 makes parallel candidates nearly identical, so one systematic error can invalidate all of them. On the 27 REAL tasks with Gemini-2.5-Flash, that left three tasks with no valid plan.
 
