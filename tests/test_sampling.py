@@ -83,3 +83,28 @@ def test_generate_samples_candidates_at_the_configured_temperature(tmp_path, mon
             )
         )
     assert temperatures == [0.5, 0.0]
+
+
+def test_collect_until_valid_stops_early_and_cancels_the_rest():
+    import asyncio
+    from types import SimpleNamespace
+    from agent_jit.sampling import collect_until_valid
+
+    # Launch order: slow valid, fast invalid, fast valid, medium valid, very slow valid.
+    plan = [(0.30, True), (0.01, False), (0.02, True), (0.05, True), (5.0, True)]
+    launched = iter(range(len(plan)))
+    cancelled = []
+
+    async def generate():
+        i = next(launched)
+        try:
+            await asyncio.sleep(plan[i][0])
+        except asyncio.CancelledError:
+            cancelled.append(i)
+            raise
+        return SimpleNamespace(i=i, is_valid=plan[i][1])
+
+    results, valid = asyncio.run(collect_until_valid(generate, len(plan), 2))
+    assert [c.i for c in valid] == [2, 3]  # the first two valid arrivals, in launch order
+    assert results[0] is None and results[4] is None and results[1].is_valid is False
+    assert sorted(cancelled) == [0, 4]

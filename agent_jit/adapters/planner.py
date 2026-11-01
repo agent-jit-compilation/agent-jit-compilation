@@ -16,6 +16,7 @@ from ..budget import Ledger, BudgetedModel
 from ..sampling import (
     CANDIDATE_TEMPERATURE,
     collect_candidates,
+    collect_until_valid,
     validate_sampling,
     validate_temperature,
 )
@@ -80,6 +81,15 @@ def recorded_candidates(directory):
         # generated in parallel, so planning lasted at least as long as the slowest one.
         planning = max(c.total_time for c in candidates if c)
     return candidates, planning
+
+
+def first_to_arrive(valid, count):
+    """The first count valid candidates by generation time, in generation order, and when the last arrived.
+
+    Recorded candidates ran in parallel, so each arrived after its own generation time.
+    """
+    first = sorted(valid, key=lambda c: c.total_time)[:count]
+    return [c for c in valid if any(c is f for f in first)], max((c.total_time for c in first), default=0.0)
 
 
 def select_candidate(candidates, selection):
@@ -163,15 +173,26 @@ async def run(context):
                 tools,
             )
 
+        # Early selection: run the cheapest of the first N valid plans to arrive instead of waiting for all.
+        early = cfg.get("select_after_valid")
         replay = cfg.get("replay_candidates", {}).get(context.task["id"])
+        generation_start = time.perf_counter()
         if replay:
             # Re-execute an earlier trial's candidates without generating new ones.
             results, recorded_planning = recorded_candidates(Path(replay))
             results = [reject_incomplete(c, tokens, tools) for c in results]
             valid = [c for c in results if c and c.is_valid]
+            selection_wait = max((c.total_time for c in results if c), default=0.0)
+            if early and valid:
+                valid, selection_wait = first_to_arrive(valid, early)
+            target_met = True
+        elif early:
+            results, valid = await collect_until_valid(generate, k, early)
+            selection_wait = time.perf_counter() - generation_start
             target_met = True
         else:
             results, valid, target_met = await collect_candidates(generate, k, target, limit)
+            selection_wait = time.perf_counter() - generation_start
         (context.output_dir / "candidates.json").write_text(
             json.dumps(
                 [
@@ -208,6 +229,9 @@ async def run(context):
             "tie_break": "first candidate in generation order",
             # The paper's planning time: the selected plan's own generation, not the wait for all candidates.
             "selected_generation_s": best.total_time,
+            # The actual wait from launching candidates to choosing one.
+            "selection_wait_s": selection_wait,
+            "select_after_valid": early,
         }
         (context.output_dir / "selection.json").write_text(
             json.dumps(selection_metadata, indent=2) + "\n"

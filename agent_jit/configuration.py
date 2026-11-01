@@ -108,6 +108,9 @@ def validate_config(config, tasks, root):
         validate_temperature(config.get("candidate_temperature", CANDIDATE_TEMPERATURE))
         if config.get("selection", "best") not in ("best", "worst"):
             raise ValueError("selection must be best or worst")
+        early = config.get("select_after_valid")
+        if early is not None and (type(early) is not int or not 1 <= early <= config.get("candidates", 1)):
+            raise ValueError("select_after_valid must be an integer from 1 to candidates")
         replay = config.get("replay_candidates", {})
         if not isinstance(replay, dict):
             raise ValueError("replay_candidates must map task IDs to earlier trial directories")
