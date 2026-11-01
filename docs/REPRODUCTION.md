@@ -40,6 +40,16 @@ We ran JIT-Planner and Browser-Use +cache with GPT-6.1 Terra through Amazon Bedr
 
 JIT-Planner is 2.2× faster, with higher success. Both pass only at full score. As in the paper, JIT-Planner latency is the selected plan's generation time plus its execution. Per-run records are in [`data/recorded/live/gpt-6.1-terra.jsonl`](../data/recorded/live/gpt-6.1-terra.jsonl).
 
+## Claude Code, October 2026
+
+We ran Claude Code 2.1.316 with Claude Sonnet 5.5 on the same 27 tasks, three runs each (`agent_jit.adapters.claude_code`). It browses with the agent-browser skill, driving the trial's own browser over CDP, and is scored like the other harnesses.
+
+| Method | Latency | Success | Cost per run |
+| --- | ---: | ---: | ---: |
+| Claude Code (Sonnet 5.5) | 64.7 s | 92.6% | $0.17 |
+
+Cost is Claude Code's reported estimate at API list prices. Per-run records are in [`data/recorded/live/claude-code-sonnet-5.5.jsonl`](../data/recorded/live/claude-code-sonnet-5.5.jsonl). Running it needs the `claude` command, signed in, and the agent-browser skill at `~/.claude/skills/agent-browser`.
+
 ## Rerun
 
 Set `GOOGLE_API_KEY` and `OPENAI_API_KEY` in `.env`, then run each configuration:
