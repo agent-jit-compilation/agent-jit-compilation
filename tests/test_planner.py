@@ -154,3 +154,15 @@ def test_plan_json_loads_accepts_values_ai_eval_already_parsed():
     assert output.error is None and output.output == ["Gevi 10", "Gevi 12", "[1]"]
     with pytest.raises(TypeError):
         json.loads({"name": "unchanged outside plans"})
+
+
+def test_replayed_early_selection_uses_recorded_arrival_order():
+    from types import SimpleNamespace
+    from agent_jit.adapters.planner import first_to_arrive, select_candidate
+
+    slow_cheap = SimpleNamespace(total_time=9.0, rank=1.0, is_valid=True)
+    fast = SimpleNamespace(total_time=2.0, rank=5.0, is_valid=True)
+    medium = SimpleNamespace(total_time=4.0, rank=3.0, is_valid=True)
+    first, wait = first_to_arrive([slow_cheap, fast, medium], 2)
+    assert first == [fast, medium] and wait == 4.0
+    assert select_candidate(first, "best") is medium

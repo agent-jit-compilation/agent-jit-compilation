@@ -55,3 +55,32 @@ async def collect_candidates(generate_one, count, target="valid", max_attempts=N
         )
     met = len(valid) >= count if target == "valid" else len(results) >= count
     return results, valid, met
+
+
+async def collect_until_valid(generate_one, count, needed):
+    """Launch count candidates at once; stop when needed valid ones have arrived.
+
+    The rest are cancelled. Returns candidates in launch order (None for any that
+    did not finish) and the valid ones in launch order, so ties still break by
+    generation order.
+    """
+    tasks = [asyncio.ensure_future(generate_one()) for _ in range(count)]
+    order = {task: i for i, task in enumerate(tasks)}
+    results = [None] * count
+    pending, arrived = set(tasks), 0
+    try:
+        while pending and arrived < needed:
+            done, pending = await asyncio.wait(pending, return_when=asyncio.FIRST_COMPLETED)
+            for task in done:
+                try:
+                    candidate = task.result()
+                except Exception as error:  # retained for reporting, as in collect_candidates
+                    candidate = error
+                results[order[task]] = candidate
+                arrived += not isinstance(candidate, BaseException) and candidate is not None and candidate.is_valid
+    finally:
+        for task in pending:
+            task.cancel()
+        await asyncio.gather(*pending, return_exceptions=True)
+    valid = [c for c in results if not isinstance(c, BaseException) and c is not None and c.is_valid]
+    return results, valid
