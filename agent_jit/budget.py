@@ -143,14 +143,14 @@ class BudgetedModel:
 
     provider = "openai"
 
-    def __new__(cls, model, ledger, max_completion_tokens=1024, temperature=0.0):
+    def __new__(cls, model, ledger, max_completion_tokens=1024, temperature=0.0, reasoning_effort=None):
         if provider(model) != "openai":
             from .native_model import NativeModel
 
-            return NativeModel(model, ledger, max_completion_tokens, temperature)
+            return NativeModel(model, ledger, max_completion_tokens, temperature, reasoning_effort)
         return super().__new__(cls)
 
-    def __init__(self, model, ledger, max_completion_tokens=1024, temperature=0.0):
+    def __init__(self, model, ledger, max_completion_tokens=1024, temperature=0.0, reasoning_effort=None):
         from openai import AsyncOpenAI
 
         require_credentials(model)
@@ -158,6 +158,7 @@ class BudgetedModel:
         self.ledger = ledger
         self.max_completion_tokens = max_completion_tokens
         self.temperature = temperature
+        self.reasoning_effort = reasoning_effort
         self.client = AsyncOpenAI(
             max_retries=0, timeout=60.0, base_url="https://api.openai.com/v1"
         )
@@ -179,6 +180,8 @@ class BudgetedModel:
             kwargs.pop("top_p", None)
             kwargs.setdefault("reasoning_effort", "low")
         kwargs["max_completion_tokens"] = self.max_completion_tokens
+        if self.reasoning_effort:
+            kwargs["reasoning_effort"] = self.reasoning_effort
         kwargs["stream"] = True
         kwargs["stream_options"] = {"include_usage": True}
         rid = self.ledger.reserve(self.model, kwargs, self.max_completion_tokens)

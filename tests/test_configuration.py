@@ -42,6 +42,7 @@ def test_paper_scale_settings_validate_without_fixed_caps(tmp_path, monkeypatch)
         ({"candidate_target": "typo"}, "candidate_target"),
         ({"candidate_temperature": 3}, "candidate_temperature"),
         ({"model": "unsupported"}, "Unsupported live model"),
+        ({"reasoning_effort": "max"}, "reasoning_effort"),
         ({"select_after_valid": 0}, "select_after_valid"),
         ({"select_after_valid": 10_000}, "select_after_valid"),
         ({"replay_candidates": ["runs/x"]}, "replay_candidates must map"),

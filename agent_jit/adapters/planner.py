@@ -127,8 +127,9 @@ async def run(context):
     )
     tokens = cfg.get("max_output_tokens", 1024)
     # Candidates are sampled as in the paper; inference inside the executed plan stays at 0.
-    llm = BudgetedModel(cfg["model"], ledger, tokens)
-    generation_llm = BudgetedModel(cfg["model"], ledger, tokens, temperature)
+    effort = cfg.get("reasoning_effort")
+    llm = BudgetedModel(cfg["model"], ledger, tokens, reasoning_effort=effort)
+    generation_llm = BudgetedModel(cfg["model"], ledger, tokens, temperature, reasoning_effort=effort)
     browser = Browser(cdp_url=context.cdp_url, keep_alive=True)
     executor = AgentExecutor(
         agent=agent,
