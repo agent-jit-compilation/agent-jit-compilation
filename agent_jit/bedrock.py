@@ -20,6 +20,9 @@ class BedrockChat(ChatAWSBedrock):
     structured output is required.
     """
 
+    # Bedrock's OpenAI models take {"reasoning": {"effort": ...}}; "low", "medium" or "high".
+    reasoning_effort: str | None = None
+
     def _format_tools_for_request(self, output_format):
         # The base class sends only top-level field names and types, so Browser-Use's
         # action list reaches the model with no action names or parameters.
@@ -65,6 +68,8 @@ class BedrockChat(ChatAWSBedrock):
             request["system"] = system
         if inference := self._get_inference_config():
             request["inferenceConfig"] = inference
+        if self.reasoning_effort:
+            request["additionalModelRequestFields"] = {"reasoning": {"effort": self.reasoning_effort}}
         if output_format is not None:
             request["toolConfig"] = {
                 "tools": self._format_tools_for_request(output_format),

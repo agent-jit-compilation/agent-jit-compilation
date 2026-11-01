@@ -57,7 +57,7 @@ class NativeModel:
 
     _verified_api_keys = False
 
-    def __init__(self, model, ledger, max_output_tokens=2048, temperature=0.0):
+    def __init__(self, model, ledger, max_output_tokens=2048, temperature=0.0, reasoning_effort=None):
         from blastai.agents.llm_factory import LLMFactory
 
         require_credentials(model)
@@ -71,9 +71,11 @@ class NativeModel:
             from .bedrock import BedrockChat
 
             # Bedrock's OpenAI reasoning models reject a temperature, so none is sent.
-            self._chat = BedrockChat(model=model, max_tokens=max_output_tokens)
+            self._chat = BedrockChat(model=model, max_tokens=max_output_tokens, reasoning_effort=reasoning_effort)
             self._client = None
             return
+        if reasoning_effort:
+            raise ValueError("reasoning_effort is supported for OpenAI and Bedrock models")
         options = {}
         if self.provider == "google":
             options.update(

@@ -281,3 +281,22 @@ def test_bedrock_requests_record_actual_usage(tmp_path, monkeypatch):
     request = json.loads(path.read_text())["requests"][0]
     assert request["usage"] == {"prompt_tokens": 1000, "completion_tokens": 100}
     assert request["estimated_cost_usd"] == pytest.approx((1000 * 2.0 + 100 * 10.0) / 1e6)
+
+
+def test_bedrock_chat_sends_reasoning_effort_only_when_set():
+    pytest.importorskip("botocore")
+    from browser_use.llm.messages import UserMessage
+    from agent_jit.bedrock import BedrockChat
+
+    requests = []
+
+    def converse(**request):
+        requests.append(request)
+        return {"output": {"message": {"content": [{"text": "ok"}]}}, "usage": {"inputTokens": 1, "outputTokens": 1, "totalTokens": 2}}
+
+    for effort in (None, "low"):
+        chat = BedrockChat(model="us.openai.gpt-6.1-terra", max_tokens=64, reasoning_effort=effort)
+        chat.__dict__["client"] = SimpleNamespace(converse=converse)
+        asyncio.run(chat.ainvoke([UserMessage(content="hi")]))
+    assert "additionalModelRequestFields" not in requests[0]
+    assert requests[1]["additionalModelRequestFields"] == {"reasoning": {"effort": "low"}}
