@@ -186,3 +186,20 @@ def test_fixed_scheduler_does_not_require_unused_predictor_credentials(
         validate_config(
             cfg, [{"benchmark": "custom", "application": "fixture"}], tmp_path
         )
+
+
+def test_claude_code_adapter_checks_its_own_requirements(tmp_path, monkeypatch):
+    from agent_jit.adapters import claude_code
+
+    monkeypatch.setenv("OPENAI_API_KEY", "fixture-not-a-key")
+    skill = tmp_path / "skill"
+    skill.mkdir()
+    (skill / "SKILL.md").write_text("---\nname: agent-browser\n---\n")
+    monkeypatch.setattr(claude_code, "SKILL", skill)
+    monkeypatch.setattr("shutil.which", lambda name: "/usr/local/bin/claude")
+    cfg = planner_config(tmp_path)
+    cfg.update(adapter="agent_jit.adapters.claude_code:run", model="claude-sonnet-5-5", run_budget_usd=2)
+    validate_config(cfg, [task(ROOT, "v1/dashdish-1")], ROOT)
+    cfg["run_budget_usd"] = 0
+    with pytest.raises(ValueError, match="run_budget_usd"):
+        validate_config(cfg, [task(ROOT, "v1/dashdish-1")], ROOT)

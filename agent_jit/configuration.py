@@ -26,6 +26,7 @@ def validate_config(config, tasks, root):
             "agent_jit.adapters.planner:run",
             "agent_jit.adapters.browser_use:run",
             "agent_jit.adapters.scheduler:run",
+            "agent_jit.adapters.claude_code:run",
         }
         or config["evaluator"] in ("openai", "historical")
         or config.get("webarena", {}).get("llm_judge", False)
@@ -47,7 +48,8 @@ def validate_config(config, tasks, root):
             config["budget_usd"],
             config.get("max_requests", 128),
         )
-        models = [config.get("model")]
+        # Claude Code calls and prices its own model, so only the answer parser is checked here.
+        models = [] if "claude_code" in adapter else [config.get("model")]
         if "scheduler" in adapter:
             models.append(config.get("mini_model", config.get("model")))
             if config.get("strategy", "jit") == "jit":
@@ -80,6 +82,17 @@ def validate_config(config, tasks, root):
     for key in ("tool_registry", "latency_profile", "schema_root"):
         if config.get(key) and not Path(config[key]).exists():
             raise ValueError(f"{key} does not exist: {config[key]}")
+    if adapter == "agent_jit.adapters.claude_code:run":
+        import shutil
+        from .adapters.claude_code import SKILL
+
+        if not shutil.which("claude"):
+            raise ValueError("The Claude Code adapter needs the claude command on PATH")
+        if not (SKILL / "SKILL.md").is_file():
+            raise ValueError(f"The Claude Code adapter needs the agent-browser skill at {SKILL}")
+        budget = config.get("run_budget_usd")
+        if isinstance(budget, bool) or not isinstance(budget, (int, float)) or not 0 < budget <= 20:
+            raise ValueError("run_budget_usd must be a number between 0 and 20")
     if adapter == "agent_jit.adapters.planner:run":
         from .sampling import (
             CANDIDATE_TEMPERATURE,
