@@ -159,13 +159,23 @@
     {
       "name": "goto_category",
       "title": "Goto Category",
-      "description": "Navigates to the specified category by clicking on its name on the page.",
+      "description": "Navigates to a category from the home page's top menu by clicking its name. The menu has only these categories: Gift, Toy, Home, Gaming, Cosmetic, Headphones, Coffee, Kitchen.",
       "input_schema": {
         "type": "object",
         "properties": {
           "categoryName": {
             "type": "string",
-            "description": "The name of the category to navigate to."
+            "description": "One of: Gift, Toy, Home, Gaming, Cosmetic, Headphones, Coffee, Kitchen.",
+            "enum": [
+              "Gift",
+              "Toy",
+              "Home",
+              "Gaming",
+              "Cosmetic",
+              "Headphones",
+              "Coffee",
+              "Kitchen"
+            ]
           }
         },
         "required": [
@@ -334,11 +344,8 @@
               "type": "object",
               "properties": {
                 "order_number": {
-                  "type": [
-                    "string",
-                    "null"
-                  ],
-                  "description": "The order identifier, e.g. '675-6026118-7931487'"
+                  "type": "string",
+                  "description": "The order identifier, e.g. '675-6026118-7931487'. Empty on the Cancelled Orders tab, whose cards show a cancellation number instead."
                 },
                 "total": {
                   "type": [
@@ -407,7 +414,7 @@
       "lang": "js",
       "is_ready": "const h1 = document.querySelector('h1.MuiTypography-h1'); const hasTabs = document.querySelectorAll('button[role=\"tab\"]').length > 0; return (h1 && h1.textContent.includes('Your Orders')) || hasTabs ? true : [false, 'Not on orders page'];",
       "is_completed": "return Array.isArray(output.items) ? true : [false, 'Invalid output'];",
-      "execute": "const orderCards = document.querySelectorAll('.MuiCard-root');\nconst orders = Array.from(orderCards).map(card => {\n  const text = card.innerText;\n  const orderNumberMatch = text.match(/ORDER #\\s*([\\d-]+)/);\n  const totalMatch = text.match(/TOTAL[\\s\\n]*\\$([\\d,.]+)/i);\n  const dateMatch = text.match(/ORDER PLACED[\\s\\n]*([\\d\\/]+)/i);\n  const statusMatch = text.match(/Arriving by ([^\\n]+)|Delivered on ([^\\n]+)|Cancelled/i);\n  let status = null;\n  if (statusMatch) status = statusMatch[1] || statusMatch[2] || 'Cancelled';\n  const productEls = card.querySelectorAll('img[alt=\"Product\"]');\n  const items = Array.from(productEls).map(img => {\n    const container = img.closest('.MuiBox-root')?.parentElement;\n    const nameEl = container?.querySelector('p.MuiTypography-body1');\n    const priceEl = Array.from(container?.querySelectorAll('p.MuiTypography-body1') || []).find(p => p.textContent.includes('$'));\n    return { name: nameEl?.textContent.trim() || null, price: priceEl?.textContent.match(/\\$[\\d,.]+/)?.[0] || null };\n  });\n  return { order_number: orderNumberMatch?.[1] || null, total: totalMatch ? '$' + totalMatch[1] : null, date: dateMatch?.[1] || null, status, items };\n});\nreturn {items: orders};",
+      "execute": "const orderCards = document.querySelectorAll('.MuiCard-root');\nconst orders = Array.from(orderCards).map(card => {\n  const text = card.innerText;\n  const orderNumberMatch = text.match(/ORDER #\\s*([\\d-]+)/);\n  const totalMatch = text.match(/TOTAL[\\s\\n]*\\$([\\d,.]+)/i);\n  const dateMatch = text.match(/ORDER PLACED[\\s\\n]*([\\d\\/]+)/i);\n  const statusMatch = text.match(/Arriving by ([^\\n]+)|Delivered on ([^\\n]+)|Cancelled/i);\n  let status = null;\n  if (statusMatch) status = statusMatch[1] || statusMatch[2] || 'Cancelled';\n  const productEls = card.querySelectorAll('img[alt=\"Product\"]');\n  const items = Array.from(productEls).map(img => {\n    const container = img.closest('.MuiBox-root')?.parentElement;\n    const nameEl = container?.querySelector('p.MuiTypography-body1');\n    const priceEl = Array.from(container?.querySelectorAll('p.MuiTypography-body1') || []).find(p => p.textContent.includes('$'));\n    return { name: nameEl?.textContent.trim() || null, price: priceEl?.textContent.match(/\\$[\\d,.]+/)?.[0] || null };\n  });\n  return { order_number: orderNumberMatch ? orderNumberMatch[1] : '', total: totalMatch ? '$' + totalMatch[1] : null, date: dateMatch?.[1] || null, status, items };\n});\nreturn {items: orders};",
       "pre_path": "*vercel.app*",
       "pre": {
         "page_type": "orders|orders_not_shipped|orders_cancelled"
