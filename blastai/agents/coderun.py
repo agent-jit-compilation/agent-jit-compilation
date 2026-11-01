@@ -5,8 +5,10 @@ Provides function to create LocalPythonExecutor instances with wrapped SMCP tool
 precondition/postcondition checking, and automatic observe tool calls.
 """
 
+import asyncio
 import logging
 import re
+import time
 from typing import TYPE_CHECKING, Any, Callable, Dict, List, Optional
 
 
@@ -15,6 +17,9 @@ from .local_python_executor import LocalPythonExecutor
 from .models import Agent, SMCPTool, SMCPToolType, ToolExecutorType
 from .schema_utils import json_schema_to_pydantic
 from .tools_smcp import execute_smcp_tool, wait_for_document
+
+# Longest wait for a tool's declared page state to appear after it completes.
+POST_SETTLE_S = 2.0
 
 if TYPE_CHECKING:
     from browser_use.browser import BrowserSession
@@ -519,6 +524,26 @@ async def {tool.name}():
                             else:
                                 # fallback to result value
                                 STATE[key] = (result or {}).get(ref, STATE.get(key))
+
+                # A tool is done once its declared page state is observed. Completion checks can
+                # pass on an intermediate page (a product page with tabs is not the orders page),
+                # so re-observe briefly until the declared state appears.
+                literal_post = {
+                    key: pat
+                    for key, pat in (getattr(tool, "post", None) or {}).items()
+                    if pat is not None and not (isinstance(pat, str) and pat.startswith("$"))
+                }
+                if literal_post and not (hasattr(tool, "type") and tool.type == SMCPToolType.OBSERVE):
+                    deadline = time.monotonic() + POST_SETTLE_S
+                    while time.monotonic() < deadline and not all(
+                        _check_pattern(STATE.get(key), pat, kwargs) for key, pat in literal_post.items()
+                    ):
+                        await asyncio.sleep(0.05)
+                        current_url = await executor.state["get_url"]()
+                        if current_url:
+                            await find_and_call_observe(
+                                current_url, agent.tools, STATE, agent_executor, f" (after {tool.name})"
+                            )
 
                 # Validate postconditions after observe
                 if getattr(tool, "post", None) and isinstance(tool.post, dict):
