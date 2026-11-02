@@ -73,6 +73,7 @@ Important configuration fields:
 | `trials` | Independent repetitions per task |
 | `tool_registry` | Optional replacement tool library |
 | `model` | Model for plan generation and runtime inference |
+| `reasoning_effort` | `low`, `medium` or `high` for OpenAI reasoning models, including GPT-6.1 Terra on Bedrock. Applies to plan generation and `ai_eval` |
 | `evaluator` | `historical` for the original REAL parser, `openai` for an OpenAI parser, `json` for structured/custom answers, or `webarena_native` |
 | `timeout_s` | Online planning/execution deadline |
 | `budget_usd`, `ledger` | Cumulative API spending limit and ledger path |
